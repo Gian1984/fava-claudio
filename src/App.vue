@@ -23,93 +23,51 @@
         <div @click="isOpen = false" class="absolute inset-0 bg-black opacity-50" tabindex="0"></div>
       </div>
     </transition>
-    <aside class="transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30" :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
+    <aside class="transform top-0 left-0 w-64 bg-cyan-700 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30" :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
       <span @click="isOpen = false" class="flex w-full items-center p-2 border-b">
         <img src="img/cropped-logo-small.png" alt="Logo" class="block h-12 w-auto mx-auto" />
       </span>
+      <div class="mt-5 flex-1 flex flex-col divide-y divide-cyan-800 overflow-y-auto space-y-1 p-2" aria-label="Sidebar">
 
-      <span @click="isOpen = false" class="flex items-center p-4 hover:bg-indigo-500 hover:text-white ">
-        <span class="mr-2">
-          <HomeIcon class="h-6 w-6" aria-hidden="true" />
-        </span>
-        <span>
-          Home
-        </span>
-      </span>
 
-      <span @click="isOpen = false" class="flex items-center p-4 hover:bg-indigo-500 hover:text-white ">
-        <span class="mr-2">
-          <ColorSwatchIcon class="h-6 w-6" aria-hidden="true" />
-        </span>
-        <span>
-          Cosa Facciamo
-        </span>
-      </span>
 
-      <span @click="isOpen = false" class="flex items-center p-4 hover:bg-indigo-500 hover:text-white ">
-        <span class="mr-2">
-          <PresentationChartBarIcon class="h-6 w-6" aria-hidden="true" />
-        </span>
-        <span>
-          Come Progettiamo
-        </span>
-      </span>
+          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltohome()">
+            <HomeIcon class="h-6 w-6" aria-hidden="true" />
+            <span class="ml-2">Home</span>
+          </button>
 
-      <span @click="isOpen = false" class="flex items-center p-4 hover:bg-indigo-500 hover:text-white ">
-        <span class="mr-2">
-          <TemplateIcon class="h-6 w-6" aria-hidden="true" />
-        </span>
-        <span>
-          Come Lavoriamo
-        </span>
-      </span>
+          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocosafacciamo()">
+            <ColorSwatchIcon class="h-6 w-6" aria-hidden="true" />
+            <span class="ml-2">Cosa Facciamo</span>
+          </button>
 
-      <span @click="isOpen = false" class="flex items-center p-4 hover:bg-indigo-500 hover:text-white ">
-        <span class="mr-2">
-          <UsersIcon class="h-6 w-6" aria-hidden="true" />
-        </span>
-        <span>
-          Profilo
-        </span>
-      </span>
+          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocomeprogettiamo()">
+            <PresentationChartBarIcon class="h-6 w-6" aria-hidden="true" />
+            <span class="ml-2">Come Progettiamo</span>
+          </button>
 
-      <span @click="isOpen = false" class="flex items-center p-4 hover:bg-indigo-500 hover:text-white ">
-        <span class="mr-2">
-          <FolderOpenIcon class="h-6 w-6" aria-hidden="true" />
-        </span>
-        <span>
-          Progetti
-        </span>
-      </span>
 
-      <span @click="isOpen = false" class="flex items-center p-4 hover:bg-indigo-500 hover:text-white ">
-        <span class="mr-2">
-          <ChatAltIcon class="h-6 w-6" aria-hidden="true" />
-        </span>
-        <span>
-          Contatti
-        </span>
-      </span>
+          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocomelavoriamo()">
+            <TemplateIcon class="h-6 w-6" aria-hidden="true" />
+            <span class="ml-2">Come Lavoriamo</span>
+          </button>
 
-      <div class="fixed bottom-0 w-full">
-        <button
-            class="flex items-center p-4 text-white bg-blue-500 hover:bg-blue-600 w-full"
-        >
-          <svg
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              class="h-6 w-6 mr-2"
-          >
-            <path
-                d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
-            ></path>
-          </svg>
-          <span>Share</span>
-        </button>
+          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltoprofilo()">
+            <UsersIcon class="h-6 w-6" aria-hidden="true" />
+            <span class="ml-2">Profilo</span>
+          </button>
+
+          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltoprogetti()">
+            <FolderOpenIcon class="h-6 w-6" aria-hidden="true" />
+            <span class="ml-2">Progetti</span>
+          </button>
+
+          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocontatti()">
+            <ChatAltIcon class="h-6 w-6" aria-hidden="true" />
+            <span class="ml-2">Contatti</span>
+          </button>
+
+
       </div>
     </aside>
   </nav>
@@ -124,7 +82,7 @@
           <div class="relative flex space-x-3">
             <div>
               <span :class="[event.iconBackground, 'h-6 w-6 rounded-full flex items-center justify-center ring-4 ring-white']">
-                <component :is="event.icon" class="h-5 w-5 text-white" aria-hidden="true" />
+                <component :is="event.icon" class="h-5 w-5 text-white" aria-hidden="true"/>
               </span>
             </div>
           </div>
@@ -133,7 +91,7 @@
     </ul>
   </div>
 
-  <footer class="bg-white" aria-labelledby="footer-heading">
+  <footer class="bg-white" aria-labelledby="footer-heading" id="contatti">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -225,10 +183,10 @@ const timeline = [
     id: 1,
     content: 'Applied to',
     target: 'Front End Developer',
-    href: '#',
+    href: 'home',
     date: 'Sep 20',
     datetime: '2020-09-20',
-    icon: UserIcon,
+    icon: HomeIcon,
     iconBackground: 'bg-gray-400',
   },
   {
@@ -406,6 +364,42 @@ export default {
     };
   },
   methods: {
+
+    scrolltohome() {
+      const element = document.getElementById('home');
+      element.scrollIntoView({ behavior: 'smooth' });
+    },
+
+    scrolltocosafacciamo() {
+      const element = document.getElementById('cosa_facciamo');
+      element.scrollIntoView({ behavior: 'smooth' });
+    },
+
+    scrolltocomeprogettiamo() {
+      const element = document.getElementById('come_progettiamo');
+      element.scrollIntoView({ behavior: 'smooth' });
+    },
+
+    scrolltocomelavoriamo() {
+      const element = document.getElementById('come_lavoriamo');
+      element.scrollIntoView({ behavior: 'smooth' });
+    },
+
+    scrolltoprofilo() {
+      const element = document.getElementById('profilo');
+      element.scrollIntoView({ behavior: 'smooth' });
+    },
+
+    scrolltoprogetti() {
+      const element = document.getElementById('progetti');
+      element.scrollIntoView({ behavior: 'smooth' });
+    },
+
+    scrolltocontatti() {
+      const element = document.getElementById('contatti');
+      element.scrollIntoView({ behavior: 'smooth' });
+    },
+
     drawer() {
       this.isOpen = !this.isOpen;
     }

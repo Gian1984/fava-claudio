@@ -1,11 +1,11 @@
 <template>
   <!-- Hero section -->
-  <div class="relative">
+  <div class="relative" id="home">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl  sm:overflow-hidden">
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="People working on laptops" />
+          <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="Salotto di design" />
           <div class="absolute inset-0" />
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
@@ -22,26 +22,27 @@
   </div>
 
   <!-- Logo Cloud -->
-  <div class="bg-gray-100">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-      <p class="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
-        Architettura & Interior Design
-      </p>
-      <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+
+
+  <div class="relative" id="come_progettiamo">
+    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+    <div class="mx-auto">
+      <div class="relative shadow-xl sm:overflow-hidden">
+        <div class="absolute inset-0">
+          <img class="h-full w-full object-cover" src="img/PRO_7721-crop.jpg" alt="la cura del dettaglio" />
+          <div class="absolute inset-0" />
         </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit" />
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-          <img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor" />
-        </div>
-        <div class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-          <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation" />
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
+          <p class="mt-2 max-w-lg text-right text-xl text-grey-500 sm:max-w-3xl">
+            LA CURA DEL DETTAGLIO
+          </p>
+          <p class="mt-2 max-w-lg text-right text-xl text-grey-500 sm:max-w-3xl">
+            Disegniamo arredi personalizzati studiando ogni particolare.
+          </p>
+          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -51,7 +52,7 @@
 
 
 
-  <div class="relative">
+  <div class="relative" id="come_lavoriamo">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
@@ -59,9 +60,12 @@
           <img class="h-full w-full object-cover" src="img/PRO_7701.jpg" alt="People working on laptops" />
           <div class="absolute inset-0" />
         </div>
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
-          <p class="mt-2 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl">
-            ARCHITETTURA & INTERIOR DESIGN
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
+          <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">
+            IL PROGETTO DEGLI SPAZI
+          </p>
+          <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">
+            Progettiamo coniugando estetica ed esigenze del cliente.
           </p>
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
@@ -77,7 +81,7 @@
   <!-- Team Section -->
 
 
-  <div class="relative bg-white pt-16 pb-32 overflow-hidden">
+  <div class="relative bg-white pt-16 pb-32 overflow-hidden" id="profilo">
     <div class="relative">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -252,7 +256,7 @@
 
   <!-- Projects Section -->
 
-  <div class="bg-white">
+  <div class="bg-white" id="progetti">
     <div class="max-w-7xl mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
       <div class="sm:flex sm:items-baseline sm:justify-between">
         <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Progetti</h2>
