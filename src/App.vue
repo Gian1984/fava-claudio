@@ -1,12 +1,17 @@
 <template>
-  <nav class="flex fixed w-full items-center justify-between px-6 h-16 bg-white text-gray-700 border-b border-gray-200 z-10">
+  <nav class="flex fixed w-full items-center justify-between px-6 h-16 bg-white text-gray-700 border-b border-gray-200 z-10" id="header">
     <div class="flex items-center">
       <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
     </div>
     <div class="flex items-center">
-      <div class="text-black">
+      <div v-if="this.$route.path == '/' || this.$route.path == '/home'" class="text-black">
         <button class="mr-2" aria-label="Open Menu" @click="drawer">
           <MenuIcon class="h-6 w-6" aria-hidden="true" />
+        </button>
+      </div>
+      <div v-else class="text-black">
+        <button class="mr-2" aria-label="Open Menu" @click="this.$router.push({ name: 'Home' })">
+          <ArrowLeftIcon class="h-6 w-6" aria-hidden="true" />
         </button>
       </div>
     </div>
@@ -73,23 +78,6 @@
   </nav>
 
   <router-view/>
-
-  <div class="flow-root" id="feed">
-    <ul role="list" class="-mb-8">
-      <li v-for="(event, eventIdx) in timeline" :key="event.id">
-        <div class="relative pb-8">
-          <span v-if="(eventIdx !== timeline.length - 1)" class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true" />
-          <div class="relative flex space-x-3">
-            <div>
-              <span :class="[event.iconBackground, 'h-6 w-6 rounded-full flex items-center justify-center ring-4 ring-white']">
-                <component :is="event.icon" class="h-5 w-5 text-white" aria-hidden="true"/>
-              </span>
-            </div>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
 
   <footer class="bg-white" aria-labelledby="footer-heading" id="contatti">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
@@ -168,13 +156,18 @@
         </p>
       </div>
     </div>
+
+    <a class="top-link hide" href="" id="feed" v-on:click="scrolltotop()">
+      <ArrowUpIcon class="h-6 w-6"  id="top"/>
+    </a>
+
   </footer>
 
 
 </template>
 
 <script>
-import { MenuIcon, HomeIcon, FolderOpenIcon, UsersIcon, TemplateIcon, PresentationChartBarIcon, ColorSwatchIcon, ChatAltIcon} from '@heroicons/vue/outline'
+import { MenuIcon, HomeIcon, FolderOpenIcon, UsersIcon, TemplateIcon, PresentationChartBarIcon, ColorSwatchIcon, ChatAltIcon, ArrowLeftIcon, ArrowUpIcon } from '@heroicons/vue/outline'
 import { CheckIcon, ThumbUpIcon, UserIcon } from '@heroicons/vue/solid'
 import { defineComponent, h } from 'vue'
 
@@ -336,6 +329,7 @@ const navigation = {
 
 export default {
 
+
   setup() {
     return {
       navigation,
@@ -343,6 +337,7 @@ export default {
       ThumbUpIcon,
       UserIcon,
       timeline,
+
     }
   },
 
@@ -354,8 +349,9 @@ export default {
     TemplateIcon,
     PresentationChartBarIcon,
     ColorSwatchIcon,
-    ChatAltIcon
-
+    ArrowLeftIcon,
+    ChatAltIcon,
+    ArrowUpIcon,
   },
 
   data() {
@@ -400,6 +396,11 @@ export default {
       element.scrollIntoView({ behavior: 'smooth' });
     },
 
+    scrolltotop() {
+      const element = document.getElementById('header');
+      element.scrollIntoView({ behavior: 'smooth' });
+    },
+
     drawer() {
       this.isOpen = !this.isOpen;
     }
@@ -427,8 +428,8 @@ export default {
 <style>
 #feed {
   position: fixed;
-  top: 50%;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   display: inline-flex;
 
   cursor: pointer;

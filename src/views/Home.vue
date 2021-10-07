@@ -1,5 +1,8 @@
 <template>
-  <!-- Hero section -->
+
+  <!-- ARCHITETTURA & INTERIOR DESIGN -->
+
+
   <div class="relative" id="home">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
@@ -21,7 +24,36 @@
     </div>
   </div>
 
-  <!-- Logo Cloud -->
+
+  <!-- ARCHITETTURA & INTERIOR DESIGN -->
+
+
+  <div class="relative" id="come_facciamo">
+    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+    <div class="mx-auto">
+      <div class="relative shadow-xl sm:overflow-hidden">
+        <div class="absolute inset-0">
+          <img class="h-full w-full object-cover" src="img/vista-esterna-01_crop.jpg" alt="Progetto casa esterni" />
+          <div class="absolute inset-0" />
+        </div>
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
+          <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">
+            RIFUNZIONALIZZAZIONE
+          </p>
+          <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">
+            Progettiamo per dare nuova vita agli edifici.
+          </p>
+          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- LA CURA DEL DETTAGLIO -->
 
 
   <div class="relative" id="come_progettiamo">
@@ -49,7 +81,7 @@
   </div>
 
 
-
+  <!-- IL PROGETTO DEGLI SPAZI -->
 
 
   <div class="relative" id="come_lavoriamo">
@@ -81,7 +113,7 @@
   <!-- Team Section -->
 
 
-  <div class="relative bg-white pt-16 pb-32 overflow-hidden" id="profilo">
+  <div class="relative bg-white pt-16 pb-32 overflow-hidden" id="profilo" style="background-image: url('img/white_and_black_halftone_background.jpg');">
     <div class="relative">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -126,8 +158,8 @@
           </div>
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0">
-          <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="img/claudio-fava.jpg" alt="claudio-fava" />
+          <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full bg-none">
+            <img class="w-full lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="img/claudio-fava.png" alt="claudio-fava" />
           </div>
         </div>
       </div>
@@ -177,7 +209,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
           <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/giorgio_fava.jpg" alt="Customer profile user interface" />
+            <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/giorgio_fava.png" alt="Giorgio Fava foto" />
           </div>
         </div>
       </div>
