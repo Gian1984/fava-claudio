@@ -199,7 +199,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
           <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-            <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/giorgio_fava.png" alt="Giorgio Fava Foto" />
+            <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/giorgio_fava_ok.png" alt="Giorgio Fava Foto" />
           </div>
         </div>
       </div>
