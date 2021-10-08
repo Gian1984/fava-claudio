@@ -75,22 +75,11 @@ const product = {
     {
       id: 1,
       imageSrc: 'img/vista-01.jpg',
-      imageAlt: "Back of women's Basic Tee in black.",
+      imageAlt: "NUOVA SALA CONGRESSI TELECONTROL",
       primary: true,
     },
   ],
-  colors: [
-    { name: 'Black', bgColor: 'bg-gray-900', selectedColor: 'ring-gray-900' },
-    { name: 'Heather Grey', bgColor: 'bg-gray-400', selectedColor: 'ring-gray-400' },
-  ],
-  sizes: [
-    { name: 'XXS', inStock: true },
-    { name: 'XS', inStock: true },
-    { name: 'S', inStock: true },
-    { name: 'M', inStock: true },
-    { name: 'L', inStock: true },
-    { name: 'XL', inStock: false },
-  ],
+
   description: `
     <p>L’intervento prevede la rifunzionalizzazione del locale autorimessa dell’azienda Telecontrol Spa a Rivoli (To) con l’obbiettivo di trasformarlo in una nuova Sala Congressi per complessivi 400 mq compresi di un soppalco.
 Il progetto prevede di creare uno spazio polifunzionale per soddisfare le esigenze del cliente che richiedeva la massima flessibilità nelle possibili funzioni di tale spazio. Le principali destinazioni d’uso dello spazio sono state così individuate: area lounge, area break, area supporto per allestimenti catering, spazio per riunioni e convention, sala per feste e presentazioni, locale deposito /guardaroba.
@@ -105,43 +94,36 @@ Scatolari metallici sospesi sostengono i corpi illuminanti e si ancorano ai pila
 
 }
 
-
 const relatedProducts = [
   {
     id: 1,
-    name: 'Basic Tee',
-    href: '#',
+    name: 'Sala Congressi',
     imageSrc: 'img/vista-02.jpg',
-    imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
+    imageAlt: "Sala Congressi.",
   },
   {
     id: 2,
-    name: 'Basic Tee',
-    href: '#',
+    name: 'Ingresso',
     imageSrc: 'img/vista-03.jpg',
-    imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
+    imageAlt: "Ingresso.",
   },
   {
     id: 3,
-    name: 'Basic Tee',
-    href: '#',
+    name: 'Esploso',
     imageSrc: 'img/vista-04-assometria.jpg',
-    imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
+    imageAlt: "Esploso.",
   },
   {
     id: 4,
-    name: 'Basic Tee',
-    href: '#',
+    name: 'Planimetria',
     imageSrc: 'img/pianta-piano-terreno.jpg',
-    imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
+    imageAlt: "Planimetria.",
+  },
+  {
+    id: 5,
+    name: 'Stato di fatto',
+    imageSrc: 'img/20170415_173308-BN-1.jpg',
+    imageAlt: "Stato di fatto.",
   },
   // More products...
 ]

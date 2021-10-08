@@ -119,7 +119,7 @@
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 bg-gray-500 mix-blend-multiply lg:rounded-lg md:rounded-lg rounded-none">
           <div class="p-4">
             <div>
-              <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+              <span class="h-12 w-12 rounded-md flex items-center justify-center bg-cyan-700">
                 <InboxIcon class="h-6 w-6 text-white" aria-hidden="true" />
               </span>
             </div>
@@ -136,16 +136,16 @@
             <blockquote>
               <div class="p-4">
                 <p class="text-base text-white">
-                  &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                  " Un architetto é buono se le volte che ha detto no sono di più quelle che ha detto si. "
                 </p>
               </div>
               <footer class="mt-3 p-4">
                 <div class="flex items-center space-x-3">
                   <div class="flex-shrink-0">
-                    <img class="h-6 w-6 rounded-full" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="" />
+                    <img class="h-6 w-6 rounded-full" src="img/fuksas.png" alt="Massimiliano Fuksas" />
                   </div>
-                  <div class="text-base font-medium text-gray-700">
-                    Marcia Hill, Digital Marketing Manager
+                  <div class="text-base font-medium text-gray-900">
+                    Massimiliano Fuksas, Architetto
                   </div>
                 </div>
               </footer>
@@ -164,7 +164,7 @@
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 bg-gray-500 mix-blend-multiply lg:rounded-lg md:rounded-lg rounded-none">
           <div class="p-4">
             <div>
-              <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+              <span class="h-12 w-12 rounded-md flex items-center justify-center bg-cyan-700">
                 <SparklesIcon class="h-6 w-6 text-white" aria-hidden="true" />
               </span>
             </div>
@@ -181,16 +181,16 @@
             <blockquote>
               <div>
                 <p class="text-base text-white">
-                  &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                  "  Studiare Architettura era un piacere. Anche se l’aspetto più decisivo per me è stata l’opportunità di viaggiare. […] erano viaggio informali, organizzati nel modo più improbabile, con pochissimi soldi a disposizione: zaino, sacco a pelo e panini. Questo è forse l’aspetto più significativo della mia formazione come architetto.  "
                 </p>
               </div>
               <footer class="mt-3">
                 <div class="flex items-center space-x-3">
                   <div class="flex-shrink-0">
-                    <img class="h-6 w-6 rounded-full" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="" />
+                    <img class="h-6 w-6 rounded-full" src="img/lecorbusier.png" alt="" />
                   </div>
                   <div class="text-base font-medium text-gray-700">
-                    Marcia Hill, Digital Marketing Manager
+                    Le Corbusir, Architetto - Pittore
                   </div>
                 </div>
               </footer>

@@ -8,9 +8,6 @@
             <h1 class="text-xl font-medium text-gray-900">
               {{ product.name }}
             </h1>
-            <p class="text-xl font-medium text-gray-900">
-              {{ product.price }}
-            </p>
           </div>
 
         </div>
@@ -28,18 +25,19 @@
 
           <!-- Product details -->
           <div class="mt-10">
-            <h2 class="text-sm font-medium text-gray-900">Description</h2>
+            <h2 class="text-lg font-medium text-gray-900">Descrizione</h2>
 
             <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description" />
           </div>
 
           <div class="mt-8 border-t border-gray-200 pt-8">
-            <h2 class="text-sm font-medium text-gray-900">Fabric &amp; Care</h2>
-
             <div class="mt-4 prose prose-sm text-gray-500">
-              <ul role="list">
-                <li v-for="item in product.details" :key="item">{{ item }}</li>
-              </ul>
+              <p v-for="item in product.info" :key="item">
+                <span class="text-lg font-medium text-gray-900">{{ item.name }} :</span>
+                <span class="block text-base text-gray-300"
+                ><span class="text-gray-500 text-italic">- {{ item.info }}</span>
+                </span>
+              </p>
             </div>
           </div>
 
@@ -48,24 +46,16 @@
 
       <!-- Related products -->
       <section aria-labelledby="related-heading" class="mt-12 sm:mt-12">
-        <h2 id="related-heading" class="text-lg font-medium text-gray-900">Customers also purchased</h2>
+        <h2 id="related-heading" class="text-lg font-medium text-gray-900">Related Photos</h2>
 
         <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           <div v-for="relatedProduct in relatedProducts" :key="relatedProduct.id" class="group relative">
             <div class="w-full min-h-80 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+              <h3 class="text-sm text-gray-700">
+                <span aria-hidden="true" class="absolute inset-0" />
+                {{ relatedProduct.name }}
+              </h3>
               <img :src="relatedProduct.imageSrc" :alt="relatedProduct.imageAlt" class="w-full h-full object-center object-cover lg:w-full lg:h-full" />
-            </div>
-            <div class="mt-4 flex justify-between">
-              <div>
-                <h3 class="text-sm text-gray-700">
-                  <a :href="relatedProduct.href">
-                    <span aria-hidden="true" class="absolute inset-0" />
-                    {{ relatedProduct.name }}
-                  </a>
-                </h3>
-                <p class="mt-1 text-sm text-gray-500">{{ relatedProduct.color }}</p>
-              </div>
-              <p class="text-sm font-medium text-gray-900">{{ relatedProduct.price }}</p>
             </div>
           </div>
         </div>
@@ -79,75 +69,82 @@
 <script>
 
 const product = {
-  name: 'Basic Tee',
-  price: '$35',
+  name: 'CASA NEL PARCO\n',
   href: '#',
-  breadcrumbs: [
-    { id: 1, name: 'Women', href: '#' },
-    { id: 2, name: 'Clothing', href: '#' },
-  ],
   images: [
     {
       id: 1,
-      imageSrc: 'img/PRO_7764.jpg',
-      imageAlt: "Back of women's Basic Tee in black.",
+      imageSrc: 'img/vista-esterna-01.jpg',
+      imageAlt: "Imagine Casa Nel Parco.",
       primary: true,
     },
   ],
-  colors: [
-    { name: 'Black', bgColor: 'bg-gray-900', selectedColor: 'ring-gray-900' },
-    { name: 'Heather Grey', bgColor: 'bg-gray-400', selectedColor: 'ring-gray-400' },
-  ],
-  sizes: [
-    { name: 'XXS', inStock: true },
-    { name: 'XS', inStock: true },
-    { name: 'S', inStock: true },
-    { name: 'M', inStock: true },
-    { name: 'L', inStock: true },
-    { name: 'XL', inStock: false },
-  ],
+
   description: `
-    <p>The Basic tee is an honest new take on a classic. The tee uses super soft, pre-shrunk cotton for true comfort and a dependable fit. They are hand cut and sewn locally, with a special dye technique that gives each tee it's own look.</p>
-    <p>Looking to stock your closet? The Basic tee also comes in a 3-pack or 5-pack at a bundle discount.</p>
-  `,
-  details: [
-    'Only the best materials',
-    'Ethically and locally made',
-    'Pre-washed and pre-shrunk',
-    'Machine wash cold with similar colors',
-  ],
+    <p>Dalla ristrutturazione di un fienile di un piccolo paese in Provicia di Torino, nasce questo progetto dal carattere sospeso tra tradizione e contemporaneità. Un edificio tipicamente agricolo, collocato all’interno di un parco, viene trasformato in una residenza senza stravolgerne la natura.
+La volumetria principale, il tetto a falde, le travi in legno e i pilastri in mattoni sono tutti elementi che vengono mantenuti in quanto caratterizzanti il manufatto storico.
+Il contatto diretto con il parco viene accentuato attraverso l’apertura di nuove finestrature che garantiscono una maggiore illuminazione degli ambienti interni e una migliore fruizione del verde circostante.
+All’interno dell’edificio uno spazio a doppia altezza amplifica la percezione dello spazio e mette in comunicazione la zona giorno al piano terra con la camera da letto posizionata al piano primo.</p>`,
+
+  info:[
+    {name: 'Luogo', info:'Rivalta di Torino (TO)'},
+    {name:'Stato', info:'Progetto preliminare, studio di fattibilità'},
+    {name:'Cliente', info:'Privato'},
+    {name:'Team di progettazione', info:'Claudio Fava, Giorgio Fava'},
+  ]
+
 }
 
 
 const relatedProducts = [
   {
     id: 1,
-    name: 'Basic Tee',
-    href: '#',
-    imageSrc: 'img/PRO_7764.jpg',
+    name: 'Vista Esterna',
+    imageSrc: 'img/vista-esterna-02.jpg',
     imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
   },
   {
-    id: 1,
-    name: 'Basic Tee',
-    href: '#',
-    imageSrc: 'img/PRO_7764.jpg',
+    id: 2,
+    name: 'Salone',
+    imageSrc: 'img/vista-interna-01.jpg',
     imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
   },
   {
-    id: 1,
-    name: 'Basic Tee',
-    href: '#',
-    imageSrc: 'img/PRO_7764.jpg',
-    imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
+    id: 3,
+    name: 'Cucina',
+    imageSrc: 'img/vista-interna-04-.jpg',
+    imageAlt: "Cucina.",
   },
-  // More products...
+  {
+    id: 4,
+    name: 'Camera da letto',
+    imageSrc: 'img/vista-interna-02.jpg',
+    imageAlt: "Camera da letto.",
+  },
+  {
+    id: 5,
+    name: 'Esploso',
+    imageSrc: 'img/vista-esploso-04.jpg',
+    imageAlt: "Esploso.",
+  },
+  {
+    id: 6,
+    name: 'Planimetria piano terra',
+    imageSrc: 'img/PIANO-TERRA.jpg',
+    imageAlt: "Planimetria piano terra.",
+  },
+  {
+    id: 7,
+    name: 'Planimetria primo piano ',
+    imageSrc: 'img/PIANO-PRIMO-_-CON-VUOTO-PICCOLO.jpg',
+    imageAlt: "Front of men's Basic Tee in white.",
+  },
+  {
+    id: 8,
+    name: 'Stato di fatto',
+    imageSrc: 'img/stato-di-fatto.jpg',
+    imageAlt: "Stato di fatto.",
+  },
 ]
 
 
