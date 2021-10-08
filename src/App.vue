@@ -92,16 +92,18 @@
         <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
+              <LocationMarkerIcon class="h-6 w-6 mb-3" aria-hidden="true" />
               <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Solutions
+                Sede
               </h3>
               <p  class="mt-4 space-y-4">
                   Via Frejus 21, Torino
               </p>
             </div>
             <div class="mt-12 md:mt-0">
+              <PhoneIncomingIcon class="h-6 w-6 mb-3" aria-hidden="true" />
               <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Support
+                Telefono
               </h3>
               <p class="mt-4 space-y-4">
                 +39 328 864 8607
@@ -110,16 +112,18 @@
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
+              <BriefcaseIcon class="h-6 w-6 mb-3" aria-hidden="true" />
               <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
                 Company
               </h3>
               <p class="mt-4 space-y-4">
-                  Claudio Fava
+                  Claudio Fava Arch
               </p>
             </div>
             <div class="mt-12 md:mt-0">
+              <ChatAltIcon class="h-6 w-6 mb-3" aria-hidden="true" />
               <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Legal
+                Mail
               </h3>
               <p class="mt-4 space-y-4">
                   info@favaclaudio.com
@@ -150,7 +154,7 @@
 </template>
 
 <script>
-import { MenuIcon, HomeIcon, FolderOpenIcon, UsersIcon, TemplateIcon, PresentationChartBarIcon, ColorSwatchIcon, ChatAltIcon, ArrowLeftIcon, ArrowUpIcon } from '@heroicons/vue/outline'
+import { MenuIcon, HomeIcon, FolderOpenIcon, UsersIcon, TemplateIcon, PresentationChartBarIcon, ColorSwatchIcon, ChatAltIcon, ArrowLeftIcon, ArrowUpIcon, LocationMarkerIcon, PhoneIncomingIcon, BriefcaseIcon } from '@heroicons/vue/outline'
 import { CheckIcon, ThumbUpIcon, UserIcon } from '@heroicons/vue/solid'
 import { defineComponent, h } from 'vue'
 
@@ -335,6 +339,9 @@ export default {
     ArrowLeftIcon,
     ChatAltIcon,
     ArrowUpIcon,
+    LocationMarkerIcon,
+    PhoneIncomingIcon,
+    BriefcaseIcon
   },
 
   data() {
