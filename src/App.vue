@@ -442,4 +442,8 @@ export default {
   height: 30px;
   background-color: #f8f8f8;
 }
+
+p{
+  font-family: "Gruppo" !important;
+}
 </style>

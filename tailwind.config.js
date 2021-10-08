@@ -268,6 +268,9 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      gruppo: [
+        'Gruppo',
+      ]
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],

@@ -25,32 +25,32 @@
   </div>
 
 
-  <!-- ARCHITETTURA & INTERIOR DESIGN -->
+  <!-- RIFUNZIONALIZZAZIONE -->
 
 
-  <div class="relative" id="come_facciamo">
-    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
-    <div class="mx-auto">
-      <div class="relative shadow-xl sm:overflow-hidden">
-        <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/vista-esterna-01_crop.jpg" alt="Progetto casa esterni" />
-          <div class="absolute inset-0" />
-        </div>
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
-          <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">
-            RIFUNZIONALIZZAZIONE
-          </p>
-          <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">
-            Progettiamo per dare nuova vita agli edifici.
-          </p>
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!--  <div class="relative" id="cosa_facciamo">-->
+<!--    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />-->
+<!--    <div class="mx-auto">-->
+<!--      <div class="relative shadow-xl sm:overflow-hidden">-->
+<!--        <div class="absolute inset-0">-->
+<!--          <img class="h-full w-full object-cover" src="img/vista-esterna-01_crop.jpg" alt="Progetto casa esterni" />-->
+<!--          <div class="absolute inset-0" />-->
+<!--        </div>-->
+<!--        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">-->
+<!--          <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">-->
+<!--            RIFUNZIONALIZZAZIONE-->
+<!--          </p>-->
+<!--          <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">-->
+<!--            Progettiamo per dare nuova vita agli edifici.-->
+<!--          </p>-->
+<!--          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">-->
+<!--            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 
 
   <!-- LA CURA DEL DETTAGLIO -->
@@ -116,8 +116,8 @@
   <div class="relative bg-white pt-16 pb-32 overflow-hidden" id="profilo" style="background-image: url('img/white_and_black_halftone_background.jpg');">
     <div class="relative">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-          <div>
+        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 bg-gray-500 mix-blend-multiply rounded-lg">
+          <div class="p-4">
             <div>
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
                 <InboxIcon class="h-6 w-6 text-white" aria-hidden="true" />
@@ -127,24 +127,19 @@
               <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
                 Claudio Fava
               </h2>
-              <p class="mt-4 text-lg text-gray-500">
+              <p class="mt-4 text-lg text-white">
                 Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino. Dopo un’esperienza presso lo studio milanese Claudio Bellini Design+Design, collabora con numerosi studi di architettura torinesi. Fra i suoi lavori, la ristrutturazione della Centrale Operativa di Telecontrol, importante istituto di vigilanza e la ristrutturazione di una casa privata a Rivoli (To). Si occupa di architettura residenziale, uffici e spazi commerciali, dal progetto preliminare fino alla fase esecutiva e direzione lavori.
               </p>
-              <div class="mt-6">
-                <a href="#" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
-                  Get started
-                </a>
-              </div>
             </div>
           </div>
           <div class="mt-8 border-t border-gray-200 pt-6">
             <blockquote>
-              <div>
-                <p class="text-base text-gray-500">
+              <div class="p-4">
+                <p class="text-base text-white">
                   &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;
                 </p>
               </div>
-              <footer class="mt-3">
+              <footer class="mt-3 p-4">
                 <div class="flex items-center space-x-3">
                   <div class="flex-shrink-0">
                     <img class="h-6 w-6 rounded-full" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="" />
@@ -166,8 +161,8 @@
     </div>
     <div class="mt-24">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
-          <div>
+        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 bg-gray-500 mix-blend-multiply rounded-lg">
+          <div class="p-4">
             <div>
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
                 <SparklesIcon class="h-6 w-6 text-white" aria-hidden="true" />
@@ -177,20 +172,15 @@
               <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
                 Giorgio Fava
               </h2>
-              <p class="mt-4 text-lg text-gray-500">
+              <p class="mt-4 text-lg text-white">
                 Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.
               </p>
-              <div class="mt-6">
-                <a href="#" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
-                  Get started
-                </a>
-              </div>
             </div>
           </div>
-          <div class="mt-8 border-t border-gray-200 pt-6">
+          <div class="mt-8 border-t border-gray-200 pt-6 pb-5">
             <blockquote>
               <div>
-                <p class="text-base text-gray-500">
+                <p class="text-base text-white">
                   &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;
                 </p>
               </div>
@@ -216,65 +206,6 @@
     </div>
   </div>
 
-
-
-
-
-  <!-- Gradient Feature Section -->
-  <div class="bg-gradient-to-r from-purple-800 to-indigo-700">
-    <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-      <h2 class="text-3xl font-extrabold text-white tracking-tight">
-        Inbox support built for efficiency
-      </h2>
-      <p class="mt-4 max-w-3xl text-lg text-purple-200">
-        Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis in.
-      </p>
-      <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-        <div v-for="feature in features" :key="feature.name">
-          <div>
-                <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                  <component :is="feature.icon" class="h-6 w-6 text-white" aria-hidden="true" />
-                </span>
-          </div>
-          <div class="mt-6">
-            <h3 class="text-lg font-medium text-white">{{ feature.name }}</h3>
-            <p class="mt-2 text-base text-purple-200">
-              {{ feature.description }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Stats section -->
-  <div class="relative bg-gray-900">
-    <div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
-      <div class="h-full w-full xl:grid xl:grid-cols-2">
-        <div class="h-full xl:relative xl:col-start-2">
-          <img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100" alt="People working on laptops" />
-          <div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r" />
-        </div>
-      </div>
-    </div>
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
-      <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-        <h2 class="text-sm font-semibold tracking-wide uppercase">
-          <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
-        </h2>
-        <p class="mt-3 text-3xl font-extrabold text-white">Get actionable data that will help grow your business</p>
-        <p class="mt-5 text-lg text-gray-300">Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.</p>
-        <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
-          <p v-for="item in metrics" :key="item.id">
-            <span class="block text-2xl font-bold text-white">{{ item.stat }}</span>
-            <span class="mt-1 block text-base text-gray-300"
-            ><span class="font-medium text-white">{{ item.emphasis }}</span> {{ item.rest }}</span
-            >
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- CTA Section -->
   <div class="bg-white">

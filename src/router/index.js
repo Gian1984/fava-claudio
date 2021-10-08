@@ -14,7 +14,20 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+    meta: {
+      title: 'Home Fava Claudio Architetto',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Home page dello Studio di Architettura Fava Claudio.'
+        },
+        {
+          property: 'og:description',
+          content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+        }
+      ]
+    }
   },
   {
     path: '/Projects',
