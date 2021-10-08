@@ -113,7 +113,7 @@
   <!-- Team Section -->
 
 
-  <div class="relative bg-white pt-16 pb-32 overflow-hidden" id="profilo" style="background-image: url('img/white_and_black_halftone_background.jpg');">
+  <div class="relative bg-white pt-16 overflow-hidden" id="profilo" style="background-image: url('img/white_and_black_halftone_background.jpg');">
     <div class="relative">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 bg-gray-500 mix-blend-multiply lg:rounded-lg md:rounded-lg rounded-none">
@@ -228,21 +228,13 @@
     </div>
   </div>
 
-  <div class="bg-white" style="background-image: url('img/white_and_black_halftone_background.jpg');">
-    <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
-      <div class="space-y-4 sm:space-y-12">
-        <h2 class="text-4xl font-extrabold tracking-tight text-black md:text-5xl lg:text-6xl" id="place">Ma adesso spazio alle ...</h2>
-      </div>
-    </div>
-  </div>
-
-
   <!-- Projects Section -->
 
   <div class="bg-white pb-5" id="progetti" style="background-image: url('img/white_and_black_halftone_background.jpg');">
     <div class="max-w-7xl mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
-      <div class="sm:flex sm:items-baseline sm:justify-between">
-        <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Progetti</h2>
+
+      <div class="mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
+        <h2 class="text-4xl font-extrabold tracking-tight text-black md:text-5xl lg:text-6xl">Progetti</h2>
       </div>
 
       <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
