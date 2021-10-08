@@ -116,7 +116,7 @@
   <div class="relative bg-white pt-16 pb-32 overflow-hidden" id="profilo" style="background-image: url('img/white_and_black_halftone_background.jpg');">
     <div class="relative">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 bg-gray-500 mix-blend-multiply rounded-lg">
+        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 bg-gray-500 mix-blend-multiply lg:rounded-lg md:rounded-lg rounded-none">
           <div class="p-4">
             <div>
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
@@ -161,7 +161,7 @@
     </div>
     <div class="mt-24">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 bg-gray-500 mix-blend-multiply rounded-lg">
+        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 bg-gray-500 mix-blend-multiply lg:rounded-lg md:rounded-lg rounded-none">
           <div class="p-4">
             <div>
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
