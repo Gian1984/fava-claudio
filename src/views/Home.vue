@@ -177,7 +177,7 @@
               </p>
             </div>
           </div>
-          <div class="mt-8 border-t border-gray-200 pt-6 pb-5">
+          <div class="mt-8 border-t border-gray-200 pt-6 pb-5 p-4">
             <blockquote>
               <div>
                 <p class="text-base text-white">
@@ -207,19 +207,39 @@
   </div>
 
 
-  <!-- CTA Section -->
-  <div class="bg-white">
-    <div class="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
-      <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-        <span class="block">Ready to get started?</span>
-        <span class="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Get in touch or create an account.</span>
-      </h2>
+  <!--  Carousel section-->
+
+  <div class="bg-white" style="background-image: url('img/white_and_black_halftone_background.jpg');">
+    <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
+      <div class="space-y-4 sm:space-y-12">
+        <h2 class="text-4xl font-extrabold tracking-tight text-black md:text-5xl lg:text-6xl" id="gallery">Gallery</h2>
+      </div>
     </div>
   </div>
 
+  <div class="bg-white relative overflow-hidden">
+    <div class="gallery-wrap" style="background-image: url('img/carousel/4-200x100.jpg');">
+      <div class="item" style="background-image: url('img/PRO_7764.jpg');"></div>
+      <div class="item" style="background-image: url('img/PRO_7805.jpg');"></div>
+      <div class="item" style="background-image: url('img/PRO_7840.jpg');"></div>
+      <div class="item" style="background-image: url('img/PRO_7860-.jpg');"></div>
+      <div class="item" style="background-image: url('img/PRO_7711.jpg');"></div>
+      <div class="item" style="background-image: url('img/PRO_7728.jpg');"></div>
+    </div>
+  </div>
+
+  <div class="bg-white" style="background-image: url('img/white_and_black_halftone_background.jpg');">
+    <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
+      <div class="space-y-4 sm:space-y-12">
+        <h2 class="text-4xl font-extrabold tracking-tight text-black md:text-5xl lg:text-6xl" id="place">Ma adesso spazio alle ...</h2>
+      </div>
+    </div>
+  </div>
+
+
   <!-- Projects Section -->
 
-  <div class="bg-white" id="progetti">
+  <div class="bg-white pb-5" id="progetti" style="background-image: url('img/white_and_black_halftone_background.jpg');">
     <div class="max-w-7xl mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
       <div class="sm:flex sm:items-baseline sm:justify-between">
         <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Progetti</h2>
@@ -238,10 +258,6 @@
             <img :src="product.imageSrc" :alt="product.imageAlt" class="w-full h-full object-center object-cover" />
           </div>
         </div>
-      </div>
-
-      <div class="mt-6 sm:hidden">
-        <a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all favorites<span aria-hidden="true"> &rarr;</span></a>
       </div>
     </div>
   </div>

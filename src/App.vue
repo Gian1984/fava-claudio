@@ -446,4 +446,47 @@ export default {
 p{
   font-family: "Gruppo" !important;
 }
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+
+.item:hover {
+  flex: 7;
+}
+
+@media only screen and (max-width: 736px) {
+
+  .gallery-wrap {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+  }
+
+  .item:hover {
+    flex: 7;
+  }
+}
 </style>
