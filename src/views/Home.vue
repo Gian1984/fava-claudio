@@ -113,10 +113,10 @@
   <!-- Team Section -->
 
 
-  <div class="relative bg-white pt-16 overflow-hidden" id="profilo" style="background-image: url('img/white_and_black_halftone_background.jpg');">
+  <div class="relative bg-white pt-16 overflow-hidden" id="profilo">
     <div class="relative">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 bg-gray-500 mix-blend-multiply lg:rounded-lg md:rounded-lg rounded-none">
+        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:rounded-lg md:rounded-lg rounded-none">
           <div class="p-4">
             <div>
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-cyan-700">
@@ -127,7 +127,7 @@
               <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
                 Claudio Fava
               </h2>
-              <p class="mt-4 text-lg text-white">
+              <p class="mt-4 text-lg text-black">
                 Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino. Dopo un’esperienza presso lo studio milanese Claudio Bellini Design+Design, collabora con numerosi studi di architettura torinesi. Fra i suoi lavori, la ristrutturazione della Centrale Operativa di Telecontrol, importante istituto di vigilanza e la ristrutturazione di una casa privata a Rivoli (To). Si occupa di architettura residenziale, uffici e spazi commerciali, dal progetto preliminare fino alla fase esecutiva e direzione lavori.
               </p>
             </div>
@@ -135,7 +135,7 @@
           <div class="mt-8 border-t border-gray-200 pt-6">
             <blockquote>
               <div class="p-4">
-                <p class="text-base text-white">
+                <p class="text-base text-black">
                   " Un architetto é buono se le volte che ha detto no sono di più quelle che ha detto si. "
                 </p>
               </div>
@@ -199,7 +199,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
           <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-            <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/giorgio_fava.png" alt="Giorgio Fava foto" />
+            <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/giorgio-fava.png" alt="Giorgio Fava foto" />
           </div>
         </div>
       </div>
@@ -209,7 +209,7 @@
 
   <!--  Carousel section-->
 
-  <div class="bg-white" style="background-image: url('img/white_and_black_halftone_background.jpg');">
+  <div class="bg-white">
     <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
       <div class="space-y-4 sm:space-y-12">
         <h2 class="text-4xl font-extrabold tracking-tight text-black md:text-5xl lg:text-6xl" id="gallery">Gallery</h2>
@@ -230,7 +230,7 @@
 
   <!-- Projects Section -->
 
-  <div class="bg-white pb-5" id="progetti" style="background-image: url('img/white_and_black_halftone_background.jpg');">
+  <div class="bg-white pb-5" id="progetti">
     <div class="max-w-7xl mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
 
       <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
@@ -239,16 +239,17 @@
 
       <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
         <div v-for="product in products" :key="product.id" class="group relative">
-          <h3 class="mt-4 text-base font-semibold text-gray-900">
+          <a :href="product.href">
+          <div class="h-full h-96 overflow-hidden group-hover:opacity-75">
+            <img :src="product.imageSrc" :alt="product.imageAlt" class="w-full h-full object-center object-cover" />
+          </div>
+          </a>
+          <h3 class="text-base mb-2 font-semibold text-gray-900">
             <a :href="product.href" class="mt-2 inline-flex items-center text-black bg-white rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-500">
               <span class="absolute inset-0" />
               {{ product.name }}
-              <ChevronRightIcon class="ml-2 w-5 h-5 text-black hover:text-gray-500" aria-hidden="true" />
             </a>
           </h3>
-          <div class="h-full h-96 rounded-lg overflow-hidden group-hover:opacity-75">
-            <img :src="product.imageSrc" :alt="product.imageAlt" class="w-full h-full object-center object-cover" />
-          </div>
         </div>
       </div>
     </div>
@@ -256,7 +257,6 @@
 </template>
 
 <script>
-import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 const products = [
   {
@@ -320,7 +320,7 @@ const products = [
 export default {
 
   components: {
-    ChevronRightIcon,
+
   },
 
   setup() {

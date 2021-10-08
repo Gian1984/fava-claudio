@@ -268,6 +268,9 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      raleway:[
+          'Raleway'
+      ],
       gruppo: [
         'Gruppo',
       ]
