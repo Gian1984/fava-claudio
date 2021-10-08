@@ -233,7 +233,7 @@
   <div class="bg-white pb-5" id="progetti" style="background-image: url('img/white_and_black_halftone_background.jpg');">
     <div class="max-w-7xl mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
 
-      <div class="mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
+      <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
         <h2 class="text-4xl font-extrabold tracking-tight text-black md:text-5xl lg:text-6xl">Progetti</h2>
       </div>
 
