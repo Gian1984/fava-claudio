@@ -436,7 +436,9 @@ p{
   flex: 7;
 }
 
+
 @media only screen and (max-width: 736px) {
+
 
   .gallery-wrap {
     display: flex;

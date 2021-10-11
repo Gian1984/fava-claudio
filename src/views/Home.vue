@@ -115,6 +115,9 @@
 
   <div class="relative bg-white pt-16 overflow-hidden" id="profilo" style="background-image: url('img/18410.jpg');">
     <div class="relative border-b border-gray-200 lg:pb-16 pb-7">
+      <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2" >
+        <img class="w-full h-full object-cover lg:hidden" src="img/claudio-fava-png.png" alt="Support team" />
+      </div>
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:rounded-lg md:rounded-lg rounded-none">
           <div class="p-4">
@@ -154,7 +157,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0">
           <div class="md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full bg-none">
-            <img class="lg:w-full lg:h-full h-4/6 mx-auto object-cover" src="img/claudio-fava-png.png" alt="claudio-fava" />
+            <img class="hidden lg:block lg:full lg:h-full h-4/6 mx-auto object-cover" src="img/claudio-fava-png.png" alt="claudio-fava" />
           </div>
         </div>
       </div>
