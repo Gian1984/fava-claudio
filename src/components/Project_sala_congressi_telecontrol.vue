@@ -6,15 +6,100 @@
 
         <!-- Image gallery -->
         <div class="mt-8 lg:mt-0 lg:col-start-1 lg:col-span-8 lg:row-start-1 lg:row-span-3">
-          <h2 class="sr-only">Images</h2>
 
-          <div class="w-100 grid grid-cols-1 lg:grid-cols-1 lg:gap-8">
-            <img v-for="image in product.images" :key="image.id" :src="image.imageSrc" :alt="image.imageAlt" :class="[image.primary ? 'lg:col-span-2 lg:row-span-2' : 'hidden lg:block', 'w-full rounded-lg']" />
+          <button v-on:click="toggleModal()">
+          <div class="w-100 grid grid-cols-1 lg:grid-cols-1 lg:gap-8 mt-3">
+            <img v-for="image in product.images" :key="image.id" :src="image.imageSrc" :alt="image.imageAlt" :class="[image.primary ? 'lg:col-span-2 lg:row-span-2' : 'hidden lg:block', 'w-full rounded-lg mt-3 hover:opacity-75']" />
           </div>
+          </button>
+
+          <!-- modal gallery-->
+
+          <div v-if="showModal" class="bg-white bg-opacity-75 overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
+            <div class="relative w-auto my-6 mx-auto lg:max-w-6xl py-60">
+              <!--content-->
+              <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none bg-gray-200">
+                <!--header-->
+                <div class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                  <h3 class="text-3xl font-semibold">
+                    Dettaglio foto
+                  </h3>
+                </div>
+                <!--body-->
+                <div class="relative p-6 flex-auto">
+                  <div class="carousel relative rounded relative overflow-hidden shadow-xl">
+                    <div class="carousel-inner relative overflow-hidden w-full">
+                      <!--Slide 1-->
+
+                      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                             checked="checked">
+                      <div class="carousel-item absolute opacity-0 bg-center w-100 h-52 md:h-full lg:h-full">
+                        <img src="img/vista-02.jpg">
+                      </div>
+                      <label for="carousel-3"
+                             class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-2"
+                             class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 2-->
+                      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 bg-center h-52 md:h-full lg:h-full">
+                        <img src="img/vista-03.jpg">
+                      </div>
+                      <label for="carousel-1"
+                             class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-3"
+                             class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 3-->
+                      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
+                        <img src="img/vista-04-assometria.jpg">
+                      </div>
+                      <label for="carousel-2"
+                             class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-1"
+                             class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!-- Add additional indicators for each slide-->
+                      <ol class="carousel-indicators">
+                        <li class="inline-block mr-3">
+                          <label for="carousel-1"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-2"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-3"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                      </ol>
+
+                    </div>
+                  </div>
+                </div>
+                <!--footer-->
+                <div class="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+                  <button class="text-red-500 bg-transparent border border-solid border-black-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" v-on:click="toggleModal()">
+                    Close
+                  </button>
+                </div>
+              </div>
+
+          </div>
+
+        </div>
         </div>
 
         <div class="mt-8 lg:col-span-3">
-
           <!-- Product details -->
           <div class="mt-10">
 
@@ -22,10 +107,11 @@
               {{ product.name }}
             </h1>
 
-            <h2 class="text-lg font-medium text-gray-900">Descrizione</h2>
+            <h2 class="text-lg font-medium text-gray-900 mt-10">Descrizione</h2>
 
             <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description" />
           </div>
+
 
           <div class="mt-8 border-t border-gray-200 pt-8">
             <div class="mt-4 prose prose-sm text-gray-500">
@@ -37,10 +123,8 @@
               </p>
             </div>
           </div>
-
         </div>
       </div>
-
     </main>
 
   </div>
@@ -63,6 +147,7 @@ const product = {
       name: 'Sala Congressi',
       imageSrc: 'img/vista-02.jpg',
       imageAlt: "Sala Congressi.",
+      primary: true,
     },
 
     {
@@ -70,24 +155,28 @@ const product = {
       name: 'Ingresso',
       imageSrc: 'img/vista-03.jpg',
       imageAlt: "Ingresso.",
+      primary: true,
     },
     {
       id: 4,
       name: 'Esploso',
       imageSrc: 'img/vista-04-assometria.jpg',
       imageAlt: "Esploso.",
+      primary: true,
     },
     {
       id: 5,
       name: 'Planimetria',
       imageSrc: 'img/pianta-piano-terreno.jpg',
       imageAlt: "Planimetria.",
+      primary: true,
     },
     {
       id: 6,
       name: 'Stato di fatto',
       imageSrc: 'img/20170415_173308-BN-1.jpg',
       imageAlt: "Stato di fatto.",
+      primary: true,
     },
   ],
 
@@ -143,6 +232,21 @@ const relatedProducts = [
 
 export default {
 
+  name: "large-modal",
+
+  data() {
+    return {
+      showModal: false
+    }
+  },
+
+  methods:{
+    toggleModal: function(){
+      this.showModal = !this.showModal;
+    }
+  },
+
+
   setup() {
     return {
       relatedProducts,
@@ -151,3 +255,39 @@ export default {
   },
 }
 </script>
+
+<style>
+.carousel-open:checked+.carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-item {
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+#carousel-1:checked~.control-1,
+#carousel-2:checked~.control-2,
+#carousel-3:checked~.control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+#carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #2b6cb0;
+}
+</style>

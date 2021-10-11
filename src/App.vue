@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex fixed w-full items-center justify-between px-6 h-16 bg-transparent text-gray-700 z-10" id="header">
+  <nav class="flex fixed w-full items-center justify-between px-6 h-16 bg-white bg-opacity-50 text-gray-700 z-10" id="header">
     <div class="flex items-center">
       <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
     </div>

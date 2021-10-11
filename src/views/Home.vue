@@ -113,8 +113,8 @@
   <!-- Team Section -->
 
 
-  <div class="relative bg-white pt-16 overflow-hidden" id="profilo">
-    <div class="relative">
+  <div class="relative bg-white pt-16 overflow-hidden" id="profilo" style="background-image: url('img/18410.jpg');">
+    <div class="relative border-b border-gray-200 lg:pb-16 pb-7">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:rounded-lg md:rounded-lg rounded-none">
           <div class="p-4">
@@ -153,66 +153,70 @@
           </div>
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0">
-          <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full bg-none">
-            <img class="w-full lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="img/claudio-fava.png" alt="claudio-fava" />
+          <div class="md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full bg-none">
+            <img class="lg:w-full lg:h-full h-4/6 mx-auto object-cover" src="img/claudio-fava-png.png" alt="claudio-fava" />
           </div>
         </div>
       </div>
     </div>
-    <div class="mt-24">
-      <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 bg-gray-500 mix-blend-multiply lg:rounded-lg md:rounded-lg rounded-none">
-          <div class="p-4">
-            <div>
-              <span class="h-12 w-12 rounded-md flex items-center justify-center bg-cyan-700">
-                <SparklesIcon class="h-6 w-6 text-white" aria-hidden="true" />
-              </span>
-            </div>
-            <div class="mt-6">
-              <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
-                Giorgio Fava
-              </h2>
-              <p class="mt-4 text-lg text-white">
-                Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.
-              </p>
-            </div>
+
+    <div>
+      <div class="relative">
+        <div class="relative bg-white " style="background-image: url('img/18410.jpg');">
+          <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2">
+            <img class="w-full h-full object-cover" src="img/giorgio-fava.png" alt="Support team" />
           </div>
-          <div class="mt-8 border-t border-gray-200 pt-6 pb-5 p-4">
-            <blockquote>
+          <div class="relative max-w-7xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16">
+            <div class="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
               <div>
-                <p class="text-base text-white">
-                  "  Studiare Architettura era un piacere. Anche se l’aspetto più decisivo per me è stata l’opportunità di viaggiare. […] erano viaggio informali, organizzati nel modo più improbabile, con pochissimi soldi a disposizione: zaino, sacco a pelo e panini. Questo è forse l’aspetto più significativo della mia formazione come architetto.  "
+                <div class="flex items-center justify-center h-12 w-12 rounded-md text-white">
+                  <span class="h-12 w-12 rounded-md flex items-center justify-center bg-cyan-700">
+                    <SparklesIcon class="h-6 w-6 text-white" aria-hidden="true" />
+                  </span>
+                </div>
+              </div>
+              <div class="mt-6">
+                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+                  Giorgio Fava
+                </h2>
+                <p class="mt-4 text-lg text-black">
+                  Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.
                 </p>
               </div>
-              <footer class="mt-3">
-                <div class="flex items-center space-x-3">
-                  <div class="flex-shrink-0">
-                    <img class="h-6 w-6 rounded-full" src="img/lecorbusier.png" alt="" />
+              <div class="mt-8 overflow-hidden border-t border-gray-200 pt-6 pb-5 p-4">
+                <blockquote>
+                  <div>
+                    <p class="text-base text-black">
+                      "  Studiare Architettura era un piacere. Anche se l’aspetto più decisivo per me è stata l’opportunità di viaggiare. […] erano viaggio informali, organizzati nel modo più improbabile, con pochissimi soldi a disposizione: zaino, sacco a pelo e panini. Questo è forse l’aspetto più significativo della mia formazione come architetto.  "
+                    </p>
                   </div>
-                  <div class="text-base font-medium text-gray-700">
-                    Le Corbusir, Architetto - Pittore
-                  </div>
-                </div>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
-        <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-          <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-            <img class="w-full lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/giorgio-fava.png" alt="Giorgio Fava foto" />
+                  <footer class="mt-3">
+                    <div class="flex items-center space-x-3">
+                      <div class="flex-shrink-0">
+                        <img class="h-6 w-6 rounded-full" src="img/lecorbusier.png" alt="" />
+                      </div>
+                      <div class="text-base font-medium text-gray-700">
+                        Le Corbusier, Architetto - Pittore
+                      </div>
+                    </div>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
   </div>
 
 
   <!--  Carousel section-->
 
-  <div class="bg-white">
+  <div class="bg-white" style="background-image: url('img/18410.jpg');">
     <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
       <div class="space-y-4 sm:space-y-12">
-        <h2 class="text-4xl font-extrabold tracking-tight text-black md:text-5xl lg:text-6xl" id="gallery">Gallery</h2>
+        <h2 class="text-3xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl" id="gallery">Gallery</h2>
       </div>
     </div>
   </div>
@@ -230,11 +234,11 @@
 
   <!-- Projects Section -->
 
-  <div class="bg-white pb-5" id="progetti">
-    <div class="max-w-7xl mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
+  <div class="bg-white pb-5" id="progetti" style="background-image: url('img/18410.jpg');">
+    <div class="max-w-full mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
 
       <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
-        <h2 class="text-4xl font-extrabold tracking-tight text-black md:text-5xl lg:text-6xl">Progetti</h2>
+        <h2 class="text-3xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl">Progetti</h2>
       </div>
 
       <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
@@ -244,8 +248,8 @@
             <img :src="product.imageSrc" :alt="product.imageAlt" class="w-full h-full object-center object-cover" />
           </div>
           </a>
-          <h3 class="text-base mb-2 font-semibold text-gray-900">
-            <a :href="product.href" class="mt-2 inline-flex items-center text-black bg-white rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-500">
+          <h3 class="text-base font-semibold text-gray-900">
+            <a :href="product.href" class=" mb-2 inline-flex items-center text-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-500">
               <span class="absolute inset-0" />
               {{ product.name }}
             </a>
@@ -257,6 +261,8 @@
 </template>
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const products = [
   {
@@ -328,6 +334,14 @@ export default {
       products,
     }
   },
+
+  created () {
+    AOS.init({
+      duration: 1200,
+      disable: 'mobile'
+    });
+  }
 }
 
 </script>
+
