@@ -10,7 +10,6 @@
             </h1>
           </div>
 
-
         </div>
 
         <!-- Image gallery -->
