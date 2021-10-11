@@ -13,7 +13,7 @@
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
           <p class="mt-6 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl">
-            ARCHITETTURA & INTERIOR DESIGN
+            ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
           </p>
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
@@ -68,7 +68,7 @@
           <p class="mt-2 max-w-lg text-right text-xl text-grey-500 sm:max-w-3xl">
             LA CURA DEL DETTAGLIO
           </p>
-          <p class="mt-2 max-w-lg text-right text-xl text-grey-500 sm:max-w-3xl">
+          <p class="mt-2 max-w-lg text-right text-base text-grey-500 sm:max-w-3xl">
             Disegniamo arredi personalizzati studiando ogni particolare.
           </p>
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
@@ -96,7 +96,7 @@
           <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">
             IL PROGETTO DEGLI SPAZI
           </p>
-          <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">
+          <p class="mt-2 max-w-lg text-base text-grey-500 sm:max-w-3xl">
             Progettiamo coniugando estetica ed esigenze del cliente.
           </p>
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
@@ -124,10 +124,10 @@
               </span>
             </div>
             <div class="mt-6">
-              <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+              <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">
                 Claudio Fava
               </h2>
-              <p class="mt-4 text-lg text-black">
+              <p class="mt-4 text-base text-black lg:text-lg">
                 Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino. Dopo un’esperienza presso lo studio milanese Claudio Bellini Design+Design, collabora con numerosi studi di architettura torinesi. Fra i suoi lavori, la ristrutturazione della Centrale Operativa di Telecontrol, importante istituto di vigilanza e la ristrutturazione di una casa privata a Rivoli (To). Si occupa di architettura residenziale, uffici e spazi commerciali, dal progetto preliminare fino alla fase esecutiva e direzione lavori.
               </p>
             </div>
@@ -176,10 +176,10 @@
                 </div>
               </div>
               <div class="mt-6">
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+                <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">
                   Giorgio Fava
                 </h2>
-                <p class="mt-4 text-lg text-black">
+                <p class="mt-4 text-base text-black lg:text-lg">
                   Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.
                 </p>
               </div>
