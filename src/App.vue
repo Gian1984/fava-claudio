@@ -24,11 +24,11 @@
         leave-active-class="ease-out transition-medium"
         leave-to-class="opacity-0"
     >
-      <div @keydown.esc="isOpen = false" v-show="isOpen" class="z-10 fixed inset-0 transition-opacity">
+      <div @keydown.esc="isOpen = false" v-show="isOpen" class="z-10 fixed inset-0  transition-opacity">
         <div @click="isOpen = false" class="absolute inset-0 bg-black opacity-50" tabindex="0"></div>
       </div>
     </transition>
-    <aside class="transform top-0 left-0 w-64 bg-cyan-700 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30" :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
+    <aside class="transform top-0 right-0 w-64 bg-cyan-700 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30" :class="isOpen ? '-translate-x-100' : 'translate-x-full'">
       <span @click="isOpen = false" class="flex w-full items-center p-2 border-b">
         <img src="img/cropped-logo-small.png" alt="Logo" class="block h-12 w-auto mx-auto" />
       </span>
@@ -36,38 +36,38 @@
 
 
 
-          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltohome()">
+          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltohome()">
             <HomeIcon class="h-6 w-6" aria-hidden="true" />
             <span class="ml-2">Home</span>
           </button>
 
-          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocosafacciamo()">
+          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocosafacciamo()">
             <ColorSwatchIcon class="h-6 w-6" aria-hidden="true" />
             <span class="ml-2">Cosa Facciamo</span>
           </button>
 
-          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocomeprogettiamo()">
+          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocomeprogettiamo()">
             <PresentationChartBarIcon class="h-6 w-6" aria-hidden="true" />
             <span class="ml-2">Come Progettiamo</span>
           </button>
 
 
-          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocomelavoriamo()">
+          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocomelavoriamo()">
             <TemplateIcon class="h-6 w-6" aria-hidden="true" />
             <span class="ml-2">Come Lavoriamo</span>
           </button>
 
-          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltoprofilo()">
+          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltoprofilo()">
             <UsersIcon class="h-6 w-6" aria-hidden="true" />
-            <span class="ml-2">Profilo</span>
+            <span class="ml-2">Chi siamo</span>
           </button>
 
-          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltoprogetti()">
+          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltoprogetti()">
             <FolderOpenIcon class="h-6 w-6" aria-hidden="true" />
             <span class="ml-2">Progetti</span>
           </button>
 
-          <button @click="isOpen = false" class="bg-cyan-800 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocontatti()">
+          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocontatti()">
             <ChatAltIcon class="h-6 w-6" aria-hidden="true" />
             <span class="ml-2">Contatti</span>
           </button>
@@ -83,50 +83,40 @@
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-        <div class="space-y-8 xl:col-span-1">
+        <div class="space-y-8 xl:col-span-1 mb-10">
           <img class="h-10" src="img/cropped-logo-small.png" alt="Company name" />
-          <p class="text-gray-500 text-base">
-            Making the world a better place through constructing elegant hierarchies.
-          </p>
         </div>
-        <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
-          <div class="md:grid md:grid-cols-2 md:gap-8">
+        <div class="grid grid-cols-1 gap-y-10 gap-x-8 gap-8 lg:grid-cols-3">
+          <div class="sm:flex lg:block">
             <div>
               <LocationMarkerIcon class="h-6 w-6 mb-3" aria-hidden="true" />
               <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
                 Sede
               </h3>
               <p  class="mt-4 space-y-4">
-                  Via Frejus 21, Torino
+                Via Frejus 21, Torino
               </p>
             </div>
-            <div class="mt-12 md:mt-0">
+          </div>
+          <div class="sm:flex lg:block">
+            <div class="md:mt-0">
+              <ChatAltIcon class="h-6 w-6 mb-3" aria-hidden="true" />
+              <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                Mail
+              </h3>
+              <p class="mt-4 space-y-4">
+                info@favaclaudio.com
+              </p>
+            </div>
+          </div>
+          <div class="sm:flex lg:block">
+            <div class="md:mt-0">
               <PhoneIncomingIcon class="h-6 w-6 mb-3" aria-hidden="true" />
               <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
                 Telefono
               </h3>
               <p class="mt-4 space-y-4">
                 +39 328 864 8607
-              </p>
-            </div>
-          </div>
-          <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <BriefcaseIcon class="h-6 w-6 mb-3" aria-hidden="true" />
-              <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Company
-              </h3>
-              <p class="mt-4 space-y-4">
-                  Claudio Fava Arch
-              </p>
-            </div>
-            <div class="mt-12 md:mt-0">
-              <ChatAltIcon class="h-6 w-6 mb-3" aria-hidden="true" />
-              <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Mail
-              </h3>
-              <p class="mt-4 space-y-4">
-                  info@favaclaudio.com
               </p>
             </div>
           </div>
@@ -141,12 +131,6 @@
       </div>
 
     </div>
-
-    <a href="https://www.gianlucatiengo.com/">
-      <p class="text-center text-base text-gray-400 hover:text-black underline">
-        &copy; 2021  Gianluca Tiengo. All rights reserved.
-      </p>
-    </a>
 
     <a class="top-link hide" href="" id="feed" v-on:click="scrolltotop()">
       <ArrowUpIcon class="h-6 w-6"  id="top"/>

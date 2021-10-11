@@ -113,10 +113,10 @@
   <!-- Team Section -->
 
 
-  <div class="relative bg-white pt-16 overflow-hidden" id="profilo" style="background-image: url('img/18410.jpg');">
-    <div class="relative border-b border-gray-200 lg:pb-16 pb-7">
+  <div class="relative bg-white pt-16 overflow-hidden" id="profilo">
+    <div class="relative lg:pb-16 pb-7">
       <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2" >
-        <img class="w-full h-full object-cover lg:hidden" src="img/claudio-fava-png.png" alt="Support team" />
+        <img class="w-full h-full object-cover lg:hidden" src="img/2013-07-16-B-N-low.jpg" alt="Support team" />
       </div>
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:rounded-lg md:rounded-lg rounded-none">
@@ -135,29 +135,10 @@
               </p>
             </div>
           </div>
-          <div class="mt-8 border-t border-gray-200 pt-6">
-            <blockquote>
-              <div class="p-4">
-                <p class="text-base text-black">
-                  " Un architetto é buono se le volte che ha detto no sono di più quelle che ha detto si. "
-                </p>
-              </div>
-              <footer class="mt-3 p-4">
-                <div class="flex items-center space-x-3">
-                  <div class="flex-shrink-0">
-                    <img class="h-6 w-6 rounded-full" src="img/fuksas.png" alt="Massimiliano Fuksas" />
-                  </div>
-                  <div class="text-base font-medium text-gray-900">
-                    Massimiliano Fuksas, Architetto
-                  </div>
-                </div>
-              </footer>
-            </blockquote>
-          </div>
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0">
           <div class="md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full bg-none">
-            <img class="hidden lg:block lg:full lg:h-full h-4/6 mx-auto object-cover" src="img/claudio-fava-png.png" alt="claudio-fava" />
+            <img class="hidden lg:block lg:full lg:h-full h-4/6 mx-auto object-cover" src="img/2013-07-16-B-N_low-2.jpg" alt="claudio-fava" />
           </div>
         </div>
       </div>
@@ -165,9 +146,9 @@
 
     <div>
       <div class="relative">
-        <div class="relative bg-white " style="background-image: url('img/18410.jpg');">
-          <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2">
-            <img class="w-full h-full object-cover" src="img/giorgio-fava.png" alt="Support team" />
+        <div class="relative bg-white">
+          <div class="lg:absolute lg:ml-36 lg:h-full lg:w-1/2">
+            <img class=" h-full object-cover lg:h-full" src="img/IMG-20170906-WA0003_cut2-1.jpeg" alt="Support team" />
           </div>
           <div class="relative max-w-7xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16">
             <div class="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
@@ -186,25 +167,6 @@
                   Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.
                 </p>
               </div>
-              <div class="mt-8 overflow-hidden border-t border-gray-200 pt-6 pb-5 p-4">
-                <blockquote>
-                  <div>
-                    <p class="text-base text-black">
-                      "  Studiare Architettura era un piacere. Anche se l’aspetto più decisivo per me è stata l’opportunità di viaggiare. […] erano viaggio informali, organizzati nel modo più improbabile, con pochissimi soldi a disposizione: zaino, sacco a pelo e panini. Questo è forse l’aspetto più significativo della mia formazione come architetto.  "
-                    </p>
-                  </div>
-                  <footer class="mt-3">
-                    <div class="flex items-center space-x-3">
-                      <div class="flex-shrink-0">
-                        <img class="h-6 w-6 rounded-full" src="img/lecorbusier.png" alt="" />
-                      </div>
-                      <div class="text-base font-medium text-gray-700">
-                        Le Corbusier, Architetto - Pittore
-                      </div>
-                    </div>
-                  </footer>
-                </blockquote>
-              </div>
             </div>
           </div>
         </div>
@@ -216,10 +178,10 @@
 
   <!--  Carousel section-->
 
-  <div class="bg-white" style="background-image: url('img/18410.jpg');">
+  <div class="bg-white">
     <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
       <div class="space-y-4 sm:space-y-12">
-        <h2 class="text-3xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl" id="gallery">Gallery</h2>
+        <h2 class="text-3xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl" id="gallery">GALLERY</h2>
       </div>
     </div>
   </div>
@@ -237,11 +199,11 @@
 
   <!-- Projects Section -->
 
-  <div class="bg-white pb-5" id="progetti" style="background-image: url('img/18410.jpg');">
+  <div class="bg-white pb-5" id="progetti">
     <div class="max-w-full mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
 
       <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
-        <h2 class="text-3xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl">Progetti</h2>
+        <h2 class="text-3xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl">PROGETTI</h2>
       </div>
 
       <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">

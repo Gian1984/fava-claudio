@@ -9,7 +9,7 @@
 
           <button v-on:click="toggleModal()">
           <div class="w-100 grid grid-cols-1 lg:grid-cols-1 lg:gap-8 mt-3">
-            <img v-for="image in product.images" :key="image.id" :src="image.imageSrc" :alt="image.imageAlt" :class="[image.primary ? 'lg:col-span-2 lg:row-span-2' : 'hidden lg:block', 'w-full rounded-lg mt-3 hover:opacity-75']" />
+            <img v-for="image in product.images" :key="image.id" :src="image.imageSrc" :alt="image.imageAlt" :class="[image.primary ? 'lg:col-span-2 lg:row-span-2' : 'hidden lg:block', 'w-full mt-3 hover:opacity-75']" />
           </div>
           </button>
 
