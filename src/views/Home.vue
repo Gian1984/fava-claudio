@@ -221,12 +221,12 @@
             <img :src="product.imageSrc" :alt="product.imageAlt" class="w-full h-full object-center object-cover" />
           </div>
           </a>
-          <h3 class="text-base font-semibold text-gray-900">
-            <a :href="product.href" class=" mb-2 inline-flex items-center uppercase text-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-500">
+          <h5 class="text-xs font-semibold text-gray-900">
+            <a :href="product.href" class=" mb-2 inline-flex items-center uppercase text-black rounded-full p-1 pr-2 sm:text-xs lg:text-sm xl:text-base hover:text-gray-500">
               <span class="absolute inset-0" />
               {{ product.name }}
             </a>
-          </h3>
+          </h5>
         </div>
       </div>
     </div>
