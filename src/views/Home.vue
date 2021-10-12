@@ -189,7 +189,7 @@
   <div class="bg-white">
     <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
       <div class="space-y-4 sm:space-y-12">
-        <h2 class="text-3xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl" id="gallery">GALLERY</h2>
+        <h2 class="text-2xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl" id="gallery">GALLERY</h2>
       </div>
     </div>
   </div>
@@ -211,7 +211,7 @@
     <div class="max-w-full mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
 
       <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
-        <h2 class="text-3xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl">PROGETTI</h2>
+        <h2 class="text-2xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl">PROGETTI</h2>
       </div>
 
       <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
