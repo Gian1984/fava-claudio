@@ -69,7 +69,11 @@
             LA CURA DEL DETTAGLIO
           </p>
           <p class="mt-2 max-w-lg text-right text-base text-grey-500 sm:max-w-3xl">
-            Disegniamo arredi personalizzati studiando ogni particolare.
+            Disegniamo arredi personalizzati studiando ogni particolare.<br>
+            <button class="mt-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-2 px-4 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
+              <span class="px-3 py-0.5">Vai al progetto</span>
+              <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+            </button>
           </p>
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
@@ -97,7 +101,11 @@
             IL PROGETTO DEGLI SPAZI
           </p>
           <p class="mt-2 max-w-lg text-base text-grey-500 sm:max-w-3xl">
-            Progettiamo coniugando estetica ed esigenze del cliente.
+            Progettiamo coniugando estetica ed esigenze del cliente.<br>
+            <button class="mt-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-2 px-4 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
+              <span class="px-3 py-0.5">Vai al progetto</span>
+              <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+            </button>
           </p>
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
@@ -226,8 +234,8 @@
 </template>
 
 <script>
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+
+import { ChevronRightIcon } from '@heroicons/vue/solid'
 
 const products = [
   {
@@ -291,7 +299,7 @@ const products = [
 export default {
 
   components: {
-
+    ChevronRightIcon
   },
 
   setup() {
@@ -299,13 +307,6 @@ export default {
       products,
     }
   },
-
-  created () {
-    AOS.init({
-      duration: 1200,
-      disable: 'mobile'
-    });
-  }
 }
 
 </script>

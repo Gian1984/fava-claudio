@@ -81,55 +81,50 @@
 
   <footer class="bg-white" aria-labelledby="footer-heading" id="contatti">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-      <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-        <div class="space-y-8 xl:col-span-1 mb-10">
-          <img class="h-10" src="img/cropped-logo-small.png" alt="Company name" />
-        </div>
-        <div class="grid grid-cols-1 gap-y-10 gap-x-8 gap-8 lg:grid-cols-3">
-          <div class="sm:flex lg:block">
-            <div>
-              <LocationMarkerIcon class="h-6 w-6 mb-3" aria-hidden="true" />
-              <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Sede
-              </h3>
-              <p  class="mt-4 space-y-4">
-                Via Frejus 21, Torino
+    <div class="mx-auto py-5 px-4 sm:px-6 lg:py-10 lg:px-8">
+        <div class="grid grid-cols-3 gap-y-10 gap-x-8 gap-8 lg:grid-cols-3 lg:gap-x-24 lg:gap-24">
+          <div class="sm:flex lg:block mx-auto">
+            <a href="https://goo.gl/maps/7KQYok6GATRFPZS68" class="hover:text-gray-300">
+              <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
+                <LocationMarkerIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
+              </span>
+              <p  class="mt-4 space-y-4 hidden md:block lg:block text-xs">
+                Corso Turati 19/b, Torino
               </p>
-            </div>
+            </a>
           </div>
-          <div class="sm:flex lg:block">
-            <div class="md:mt-0">
-              <ChatAltIcon class="h-6 w-6 mb-3" aria-hidden="true" />
-              <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Mail
-              </h3>
-              <p class="mt-4 space-y-4">
-                info@favaclaudio.com
-              </p>
-            </div>
+          <div class="sm:flex lg:block mx-auto">
+            <a href="mailto:info@favaclaudio.com?subject=Mail from ClaudioFava.com" class="hover:text-gray-300">
+              <div class="md:mt-0">
+                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
+                  <ChatAltIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
+                </span>
+                <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
+                  info@favaclaudio.com
+                </p>
+              </div>
+            </a>
           </div>
-          <div class="sm:flex lg:block">
-            <div class="md:mt-0">
-              <PhoneIncomingIcon class="h-6 w-6 mb-3" aria-hidden="true" />
-              <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Telefono
-              </h3>
-              <p class="mt-4 space-y-4">
-                +39 328 864 8607
-              </p>
-            </div>
+          <div class="sm:flex lg:block mx-auto">
+            <a href="'tel:0039328648607'" class="hover:text-gray-300">
+              <div class="md:mt-0 mx-auto">
+                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
+                  <PhoneIncomingIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
+                </span>
+                <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
+                  +39 328 864 8607
+                </p>
+              </div>
+            </a>
           </div>
         </div>
-      </div>
 
-      <div class="flex justify-center space-x-6 mt-5">
-        <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
-          <span class="sr-only">{{ item.name }}</span>
-          <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
-        </a>
-      </div>
-
+        <div class="flex justify-center space-x-6 mt-5">
+          <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">{{ item.name }}</span>
+            <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+          </a>
+        </div>
     </div>
 
     <a class="top-link hide" href="" id="feed" v-on:click="scrolltotop()">
