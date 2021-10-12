@@ -222,7 +222,7 @@
           </div>
           </a>
           <h3 class="text-base font-semibold text-gray-900">
-            <a :href="product.href" class=" mb-2 inline-flex items-center text-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-500">
+            <a :href="product.href" class=" mb-2 inline-flex items-center uppercase text-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-500">
               <span class="absolute inset-0" />
               {{ product.name }}
             </a>
