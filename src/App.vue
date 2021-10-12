@@ -106,7 +106,7 @@
             </a>
           </div>
           <div class="sm:flex lg:block mx-auto">
-            <a href="'tel:0039328648607'" class="hover:text-gray-300">
+            <a href="tel:0039328648607" class="hover:text-gray-300">
               <div class="md:mt-0 mx-auto">
                 <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
                   <PhoneIncomingIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
