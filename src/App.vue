@@ -127,9 +127,18 @@
         </div>
     </div>
 
-    <a class="top-link hide" href="" id="feed" v-on:click="scrolltotop()">
-      <ArrowUpIcon class="h-6 w-6"  id="top"/>
-    </a>
+
+    <div class="mx-auto max-w-md px-4 overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+      <a href="https://www.gianlucatiengo.com/">
+        <p class="text-center text-base text-gray-400 hover:text-white underline">
+          &copy; 2021 WebMaster Gianluca Tiengo. Design by Claudio Fava. All rights reserved.
+        </p>
+      </a>
+      <a class="top-link hide" href="" id="feed" v-on:click="scrolltotop()">
+        <ArrowUpIcon class="h-6 w-6"  id="top"/>
+      </a>
+    </div>
+
 
   </footer>
 
