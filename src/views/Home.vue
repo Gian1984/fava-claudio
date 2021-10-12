@@ -120,8 +120,16 @@
 
   <!-- Team Section -->
 
+  <div class="bg-white">
+    <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
+      <div class="space-y-4 sm:space-y-12">
+        <h2 class="text-2xl font-extrabold tracking-tight text-black md:text-3xl lg:text-5xl" id="profilo">CHI SIAMO</h2>
+      </div>
+    </div>
+  </div>
 
-  <div class="relative bg-white pt-16 overflow-hidden" id="profilo">
+
+  <div class="relative bg-white overflow-hidden">
     <div class="relative lg:pb-16 pb-7">
       <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2" >
         <img class="w-full h-full object-cover lg:hidden" src="img/2013-07-16-B-N-low.jpg" alt="Support team" />

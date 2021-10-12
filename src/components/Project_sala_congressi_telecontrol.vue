@@ -2,6 +2,11 @@
   <div class="bg-white">
 
     <main class="pt-20 max-w-full mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-full lg:pt-24 lg:px-8">
+
+      <h1 class="text-xl font-medium text-gray-900">
+        NUOVA SALA CONGRESSI TELECONTROL
+      </h1>
+
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
 
         <!-- Image gallery -->
@@ -102,16 +107,9 @@
         <div class="mt-8 lg:col-span-3">
           <!-- Product details -->
           <div class="mt-10">
-
-            <h1 class="text-xl font-medium text-gray-900">
-              {{ product.name }}
-            </h1>
-
             <h2 class="text-lg font-medium text-gray-900 mt-10">Descrizione</h2>
-
             <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description" />
           </div>
-
 
           <div class="mt-8 border-t border-gray-200 pt-8">
             <div class="mt-4 prose prose-sm text-gray-500">
@@ -133,7 +131,7 @@
 <script>
 
 const product = {
-  name: 'NUOVA SALA CONGRESSI TELECONTROL\n',
+  name: 'NUOVA SALA CONGRESSI TELECONTROL',
   href: '#',
   images: [
     {
