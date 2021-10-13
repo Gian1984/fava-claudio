@@ -131,8 +131,8 @@
 
   <div class="relative bg-white overflow-hidden">
     <div class="relative lg:pb-16 pb-7">
-      <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2" >
-        <img class="w-full h-full object-cover lg:hidden" src="img/2013-07-16-B-N-low.jpg" alt="Support team" />
+      <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2 pb-10" >
+        <img class="w-full h-full object-cover lg:hidden material-2" src="img/2013-07-16-B-N-low.jpg" alt="Support team" />
       </div>
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:rounded-lg md:rounded-lg rounded-none">
@@ -154,7 +154,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0">
           <div class="md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full bg-none">
-            <img class="hidden lg:block lg:full lg:h-full h-4/6 mx-auto object-cover" src="img/2013-07-16-B-N_low-2.jpg" alt="claudio-fava" />
+            <img class="hidden lg:block lg:full lg:h-full h-4/6 mx-auto object-cover material-2" src="img/2013-07-16-B-N_low-2.jpg" alt="claudio-fava" />
           </div>
         </div>
       </div>
@@ -163,8 +163,8 @@
     <div>
       <div class="relative">
         <div class="relative bg-white">
-          <div class="lg:absolute lg:ml-36 lg:h-full lg:w-1/2">
-            <img class=" h-full object-cover lg:h-full" src="img/IMG-20170906-WA0003_cut2-1.jpeg" alt="Support team" />
+          <div class="lg:absolute lg:ml-24 lg:h-full lg:w-1/2 pb-10">
+            <img class=" h-full object-cover lg:h-full material-2 mx-auto" src="img/IMG-20170906-WA0003_cut2-1.jpeg" alt="Support team" />
           </div>
           <div class="relative max-w-7xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16">
             <div class="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
@@ -294,14 +294,6 @@ const products = [
     imageSrc: 'img/vista-03_crop.jpg',
     imageAlt: "Model wearing women's black cotton crewneck tee.",
   },
-  {
-    id: 1,
-    name: 'Tavolo Operativo',
-    price: '$32',
-    href: '/Project_tavolo_operativo',
-    imageSrc: 'img/Tavolo-di-lavoro.jpg',
-    imageAlt: "Model wearing women's black cotton crewneck tee.",
-  },
 ]
 
 export default {
@@ -318,4 +310,14 @@ export default {
 }
 
 </script>
+
+<style>
+
+/*photo shadow effect*/
+
+.material-2 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px !important;
+}
+
+</style>
 

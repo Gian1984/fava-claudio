@@ -3,9 +3,29 @@
 
     <main class="pt-20 max-w-full mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-full lg:pt-24 lg:px-8">
 
-      <h1 class="text-xl font-medium text-gray-900">
-        NUOVA SALA CONGRESSI TELECONTROL
-      </h1>
+      <div class="flex mx-auto">
+        <div class="flex-none w-16 h-16 ...">
+          <button class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50" @click="this.$router.push({ name: 'Project_camera_bimbi' })">
+            <span class="sr-only">Previous</span>
+            <ChevronLeftIcon class="h-5 w-5" aria-hidden="true" />
+          </button>
+        </div>
+
+        <div class="flex-grow h-16 ...">
+          <h1 class="text-xl font-medium text-gray-900 text-center">
+            NUOVA SALA CONGRESSI TELECONTROL
+          </h1>
+        </div>
+
+        <div class="flex-none w-16 h-16 text-right">
+          <button class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50" @click="this.$router.push({ name: 'Project_casa_nel_parco' })">
+            <span class="sr-only">Next</span>
+            <ChevronRightIcon class="h-5 w-5" aria-hidden="true" />
+          </button>
+        </div>
+      </div>
+
+
 
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
 
@@ -130,6 +150,8 @@
 
 <script>
 
+import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/vue/solid'
+
 const product = {
   name: 'NUOVA SALA CONGRESSI TELECONTROL',
   href: '#',
@@ -231,6 +253,11 @@ const relatedProducts = [
 export default {
 
   name: "large-modal",
+
+  components:{
+    ChevronRightIcon,
+    ChevronLeftIcon
+  },
 
   data() {
     return {

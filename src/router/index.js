@@ -1,13 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import Projects from '../views/Projects.vue'
 import Project_camera_bimbi from '../components/Project_camera_bimbi.vue'
 import Project_casa_nel_parco from '../components/Project_casa_nel_parco.vue'
 import Project_casa_R from '../components/Project_casa_nel_parco.vue'
 import Project_casa_rivoli from '../components/Project_casa_rivoli.vue'
 import Project_centrale_operativa_telecontrol from '../components/Project_centrale_operativa_telecontrol.vue'
 import Project_sala_congressi_telecontrol from '../components/Project_sala_congressi_telecontrol.vue'
-import Project_tavolo_operativo from '../components/Project_tavolo_operativo.vue'
 
 
 const routes = [
@@ -28,11 +26,6 @@ const routes = [
         }
       ]
     }
-  },
-  {
-    path: '/Projects',
-    name: 'Projects',
-    component: Projects
   },
   {
     path: '/about',
@@ -71,11 +64,6 @@ const routes = [
     path: '/Project_sala_congressi_telecontrol',
     name: 'Project_sala_congressi_telecontrol',
     component: Project_sala_congressi_telecontrol
-  },
-  {
-    path: '/Project_tavolo_operativo',
-    name: 'Project_tavolo_operativo',
-    component: Project_tavolo_operativo
   },
 ]
 
