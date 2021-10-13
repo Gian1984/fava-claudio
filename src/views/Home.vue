@@ -149,7 +149,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0">
           <div class="md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full bg-none">
-            <img class="hidden lg:block lg:full lg:h-full h-4/6 mx-auto object-cover" src="img/2013-07-16-B-N_low-2.jpg" alt="claudio-fava" />
+            <img class="hidden lg:block lg:full lg:h-full h-4/6 mx-auto object-cover" src="img/2013-07-16-B-N_low-2.jpg" alt="Claudio Fava Foto" />
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@
       <div class="relative">
         <div class="relative bg-white">
           <div class="lg:absolute lg:ml-28 lg:h-full lg:w-1/2 pb-10">
-            <img class="h-full lg:w-3/5 lg:h-2/3 object-cover lg:h-full mx-auto" src="img/IMG-20170906-WA0003_cut2-1.jpeg" alt="Support team" />
+            <img class="h-full lg:w-3/5 lg:h-2/3 object-cover lg:h-full mx-auto" src="img/IMG-20170906-WA0003_cut2-1.jpeg" alt="Giorgio Fava foto" />
           </div>
           <div class="relative max-w-7xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-28">
             <div class="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
