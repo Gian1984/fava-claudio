@@ -1,32 +1,122 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-white mb-6">
 
-    <main class="pt-20 max-w-2xl mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-7xl lg:pt-24 lg:px-8">
+    <main class="pt-20 max-w-full mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-full lg:pt-24 lg:px-8">
+
+
+
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
-        <div class="lg:col-start-8 lg:col-span-5">
-          <div class="flex justify-between">
-            <h1 class="text-xl font-medium text-gray-900">
-              {{ product.name }}
-            </h1>
-          </div>
 
-        </div>
+        <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
+          NUOVA SALA CONGRESSI TELECONTROL
+        </h1>
 
         <!-- Image gallery -->
-        <div class="mt-8 lg:mt-0 lg:col-start-1 lg:col-span-7 lg:row-start-1 lg:row-span-3">
-          <h2 class="sr-only">Images</h2>
+        <div class=" lg:mt-0 lg:col-start-1 lg:col-span-8 lg:mr-32 lg:row-start-1 lg:row-span-3">
 
-          <div class="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 lg:gap-8">
-            <img v-for="image in product.images" :key="image.id" :src="image.imageSrc" :alt="image.imageAlt" :class="[image.primary ? 'lg:col-span-2 lg:row-span-2' : 'hidden lg:block', 'rounded-lg']" />
+          <button v-on:click="toggleModal()">
+            <div class="w-100 grid grid-cols-1 lg:grid-cols-1 lg:gap-8 mt-3">
+              <div v-for="image in product.images" :key="image.id">
+                <img :src="image.imageSrc" :alt="image.imageAlt" :class="[image.primary ? 'lg:col-span-2 lg:row-span-2' : 'hidden lg:block', 'w-full mt-3 hover:opacity-75']" />
+              </div>
+            </div>
+          </button>
+
+          <!-- modal gallery-->
+
+          <div v-if="showModal" class="bg-white bg-opacity-75 overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
+            <div class="relative w-auto my-6 mx-auto lg:max-w-6xl py-60">
+              <!--content-->
+              <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none bg-gray-200">
+                <!--header-->
+                <div class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                  <h3 class="text-3xl font-semibold">
+                    Dettaglio foto
+                  </h3>
+                </div>
+                <!--body-->
+                <div class="relative p-6 flex-auto">
+                  <div class="carousel relative rounded relative overflow-hidden shadow-xl">
+                    <div class="carousel-inner relative overflow-hidden w-full">
+                      <!--Slide 1-->
+
+                      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                             checked="checked">
+                      <div class="carousel-item absolute opacity-0 bg-center w-100 h-52 md:h-full lg:h-full">
+                        <img src="img/vista-02.jpg">
+                      </div>
+                      <label for="carousel-3"
+                             class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-2"
+                             class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 2-->
+                      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 bg-center h-52 md:h-full lg:h-full">
+                        <img src="img/vista-03.jpg">
+                      </div>
+                      <label for="carousel-1"
+                             class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-3"
+                             class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 3-->
+                      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
+                        <img src="img/vista-04-assometria.jpg">
+                      </div>
+                      <label for="carousel-2"
+                             class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-1"
+                             class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!-- Add additional indicators for each slide-->
+                      <ol class="carousel-indicators">
+                        <li class="inline-block mr-3">
+                          <label for="carousel-1"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-2"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-3"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                      </ol>
+
+                    </div>
+                  </div>
+                </div>
+                <!--footer-->
+                <div class="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+                  <button class="text-red-500 bg-transparent border border-solid border-black-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" v-on:click="toggleModal()">
+                    Close
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
           </div>
         </div>
 
-        <div class="mt-8 lg:col-span-5">
-
+        <div class="mt-8 lg:col-span-3">
           <!-- Product details -->
-          <div class="mt-10">
-            <h2 class="text-lg font-medium text-gray-900">Descrizione</h2>
 
+          <h1 class="text-xl font-medium text-gray-900 text-center hidden lg:block">
+            NUOVA SALA CONGRESSI TELECONTROL
+          </h1>
+
+          <div class="mt-10">
+            <h2 class="text-lg font-medium text-gray-900 mt-10">Descrizione</h2>
             <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description" />
           </div>
 
@@ -40,27 +130,8 @@
               </p>
             </div>
           </div>
-
         </div>
       </div>
-
-      <!-- Related products -->
-      <section aria-labelledby="related-heading" class="mt-12 sm:mt-12">
-        <h2 id="related-heading" class="text-lg font-medium text-gray-900">Related Photos</h2>
-
-        <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-          <div v-for="relatedProduct in relatedProducts" :key="relatedProduct.id" class="group relative">
-            <div class="w-full min-h-80 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
-              <h3 class="text-sm text-gray-700">
-                <span aria-hidden="true" class="absolute inset-0" />
-                {{ relatedProduct.name }}
-              </h3>
-              <img :src="relatedProduct.imageSrc" :alt="relatedProduct.imageAlt" class="w-full h-full object-center object-cover lg:w-full lg:h-full" />
-            </div>
-          </div>
-        </div>
-      </section>
-
     </main>
 
   </div>
@@ -68,34 +139,65 @@
 
 <script>
 
+
 const product = {
-  name: 'NUOVA SALA CONGRESSI TELECONTROL\n',
+  name: 'NUOVA SALA CONGRESSI TELECONTROL',
   href: '#',
   images: [
     {
       id: 1,
       imageSrc: 'img/vista-01.jpg',
-      imageAlt: "Back of women's Basic Tee in black.",
+      imageAlt: "NUOVA SALA CONGRESSI TELECONTROL",
+      description:"SALA CONGRESSI VISTA 1",
+      primary: true,
+    },
+    {
+      id: 2,
+      name: 'Sala Congressi',
+      imageSrc: 'img/vista-02.jpg',
+      imageAlt: "Sala Congressi.",
+      description:"SALA CONGRESSI VISTA 2",
+      primary: true,
+    },
+
+    {
+      id: 2,
+      name: 'Ingresso',
+      imageSrc: 'img/vista-03.jpg',
+      imageAlt: "Ingresso.",
+      description:"SALA CONGRESSI INGRESSO",
+      primary: true,
+    },
+    {
+      id: 4,
+      name: 'Esploso',
+      imageSrc: 'img/vista-04-assometria.jpg',
+      imageAlt: "Esploso.",
+      description:"SALA CONGRESSI ESPLOSO",
+      primary: true,
+    },
+    {
+      id: 5,
+      name: 'Planimetria',
+      imageSrc: 'img/pianta-piano-terreno.jpg',
+      imageAlt: "Planimetria.",
+      description:"SALA CONGRESSI PLANIMETRIA",
+      primary: true,
+    },
+    {
+      id: 6,
+      name: 'Stato di fatto',
+      imageSrc: 'img/20170415_173308-BN-1.jpg',
+      imageAlt: "Stato di fatto.",
+      description:"STATO DI FATTO",
       primary: true,
     },
   ],
-  colors: [
-    { name: 'Black', bgColor: 'bg-gray-900', selectedColor: 'ring-gray-900' },
-    { name: 'Heather Grey', bgColor: 'bg-gray-400', selectedColor: 'ring-gray-400' },
-  ],
-  sizes: [
-    { name: 'XXS', inStock: true },
-    { name: 'XS', inStock: true },
-    { name: 'S', inStock: true },
-    { name: 'M', inStock: true },
-    { name: 'L', inStock: true },
-    { name: 'XL', inStock: false },
-  ],
+
   description: `
-    <p>Dalla ristrutturazione di un fienile di un piccolo paese in Provicia di Torino, nasce questo progetto dal carattere sospeso tra tradizione e contemporaneità. Un edificio tipicamente agricolo, collocato all’interno di un parco, viene trasformato in una residenza senza stravolgerne la natura.
-La volumetria principale, il tetto a falde, le travi in legno e i pilastri in mattoni sono tutti elementi che vengono mantenuti in quanto caratterizzanti il manufatto storico.
-Il contatto diretto con il parco viene accentuato attraverso l’apertura di nuove finestrature che garantiscono una maggiore illuminazione degli ambienti interni e una migliore fruizione del verde circostante.
-All’interno dell’edificio uno spazio a doppia altezza amplifica la percezione dello spazio e mette in comunicazione la zona giorno al piano terra con la camera da letto posizionata al piano primo.</p>`,
+    <p>L’intervento prevede la rifunzionalizzazione del locale autorimessa dell’azienda Telecontrol Spa a Rivoli (To) con l’obbiettivo di trasformarlo in una nuova Sala Congressi per complessivi 400 mq compresi di un soppalco.
+Il progetto prevede di creare uno spazio polifunzionale per soddisfare le esigenze del cliente che richiedeva la massima flessibilità nelle possibili funzioni di tale spazio. Le principali destinazioni d’uso dello spazio sono state così individuate: area lounge, area break, area supporto per allestimenti catering, spazio per riunioni e convention, sala per feste e presentazioni, locale deposito /guardaroba.
+Scatolari metallici sospesi sostengono i corpi illuminanti e si ancorano ai pilastri esistenti creando una rete che delimita idealmente le varie aree. Pareti in legno a soffietto possono essere tenute aperte o chiuse a fisarmonica per suddividere gli spazi a seconda dell’attività che si sta svolgendo.</p>`,
 
   info:[
     {name: 'Luogo', info:'Rivoli (TO)'},
@@ -106,43 +208,36 @@ All’interno dell’edificio uno spazio a doppia altezza amplifica la percezion
 
 }
 
-
 const relatedProducts = [
   {
     id: 1,
-    name: 'Basic Tee',
-    href: '#',
+    name: 'Sala Congressi',
     imageSrc: 'img/vista-02.jpg',
-    imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
+    imageAlt: "Sala Congressi.",
   },
   {
     id: 2,
-    name: 'Basic Tee',
-    href: '#',
+    name: 'Ingresso',
     imageSrc: 'img/vista-03.jpg',
-    imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
+    imageAlt: "Ingresso.",
   },
   {
     id: 3,
-    name: 'Basic Tee',
-    href: '#',
+    name: 'Esploso',
     imageSrc: 'img/vista-04-assometria.jpg',
-    imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
+    imageAlt: "Esploso.",
   },
   {
     id: 4,
-    name: 'Basic Tee',
-    href: '#',
+    name: 'Planimetria',
     imageSrc: 'img/pianta-piano-terreno.jpg',
-    imageAlt: "Front of men's Basic Tee in white.",
-    price: '$35',
-    color: 'Aspen White',
+    imageAlt: "Planimetria.",
+  },
+  {
+    id: 5,
+    name: 'Stato di fatto',
+    imageSrc: 'img/20170415_173308-BN-1.jpg',
+    imageAlt: "Stato di fatto.",
   },
   // More products...
 ]
@@ -150,6 +245,22 @@ const relatedProducts = [
 
 
 export default {
+
+  name: "large-modal",
+
+
+  data() {
+    return {
+      showModal: false
+    }
+  },
+
+  methods:{
+    toggleModal: function(){
+      this.showModal = !this.showModal;
+    }
+  },
+
 
   setup() {
     return {
@@ -159,3 +270,39 @@ export default {
   },
 }
 </script>
+
+<style>
+.carousel-open:checked+.carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.carousel-item {
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+#carousel-1:checked~.control-1,
+#carousel-2:checked~.control-2,
+#carousel-3:checked~.control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+#carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #2b6cb0;
+}
+</style>
