@@ -22,25 +22,25 @@
 
 
           <div v-else class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
-            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
               Home
             </button>
-            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocosafacciamo()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocosafacciamo()">
               Cosa Facciamo
             </button>
-            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomeprogettiamo()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomeprogettiamo()">
               Come Progettiamo
             </button>
-            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomelavoriamo()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomelavoriamo()">
               Come Lavoriamo
             </button>
-            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprofilo()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprofilo()">
               Chi Siamo
             </button>
-            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprogetti()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprogetti()">
               Progetti
             </button>
-            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocontatti()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocontatti()">
               Contatti
             </button>
           </div>
@@ -105,9 +105,10 @@
     <div class="mx-auto py-5 px-4 sm:px-6 lg:py-10 lg:px-8">
         <div class="grid grid-cols-4 gap-y-10 lg:grid-cols-4">
           <div class="sm:flex lg:block mx-auto">
-            <button class="hover:text-gray-300">
+
+            <button v-if="this.$route.path != '/'" class="hover:text-gray-300"  @click="this.$router.push({ name: 'Home' })">
               <div class="md:mt-0">
-                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto" @click="this.$router.push({ name: 'Home' })">
+                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
                   <img src="img/cropped-logo-small.png" class="h-6 w-6 mx-auto" aria-hidden="true" />
                 </span>
                 <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
@@ -115,6 +116,18 @@
                 </p>
               </div>
             </button>
+
+            <button v-else class="hover:text-gray-300"  v-on:click="scrolltohome()">
+              <div class="md:mt-0">
+                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
+                  <img src="img/cropped-logo-small.png" class="h-6 w-6 mx-auto" aria-hidden="true" />
+                </span>
+                <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
+                  Claudio Fava Architetto
+                </p>
+              </div>
+            </button>
+
           </div>
           <div class="sm:flex lg:block mx-auto">
             <a href="https://goo.gl/maps/7KQYok6GATRFPZS68" class="hover:text-gray-300">
