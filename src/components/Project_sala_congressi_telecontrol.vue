@@ -33,9 +33,12 @@
         <div class="mt-8 lg:mt-0 lg:col-start-1 lg:col-span-8 lg:row-start-1 lg:row-span-3">
 
           <button v-on:click="toggleModal()">
-          <div class="w-100 grid grid-cols-1 lg:grid-cols-1 lg:gap-8 mt-3">
-            <img v-for="image in product.images" :key="image.id" :src="image.imageSrc" :alt="image.imageAlt" :class="[image.primary ? 'lg:col-span-2 lg:row-span-2' : 'hidden lg:block', 'w-full mt-3 hover:opacity-75']" />
-          </div>
+            <div class="w-100 grid grid-cols-1 lg:grid-cols-1 lg:gap-8 mt-3">
+              <div v-for="image in product.images" :key="image.id">
+                <img :src="image.imageSrc" :alt="image.imageAlt" :class="[image.primary ? 'lg:col-span-2 lg:row-span-2' : 'hidden lg:block', 'w-full mt-3 hover:opacity-75']" />
+                <span class="text-sm text-black mx-auto">{{ image.description }}</span>
+              </div>
+            </div>
           </button>
 
           <!-- modal gallery-->
@@ -160,6 +163,7 @@ const product = {
       id: 1,
       imageSrc: 'img/vista-01.jpg',
       imageAlt: "NUOVA SALA CONGRESSI TELECONTROL",
+      description:"SALA CONGRESSI VISTA 1",
       primary: true,
     },
     {
@@ -167,6 +171,7 @@ const product = {
       name: 'Sala Congressi',
       imageSrc: 'img/vista-02.jpg',
       imageAlt: "Sala Congressi.",
+      description:"SALA CONGRESSI VISTA 2",
       primary: true,
     },
 
@@ -175,6 +180,7 @@ const product = {
       name: 'Ingresso',
       imageSrc: 'img/vista-03.jpg',
       imageAlt: "Ingresso.",
+      description:"SALA CONGRESSI INGRESSO",
       primary: true,
     },
     {
@@ -182,6 +188,7 @@ const product = {
       name: 'Esploso',
       imageSrc: 'img/vista-04-assometria.jpg',
       imageAlt: "Esploso.",
+      description:"SALA CONGRESSI ESPLOSO",
       primary: true,
     },
     {
@@ -189,6 +196,7 @@ const product = {
       name: 'Planimetria',
       imageSrc: 'img/pianta-piano-terreno.jpg',
       imageAlt: "Planimetria.",
+      description:"SALA CONGRESSI PLANIMETRIA",
       primary: true,
     },
     {
@@ -196,6 +204,7 @@ const product = {
       name: 'Stato di fatto',
       imageSrc: 'img/20170415_173308-BN-1.jpg',
       imageAlt: "Stato di fatto.",
+      description:"STATO DI FATTO",
       primary: true,
     },
   ],
