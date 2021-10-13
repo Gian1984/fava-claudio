@@ -5,11 +5,14 @@
 
 
 
-
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
 
+        <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
+          NUOVA SALA CONGRESSI TELECONTROL
+        </h1>
+
         <!-- Image gallery -->
-        <div class="mt-8 lg:mt-0 lg:col-start-1 lg:col-span-8 lg:mr-32 lg:row-start-1 lg:row-span-3">
+        <div class=" lg:mt-0 lg:col-start-1 lg:col-span-8 lg:mr-32 lg:row-start-1 lg:row-span-3">
 
           <button v-on:click="toggleModal()">
             <div class="w-100 grid grid-cols-1 lg:grid-cols-1 lg:gap-8 mt-3">
@@ -108,7 +111,7 @@
         <div class="mt-8 lg:col-span-3">
           <!-- Product details -->
 
-          <h1 class="text-xl font-medium text-gray-900 text-center">
+          <h1 class="text-xl font-medium text-gray-900 text-center hidden lg:block">
             NUOVA SALA CONGRESSI TELECONTROL
           </h1>
 

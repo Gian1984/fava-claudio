@@ -10,34 +10,51 @@
             <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
           </div>
         </div>
-        <div class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
 
-          <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-          <button class="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
-            Home
-          </button>
-          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocosafacciamo()">
-            Cosa Facciamo
-          </button>
-          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomeprogettiamo()">
-            Come Progettiamo
-          </button>
-          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomelavoriamo()">
-            Come Lavoriamo
-          </button>
-          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprofilo()">
-            Chi Siamo
-          </button>
-          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprogetti()">
-            Progetti
-          </button>
-          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocontatti()">
-            Contatti
-          </button>
+        <div  class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
+
+          <div v-if="this.$route.path != '/'">
+          <Button @click="this.$router.go(-1)" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <span class="sr-only">Open main menu</span>
+            <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
+          </Button>
+          </div>
+
+
+          <div v-else class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
+            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
+              Home
+            </button>
+            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocosafacciamo()">
+              Cosa Facciamo
+            </button>
+            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomeprogettiamo()">
+              Come Progettiamo
+            </button>
+            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomelavoriamo()">
+              Come Lavoriamo
+            </button>
+            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprofilo()">
+              Chi Siamo
+            </button>
+            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprogetti()">
+              Progetti
+            </button>
+            <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocontatti()">
+              Contatti
+            </button>
+          </div>
+
+
         </div>
+
         <div class="-mr-2 flex items-center sm:hidden">
           <!-- Mobile menu button -->
-          <DisclosureButton class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" id="close">
+          <Button @click="this.$router.push({ name:'Home' })" v-if="this.$route.path != '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <span class="sr-only">Open main menu</span>
+            <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
+          </Button>
+          <DisclosureButton v-else class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" id="close">
             <span class="sr-only">Open main menu</span>
             <MenuIcon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
             <XIcon v-else class="block h-6 w-6" aria-hidden="true" />
@@ -49,31 +66,31 @@
     <DisclosurePanel class="sm:hidden" :value="isOpen">
       <div class="pt-2 pb-3 space-y-1 bg-white">
         <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
-        <button @click="drawer()" class="w-100 bg-indigo-50 border-indigo-500 text-indigo-700 group flex block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltohome()">
+        <button @click="drawer()" class="w-full text-gray-500 group flex block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltohome()">
           <HomeIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Home</span>
         </button>
-        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocosafacciamo()">
+        <button @click="drawer()" class="w-full border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocosafacciamo()">
           <ColorSwatchIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Cosa Facciamo</span>
         </button>
-        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocomeprogettiamo()">
+        <button @click="drawer()" class="w-full border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocomeprogettiamo()">
           <PresentationChartBarIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Come Progettiamo</span>
         </button>
-        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocomelavoriamo()">
+        <button @click="drawer()" class="w-full border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocomelavoriamo()">
           <TemplateIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Come Lavoriamo</span>
         </button>
-        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltoprofilo()">
+        <button @click="drawer()" class="w-full border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltoprofilo()">
           <UsersIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Chi siamo</span>
         </button>
-        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltoprogetti()">
+        <button @click="drawer()" class="w-full border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltoprogetti()">
           <FolderOpenIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Progetti</span>
         </button>
-        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocontatti()">
+        <button @click="drawer()" class="w-full  border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocontatti()">
           <ChatAltIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Contatti</span>
         </button>
