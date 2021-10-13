@@ -1,42 +1,20 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-white mb-6">
 
     <main class="pt-20 max-w-full mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-full lg:pt-24 lg:px-8">
 
-      <div class="flex mx-auto">
-        <div class="flex-none w-16 h-16 ...">
-          <button class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50" @click="this.$router.push({ name: 'Project_camera_bimbi' })">
-            <span class="sr-only">Previous</span>
-            <ChevronLeftIcon class="h-5 w-5" aria-hidden="true" />
-          </button>
-        </div>
-
-        <div class="flex-grow h-16 ...">
-          <h1 class="text-xl font-medium text-gray-900 text-center">
-            NUOVA SALA CONGRESSI TELECONTROL
-          </h1>
-        </div>
-
-        <div class="flex-none w-16 h-16 text-right">
-          <button class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50" @click="this.$router.push({ name: 'Project_casa_nel_parco' })">
-            <span class="sr-only">Next</span>
-            <ChevronRightIcon class="h-5 w-5" aria-hidden="true" />
-          </button>
-        </div>
-      </div>
 
 
 
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
 
         <!-- Image gallery -->
-        <div class="mt-8 lg:mt-0 lg:col-start-1 lg:col-span-8 lg:row-start-1 lg:row-span-3">
+        <div class="mt-8 lg:mt-0 lg:col-start-1 lg:col-span-8 lg:mr-32 lg:row-start-1 lg:row-span-3">
 
           <button v-on:click="toggleModal()">
             <div class="w-100 grid grid-cols-1 lg:grid-cols-1 lg:gap-8 mt-3">
               <div v-for="image in product.images" :key="image.id">
                 <img :src="image.imageSrc" :alt="image.imageAlt" :class="[image.primary ? 'lg:col-span-2 lg:row-span-2' : 'hidden lg:block', 'w-full mt-3 hover:opacity-75']" />
-                <span class="text-sm text-black mx-auto">{{ image.description }}</span>
               </div>
             </div>
           </button>
@@ -129,6 +107,11 @@
 
         <div class="mt-8 lg:col-span-3">
           <!-- Product details -->
+
+          <h1 class="text-xl font-medium text-gray-900 text-center">
+            NUOVA SALA CONGRESSI TELECONTROL
+          </h1>
+
           <div class="mt-10">
             <h2 class="text-lg font-medium text-gray-900 mt-10">Descrizione</h2>
             <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description" />
@@ -153,7 +136,6 @@
 
 <script>
 
-import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/vue/solid'
 
 const product = {
   name: 'NUOVA SALA CONGRESSI TELECONTROL',
@@ -263,10 +245,6 @@ export default {
 
   name: "large-modal",
 
-  components:{
-    ChevronRightIcon,
-    ChevronLeftIcon
-  },
 
   data() {
     return {

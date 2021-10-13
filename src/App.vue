@@ -82,11 +82,23 @@
   <footer class="bg-white" aria-labelledby="footer-heading" id="contatti">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto py-5 px-4 sm:px-6 lg:py-10 lg:px-8">
-        <div class="grid grid-cols-3 gap-y-10 gap-x-8 gap-8 lg:grid-cols-3 lg:gap-x-24 lg:gap-24">
+        <div class="grid grid-cols-4 gap-y-10 lg:grid-cols-4">
+          <div class="sm:flex lg:block mx-auto">
+            <button class="hover:text-gray-300">
+              <div class="md:mt-0">
+                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto" @click="this.$router.push({ name: 'Home' })">
+                  <img src="img/cropped-logo-small.png" class="h-6 w-6 mx-auto" aria-hidden="true" />
+                </span>
+                <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
+                  Claudio Fava Architetto
+                </p>
+              </div>
+            </button>
+          </div>
           <div class="sm:flex lg:block mx-auto">
             <a href="https://goo.gl/maps/7KQYok6GATRFPZS68" class="hover:text-gray-300">
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
-                <LocationMarkerIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
+                <LocationMarkerIcon class="h-6 w-6 mx-auto font-light" aria-hidden="true" />
               </span>
               <p  class="mt-4 space-y-4 hidden md:block lg:block text-xs">
                 Corso Turati 19/b, Torino
