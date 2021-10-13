@@ -1,81 +1,85 @@
 <template>
-  <nav class="flex fixed w-full items-center justify-between px-6 h-16 bg-white bg-opacity-50 text-gray-700 z-10" id="header">
-    <div class="flex items-center">
-      <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
+
+
+
+  <Disclosure as="nav" class="bg-white bg-opacity-50 shadow fixed z-50 w-full" v-slot="{ open }">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex">
+          <div class="flex-shrink-0 flex items-center">
+            <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
+          </div>
+        </div>
+        <div class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
+
+          <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+          <button class="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
+            Home
+          </button>
+          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocosafacciamo()">
+            Cosa Facciamo
+          </button>
+          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomeprogettiamo()">
+            Come Progettiamo
+          </button>
+          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomelavoriamo()">
+            Come Lavoriamo
+          </button>
+          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprofilo()">
+            Chi Siamo
+          </button>
+          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprogetti()">
+            Progetti
+          </button>
+          <button class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocontatti()">
+            Contatti
+          </button>
+        </div>
+        <div class="-mr-2 flex items-center sm:hidden">
+          <!-- Mobile menu button -->
+          <DisclosureButton class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" id="close">
+            <span class="sr-only">Open main menu</span>
+            <MenuIcon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
+            <XIcon v-else class="block h-6 w-6" aria-hidden="true" />
+          </DisclosureButton>
+        </div>
+      </div>
     </div>
-    <div class="flex items-center">
-      <div v-if="this.$route.path == '/' || this.$route.path == '/home'" class="text-black">
-        <button class="mr-2" aria-label="Open Menu" @click="drawer">
-          <MenuIcon class="h-6 w-6" aria-hidden="true" />
+
+    <DisclosurePanel class="sm:hidden" :value="isOpen">
+      <div class="pt-2 pb-3 space-y-1 bg-white">
+        <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
+        <button @click="drawer()" class="w-100 bg-indigo-50 border-indigo-500 text-indigo-700 group flex block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltohome()">
+          <HomeIcon class="h-6 w-6" aria-hidden="true" />
+          <span class="ml-2">Home</span>
+        </button>
+        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocosafacciamo()">
+          <ColorSwatchIcon class="h-6 w-6" aria-hidden="true" />
+          <span class="ml-2">Cosa Facciamo</span>
+        </button>
+        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocomeprogettiamo()">
+          <PresentationChartBarIcon class="h-6 w-6" aria-hidden="true" />
+          <span class="ml-2">Come Progettiamo</span>
+        </button>
+        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocomelavoriamo()">
+          <TemplateIcon class="h-6 w-6" aria-hidden="true" />
+          <span class="ml-2">Come Lavoriamo</span>
+        </button>
+        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltoprofilo()">
+          <UsersIcon class="h-6 w-6" aria-hidden="true" />
+          <span class="ml-2">Chi siamo</span>
+        </button>
+        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltoprogetti()">
+          <FolderOpenIcon class="h-6 w-6" aria-hidden="true" />
+          <span class="ml-2">Progetti</span>
+        </button>
+        <button @click="drawer()" class="border-transparent text-gray-500 hover:bg-gray-50 group flex hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" v-on:click="scrolltocontatti()">
+          <ChatAltIcon class="h-6 w-6" aria-hidden="true" />
+          <span class="ml-2">Contatti</span>
         </button>
       </div>
-      <div v-else class="text-black">
-        <button class="mr-2" aria-label="Open Menu" @click="this.$router.push({ name: 'Home' })">
-          <ArrowLeftIcon class="h-6 w-6" aria-hidden="true" />
-        </button>
-      </div>
-    </div>
-
-    <transition
-        enter-class="opacity-0"
-        enter-active-class="ease-out transition-medium"
-        enter-to-class="opacity-100"
-        leave-class="opacity-100"
-        leave-active-class="ease-out transition-medium"
-        leave-to-class="opacity-0"
-    >
-      <div @keydown.esc="isOpen = false" v-show="isOpen" class="z-10 fixed inset-0  transition-opacity">
-        <div @click="isOpen = false" class="absolute inset-0 bg-black opacity-50" tabindex="0"></div>
-      </div>
-    </transition>
-    <aside class="transform top-0 right-0 w-64 bg-cyan-700 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30" :class="isOpen ? '-translate-x-100' : 'translate-x-full'">
-      <span @click="isOpen = false" class="flex w-full items-center p-2 border-b">
-        <img src="img/cropped-logo-small.png" alt="Logo" class="block h-12 w-auto mx-auto" />
-      </span>
-      <div class="mt-5 flex-1 flex flex-col divide-y divide-cyan-800 overflow-y-auto space-y-1 p-2" aria-label="Sidebar">
-
-
-
-          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltohome()">
-            <HomeIcon class="h-6 w-6" aria-hidden="true" />
-            <span class="ml-2">Home</span>
-          </button>
-
-          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocosafacciamo()">
-            <ColorSwatchIcon class="h-6 w-6" aria-hidden="true" />
-            <span class="ml-2">Cosa Facciamo</span>
-          </button>
-
-          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocomeprogettiamo()">
-            <PresentationChartBarIcon class="h-6 w-6" aria-hidden="true" />
-            <span class="ml-2">Come Progettiamo</span>
-          </button>
-
-
-          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocomelavoriamo()">
-            <TemplateIcon class="h-6 w-6" aria-hidden="true" />
-            <span class="ml-2">Come Lavoriamo</span>
-          </button>
-
-          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltoprofilo()">
-            <UsersIcon class="h-6 w-6" aria-hidden="true" />
-            <span class="ml-2">Chi siamo</span>
-          </button>
-
-          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltoprogetti()">
-            <FolderOpenIcon class="h-6 w-6" aria-hidden="true" />
-            <span class="ml-2">Progetti</span>
-          </button>
-
-          <button @click="isOpen = false" class="bg-cyan-700 text-cyan-100 hover:text-white hover:bg-cyan-600 group flex items-center px-2 py-2 text-sm leading-6 font-medium rounded-md" v-on:click="scrolltocontatti()">
-            <ChatAltIcon class="h-6 w-6" aria-hidden="true" />
-            <span class="ml-2">Contatti</span>
-          </button>
-
-
-      </div>
-    </aside>
-  </nav>
+    </DisclosurePanel>
+  </Disclosure>
 
   <router-view/>
 
@@ -158,9 +162,11 @@
 </template>
 
 <script>
-import { MenuIcon, HomeIcon, FolderOpenIcon, UsersIcon, TemplateIcon, PresentationChartBarIcon, ColorSwatchIcon, ChatAltIcon, ArrowLeftIcon, ArrowUpIcon, LocationMarkerIcon, PhoneIncomingIcon, BriefcaseIcon } from '@heroicons/vue/outline'
+import { MenuIcon, HomeIcon, FolderOpenIcon, UsersIcon, TemplateIcon, PresentationChartBarIcon, ColorSwatchIcon, ChatAltIcon, ArrowLeftIcon, ArrowUpIcon, LocationMarkerIcon, PhoneIncomingIcon, BriefcaseIcon, BellIcon, XIcon } from '@heroicons/vue/outline'
 import { CheckIcon, ThumbUpIcon, UserIcon } from '@heroicons/vue/solid'
 import { defineComponent, h } from 'vue'
+import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+
 
 const timeline = [
   {
@@ -315,12 +321,21 @@ export default {
     ArrowUpIcon,
     LocationMarkerIcon,
     PhoneIncomingIcon,
-    BriefcaseIcon
+    BriefcaseIcon,
+    Disclosure,
+    DisclosureButton,
+    DisclosurePanel,
+    Menu,
+    MenuButton,
+    MenuItem,
+    MenuItems,
+    BellIcon,
+    XIcon
   },
 
   data() {
     return {
-      isOpen: false
+      isOpen: true
     };
   },
   methods: {
@@ -366,20 +381,20 @@ export default {
     },
 
     drawer() {
-      this.isOpen = !this.isOpen;
+    document.getElementById('close').click();
     }
   },
-  watch: {
-    isOpen: {
-      immediate: true,
-      handler(isOpen) {
-        if (process.client) {
-          if (isOpen) document.body.style.setProperty("overflow", "hidden");
-          else document.body.style.removeProperty("overflow");
-        }
-      }
-    }
-  },
+  // watch: {
+  //   isOpen: {
+  //     immediate: true,
+  //     handler(isOpen) {
+  //       if (process.client) {
+  //         if (isOpen) document.body.style.setProperty("overflow", "hidden");
+  //         else document.body.style.removeProperty("overflow");
+  //       }
+  //     }
+  //   }
+  // },
   mounted() {
     document.addEventListener("keydown", e => {
       if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
