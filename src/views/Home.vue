@@ -1,10 +1,14 @@
 <template>
 
   <!-- ARCHITETTURA & INTERIOR DESIGN -->
+  <transition
+      appear
+      @before-enter="beforeEnter"
+      @enter="enter"
+  >
 
-
-  <div class="relative" id="home">
-    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+  <div class="relative .trigger elem-1" id="home">
+    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 parallax-elem-1" />
     <div class="mx-auto">
       <div class="relative shadow-xl  sm:overflow-hidden">
         <div class="absolute inset-0">
@@ -24,11 +28,12 @@
     </div>
   </div>
 
+  </transition>
 
   <!-- RIFUNZIONALIZZAZIONE -->
 
 
-  <div class="relative" id="cosa_facciamo">
+  <div class="relative elem-2" id="cosa_facciamo">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
@@ -236,6 +241,9 @@
 <script>
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 const products = [
   {
@@ -295,12 +303,51 @@ export default {
   },
 
   setup() {
+    const beforeEnter = (el) => {
+      el.style.opacity = 0
+    }
+
+
+    const enter = (el, done) => {
+      gsap.to(el, {
+        opacity: 1,
+        duration: 5,
+        onComplete: done,
+        delay: el.dataset.index * 0.5
+      })
+    }
+
+    const beforeSlide = (el) => {
+      el.style.opacity = 0
+      el.style.transform = 'translateY(400px)'
+    }
+
+    const slide = (el, done) => {
+      gsap.to(el, {
+        opacity: 1,
+        y: 0,
+        duration: 1.5,
+        onComplete: done,
+        delay: el.dataset.index * 0.2,
+        rotation: 360,
+      })
+    }
+
+
     return {
+      beforeEnter,
+      enter,
+      slide,
+      beforeSlide,
       products,
     }
   },
 }
 
+
+
+
 </script>
+
 
 
