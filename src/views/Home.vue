@@ -1,13 +1,13 @@
 <template>
-
   <!-- ARCHITETTURA & INTERIOR DESIGN -->
+
   <transition
       appear
       @before-enter="beforeEnter"
       @enter="enter"
   >
 
-  <div class="relative .trigger elem-1" id="home">
+  <div class="relative" id="home">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 parallax-elem-1" />
     <div class="mx-auto">
       <div class="relative shadow-xl  sm:overflow-hidden">
@@ -28,12 +28,12 @@
     </div>
   </div>
 
-  </transition>
 
+  </transition>
   <!-- RIFUNZIONALIZZAZIONE -->
 
 
-  <div class="relative elem-2" id="cosa_facciamo">
+  <div class="relative" id="cosa_facciamo">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
@@ -61,9 +61,7 @@
     </div>
   </div>
 
-
   <!-- LA CURA DEL DETTAGLIO -->
-
 
   <div class="relative" id="come_progettiamo">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
@@ -96,7 +94,6 @@
 
   <!-- IL PROGETTO DEGLI SPAZI -->
 
-
   <div class="relative" id="come_lavoriamo">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
@@ -126,10 +123,9 @@
   </div>
 
 
-
   <!-- Team Section -->
 
-  <div class="bg-white">
+  <div class="bg-white end">
     <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
       <div class="space-y-4 sm:space-y-12">
         <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto" id="profilo">CHI SIAMO</h2>
@@ -138,8 +134,11 @@
   </div>
 
 
-  <div class="relative bg-white overflow-hidden">
-    <div class="relative lg:pb-16 pb-7">
+  <div class=" relative bg-white overflow-hidden  ">
+
+  <!--    Claudio-->
+
+    <div class="relative lg:pb-16 pb-7 max-w-full">
       <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2 pb-10" >
         <img class="w-full h-full object-cover lg:hidden" src="img/2013-07-16-B-N-low.jpg" alt="Support team" />
       </div>
@@ -163,7 +162,7 @@
         </div>
       </div>
     </div>
-
+    <!--     Giorgio-->
     <div>
       <div class="relative">
         <div class="relative bg-white">
@@ -185,9 +184,7 @@
         </div>
       </div>
     </div>
-
   </div>
-
 
   <!--  Carousel section-->
 
@@ -210,10 +207,12 @@
     </div>
   </div>
 
+
   <!-- Projects Section -->
 
-  <div class="bg-white pb-5" id="progetti">
-    <div class="max-w-full mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
+
+  <div class="bg-white pb-5 enter" id="progetti">
+    <div class="mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
 
       <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
         <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto">PROGETTI</h2>
@@ -236,14 +235,18 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
 
 import { ChevronRightIcon } from '@heroicons/vue/solid'
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 gsap.registerPlugin(ScrollTrigger);
+
+
 
 const products = [
   {
@@ -298,6 +301,7 @@ const products = [
 
 export default {
 
+
   components: {
     ChevronRightIcon
   },
@@ -313,41 +317,21 @@ export default {
         opacity: 1,
         duration: 5,
         onComplete: done,
-        delay: el.dataset.index * 0.5
+        delay: el.dataset.index * 0.5,
       })
     }
-
-    const beforeSlide = (el) => {
-      el.style.opacity = 0
-      el.style.transform = 'translateY(400px)'
-    }
-
-    const slide = (el, done) => {
-      gsap.to(el, {
-        opacity: 1,
-        y: 0,
-        duration: 1.5,
-        onComplete: done,
-        delay: el.dataset.index * 0.2,
-        rotation: 360,
-      })
-    }
-
 
     return {
       beforeEnter,
       enter,
-      slide,
-      beforeSlide,
       products,
     }
   },
 }
 
-
-
-
 </script>
+
+
 
 
 

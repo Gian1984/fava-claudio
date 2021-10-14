@@ -14,7 +14,7 @@
         <div  class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
 
           <div v-if="this.$route.path != '/'">
-          <Button @click="this.$router.go(-1)" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+          <Button @click="this.$router.push({name:'Home'})" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
             <span class="sr-only">Open main menu</span>
             <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
           </Button>
