@@ -110,7 +110,7 @@
 
             <button v-if="this.$route.path != '/' " class="hover:text-gray-300 lg:hidden"  @click="this.$router.push({ name: 'Home' })">
               <div class="md:mt-0">
-                  <img src="img/cropped-logo-small.png" class="h-6 w-6 mx-auto" aria-hidden="true" />
+                  <img src="img/cropped-logo-small.png" class="h-12 w-12 mx-auto" aria-hidden="true" />
               </div>
             </button>
 
