@@ -30,6 +30,40 @@
 
 
   </transition>
+
+
+  <!-- IL PROGETTO DEGLI SPAZI -->
+
+
+  <div class="relative" id="progetto_degli_spazi">
+    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+    <div class="mx-auto">
+      <div class="relative shadow-xl sm:overflow-hidden">
+        <div class="absolute inset-0">
+          <img class="h-full w-full object-cover" src="img/PRO_7942.jpg" alt="Progetto degli spazi" />
+          <div class="absolute inset-0" />
+        </div>
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
+          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div class="space-y-4 sm:space-y-0 sm:mx-auto py-48 lg:py60 sm:grid-cols-2 sm:gap-5 mb-20">
+              <p class="max-w-lg text-xl text-grey-500 sm:max-w-3xl text-right">
+                IL PROGETTO DEGLI SPAZI
+              </p>
+              <p class="max-w-lg text-base text-black sm:max-w-3xl text-right">
+                Progettiamo coniugando estetica ed esigenze del cliente.<br>
+                <button class="mt-10 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_centrale_operativa_telecontrol' })">
+                  <span class="px-1 py-0.5">Vai al progetto</span>
+                  <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <!-- RIFUNZIONALIZZAZIONE -->
 
 
@@ -49,7 +83,7 @@
               </p>
               <p class="max-w-lg text-base text-black sm:max-w-3xl">
                 Progettiamo per dare nuova vita agli edifici.<br>
-                <button class="mt-10 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
+                <button class="mt-10 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_nel_parco' })">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </button>
