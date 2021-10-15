@@ -6,6 +6,7 @@ import Project_casa_R from '../components/Project_casa_nel_parco.vue'
 import Project_casa_rivoli from '../components/Project_casa_rivoli.vue'
 import Project_centrale_operativa_telecontrol from '../components/Project_centrale_operativa_telecontrol.vue'
 import Project_sala_congressi_telecontrol from '../components/Project_sala_congressi_telecontrol.vue'
+import Projects from '../components/Projects.vue'
 import PageNotFound from '../views/PageNotFound.vue'
 
 
@@ -122,6 +123,24 @@ const routes = [
     path: '/Project_sala_congressi_telecontrol',
     name: 'Project_sala_congressi_telecontrol',
     component: Project_sala_congressi_telecontrol,
+    meta: {
+      title: 'Progetti Fava Claudio Architetto',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Progetti dello Studio di Architettura Fava Claudio.'
+        },
+        {
+          property: 'og:description',
+          content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Projects',
+    name: 'Projects',
+    component: Projects,
     meta: {
       title: 'Progetti Fava Claudio Architetto',
       metaTags: [

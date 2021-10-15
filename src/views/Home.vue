@@ -44,7 +44,7 @@
           <div class="absolute inset-0" />
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+          <div class="mt-10 max-w-sm sm:max-w-none sm:flex sm:justify-center lg:ml-60">
             <div class="space-y-4 sm:space-y-0 sm:mx-auto py-48 lg:py60 sm:grid-cols-2 sm:gap-5 mb-20">
               <p class="max-w-lg text-xl text-grey-500 sm:max-w-3xl text-right">
                 IL PROGETTO DEGLI SPAZI
@@ -76,7 +76,7 @@
           <div class="absolute inset-0" />
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+          <div class="mt-10 max-w-sm sm:max-w-none sm:flex sm:justify-center lg:mr-60">
             <div class="space-y-4 sm:space-y-0 sm:mx-auto py-48 lg:py60 sm:grid-cols-2 sm:gap-5 mb-20">
               <p class="max-w-lg text-xl text-grey-500 sm:max-w-3xl">
                 RIFUNZIONALIZZAZIONE
@@ -244,43 +244,15 @@
 
   <!-- Projects Section -->
 
-
-  <div class="bg-white pb-5 enter" id="progetti">
-    <div class="mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
-
-      <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
-        <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto">PROGETTI</h2>
-      </div>
-
-      <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
-        <div v-for="product in products" :key="product.id" class="group relative">
-          <a :href="product.href">
-          <div class="h-full h-96 overflow-hidden group-hover:opacity-75">
-            <img :src="product.imageSrc" :alt="product.imageAlt" class="w-full h-full object-center object-cover" />
-          </div>
-          </a>
-          <p class="max-w-lg text-sm text-grey-500 sm:max-w-3xl">
-            <a :href="product.href" class=" mb-2 inline-flex items-center uppercase text-black rounded-full p-1 pr-2 sm:text-xs lg:text-sm xl:text-base hover:text-gray-500">
-              <span class="absolute inset-0" />
-              {{ product.name }}
-            </a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+  <Projects></Projects>
 
 </template>
 
 <script>
 
+import Projects from "../components/Projects";
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger);
-
-
 
 const products = [
   {
@@ -331,7 +303,8 @@ export default {
 
 
   components: {
-    ChevronRightIcon
+    ChevronRightIcon,
+    Projects,
   },
 
   setup() {

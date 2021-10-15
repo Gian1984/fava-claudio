@@ -15,27 +15,13 @@
 
         <div  class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
 
-          <div v-if="this.$route.path != '/'">
-          <Button @click="this.$router.push({name:'Home'})" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-            <span class="sr-only">Open main menu</span>
-            <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
-          </Button>
-          </div>
 
 
-          <div v-else class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
+
+          <div v-if="this.$route.path == '/'" class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
             <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
               Home
             </button>
-<!--            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocosafacciamo()">-->
-<!--              Cosa Facciamo-->
-<!--            </button>-->
-<!--            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomeprogettiamo()">-->
-<!--              Come Progettiamo-->
-<!--            </button>-->
-<!--            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomelavoriamo()">-->
-<!--              Come Lavoriamo-->
-<!--            </button>-->
             <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprofilo()">
               Chi Siamo
             </button>
@@ -47,20 +33,41 @@
             </button>
           </div>
 
+          <div v-else-if="this.$route.path === '/Projects' && this.$route.path != '/'">
+            <Button @click="this.$router.push({name:'Home'})" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+              <span class="sr-only">Open main menu</span>
+              <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
+            </Button>
+          </div>
+
+          <div v-else-if="this.$route.path != '/Projects' && this.$route.path != '/'">
+            <Button @click="this.$router.push({name:'Projects'})" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+              <span class="sr-only">Open main menu</span>
+              <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
+            </Button>
+          </div>
+
+          <div v-else> Sucks </div>
 
         </div>
 
         <div class="-mr-2 flex items-center sm:hidden">
           <!-- Mobile menu button -->
-          <Button @click="this.$router.push({ name:'Home' })" v-if="this.$route.path != '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-            <span class="sr-only">Open main menu</span>
-            <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
-          </Button>
-          <DisclosureButton v-else class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" id="close">
+          <DisclosureButton v-if="this.$route.path == '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" id="close">
             <span class="sr-only">Open main menu</span>
             <MenuIcon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
             <XIcon v-else class="block h-6 w-6" aria-hidden="true" />
           </DisclosureButton>
+          <Button @click="this.$router.push({ name:'Home' })" v-else-if="this.$route.path === '/Projects' && this.$route.path != '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <span class="sr-only">Open main menu</span>
+            <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
+          </Button>
+          <Button @click="this.$router.push({ name:'Projects' })" v-else-if="this.$route.path != '/Projects' && this.$route.path != '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <span class="sr-only">Open main menu</span>
+            <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
+          </Button>
+
+          <div v-else> Sucks </div>
         </div>
       </div>
     </div>
@@ -180,7 +187,7 @@
 
     <div class="mx-auto max-w-md px-4 overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
       <a href="https://www.gianlucatiengo.com/">
-        <p class="text-center text-xs text-gray-400 hover:text-white underline">
+        <p class="text-center text-xs text-gray-400 hover:text-black underline">
           &copy; 2021 WebMaster Gianluca Tiengo. Design by Claudio Fava. All rights reserved.
         </p>
       </a>
