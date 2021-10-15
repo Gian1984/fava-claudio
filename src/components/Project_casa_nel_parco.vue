@@ -2,16 +2,13 @@
   <div class="bg-white mb-6">
 
     <main class="pt-20 max-w-full mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-full lg:pt-24 lg:px-8">
-
-
-
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
-
         <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
           NUOVA SALA CONGRESSI TELECONTROL
         </h1>
 
         <!-- Image gallery -->
+
         <div class=" lg:mt-0 lg:col-start-1 lg:col-span-8 lg:mr-32 lg:row-start-1 lg:row-span-3">
 
           <button v-on:click="toggleModal()">
@@ -43,7 +40,7 @@
                       <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
                              checked="checked">
                       <div class="carousel-item absolute opacity-0 bg-center w-100 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-02.jpg">
+                        <img src="img/vista-01.jpg" alt="sala congressi telecontrol">
                       </div>
                       <label for="carousel-3"
                              class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
@@ -55,7 +52,7 @@
                       <!--Slide 2-->
                       <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 bg-center h-52 md:h-full lg:h-full">
-                        <img src="img/vista-03.jpg">
+                        <img src="img/vista-02.jpg" alt="sala congressi telecontrol">
                       </div>
                       <label for="carousel-1"
                              class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -67,13 +64,49 @@
                       <!--Slide 3-->
                       <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-04-assometria.jpg">
+                        <img src="img/vista-03.jpg" alt="sala congressi telecontrol">
                       </div>
                       <label for="carousel-2"
                              class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
                           class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-1"
+                      <label for="carousel-4"
                              class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 4-->
+                      <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
+                        <img src="img/vista-04-assometria.jpg" alt="sala congressi telecontrol">
+                      </div>
+                      <label for="carousel-4"
+                             class="control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-5"
+                             class="next control-4 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 5-->
+                      <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
+                        <img src="img/pianta-piano-terreno.jpg" alt="sala congressi telecontrol">
+                      </div>
+                      <label for="carousel-4"
+                             class="control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-6"
+                             class="next control-5 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 6-->
+                      <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
+                        <img src="img/20170415_173308-BN-1.jpg" alt="sala congressi telecontrol">
+                      </div>
+                      <label for="carousel-5"
+                             class="control-6 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-1"
+                             class="next control-6 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
                           class="fas fa-angle-right mt-3"></i></label>
 
                       <!-- Add additional indicators for each slide-->
@@ -90,6 +123,18 @@
                           <label for="carousel-3"
                                  class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-4"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-5"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-6"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
                       </ol>
 
                     </div>
@@ -97,7 +142,7 @@
                 </div>
                 <!--footer-->
                 <div class="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
-                  <button class="text-red-500 bg-transparent border border-solid border-black-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" v-on:click="toggleModal()">
+                  <button class="text-black bg-transparent border border-solid border-black-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" v-on:click="toggleModal()">
                     Close
                   </button>
                 </div>
@@ -138,7 +183,6 @@
 </template>
 
 <script>
-
 
 const product = {
   name: 'NUOVA SALA CONGRESSI TELECONTROL',
@@ -208,46 +252,9 @@ Scatolari metallici sospesi sostengono i corpi illuminanti e si ancorano ai pila
 
 }
 
-const relatedProducts = [
-  {
-    id: 1,
-    name: 'Sala Congressi',
-    imageSrc: 'img/vista-02.jpg',
-    imageAlt: "Sala Congressi.",
-  },
-  {
-    id: 2,
-    name: 'Ingresso',
-    imageSrc: 'img/vista-03.jpg',
-    imageAlt: "Ingresso.",
-  },
-  {
-    id: 3,
-    name: 'Esploso',
-    imageSrc: 'img/vista-04-assometria.jpg',
-    imageAlt: "Esploso.",
-  },
-  {
-    id: 4,
-    name: 'Planimetria',
-    imageSrc: 'img/pianta-piano-terreno.jpg',
-    imageAlt: "Planimetria.",
-  },
-  {
-    id: 5,
-    name: 'Stato di fatto',
-    imageSrc: 'img/20170415_173308-BN-1.jpg',
-    imageAlt: "Stato di fatto.",
-  },
-  // More products...
-]
-
-
-
 export default {
 
   name: "large-modal",
-
 
   data() {
     return {
@@ -261,10 +268,8 @@ export default {
     }
   },
 
-
   setup() {
     return {
-      relatedProducts,
       product,
     }
   },
@@ -284,7 +289,10 @@ export default {
 
 #carousel-1:checked~.control-1,
 #carousel-2:checked~.control-2,
-#carousel-3:checked~.control-3 {
+#carousel-3:checked~.control-3,
+#carousel-4:checked~.control-4,
+#carousel-5:checked~.control-5,
+#carousel-6:checked~.control-6{
   display: block;
 }
 
@@ -302,7 +310,10 @@ export default {
 
 #carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
+#carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet,
+#carousel-4:checked~.control-4~.carousel-indicators li:nth-child(4) .carousel-bullet,
+#carousel-5:checked~.control-5~.carousel-indicators li:nth-child(5) .carousel-bullet,
+#carousel-6:checked~.control-6~.carousel-indicators li:nth-child(6) .carousel-bullet{
   color: #2b6cb0;
 }
 </style>

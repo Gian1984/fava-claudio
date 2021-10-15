@@ -133,7 +133,7 @@
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7701.jpg" alt="People working on laptops" />
+          <img class="h-full w-full object-cover" src="img/PRO_7701.jpg" alt="il progetto degli spazi" />
           <div class="absolute inset-0" />
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
@@ -174,7 +174,7 @@
 
     <div class="relative lg:pb-16 pb-7 max-w-full">
       <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2 pb-10" >
-        <img class="w-full h-full object-cover lg:hidden" src="img/2013-07-16-B-N-low.jpg" alt="Support team" />
+        <img class="w-full h-full object-cover lg:hidden" src="img/2013-07-16-B-N-low.jpg" alt="Fava Claudio foto" />
       </div>
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:rounded-lg md:rounded-lg rounded-none">
@@ -289,7 +289,7 @@ const products = [
     price: '$32',
     href: '/Project_sala_congressi_telecontrol',
     imageSrc: 'img/vista-01.jpg',
-    imageAlt: "Model wearing women's black cotton crewneck tee.",
+    imageAlt: "Nuova Sala Congressi Telecontrol.",
   },
   {
     id: 1,
@@ -297,7 +297,7 @@ const products = [
     price: '$32',
     href: '/Project_casa_nel_parco',
     imageSrc: 'img/vista-esterna-02_crop.jpg',
-    imageAlt: "Model wearing women's black cotton crewneck tee.",
+    imageAlt: "Casa Nel Parco.",
   },
   {
     id: 1,
@@ -305,7 +305,7 @@ const products = [
     price: '$32',
     href: '/Project_casa_rivoli',
     imageSrc: 'img/PRO_7711.jpg',
-    imageAlt: "Model wearing women's black cotton crewneck tee.",
+    imageAlt: "Casa Rivoli.",
   },
   {
     id: 1,
@@ -313,7 +313,7 @@ const products = [
     price: '$32',
     href: '/Project_centrale_operativa_telecontrol',
     imageSrc: 'img/PRO_7906.jpg',
-    imageAlt: "Model wearing women's black cotton crewneck tee.",
+    imageAlt: "Centrale Operativa Telecontrol.",
   },
   {
     id: 1,
@@ -321,7 +321,7 @@ const products = [
     price: '$32',
     href: '/Project_casa_R',
     imageSrc: 'img/vista-02-versione-A.jpg',
-    imageAlt: "Model wearing women's black cotton crewneck tee.",
+    imageAlt: "Casa R.",
   },
   {
     id: 1,
@@ -329,7 +329,7 @@ const products = [
     price: '$32',
     href: '/Project_camera_bimbi',
     imageSrc: 'img/vista-03_crop.jpg',
-    imageAlt: "Model wearing women's black cotton crewneck tee.",
+    imageAlt: "Camera Dei Bimbi.",
   },
 ]
 
