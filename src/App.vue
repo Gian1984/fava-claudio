@@ -7,7 +7,9 @@
       <div class="flex justify-between h-16">
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
-            <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
+            <button @click="this.$router.push({name:'Home'})">
+              <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
+            </Button>
           </div>
         </div>
 
@@ -25,15 +27,15 @@
             <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
               Home
             </button>
-            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocosafacciamo()">
-              Cosa Facciamo
-            </button>
-            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomeprogettiamo()">
-              Come Progettiamo
-            </button>
-            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomelavoriamo()">
-              Come Lavoriamo
-            </button>
+<!--            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocosafacciamo()">-->
+<!--              Cosa Facciamo-->
+<!--            </button>-->
+<!--            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomeprogettiamo()">-->
+<!--              Come Progettiamo-->
+<!--            </button>-->
+<!--            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocomelavoriamo()">-->
+<!--              Come Lavoriamo-->
+<!--            </button>-->
             <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprofilo()">
               Chi Siamo
             </button>
@@ -65,23 +67,23 @@
 
     <DisclosurePanel class="sm:hidden" :value="isOpen">
       <div class=" bg-white">
-        <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
+
         <button @click="drawer()" class="w-full text-gray-500 group flex block pl-3 pr-4 py-2 border-b border-gray-300 text-base font-medium" v-on:click="scrolltohome()">
           <HomeIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Home</span>
         </button>
-        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocosafacciamo()">
-          <ColorSwatchIcon class="h-6 w-6" aria-hidden="true" />
-          <span class="ml-2">Cosa Facciamo</span>
-        </button>
-        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocomeprogettiamo()">
-          <PresentationChartBarIcon class="h-6 w-6" aria-hidden="true" />
-          <span class="ml-2">Come Progettiamo</span>
-        </button>
-        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocomelavoriamo()">
-          <TemplateIcon class="h-6 w-6" aria-hidden="true" />
-          <span class="ml-2">Come Lavoriamo</span>
-        </button>
+<!--        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocosafacciamo()">-->
+<!--          <ColorSwatchIcon class="h-6 w-6" aria-hidden="true" />-->
+<!--          <span class="ml-2">Cosa Facciamo</span>-->
+<!--        </button>-->
+<!--        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocomeprogettiamo()">-->
+<!--          <PresentationChartBarIcon class="h-6 w-6" aria-hidden="true" />-->
+<!--          <span class="ml-2">Come Progettiamo</span>-->
+<!--        </button>-->
+<!--        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocomelavoriamo()">-->
+<!--          <TemplateIcon class="h-6 w-6" aria-hidden="true" />-->
+<!--          <span class="ml-2">Come Lavoriamo</span>-->
+<!--        </button>-->
         <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltoprofilo()">
           <UsersIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Chi siamo</span>
@@ -106,25 +108,27 @@
         <div class="grid grid-cols-4 gap-y-10 lg:grid-cols-4">
           <div class="sm:flex lg:block mx-auto">
 
-            <button v-if="this.$route.path != '/'" class="hover:text-gray-300"  @click="this.$router.push({ name: 'Home' })">
+            <button v-if="this.$route.path != '/' " class="hover:text-gray-300 lg:hidden"  @click="this.$router.push({ name: 'Home' })">
               <div class="md:mt-0">
-                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
                   <img src="img/cropped-logo-small.png" class="h-6 w-6 mx-auto" aria-hidden="true" />
-                </span>
-                <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
-                  Claudio Fava Architetto
-                </p>
               </div>
             </button>
 
-            <button v-else class="hover:text-gray-300"  v-on:click="scrolltohome()">
+            <button v-else class="hover:text-gray-300 lg:hidden"  v-on:click="scrolltohome()">
               <div class="md:mt-0">
-                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
-                  <img src="img/cropped-logo-small.png" class="h-6 w-6 mx-auto" aria-hidden="true" />
-                </span>
-                <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
-                  Claudio Fava Architetto
-                </p>
+                  <img src="img/cropped-logo-small.png" class="h-12 w-12 mx-auto" aria-hidden="true" />
+              </div>
+            </button>
+
+            <button v-if="this.$route.path != '/' " class="hover:text-gray-300 hidden lg:block"  @click="this.$router.push({ name: 'Home' })">
+              <div class="md:mt-0">
+                <img src="img/logo_black.png" class="h-12 mx-auto" aria-hidden="true" />
+              </div>
+            </button>
+
+            <button v-else class="hover:text-gray-300 hidden lg:block"  v-on:click="scrolltohome()">
+              <div class="md:mt-0">
+                <img src="img/logo_black.png" class="h-12 mx-auto" aria-hidden="true" />
               </div>
             </button>
 
@@ -414,22 +418,7 @@ export default {
     document.getElementById('close').click();
     }
   },
-  // watch: {
-  //   isOpen: {
-  //     immediate: true,
-  //     handler(isOpen) {
-  //       if (process.client) {
-  //         if (isOpen) document.body.style.setProperty("overflow", "hidden");
-  //         else document.body.style.removeProperty("overflow");
-  //       }
-  //     }
-  //   }
-  // },
-  mounted() {
-    document.addEventListener("keydown", e => {
-      if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
-    });
-  }
+
 };
 
 </script>

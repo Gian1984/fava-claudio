@@ -51,7 +51,7 @@
               </p>
               <p class="max-w-lg text-base text-black sm:max-w-3xl text-right">
                 Progettiamo coniugando estetica ed esigenze del cliente.<br>
-                <button class="mt-10 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_centrale_operativa_telecontrol' })">
+                <button class="mt-32 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_centrale_operativa_telecontrol' })">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </button>
@@ -83,7 +83,7 @@
               </p>
               <p class="max-w-lg text-base text-black sm:max-w-3xl">
                 Progettiamo per dare nuova vita agli edifici.<br>
-                <button class="mt-10 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_nel_parco' })">
+                <button class="mt-32 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_nel_parco' })">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </button>
@@ -111,7 +111,7 @@
           </p>
           <p class="mt-2 max-w-lg text-right text-base text-grey-500 sm:max-w-3xl">
             Disegniamo arredi personalizzati studiando ogni particolare.<br>
-            <button class="mt-10 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
+            <button class="mt-32 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
               <span class="px-1 py-0.5">Vai al progetto</span>
               <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
             </button>
@@ -142,7 +142,7 @@
           </p>
           <p class="mt-2 max-w-lg text-base text-grey-500 sm:max-w-3xl">
             Progettiamo coniugando estetica ed esigenze del cliente.<br>
-            <button class="mt-10 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
+            <button class="mt-32 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
               <span class="px-1 py-0.5">Vai al progetto</span>
               <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
             </button>
@@ -285,16 +285,14 @@ gsap.registerPlugin(ScrollTrigger);
 const products = [
   {
     id: 1,
-    name: 'Nuova Sala Congressi Telecontrol',
-    price: '$32',
+    name: 'Sala Congressi Telecontrol',
     href: '/Project_sala_congressi_telecontrol',
     imageSrc: 'img/vista-01.jpg',
-    imageAlt: "Nuova Sala Congressi Telecontrol.",
+    imageAlt: "Sala Congressi Telecontrol.",
   },
   {
     id: 1,
     name: 'Casa Nel Parco',
-    price: '$32',
     href: '/Project_casa_nel_parco',
     imageSrc: 'img/vista-esterna-02_crop.jpg',
     imageAlt: "Casa Nel Parco.",
@@ -302,7 +300,6 @@ const products = [
   {
     id: 1,
     name: 'Casa Rivoli',
-    price: '$32',
     href: '/Project_casa_rivoli',
     imageSrc: 'img/PRO_7711.jpg',
     imageAlt: "Casa Rivoli.",
@@ -310,7 +307,6 @@ const products = [
   {
     id: 1,
     name: 'Centrale Operativa Telecontrol',
-    price: '$32',
     href: '/Project_centrale_operativa_telecontrol',
     imageSrc: 'img/PRO_7906.jpg',
     imageAlt: "Centrale Operativa Telecontrol.",
@@ -318,7 +314,6 @@ const products = [
   {
     id: 1,
     name: 'Casa R',
-    price: '$32',
     href: '/Project_casa_R',
     imageSrc: 'img/vista-02-versione-A.jpg',
     imageAlt: "Casa R.",
@@ -326,7 +321,6 @@ const products = [
   {
     id: 1,
     name: 'Camera Dei Bimbi',
-    price: '$32',
     href: '/Project_camera_bimbi',
     imageSrc: 'img/vista-03_crop.jpg',
     imageAlt: "Camera Dei Bimbi.",
