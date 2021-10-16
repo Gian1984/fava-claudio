@@ -14,10 +14,6 @@
         </div>
 
         <div  class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
-
-
-
-
           <div v-if="this.$route.path == '/'" class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
             <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
               Home
@@ -47,8 +43,6 @@
             </Button>
           </div>
 
-          <div v-else> Sucks </div>
-
         </div>
 
         <div class="-mr-2 flex items-center sm:hidden">
@@ -67,39 +61,25 @@
             <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
           </Button>
 
-          <div v-else> Sucks </div>
         </div>
       </div>
     </div>
 
     <DisclosurePanel class="sm:hidden" :value="isOpen">
-      <div class=" bg-white">
-
-        <button @click="drawer()" class="w-full text-gray-500 group flex block pl-3 pr-4 py-2 border-b border-gray-300 text-base font-medium" v-on:click="scrolltohome()">
+      <div class="bg-opacity-100 shadow filter brightness-150">
+        <button @click="drawer()" class="w-full text-gray-900 group flex block pl-3 pr-4 py-2 border-b border-gray-300 text-base font-medium" v-on:click="scrolltohome()">
           <HomeIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Home</span>
         </button>
-<!--        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocosafacciamo()">-->
-<!--          <ColorSwatchIcon class="h-6 w-6" aria-hidden="true" />-->
-<!--          <span class="ml-2">Cosa Facciamo</span>-->
-<!--        </button>-->
-<!--        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocomeprogettiamo()">-->
-<!--          <PresentationChartBarIcon class="h-6 w-6" aria-hidden="true" />-->
-<!--          <span class="ml-2">Come Progettiamo</span>-->
-<!--        </button>-->
-<!--        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocomelavoriamo()">-->
-<!--          <TemplateIcon class="h-6 w-6" aria-hidden="true" />-->
-<!--          <span class="ml-2">Come Lavoriamo</span>-->
-<!--        </button>-->
-        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltoprofilo()">
+        <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltoprofilo()">
           <UsersIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Chi siamo</span>
         </button>
-        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltoprogetti()">
+        <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltoprogetti()">
           <FolderOpenIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Progetti</span>
         </button>
-        <button @click="drawer()" class="w-full text-gray-500 hover:bg-gray-50 group flex hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocontatti()">
+        <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocontatti()">
           <ChatAltIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Contatti</span>
         </button>

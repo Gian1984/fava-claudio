@@ -4,7 +4,8 @@
     <main class="pt-20 max-w-full mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-full lg:pt-24 lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
         <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
-          NUOVA SALA CONGRESSI TELECONTROL
+          SALA CONGRESSI TELECONTROL<br>
+          2016 - Rivoli
         </h1>
 
         <!-- Image gallery -->
@@ -26,11 +27,7 @@
               <!--content-->
               <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none bg-gray-200">
                 <!--header-->
-                <div class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                  <h3 class="text-3xl font-semibold">
-                    Dettaglio foto
-                  </h3>
-                </div>
+                <div class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t"></div>
                 <!--body-->
                 <div class="relative p-6 flex-auto">
                   <div class="carousel relative rounded relative overflow-hidden shadow-xl">
@@ -142,8 +139,8 @@
                 </div>
                 <!--footer-->
                 <div class="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
-                  <button class="text-black bg-transparent border border-solid border-black-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" v-on:click="toggleModal()">
-                    Close
+                  <button class=" bg-transparent uppercase text-sm rounded  mr-1 mb-1 " type="button" v-on:click="toggleModal()">
+                    <XIcon class="w-8 h-8 text-gray-500 hover:text-black" aria-hidden="true" />
                   </button>
                 </div>
               </div>
@@ -156,8 +153,9 @@
         <div class="mt-8 lg:col-span-3">
           <!-- Product details -->
 
-          <h1 class="text-xl font-medium text-gray-900 text-center hidden lg:block">
-            NUOVA SALA CONGRESSI TELECONTROL
+          <h1 class="text-xl font-medium text-gray-900 text-left hidden lg:block">
+            SALA CONGRESSI TELECONTROL<br>
+            2016 - Rivoli
           </h1>
 
           <div class="mt-10">
@@ -183,6 +181,8 @@
 </template>
 
 <script>
+
+import { XIcon } from '@heroicons/vue/outline'
 
 const product = {
   name: 'NUOVA SALA CONGRESSI TELECONTROL',
@@ -260,6 +260,10 @@ export default {
     return {
       showModal: false
     }
+  },
+
+  components:{
+    XIcon
   },
 
   methods:{
