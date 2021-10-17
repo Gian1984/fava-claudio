@@ -4,8 +4,9 @@
     <main class="pt-20 max-w-full mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-full lg:pt-24 lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
         <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
-          SALA CONGRESSI TELECONTROL<br>
-          2016 - Rivoli
+          CENTRALE OPERATIVA TELECONTROL
+          <br>
+          2014 - Rivoli
         </h1>
 
         <!-- Image gallery -->
@@ -37,7 +38,7 @@
                       <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
                              checked="checked">
                       <div class="carousel-item absolute opacity-0 bg-center w-100 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-01.jpg" alt="sala congressi telecontrol">
+                        <img src="img/PRO_7906.jpg" alt="vista-interna-01">
                       </div>
                       <label for="carousel-3"
                              class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
@@ -49,7 +50,7 @@
                       <!--Slide 2-->
                       <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 bg-center h-52 md:h-full lg:h-full">
-                        <img src="img/vista-02.jpg" alt="sala congressi telecontrol">
+                        <img src="img/PRO_7912.jpg" alt="vista-interna-02">
                       </div>
                       <label for="carousel-1"
                              class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -61,7 +62,7 @@
                       <!--Slide 3-->
                       <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-03.jpg" alt="sala congressi telecontrol">
+                        <img src="img/PRO_7943.jpg" alt="vista-interna-03">
                       </div>
                       <label for="carousel-2"
                              class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -73,7 +74,7 @@
                       <!--Slide 4-->
                       <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-04-assometria.jpg" alt="sala congressi telecontrol">
+                        <img src="img/PRO_7933.jpg" alt="vista-interna-04">
                       </div>
                       <label for="carousel-4"
                              class="control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -85,7 +86,7 @@
                       <!--Slide 5-->
                       <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/pianta-piano-terreno.jpg" alt="sala congressi telecontrol">
+                        <img src="img/PRO_7942.jpg" alt="vista-interna-05">
                       </div>
                       <label for="carousel-4"
                              class="control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -97,14 +98,51 @@
                       <!--Slide 6-->
                       <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/20170415_173308-BN-1.jpg" alt="sala congressi telecontrol">
+                        <img src="img/PRO_7948.jpg" alt="vista-interna-06">
                       </div>
                       <label for="carousel-5"
                              class="control-6 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
                           class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-1"
+                      <label for="carousel-7"
                              class="next control-6 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
                           class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 7-->
+                      <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
+                        <img src="img/spaccato-assonometrico.jpg" alt="spaccato assonometrico">
+                      </div>
+                      <label for="carousel-6"
+                             class="control-7 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-8"
+                             class="next control-7 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 8 -->
+                      <input class="carousel-open" type="radio" id="carousel-8" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
+                        <img src="img/2017-01-09_Progetto-Centrale-operativa-Tav-A1.jpg" alt="progetto">
+                      </div>
+                      <label for="carousel-7"
+                             class="control-8 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-9"
+                             class="next control-8 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 9 -->
+                      <input class="carousel-open" type="radio" id="carousel-9" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
+                        <img src="img/20170415_173308-BN-copy.jpg" alt="stato di fatto">
+                      </div>
+                      <label for="carousel-8"
+                             class="control-9 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-1"
+                             class="next control-9 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
 
                       <!-- Add additional indicators for each slide-->
                       <ol class="carousel-indicators">
@@ -132,6 +170,19 @@
                           <label for="carousel-6"
                                  class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-7"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-8"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-9"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+
                       </ol>
 
                     </div>
@@ -153,9 +204,10 @@
         <div class="mt-8 lg:col-span-3">
           <!-- Product details -->
 
-          <h1 class="text-xl font-medium text-gray-900 text-left hidden lg:block">
-            SALA CONGRESSI TELECONTROL<br>
-            2016 - Rivoli
+          <h1 class="text-xl text-left font-medium text-gray-900 hidden lg:block">
+            CENTRALE OPERATIVA TELECONTROL
+            <br>
+            2014 - Rivoli
           </h1>
 
           <div class="mt-10">
@@ -181,73 +233,100 @@
 </template>
 
 <script>
-
 import { XIcon } from '@heroicons/vue/outline'
 
 const product = {
-  name: 'NUOVA SALA CONGRESSI TELECONTROL',
+  name: 'CENTRALE OPERATIVA TELECONTROL',
   href: '#',
   images: [
     {
       id: 1,
-      imageSrc: 'img/vista-01.jpg',
-      imageAlt: "NUOVA SALA CONGRESSI TELECONTROL",
-      description:"SALA CONGRESSI VISTA 1",
+      name: 'Centrale operativa vista interna 1',
+      imageSrc: 'img/PRO_7906.jpg',
+      imageAlt: "Centrale operativa vista interna 1",
+      description:"Centrale operativa vista interna 1 1",
       primary: true,
     },
     {
       id: 2,
-      name: 'Sala Congressi',
-      imageSrc: 'img/vista-02.jpg',
-      imageAlt: "Sala Congressi.",
-      description:"SALA CONGRESSI VISTA 2",
+      name: 'Centrale operativa vista interna 2',
+      imageSrc: 'img/PRO_7912.jpg',
+      imageAlt: "Centrale operativa vista interna 2",
+      description:"Centrale operativa vista interna 2",
       primary: true,
     },
 
     {
-      id: 2,
-      name: 'Ingresso',
-      imageSrc: 'img/vista-03.jpg',
-      imageAlt: "Ingresso.",
-      description:"SALA CONGRESSI INGRESSO",
+      id: 3,
+      name: 'Centrale operativa vista interna 3',
+      imageSrc: 'img/PRO_7943.jpg',
+      imageAlt: "Centrale operativa vista interna 3",
+      description:"Centrale operativa vista interna 3",
       primary: true,
     },
     {
       id: 4,
-      name: 'Esploso',
-      imageSrc: 'img/vista-04-assometria.jpg',
-      imageAlt: "Esploso.",
-      description:"SALA CONGRESSI ESPLOSO",
+      name: 'Centrale operativa vista interna 4',
+      imageSrc: 'img/PRO_7933.jpg',
+      imageAlt: "Centrale operativa vista interna 4",
+      description:"Centrale operativa vista interna 4",
       primary: true,
     },
     {
       id: 5,
-      name: 'Planimetria',
-      imageSrc: 'img/pianta-piano-terreno.jpg',
-      imageAlt: "Planimetria.",
-      description:"SALA CONGRESSI PLANIMETRIA",
+      name: 'Centrale operativa vista interna 5',
+      imageSrc: 'img/PRO_7942.jpg',
+      imageAlt: "Centrale operativa vista interna 5",
+      description:"Centrale operativa vista interna 5",
       primary: true,
     },
     {
       id: 6,
-      name: 'Stato di fatto',
-      imageSrc: 'img/20170415_173308-BN-1.jpg',
-      imageAlt: "Stato di fatto.",
-      description:"STATO DI FATTO",
+      name: 'Centrale operativa vista interna 6',
+      imageSrc: 'img/PRO_7948.jpg',
+      imageAlt: "Centrale operativa vista interna 6",
+      description:"Centrale operativa vista interna 6",
       primary: true,
     },
+    {
+      id: 7,
+      name: 'Spaccato assonometrico',
+      imageSrc: 'img/spaccato-assonometrico.jpg',
+      imageAlt: "Spaccato assonometrico",
+      description:"Spaccato assonometrico",
+      primary: true,
+    },
+    {
+      id: 8,
+      name: 'Tavola progetto',
+      imageSrc: 'img/2017-01-09_Progetto-Centrale-operativa-Tav-A1.jpg',
+      imageAlt: "Tavola progetto",
+      description:"Tavola progetto",
+      primary: true,
+    },
+    {
+      id: 9,
+      name: 'Casa Rivoli vista interna 9',
+      imageSrc: 'img/20170415_173308-BN-copy.jpg',
+      imageAlt: "Casa Rivoli vista interna 9",
+      description:"Casa Rivoli vista interna 9",
+      primary: true,
+    },
+
   ],
 
   description: `
-    <p>L’intervento prevede la rifunzionalizzazione del locale autorimessa dell’azienda Telecontrol Spa a Rivoli (To) con l’obbiettivo di trasformarlo in una nuova Sala Congressi per complessivi 400 mq compresi di un soppalco.
-Il progetto prevede di creare uno spazio polifunzionale per soddisfare le esigenze del cliente che richiedeva la massima flessibilità nelle possibili funzioni di tale spazio. Le principali destinazioni d’uso dello spazio sono state così individuate: area lounge, area break, area supporto per allestimenti catering, spazio per riunioni e convention, sala per feste e presentazioni, locale deposito /guardaroba.
-Scatolari metallici sospesi sostengono i corpi illuminanti e si ancorano ai pilastri esistenti creando una rete che delimita idealmente le varie aree. Pareti in legno a soffietto possono essere tenute aperte o chiuse a fisarmonica per suddividere gli spazi a seconda dell’attività che si sta svolgendo.</p>`,
+    <p>Il progetto di ristrutturazione della Centrale Operativa di Telecontrol è caratterizzato da un totale restyling per un’azienda leader nel campo della sicurezza e della vigilanza.
+Il progetto consente ai visitatori di poter osservare “il cuore pulsante dell’azienda”, senza tuttavia disturbare l’attività lavorativa dei dipendenti. Differenti tonalità di colore per la pavimentazione separano il percorso distributivo dagli spazi lavorativi.
+Le pareti degli uffici sono tamponate con vetrate e lamiere forate a tutta altezza in modo da conferire luminosità e permeabilità agli ambienti interni.
+</p>`,
 
   info:[
     {name: 'Luogo', info:'Rivoli (TO)'},
-    {name:'Stato', info:'Compleato'},
+    {name:'Stato', info:'Realizzato'},
     {name:'Cliente', info:'Telecontrol Spa'},
     {name:'Team di progettazione', info:'Claudio Fava, Giorgio Fava'},
+    {name:'Foto', info:'Paolo Properzi'}
   ]
 
 }
@@ -296,7 +375,10 @@ export default {
 #carousel-3:checked~.control-3,
 #carousel-4:checked~.control-4,
 #carousel-5:checked~.control-5,
-#carousel-6:checked~.control-6{
+#carousel-6:checked~.control-6,
+#carousel-7:checked~.control-7,
+#carousel-8:checked~.control-8,
+#carousel-9:checked~.control-9{
   display: block;
 }
 
@@ -317,7 +399,10 @@ export default {
 #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-4:checked~.control-4~.carousel-indicators li:nth-child(4) .carousel-bullet,
 #carousel-5:checked~.control-5~.carousel-indicators li:nth-child(5) .carousel-bullet,
-#carousel-6:checked~.control-6~.carousel-indicators li:nth-child(6) .carousel-bullet{
+#carousel-6:checked~.control-6~.carousel-indicators li:nth-child(6) .carousel-bullet,
+#carousel-7:checked~.control-7~.carousel-indicators li:nth-child(7) .carousel-bullet,
+#carousel-8:checked~.control-8~.carousel-indicators li:nth-child(8) .carousel-bullet,
+#carousel-9:checked~.control-9~.carousel-indicators li:nth-child(9) .carousel-bullet{
   color: #2b6cb0;
 }
 </style>
