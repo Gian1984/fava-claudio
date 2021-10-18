@@ -74,7 +74,7 @@ const products = [
     id: 7,
     name: 'Concorso Rasoparete',
     href: '/Project_concorso_rasoparete',
-    imageSrc: 'img/rasoparete/vista 03.jpg',
+    imageSrc: 'img/rasoparete/vista-03-1-scaled.jpg',
     imageAlt: "Concorso Rasoparete.",
   },
   {
@@ -88,7 +88,7 @@ const products = [
     id: 9,
     name: 'Villa Perrault',
     href: '/Project_villa_perrault',
-    imageSrc: 'img/vista-03_crop.jpg',
+    imageSrc: 'img/villaperrault/vista-02-scaled.jpg',
     imageAlt: "Villa Perrault.",
   },
 ]

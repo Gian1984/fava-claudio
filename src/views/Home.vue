@@ -72,7 +72,7 @@
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/vista-esterna-01_crop.jpg" alt="Progetto casa esterni" />
+          <img class="h-full w-full object-cover" src="img/rasoparete/vista-03-1-scaled.jpg" alt="Progetto casa esterni" />
           <div class="absolute inset-0" />
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
@@ -83,7 +83,7 @@
               </p>
               <p class="max-w-lg text-base text-black sm:max-w-3xl">
                 Progettiamo per dare nuova vita agli edifici.<br>
-                <button class="mt-32 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_nel_parco' })">
+                <button class="mt-32 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_concorso_rasoparete' })">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </button>
@@ -301,7 +301,7 @@ const products = [
     id: 7,
     name: 'Concorso Rasoparete',
     href: '/Project_concorso_rasoparete',
-    imageSrc: 'img/rasoparete/vista 03.jpg',
+    imageSrc: 'img/rasoparete/vista-03-1-scaled.jpg',
     imageAlt: "Concorso Rasoparete.",
   },
   {
@@ -315,7 +315,7 @@ const products = [
     id: 9,
     name: 'Villa Perrault',
     href: '/Project_villa_perrault',
-    imageSrc: 'img/vista-03_crop.jpg',
+    imageSrc: 'img/villaperrault/vista-02-scaled.jpg',
     imageAlt: "Villa Perrault.",
   },
 ]

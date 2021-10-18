@@ -37,7 +37,7 @@
                       <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
                              checked="checked">
                       <div class="carousel-item absolute opacity-0 bg-center w-100 h-52 md:h-full lg:h-full">
-                        <img src="img/rasoparete/vista 03.jpg" alt="vista-esterna-01">
+                        <img src="img/rasoparete/vista-03-1-scaled.jpg" alt="vista-esterna-01">
                       </div>
                       <label for="carousel-10"
                              class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
@@ -49,7 +49,7 @@
                       <!--Slide 2-->
                       <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 bg-center h-52 md:h-full lg:h-full">
-                        <img src="img/rasoparete/vista 02.jpg" alt="vista-esterna-02">
+                        <img src="img/rasoparete/vista-02-1-scaled.jpg" alt="vista-esterna-02">
                       </div>
                       <label for="carousel-1"
                              class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -61,7 +61,7 @@
                       <!--Slide 3-->
                       <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/rasoparete/vista 01.jpg" alt="vista-esterna-03">
+                        <img src="img/rasoparete/vista-01-1-scaled.jpg" alt="vista-esterna-03">
                       </div>
                       <label for="carousel-2"
                              class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -73,7 +73,7 @@
                       <!--Slide 4-->
                       <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/rasoparete/vista 03b.jpg" alt="vista-esterna-04">
+                        <img src="img/rasoparete/vista-03b-scaled.jpg" alt="vista-esterna-04">
                       </div>
                       <label for="carousel-3"
                              class="control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -85,7 +85,7 @@
                       <!--Slide 5-->
                       <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/rasoparete/vista 04.jpg" alt="vista-interna-01">
+                        <img src="img/rasoparete/vista-04-1-scaled.jpg" alt="vista-interna-01">
                       </div>
                       <label for="carousel-4"
                              class="control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -97,7 +97,7 @@
                       <!--Slide 6-->
                       <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/rasoparete/vista 05.jpg" alt="vista-interna-02">
+                        <img src="img/rasoparete/vista-05-1-scaled.jpg" alt="vista-interna-02">
                       </div>
                       <label for="carousel-5"
                              class="control-6 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -109,7 +109,7 @@
                       <!--Slide 7-->
                       <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/rasoparete/vista 06.jpg" alt="vista-interna-07">
+                        <img src="img/rasoparete/vista-06-1-scaled.jpg" alt="vista-interna-07">
                       </div>
                       <label for="carousel-6"
                              class="control-7 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -121,7 +121,7 @@
                       <!--Slide 8 -->
                       <input class="carousel-open" type="radio" id="carousel-8" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/rasoparete/SPACCATO.jpg" alt="spaccato">
+                        <img src="img/rasoparete/SPACCATO-scaled.jpg" alt="spaccato">
                       </div>
                       <label for="carousel-7"
                              class="control-8 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -133,7 +133,7 @@
                       <!--Slide 9 -->
                       <input class="carousel-open" type="radio" id="carousel-9" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/rasoparete/pianta piano TERRENO.jpg" alt="pianta piano terra">
+                        <img src="img/rasoparete/pianta-piano-TERRENO-scaled.jpg" alt="pianta piano terra">
                       </div>
                       <label for="carousel-8"
                              class="control-9 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -145,7 +145,7 @@
                       <!--Slide 10 -->
                       <input class="carousel-open" type="radio" id="carousel-10" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/rasoparete/pianta piano PRIMO.jpg" alt="pianta primo piano">
+                        <img src="img/rasoparete/pianta-piano-PRIMO-scaled.jpg" alt="pianta primo piano">
                       </div>
                       <label for="carousel-9"
                              class="control-10 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -257,7 +257,7 @@ const product = {
     {
       id: 1,
       name: 'Concorso Rasoparete vista esterna 1',
-      imageSrc: 'img/rasoparete/vista 03.jpg',
+      imageSrc: 'img/rasoparete/vista-03-1-scaled.jpg',
       imageAlt: "Concorso Rasoparete vista esterna 1",
       description:"Concorso Rasoparete vista esterna 1",
       primary: true,
@@ -265,7 +265,7 @@ const product = {
     {
       id: 2,
       name: 'Concorso Rasoparete vista esterna 2',
-      imageSrc: 'img/rasoparete/vista 02.jpg',
+      imageSrc: 'img/rasoparete/vista-02-1-scaled.jpg',
       imageAlt: "Concorso Rasoparete vista esterna 2",
       description:"Concorso Rasoparete vista esterna 2",
       primary: true,
@@ -274,7 +274,7 @@ const product = {
     {
       id: 3,
       name: 'Concorso Rasoparete vista esterna 3',
-      imageSrc: 'img/rasoparete/vista 01.jpg',
+      imageSrc: 'img/rasoparete/vista-01-1-scaled.jpg',
       imageAlt: "Concorso Rasoparete vista esterna 3",
       description:"Concorso Rasoparete vista esterna 3",
       primary: true,
@@ -282,7 +282,7 @@ const product = {
     {
       id: 4,
       name: 'Concorso Rasoparete vista esterna 4',
-      imageSrc: 'img/rasoparete/vista 03b.jpg',
+      imageSrc: 'img/rasoparete/vista-03b-scaled.jpg',
       imageAlt: "Concorso Rasoparete vista esterna 4",
       description:"Concorso Rasoparete vista esterna 4",
       primary: true,
@@ -290,7 +290,7 @@ const product = {
     {
       id: 5,
       name: 'Concorso Rasoparete vista interna 1',
-      imageSrc: 'img/rasoparete/vista 04.jpg',
+      imageSrc: 'img/rasoparete/vista-04-1-scaled.jpg',
       imageAlt: "Concorso Rasoparete vista interna 1",
       description:"Concorso Rasoparete vista interna 1",
       primary: true,
@@ -298,7 +298,7 @@ const product = {
     {
       id: 6,
       name: 'Concorso Rasoparete vista interna 2',
-      imageSrc: 'img/rasoparete/vista 05.jpg',
+      imageSrc: 'img/rasoparete/vista-05-1-scaled.jpg',
       imageAlt: "Concorso Rasoparete vista interna 2",
       description:"Concorso Rasoparete vista interna 2",
       primary: true,
@@ -306,7 +306,7 @@ const product = {
     {
       id: 7,
       name: 'Concorso Rasoparete vista interna 3',
-      imageSrc: 'img/rasoparete/vista 06.jpg',
+      imageSrc: 'img/rasoparete/vista-06-1-scaled.jpg',
       imageAlt: "Concorso Rasoparete vista interna 3",
       description:"Concorso Rasoparete vista interna 3",
       primary: true,
@@ -314,7 +314,7 @@ const product = {
     {
       id: 8,
       name: 'Concorso Rasoparete spaccato',
-      imageSrc: 'img/rasoparete/SPACCATO.jpg',
+      imageSrc: 'img/rasoparete/SPACCATO-scaled.jpg',
       imageAlt: "Concorso Rasoparete spaccato",
       description:"Concorso Rasoparete spaccato",
       primary: true,
@@ -322,7 +322,7 @@ const product = {
     {
       id: 9,
       name: 'Concorso Rasoparete pianta piano terreno',
-      imageSrc: 'img/rasoparete/pianta piano TERRENO.jpg',
+      imageSrc: 'img/rasoparete/pianta-piano-TERRENO-scaled.jpg',
       imageAlt: "Concorso Rasoparete pianta piano terreno",
       description:"Concorso Rasoparete pianta piano terreno",
       primary: true,
@@ -330,7 +330,7 @@ const product = {
     {
       id: 10,
       name: 'Concorso Rasoparete pianta primo piano',
-      imageSrc: 'img/rasoparete/pianta piano PRIMO.jpg',
+      imageSrc: 'img/rasoparete/pianta-piano-PRIMO-scaled.jpg',
       imageAlt: "Concorso Rasoparete pianta primo piano",
       description:"Concorso Rasoparete pianta primo piano",
       primary: true,
