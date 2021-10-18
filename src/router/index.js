@@ -6,6 +6,9 @@ import Project_casa_R from '../components/Project_casa_R.vue'
 import Project_casa_rivoli from '../components/Project_casa_rivoli.vue'
 import Project_centrale_operativa_telecontrol from '../components/Project_centrale_operativa_telecontrol.vue'
 import Project_sala_congressi_telecontrol from '../components/Project_sala_congressi_telecontrol.vue'
+import Project_concorso_rasoparete from '../components/Project_concorso_rasoparete.vue'
+import Project_oragiusta_moncalieri from '../components/Project_oragiusta_moncalieri.vue'
+import Project_villa_perrault from '../components/Project_villa_perrault.vue'
 import Projects from '../components/Projects.vue'
 import PageNotFound from '../views/PageNotFound.vue'
 
@@ -21,6 +24,24 @@ const routes = [
         {
           name: 'description',
           content: 'Home page dello Studio di Architettura Fava Claudio.'
+        },
+        {
+          property: 'og:description',
+          content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Projects',
+    name: 'Projects',
+    component: Projects,
+    meta: {
+      title: 'Progetti Fava Claudio Architetto',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Progetti dello Studio di Architettura Fava Claudio.'
         },
         {
           property: 'og:description',
@@ -138,9 +159,9 @@ const routes = [
     }
   },
   {
-    path: '/Projects',
-    name: 'Projects',
-    component: Projects,
+    path: '/Project_concorso_rasoparete',
+    name: 'Project_concorso_rasoparete',
+    component: Project_concorso_rasoparete,
     meta: {
       title: 'Progetti Fava Claudio Architetto',
       metaTags: [
@@ -155,6 +176,43 @@ const routes = [
       ]
     }
   },
+  {
+    path: '/Project_oragiusta_moncalieri',
+    name: 'Project_oragiusta_moncalieri',
+    component: Project_oragiusta_moncalieri,
+    meta: {
+      title: 'Progetti Fava Claudio Architetto',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Progetti dello Studio di Architettura Fava Claudio.'
+        },
+        {
+          property: 'og:description',
+          content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Project_villa_perrault',
+    name: 'Project_villa_perrault',
+    component: Project_villa_perrault,
+    meta: {
+      title: 'Progetti Fava Claudio Architetto',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Progetti dello Studio di Architettura Fava Claudio.'
+        },
+        {
+          property: 'og:description',
+          content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+        }
+      ]
+    }
+  },
+
   {
     path: "/:catchAll(.*)",
     name: 'Page_not_found',

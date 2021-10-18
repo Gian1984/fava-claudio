@@ -4,8 +4,9 @@
     <main class="pt-20 max-w-full mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-full lg:pt-24 lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
         <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
-          CASA NEL PARCO <br>
-          2012 - Rivalta di Torino
+          L'Oragiusta Moncalieri
+          <br>
+          2020 - Moncalieri (TO)
         </h1>
 
         <!-- Image gallery -->
@@ -37,7 +38,7 @@
                       <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
                              checked="checked">
                       <div class="carousel-item absolute opacity-0 bg-center w-100 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-esterna-01.jpg" alt="vista-esterna-01">
+                        <img src="img/loragiusta/foto-1-scaled.jpg" alt="vista-interna-01">
                       </div>
                       <label for="carousel-9"
                              class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
@@ -49,7 +50,7 @@
                       <!--Slide 2-->
                       <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 bg-center h-52 md:h-full lg:h-full">
-                        <img src="img/vista-esterna-02.jpg" alt="vista-esterna-02">
+                        <img src="img/loragiusta/foto-2-scaled.jpg" alt="vista-interna-02">
                       </div>
                       <label for="carousel-1"
                              class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -61,7 +62,7 @@
                       <!--Slide 3-->
                       <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-interna-01.jpg" alt="vista-interna-01">
+                        <img src="img/loragiusta/foto-3-scaled.jpg" alt="vista-interna-03">
                       </div>
                       <label for="carousel-2"
                              class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -73,7 +74,7 @@
                       <!--Slide 4-->
                       <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-interna-04-.jpg" alt="vista-interna-04">
+                        <img src="img/loragiusta/foto-4-scaled.jpg" alt="vista-interna-04">
                       </div>
                       <label for="carousel-3"
                              class="control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -85,7 +86,7 @@
                       <!--Slide 5-->
                       <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-interna-02.jpg" alt="vista-interna-02">
+                        <img src="img/loragiusta/foto-5-scaled.jpg" alt="vista-interna-05">
                       </div>
                       <label for="carousel-4"
                              class="control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -97,7 +98,7 @@
                       <!--Slide 6-->
                       <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-esploso-04.jpg" alt="vista-esploso-04">
+                        <img src="img/loragiusta/foto-6-scaled.jpg" alt="vista-interna-06">
                       </div>
                       <label for="carousel-5"
                              class="control-6 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -109,7 +110,7 @@
                       <!--Slide 7-->
                       <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/PIANO-TERRA.jpg" alt="Pianta piano terra">
+                        <img src="img/loragiusta/foto-7-scaled.jpg" alt="vista-interna-07">
                       </div>
                       <label for="carousel-6"
                              class="control-7 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -121,7 +122,7 @@
                       <!--Slide 8 -->
                       <input class="carousel-open" type="radio" id="carousel-8" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/PIANO-PRIMO-_-CON-VUOTO-PICCOLO.jpg" alt="Pianta primo piano">
+                        <img src="img/loragiusta/foto-8-scaled.jpg" alt="vista-interna-08">
                       </div>
                       <label for="carousel-7"
                              class="control-8 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -133,7 +134,7 @@
                       <!--Slide 9 -->
                       <input class="carousel-open" type="radio" id="carousel-9" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/stato-di-fatto.jpg" alt="stato di fatto">
+                        <img src="img/loragiusta/foto-9-scaled.jpg" alt="vista-interna-09">
                       </div>
                       <label for="carousel-8"
                              class="control-9 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -141,6 +142,7 @@
                       <label for="carousel-1"
                              class="next control-9 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
                           class="fas fa-angle-right mt-3"></i></label>
+
 
                       <!-- Add additional indicators for each slide-->
                       <ol class="carousel-indicators">
@@ -180,6 +182,7 @@
                           <label for="carousel-9"
                                  class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
+
                       </ol>
 
                     </div>
@@ -202,8 +205,9 @@
           <!-- Product details -->
 
           <h1 class="text-xl text-left font-medium text-gray-900 hidden lg:block">
-            CASA NEL PARCO <br>
-            2012 - Rivalta di Torino
+            L'Oragiusta Moncalieri
+            <br>
+            2020 - Moncalieri (TO)
           </h1>
 
           <div class="mt-10">
@@ -232,95 +236,97 @@
 import { XIcon } from '@heroicons/vue/outline'
 
 const product = {
-  name: 'CASA NEL PARCO',
+  name: "L'ORAGIUSTA MONCALIEI",
   href: '#',
   images: [
     {
       id: 1,
-      name: 'Casa nel Parco vista  1',
-      imageSrc: 'img/vista-esterna-01.jpg',
-      imageAlt: "Casa nel parco vista esterna 1",
-      description:"Casa nel parco vista esterna 1",
+      name: "L'Oragiusta Moncalieri vista 1",
+      imageSrc: 'img/loragiusta/foto-1-scaled.jpg',
+      imageAlt: "L'Oragiusta Moncalieri vista 1",
+      description:"L'Oragiusta Moncalieri vista 1",
       primary: true,
     },
     {
       id: 2,
-      name: 'Casa nel parco vista esterna 2',
-      imageSrc: 'img/vista-esterna-02.jpg',
-      imageAlt: "Casa nel parco vista esterna 2",
-      description:"Casa nel parco vista esterna 2",
+      name: "L'Oragiusta Moncalieri vista 2",
+      imageSrc: 'img/loragiusta/foto-2-scaled.jpg',
+      imageAlt: "L'Oragiusta Moncalieri vista 2",
+      description:"L'Oragiusta Moncalieri vista 2",
       primary: true,
     },
 
     {
       id: 3,
-      name: 'Casa nel parco vista interna 1',
-      imageSrc: 'img/vista-interna-01.jpg',
-      imageAlt: "Casa nel parco vista interna 1",
-      description:"Casa nel parco vista interna 1",
+      name: "L'Oragiusta Moncalieri vista 3",
+      imageSrc: 'img/loragiusta/foto-3-scaled.jpg',
+      imageAlt: "L'Oragiusta Moncalieri vista 3",
+      description:"L'Oragiusta Moncalieri vista 3",
       primary: true,
     },
     {
       id: 4,
-      name: 'Casa nel parco vista interna 2',
-      imageSrc: 'img/vista-interna-04-.jpg',
-      imageAlt: "Casa nel parco vista interna 2",
-      description:"Casa nel parco vista interna 2",
+      name: "L'Oragiusta Moncalieri vista 4",
+      imageSrc: 'img/loragiusta/foto-4-scaled.jpg',
+      imageAlt: "L'Oragiusta Moncalieri vista 4",
+      description:"L'Oragiusta Moncalieri vista 4",
       primary: true,
     },
     {
       id: 5,
-      name: 'Casa nel parco vista interna 3',
-      imageSrc: 'img/vista-interna-02.jpg',
-      imageAlt: "Casa nel parco vista interna 3",
-      description:"Casa nel parco vista interna 3",
+      name: "L'Oragiusta Moncalieri vista 5",
+      imageSrc: 'img/loragiusta/foto-5-scaled.jpg',
+      imageAlt: "L'Oragiusta Moncalieri vista 5",
+      description:"L'Oragiusta Moncalieri vista 5",
       primary: true,
     },
     {
       id: 6,
-      name: 'Casa nel parco vista esploso',
-      imageSrc: 'img/vista-esploso-04.jpg',
-      imageAlt: "Casa nel parco vista esploso",
-      description:"Casa nel parco vista esploso",
+      name: "L'Oragiusta Moncalieri vista 6",
+      imageSrc: 'img/loragiusta/foto-6-scaled.jpg',
+      imageAlt: "L'Oragiusta Moncalieri vista 6",
+      description:"L'Oragiusta Moncalieri vista 6",
       primary: true,
     },
     {
       id: 7,
-      name: 'Casa nel parco planimetria piano terra',
-      imageSrc: 'img/PIANO-TERRA.jpg',
-      imageAlt: "Casa nel parco planimetria piano terra",
-      description:"Casa nel parco planimetria piano terra",
+      name: "L'Oragiusta Moncalieri vista 7",
+      imageSrc: 'img/loragiusta/foto-7-scaled.jpg',
+      imageAlt: "L'Oragiusta Moncalieri vista 7",
+      description:"L'Oragiusta Moncalieri vista 7",
       primary: true,
     },
     {
       id: 8,
-      name: 'Casa nel parco planimetria primo piano',
-      imageSrc: 'img/PIANO-PRIMO-_-CON-VUOTO-PICCOLO.jpg',
-      imageAlt: "Casa nel parco planimetria primo piano",
-      description:"Casa nel parco planimetria primo piano",
+      name: "L'Oragiusta Moncalieri vista 8",
+      imageSrc: 'img/loragiusta/foto-8-scaled.jpg',
+      imageAlt: "L'Oragiusta Moncalieri vista 8",
+      description:"L'Oragiusta Moncalieri vista 8",
       primary: true,
     },
     {
       id: 9,
-      name: 'Casa nel parco stato di fatto',
-      imageSrc: 'img/stato-di-fatto.jpg',
-      imageAlt: "Casa nel parco stato di fatto",
-      description:"Casa nel parco stato di fatto",
+      name: "L'Oragiusta Moncalieri vista 9",
+      imageSrc: 'img/loragiusta/foto-9-scaled.jpg',
+      imageAlt: "L'Oragiusta Moncalieri vista 9",
+      description:"L'Oragiusta Moncalieri vista 9",
       primary: true,
     },
+
   ],
 
   description: `
-    <p>Dalla ristrutturazione di un fienile di un piccolo paese in Provicia di Torino, nasce questo progetto dal carattere sospeso tra tradizione e contemporaneità. Un edificio tipicamente agricolo, collocato all’interno di un parco, viene trasformato in una residenza senza stravolgerne la natura.
-La volumetria principale, il tetto a falde, le travi in legno e i pilastri in mattoni sono tutti elementi che vengono mantenuti in quanto caratterizzanti il manufatto storico.
-Il contatto diretto con il parco viene accentuato attraverso l’apertura di nuove finestrature che garantiscono una maggiore illuminazione degli ambienti interni e una migliore fruizione del verde circostante.
-All’interno dell’edificio uno spazio a doppia altezza amplifica la percezione dello spazio e mette in comunicazione la zona giorno al piano terra con la camera da letto posizionata al piano primo.</p>`,
+    <p>Il progetto di ristrutturazione della Centrale Operativa di Telecontrol è caratterizzato da un totale restyling per un’azienda leader nel campo della sicurezza e della vigilanza.
+Il progetto consente ai visitatori di poter osservare “il cuore pulsante dell’azienda”, senza tuttavia disturbare l’attività lavorativa dei dipendenti. Differenti tonalità di colore per la pavimentazione separano il percorso distributivo dagli spazi lavorativi.
+Le pareti degli uffici sono tamponate con vetrate e lamiere forate a tutta altezza in modo da conferire luminosità e permeabilità agli ambienti interni.
+</p>`,
 
   info:[
-    {name: 'Luogo', info:'Rivalta di Torino (TO)'},
-    {name:'Stato', info:'Progetto preliminare, studio di fattibilità'},
-    {name:'Cliente', info:'Privato'},
-    {name:'Team di progettazione', info:'Claudio Fava, Stefano Carera, Eirini Giannakopoulou'},
+    {name: 'Luogo', info:'Moncalieri (TO)'},
+    {name:'Stato', info:'Realizzato'},
+    {name:'Cliente', info:"L'Oragiusta"},
+    {name:'Team di progettazione', info:'Claudio Fava'},
+    {name:'Foto', info:'Paolo Properzi'}
   ]
 
 }

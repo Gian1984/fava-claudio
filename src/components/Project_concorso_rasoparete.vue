@@ -4,8 +4,8 @@
     <main class="pt-20 max-w-full mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-full lg:pt-24 lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
         <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
-          CASA NEL PARCO <br>
-          2012 - Rivalta di Torino
+          CONCORSO RASOPARETE <br>
+          2020 - “Lo spazio abitativo del terzo millennio”
         </h1>
 
         <!-- Image gallery -->
@@ -37,9 +37,9 @@
                       <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
                              checked="checked">
                       <div class="carousel-item absolute opacity-0 bg-center w-100 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-esterna-01.jpg" alt="vista-esterna-01">
+                        <img src="img/rasoparete/vista 03.jpg" alt="vista-esterna-01">
                       </div>
-                      <label for="carousel-9"
+                      <label for="carousel-10"
                              class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
                           class="fas fa-angle-left mt-3"></i></label>
                       <label for="carousel-2"
@@ -49,7 +49,7 @@
                       <!--Slide 2-->
                       <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 bg-center h-52 md:h-full lg:h-full">
-                        <img src="img/vista-esterna-02.jpg" alt="vista-esterna-02">
+                        <img src="img/rasoparete/vista 02.jpg" alt="vista-esterna-02">
                       </div>
                       <label for="carousel-1"
                              class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -61,7 +61,7 @@
                       <!--Slide 3-->
                       <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-interna-01.jpg" alt="vista-interna-01">
+                        <img src="img/rasoparete/vista 01.jpg" alt="vista-esterna-03">
                       </div>
                       <label for="carousel-2"
                              class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -73,7 +73,7 @@
                       <!--Slide 4-->
                       <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-interna-04-.jpg" alt="vista-interna-04">
+                        <img src="img/rasoparete/vista 03b.jpg" alt="vista-esterna-04">
                       </div>
                       <label for="carousel-3"
                              class="control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -85,7 +85,7 @@
                       <!--Slide 5-->
                       <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-interna-02.jpg" alt="vista-interna-02">
+                        <img src="img/rasoparete/vista 04.jpg" alt="vista-interna-01">
                       </div>
                       <label for="carousel-4"
                              class="control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -97,7 +97,7 @@
                       <!--Slide 6-->
                       <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/vista-esploso-04.jpg" alt="vista-esploso-04">
+                        <img src="img/rasoparete/vista 05.jpg" alt="vista-interna-02">
                       </div>
                       <label for="carousel-5"
                              class="control-6 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -109,7 +109,7 @@
                       <!--Slide 7-->
                       <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/PIANO-TERRA.jpg" alt="Pianta piano terra">
+                        <img src="img/rasoparete/vista 06.jpg" alt="vista-interna-07">
                       </div>
                       <label for="carousel-6"
                              class="control-7 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -121,7 +121,7 @@
                       <!--Slide 8 -->
                       <input class="carousel-open" type="radio" id="carousel-8" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/PIANO-PRIMO-_-CON-VUOTO-PICCOLO.jpg" alt="Pianta primo piano">
+                        <img src="img/rasoparete/SPACCATO.jpg" alt="spaccato">
                       </div>
                       <label for="carousel-7"
                              class="control-8 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -133,14 +133,28 @@
                       <!--Slide 9 -->
                       <input class="carousel-open" type="radio" id="carousel-9" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/stato-di-fatto.jpg" alt="stato di fatto">
+                        <img src="img/rasoparete/pianta piano TERRENO.jpg" alt="pianta piano terra">
                       </div>
                       <label for="carousel-8"
                              class="control-9 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
                           class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-1"
+                      <label for="carousel-10"
                              class="next control-9 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
                           class="fas fa-angle-right mt-3"></i></label>
+
+                      <!--Slide 10 -->
+                      <input class="carousel-open" type="radio" id="carousel-10" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
+                        <img src="img/rasoparete/pianta piano PRIMO.jpg" alt="pianta primo piano">
+                      </div>
+                      <label for="carousel-9"
+                             class="control-10 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                          class="fas fa-angle-left mt-3"></i></label>
+                      <label for="carousel-1"
+                             class="next control-10 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                          class="fas fa-angle-right mt-3"></i></label>
+
+
 
                       <!-- Add additional indicators for each slide-->
                       <ol class="carousel-indicators">
@@ -180,6 +194,11 @@
                           <label for="carousel-9"
                                  class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
+                        <li class="inline-block mr-3">
+                          <label for="carousel-10"
+                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+
                       </ol>
 
                     </div>
@@ -202,8 +221,8 @@
           <!-- Product details -->
 
           <h1 class="text-xl text-left font-medium text-gray-900 hidden lg:block">
-            CASA NEL PARCO <br>
-            2012 - Rivalta di Torino
+            CONCORSO RASOPARETE <br>
+            2020 - “Lo spazio abitativo del terzo millennio”
           </h1>
 
           <div class="mt-10">
@@ -232,95 +251,134 @@
 import { XIcon } from '@heroicons/vue/outline'
 
 const product = {
-  name: 'CASA NEL PARCO',
+  name: 'CONCORSO RASOPARETE',
   href: '#',
   images: [
     {
       id: 1,
-      name: 'Casa nel Parco vista  1',
-      imageSrc: 'img/vista-esterna-01.jpg',
-      imageAlt: "Casa nel parco vista esterna 1",
-      description:"Casa nel parco vista esterna 1",
+      name: 'Concorso Rasoparete vista esterna 1',
+      imageSrc: 'img/rasoparete/vista 03.jpg',
+      imageAlt: "Concorso Rasoparete vista esterna 1",
+      description:"Concorso Rasoparete vista esterna 1",
       primary: true,
     },
     {
       id: 2,
-      name: 'Casa nel parco vista esterna 2',
-      imageSrc: 'img/vista-esterna-02.jpg',
-      imageAlt: "Casa nel parco vista esterna 2",
-      description:"Casa nel parco vista esterna 2",
+      name: 'Concorso Rasoparete vista esterna 2',
+      imageSrc: 'img/rasoparete/vista 02.jpg',
+      imageAlt: "Concorso Rasoparete vista esterna 2",
+      description:"Concorso Rasoparete vista esterna 2",
       primary: true,
     },
 
     {
       id: 3,
-      name: 'Casa nel parco vista interna 1',
-      imageSrc: 'img/vista-interna-01.jpg',
-      imageAlt: "Casa nel parco vista interna 1",
-      description:"Casa nel parco vista interna 1",
+      name: 'Concorso Rasoparete vista esterna 3',
+      imageSrc: 'img/rasoparete/vista 01.jpg',
+      imageAlt: "Concorso Rasoparete vista esterna 3",
+      description:"Concorso Rasoparete vista esterna 3",
       primary: true,
     },
     {
       id: 4,
-      name: 'Casa nel parco vista interna 2',
-      imageSrc: 'img/vista-interna-04-.jpg',
-      imageAlt: "Casa nel parco vista interna 2",
-      description:"Casa nel parco vista interna 2",
+      name: 'Concorso Rasoparete vista esterna 4',
+      imageSrc: 'img/rasoparete/vista 03b.jpg',
+      imageAlt: "Concorso Rasoparete vista esterna 4",
+      description:"Concorso Rasoparete vista esterna 4",
       primary: true,
     },
     {
       id: 5,
-      name: 'Casa nel parco vista interna 3',
-      imageSrc: 'img/vista-interna-02.jpg',
-      imageAlt: "Casa nel parco vista interna 3",
-      description:"Casa nel parco vista interna 3",
+      name: 'Concorso Rasoparete vista interna 1',
+      imageSrc: 'img/rasoparete/vista 04.jpg',
+      imageAlt: "Concorso Rasoparete vista interna 1",
+      description:"Concorso Rasoparete vista interna 1",
       primary: true,
     },
     {
       id: 6,
-      name: 'Casa nel parco vista esploso',
-      imageSrc: 'img/vista-esploso-04.jpg',
-      imageAlt: "Casa nel parco vista esploso",
-      description:"Casa nel parco vista esploso",
+      name: 'Concorso Rasoparete vista interna 2',
+      imageSrc: 'img/rasoparete/vista 05.jpg',
+      imageAlt: "Concorso Rasoparete vista interna 2",
+      description:"Concorso Rasoparete vista interna 2",
       primary: true,
     },
     {
       id: 7,
-      name: 'Casa nel parco planimetria piano terra',
-      imageSrc: 'img/PIANO-TERRA.jpg',
-      imageAlt: "Casa nel parco planimetria piano terra",
-      description:"Casa nel parco planimetria piano terra",
+      name: 'Concorso Rasoparete vista interna 3',
+      imageSrc: 'img/rasoparete/vista 06.jpg',
+      imageAlt: "Concorso Rasoparete vista interna 3",
+      description:"Concorso Rasoparete vista interna 3",
       primary: true,
     },
     {
       id: 8,
-      name: 'Casa nel parco planimetria primo piano',
-      imageSrc: 'img/PIANO-PRIMO-_-CON-VUOTO-PICCOLO.jpg',
-      imageAlt: "Casa nel parco planimetria primo piano",
-      description:"Casa nel parco planimetria primo piano",
+      name: 'Concorso Rasoparete spaccato',
+      imageSrc: 'img/rasoparete/SPACCATO.jpg',
+      imageAlt: "Concorso Rasoparete spaccato",
+      description:"Concorso Rasoparete spaccato",
       primary: true,
     },
     {
       id: 9,
-      name: 'Casa nel parco stato di fatto',
-      imageSrc: 'img/stato-di-fatto.jpg',
-      imageAlt: "Casa nel parco stato di fatto",
-      description:"Casa nel parco stato di fatto",
+      name: 'Concorso Rasoparete pianta piano terreno',
+      imageSrc: 'img/rasoparete/pianta piano TERRENO.jpg',
+      imageAlt: "Concorso Rasoparete pianta piano terreno",
+      description:"Concorso Rasoparete pianta piano terreno",
+      primary: true,
+    },
+    {
+      id: 10,
+      name: 'Concorso Rasoparete pianta primo piano',
+      imageSrc: 'img/rasoparete/pianta piano PRIMO.jpg',
+      imageAlt: "Concorso Rasoparete pianta primo piano",
+      description:"Concorso Rasoparete pianta primo piano",
       primary: true,
     },
   ],
 
   description: `
-    <p>Dalla ristrutturazione di un fienile di un piccolo paese in Provicia di Torino, nasce questo progetto dal carattere sospeso tra tradizione e contemporaneità. Un edificio tipicamente agricolo, collocato all’interno di un parco, viene trasformato in una residenza senza stravolgerne la natura.
-La volumetria principale, il tetto a falde, le travi in legno e i pilastri in mattoni sono tutti elementi che vengono mantenuti in quanto caratterizzanti il manufatto storico.
-Il contatto diretto con il parco viene accentuato attraverso l’apertura di nuove finestrature che garantiscono una maggiore illuminazione degli ambienti interni e una migliore fruizione del verde circostante.
-All’interno dell’edificio uno spazio a doppia altezza amplifica la percezione dello spazio e mette in comunicazione la zona giorno al piano terra con la camera da letto posizionata al piano primo.</p>`,
+    <p>
+    Il progetto della casa-studio FLUSH HOUSE è stato pensato per rispondere alle esigenze del terzo
+millennio, un'epoca in cui estetica, funzionalità e ottimizzazione dello spazio sono imprescindibili.
+
+Il progetto si basa su 4 punti fondamentali:<br><br>
+1- SEPARAZIONE DEI FLUSSI
+Posizionando la scala all'ingresso, vengono separati i flussi tra fruitori dello studio e gli abitanti
+della casa. In questo modo le attività lavorative non interferiscono con gli spazi privati.
+La comunicazione tra i piani della casa è garantita da uno spazio a doppia altezza collocato al
+centro della pianta.
+L'orientamento dell'edificio è ottimizzato posizionando verso sud il living e la cucina, verso sudovest
+lo studio, e verso sud-est le camere da letto.<br><br>
+
+2- ARREDI INTEGRATI
+Il progetto è caratterizzato da arredi concepiti come parte integrante dell'ambiente. Librerie, armadi e cassetti rasomuro sfruttano ogni singolo spazio.
+In cucina armadi filomuro nascondono al loro interno frigo, forno, microonde e
+dispensa, rendendoli invisibili dall'esterno.
+I letti delle camere sono progettati per essere strutture in cartongesso diventano sistemi contenitivi.
+Il sottoscala ospita caldaia e unità esterna AC che grazie ai pannelli forati rimangono
+nascosti dall'esterno garantendo i ricambi d'aria.<br><br>
+
+3- SPAZIO FLESSIBILE
+Lo spazio è organizzato in modo flessibile per poter sfruttare gli ambienti a seconda del momento
+della giornata.
+Al piano terreno la parete vetrata con cristalli scorrevoli non fa disperdere la luce pur
+dividendo living e cucina. In questo modo i due ambienti possono essere ben separati (ad
+esempio, mentre si cucina) mentre in altri momenti si può godere di un grande open space.
+Nel disimpegno del primo piano un armadio ospita al suo interno lavatrice e
+asciugatrice e diventa una lavanderia attrezzata accessibile da un corridoio comune, per sfruttare
+meglio l'ambiente.<br><br>
+
+4- SISTEMI FRANGISOLE
+Le facciate esterne presentano grandi aperture vetrate verso il lato sud, est e ovest per godere
+dell'apporto dei raggi solari durante il periodo invernale, mentre nel periodo estivo pannelli forati
+rasoparete fungono da filtro e proteggono dal surriscaldamento solare.
+La particolare foratura dei pannelli e il colore dell'intonaco caratterizzano la facciata in modo unico.
+All'interno della casa, la regolazione della luminosità è garantita da tende a rullo incassate a raso soffitto.
+    </p>`,
 
   info:[
-    {name: 'Luogo', info:'Rivalta di Torino (TO)'},
-    {name:'Stato', info:'Progetto preliminare, studio di fattibilità'},
-    {name:'Cliente', info:'Privato'},
-    {name:'Team di progettazione', info:'Claudio Fava, Stefano Carera, Eirini Giannakopoulou'},
+    {name:'Team di progettazione', info:'Claudio Fava'}
   ]
 
 }
@@ -372,7 +430,9 @@ export default {
 #carousel-6:checked~.control-6,
 #carousel-7:checked~.control-7,
 #carousel-8:checked~.control-8,
-#carousel-9:checked~.control-9{
+#carousel-9:checked~.control-9,
+#carousel-10:checked~.control-10,
+#carousel-11:checked~.control-11{
   display: block;
 }
 
@@ -396,7 +456,9 @@ export default {
 #carousel-6:checked~.control-6~.carousel-indicators li:nth-child(6) .carousel-bullet,
 #carousel-7:checked~.control-7~.carousel-indicators li:nth-child(7) .carousel-bullet,
 #carousel-8:checked~.control-8~.carousel-indicators li:nth-child(8) .carousel-bullet,
-#carousel-9:checked~.control-9~.carousel-indicators li:nth-child(9) .carousel-bullet{
+#carousel-9:checked~.control-9~.carousel-indicators li:nth-child(9) .carousel-bullet,
+#carousel-10:checked~.control-10~.carousel-indicators li:nth-child(10) .carousel-bullet,
+#carousel-11:checked~.control-11~.carousel-indicators li:nth-child(11) .carousel-bullet{
   color: #2b6cb0;
 }
 </style>

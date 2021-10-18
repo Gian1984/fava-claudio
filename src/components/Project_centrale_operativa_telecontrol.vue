@@ -40,7 +40,7 @@
                       <div class="carousel-item absolute opacity-0 bg-center w-100 h-52 md:h-full lg:h-full">
                         <img src="img/PRO_7906.jpg" alt="vista-interna-01">
                       </div>
-                      <label for="carousel-3"
+                      <label for="carousel-9"
                              class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
                           class="fas fa-angle-left mt-3"></i></label>
                       <label for="carousel-2"
@@ -76,7 +76,7 @@
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
                         <img src="img/PRO_7933.jpg" alt="vista-interna-04">
                       </div>
-                      <label for="carousel-4"
+                      <label for="carousel-3"
                              class="control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
                           class="fas fa-angle-left mt-3"></i></label>
                       <label for="carousel-5"

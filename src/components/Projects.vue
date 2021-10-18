@@ -70,6 +70,27 @@ const products = [
     imageSrc: 'img/vista-03_crop.jpg',
     imageAlt: "Camera Dei Bimbi.",
   },
+  {
+    id: 7,
+    name: 'Concorso Rasoparete',
+    href: '/Project_concorso_rasoparete',
+    imageSrc: 'img/rasoparete/vista 03.jpg',
+    imageAlt: "Concorso Rasoparete.",
+  },
+  {
+    id: 8,
+    name: "L'oragiusta Moncalieri",
+    href: '/Project_oragiusta_moncalieri',
+    imageSrc: 'img/loragiusta/foto-1-scaled.jpg',
+    imageAlt: "L'oragiusta Moncalieri.",
+  },
+  {
+    id: 9,
+    name: 'Villa Perrault',
+    href: '/Project_villa_perrault',
+    imageSrc: 'img/vista-03_crop.jpg',
+    imageAlt: "Villa Perrault.",
+  },
 ]
 
 export default {
