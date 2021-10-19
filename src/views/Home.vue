@@ -189,9 +189,9 @@
               <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" :src="person.imageSrc" :alt="person.imageAlt" />
               <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                 <div class="font-medium text-lg leading-6 space-y-1">
-                  <h2 class="max-w-lg text-xl text-white sm:max-w-3xl mb-10">{{ person.name }}</h2>
+                  <h2 class="max-w-lg text-xl text-white sm:max-w-3xl">{{ person.name }}</h2>
                   <p class="text-indigo-400">{{ person.role }}</p>
-                  <p class="max-w-lg text-base text-white sm:max-w-3xl pr-2 md:border-none lg:border-r text-left">
+                  <p class="pt-10 max-w-lg text-base text-white sm:max-w-3xl pr-2 md:border-none lg:border-r text-left">
                     {{ person.description }}
                   </p>
                 </div>
