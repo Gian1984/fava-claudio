@@ -6,7 +6,7 @@
         <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto">PROGETTI</h2>
       </div>
 
-      <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
+      <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-10 sm:gap-y-12 lg:gap-x-24">
         <div v-for="product in products" :key="product.id" class="group relative">
           <a :href="product.href">
             <div class="h-full h-96 overflow-hidden group-hover:opacity-75">
