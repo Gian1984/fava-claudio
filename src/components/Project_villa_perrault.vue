@@ -4,9 +4,11 @@
     <main class="pt-20 max-w-full mx-auto  px-4 sm:pb-12 sm:px-6 lg:max-w-full lg:pt-24 lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
         <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
-          VILLA PERRAULT <br>
-          2018 - Rivoli (TO)
+          VILLA PERRAULT
         </h1>
+        <h3 class="text-base text-gray-900 text-center lg:hidden">
+          Rivoli (TO) - 2018
+        </h3>
 
         <!-- Image gallery -->
 
@@ -233,10 +235,12 @@
         <div class="mt-8 lg:col-span-3">
           <!-- Product details -->
 
-          <h1 class="text-xl text-left font-medium text-gray-900 hidden lg:block">
-            VILLA PERRAULT <br>
-            2018 - Rivoli (TO)
+          <h1 class="text-xl font-medium text-gray-900 text-left hidden lg:block">
+            VILLA PERRAULT
           </h1>
+          <h2 class="text-lg font-base text-gray-900 hidden lg:block">
+            Rivoli (TO) - 2018
+          </h2>
 
           <div class="mt-10">
             <h2 class="text-lg font-medium text-gray-900 mt-10">Descrizione</h2>

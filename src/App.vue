@@ -66,20 +66,20 @@
     </div>
 
     <DisclosurePanel class="sm:hidden" :value="isOpen">
-      <div class="bg-opacity-100 shadow filter brightness-150">
-        <button @click="drawer()" class="w-full text-gray-900 group flex block pl-3 pr-4 py-2 border-b border-gray-300 text-base font-medium" v-on:click="scrolltohome()">
+      <div class="bg-white bg-opacity-75 shadow filter brightness-150">
+        <button @click="drawer()" class="w-full text-gray-900 group flex block pl-3 pr-4 py-2 border-b border-gray-300 text-base font-medium font-black " v-on:click="scrolltohome()">
           <HomeIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Home</span>
         </button>
-        <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltoprofilo()">
+        <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium font-black " v-on:click="scrolltoprofilo()">
           <UsersIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Chi siamo</span>
         </button>
-        <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltoprogetti()">
+        <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium font-black " v-on:click="scrolltoprogetti()">
           <FolderOpenIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Progetti</span>
         </button>
-        <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium" v-on:click="scrolltocontatti()">
+        <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex hover:text-gray-700 block pl-3 pr-4 py-2 text-base font-medium font-black " v-on:click="scrolltocontatti()">
           <ChatAltIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Contatti</span>
         </button>
