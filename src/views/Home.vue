@@ -140,8 +140,6 @@
 
   <!-- IL PROGETTO DEGLI SPAZI -->
 
-  <!-- LA CURA DEL DETTAGLIO -->
-
   <div class="relative" id="come_lavoriamo">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
@@ -174,70 +172,112 @@
     </div>
   </div>
 
+  <!-- Team test -->
 
 
-  <!-- Team Section -->
 
-  <div class="bg-white end">
-    <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
-      <div class="space-y-4 sm:space-y-12">
-        <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto" id="profilo">CHI SIAMO</h2>
-      </div>
-    </div>
-  </div>
-
-
-  <div class=" relative bg-white overflow-hidden  ">
-
-  <!--    Claudio-->
-
-    <div class="relative lg:pb-16 pb-7 max-w-full">
-      <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2 pb-10" >
-        <img class="w-full h-full object-cover lg:hidden" src="img/2013-07-16-B-N-low.jpg" alt="Fava Claudio foto" />
-      </div>
-      <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:rounded-lg md:rounded-lg rounded-none">
-          <div class="p-4">
-            <div class="mt-6">
-              <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mb-10">
-                CLAUDIO FAVA
-              </h2>
-              <p class="max-w-lg text-base text-grey-500 sm:max-w-3xl">
-                Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino. Dopo un’esperienza presso lo studio milanese Claudio Bellini Design+Design, collabora con numerosi studi di architettura torinesi. Fra i suoi lavori, la ristrutturazione della Centrale Operativa di Telecontrol, importante istituto di vigilanza e la ristrutturazione di una casa privata a Rivoli (To). Si occupa di architettura residenziale, uffici e spazi commerciali, dal progetto preliminare fino alla fase esecutiva e direzione lavori.
-              </p>
-            </div>
-          </div>
+  <div class="bg-gray-900 bg-gradient-to-t from-white">
+    <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
+      <div class="space-y-12">
+        <div class="space-y-5 mx-auto text-center">
+          <h2 class=" text-xl mx auto text-center text-white tracking-tight" id="profilo">CHI SIAMO</h2>
+          <p class="text-base  text-gray-300">Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet lectus sit pretium egestas vel mattis neque.</p>
         </div>
-        <div class="mt-12 sm:mt-16 lg:mt-0">
-          <div class="md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full bg-none">
-            <img class="hidden lg:block lg:full lg:h-full h-4/6 mx-auto object-cover" src="img/2013-07-16-B-N_low-2.jpg" alt="Claudio Fava Foto" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--     Giorgio-->
-    <div>
-      <div class="relative">
-        <div class="relative bg-white">
-          <div class="lg:absolute lg:ml-28 lg:h-full lg:w-1/2 pb-10">
-            <img class="h-full lg:w-3/5 lg:h-2/3 object-cover lg:h-full mx-auto" src="img/IMG-20170906-WA0003_cut2-1.jpeg" alt="Giorgio Fava foto" />
-          </div>
-          <div class="relative max-w-7xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-28">
-            <div class="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
-              <div class="mt-6">
-                <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mb-10">
-                  GIORGIO FAVA
-                </h2>
-                <p class="max-w-lg text-base text-grey-500 sm:max-w-3xl">
-                  Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.
-                </p>
+        <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-24">
+          <li v-for="person in team" :key="person.name" class="py-10 px-6 bg-gray-800 text-center xl:px-10 xl:text-left">
+            <div class="space-y-6 xl:space-y-10">
+              <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" :src="person.imageSrc" :alt="person.imageAlt" />
+              <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
+                <div class="font-medium text-lg leading-6 space-y-1">
+                  <h2 class="max-w-lg text-xl text-white sm:max-w-3xl mb-10">{{ person.name }}</h2>
+                  <p class="text-indigo-400">{{ person.role }}</p>
+                  <p class="max-w-lg text-base text-white sm:max-w-3xl pr-2 md:border-none lg:border-r text-left">
+                    {{ person.description }}
+                  </p>
+                </div>
+
+                <ul role="list" class="flex justify-center space-x-5 pl-2 mt-4">
+                  <li>
+                    <a :href="person.linkedinUrl" class="text-gray-400 hover:text-gray-300">
+                      <span class="sr-only">LinkedIn</span>
+                      <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
+
+
+
+<!--  &lt;!&ndash; Team Section &ndash;&gt;-->
+
+<!--  <div class="bg-white end">-->
+<!--    <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">-->
+<!--      <div class="space-y-4 sm:space-y-12">-->
+<!--        <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto" id="profilo">CHI SIAMO</h2>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+
+<!--  <div class=" relative bg-white overflow-hidden  ">-->
+
+<!--  &lt;!&ndash;    Claudio&ndash;&gt;-->
+
+<!--    <div class="relative lg:pb-16 pb-7 max-w-full">-->
+<!--      <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2 pb-10" >-->
+<!--        <img class="w-full h-full object-cover lg:hidden" src="img/2013-07-16-B-N-low.jpg" alt="Fava Claudio foto" />-->
+<!--      </div>-->
+<!--      <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">-->
+<!--        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:rounded-lg md:rounded-lg rounded-none">-->
+<!--          <div class="p-4">-->
+<!--            <div class="mt-6">-->
+<!--              <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mb-10">-->
+<!--                CLAUDIO FAVA-->
+<!--              </h2>-->
+<!--              <p class="max-w-lg text-base text-grey-500 sm:max-w-3xl">-->
+<!--                Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino. Dopo un’esperienza presso lo studio milanese Claudio Bellini Design+Design, collabora con numerosi studi di architettura torinesi. Fra i suoi lavori, la ristrutturazione della Centrale Operativa di Telecontrol, importante istituto di vigilanza e la ristrutturazione di una casa privata a Rivoli (To). Si occupa di architettura residenziale, uffici e spazi commerciali, dal progetto preliminare fino alla fase esecutiva e direzione lavori.-->
+<!--              </p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="mt-12 sm:mt-16 lg:mt-0">-->
+<!--          <div class="md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full bg-none">-->
+<!--            <img class="hidden lg:block lg:full lg:h-full h-4/6 mx-auto object-cover" src="img/2013-07-16-B-N_low-2.jpg" alt="Claudio Fava Foto" />-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;     Giorgio&ndash;&gt;-->
+<!--    <div>-->
+<!--      <div class="relative">-->
+<!--        <div class="relative bg-white">-->
+<!--          <div class="lg:absolute lg:ml-28 lg:h-full lg:w-1/2 pb-10">-->
+<!--            <img class="h-full lg:w-3/5 lg:h-2/3 object-cover lg:h-full mx-auto" src="img/IMG-20170906-WA0003_cut2-1.jpeg" alt="Giorgio Fava foto" />-->
+<!--          </div>-->
+<!--          <div class="relative max-w-7xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-28">-->
+<!--            <div class="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">-->
+<!--              <div class="mt-6">-->
+<!--                <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mb-10">-->
+<!--                  GIORGIO FAVA-->
+<!--                </h2>-->
+<!--                <p class="max-w-lg text-base text-grey-500 sm:max-w-3xl">-->
+<!--                  Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 
   <!--  Carousel section-->
 
@@ -272,6 +312,27 @@
 import Projects from "../components/Projects";
 import { ChevronRightIcon } from '@heroicons/vue/solid'
 import { gsap } from 'gsap';
+
+const team = [
+  {
+    name: 'Claudio Fava',
+    role: 'Architetto',
+    imageSrc:
+        'img/2013-07-16-B-N-low.jpg',
+    imageAlt:"Claudio Fava Foto",
+    description:"Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino. Dopo un’esperienza presso lo studio milanese Claudio Bellini Design+Design, collabora con numerosi studi di architettura torinesi. Fra i suoi lavori, la ristrutturazione della Centrale Operativa di Telecontrol, importante istituto di vigilanza e la ristrutturazione di una casa privata a Rivoli (To). Si occupa di architettura residenziale, uffici e spazi commerciali, dal progetto preliminare fino alla fase esecutiva e direzione lavori.",
+    linkedinUrl: 'https://www.linkedin.com/in/claudio-fava-7ab95015/',
+  },
+  {
+    name: 'Giorgio Fava',
+    role: 'Architetto',
+    imageSrc:
+        'img/giocut.jpg',
+    imageAlt:"Giorgio Fava Foto",
+    description:"Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.",
+    linkedinUrl: 'https://www.linkedin.com/in/giorgio-fava-5730b234/',
+  },
+]
 
 const products = [
   {
@@ -366,6 +427,7 @@ export default {
       beforeEnter,
       enter,
       products,
+      team
     }
   },
 }
