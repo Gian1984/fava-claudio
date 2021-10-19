@@ -95,27 +95,15 @@
         <div class="grid grid-cols-4 gap-y-10 lg:grid-cols-4">
           <div class="sm:flex lg:block mx-auto">
 
-            <button v-if="this.$route.path != '/' " class="hover:text-gray-300 lg:hidden"  @click="this.$router.push({ name: 'Home' })">
+            <button v-if="this.$route.path != '/' " class="hover:text-gray-300 "  @click="this.$router.push({ name: 'Home' })">
               <div class="md:mt-0">
-                  <img src="img/cropped-logo-small.png" class="h-12 w-12 mx-auto" aria-hidden="true" />
+                <img src="img/logo-small.png" class="h-12 mx-auto" aria-hidden="true" />
               </div>
             </button>
 
-            <button v-else class="hover:text-gray-300 lg:hidden"  v-on:click="scrolltohome()">
+            <button v-else class="hover:text-gray-300"  v-on:click="scrolltohome()">
               <div class="md:mt-0">
-                  <img src="img/cropped-logo-small.png" class="h-12 w-12 mx-auto" aria-hidden="true" />
-              </div>
-            </button>
-
-            <button v-if="this.$route.path != '/' " class="hover:text-gray-300 hidden lg:block"  @click="this.$router.push({ name: 'Home' })">
-              <div class="md:mt-0">
-                <img src="img/logo_black.png" class="h-12 mx-auto" aria-hidden="true" />
-              </div>
-            </button>
-
-            <button v-else class="hover:text-gray-300 hidden lg:block"  v-on:click="scrolltohome()">
-              <div class="md:mt-0">
-                <img src="img/logo_black.png" class="h-12 mx-auto" aria-hidden="true" />
+                <img src="img/logo-small.png" class="h-12 mx-auto" aria-hidden="true" />
               </div>
             </button>
 

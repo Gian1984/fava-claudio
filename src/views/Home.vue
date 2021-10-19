@@ -16,7 +16,7 @@
           <div class="absolute inset-0" />
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
-          <p class="mt-6 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl">
+          <p class="mt-6 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl font-black">
             ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
           </p>
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
@@ -39,24 +39,28 @@
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
+
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7942.jpg" alt="Progetto degli spazi" />
+          <img class="h-full w-full object-cover" src="img/PRO_7942.jpg" alt="la cura del dettaglio" />
           <div class="absolute inset-0" />
         </div>
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
-          <div class="mt-10 max-w-sm sm:max-w-none sm:flex sm:justify-center lg:ml-60">
-            <div class="space-y-4 sm:space-y-0 sm:mx-auto py-48 lg:py60 sm:grid-cols-2 sm:gap-5 mb-20">
-              <p class="max-w-lg text-xl text-grey-500 sm:max-w-3xl text-right">
-                IL PROGETTO DEGLI SPAZI
-              </p>
-              <p class="max-w-lg text-base text-black sm:max-w-3xl text-right">
-                Progettiamo coniugando estetica ed esigenze del cliente.<br>
-                <button class="mt-32 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_centrale_operativa_telecontrol' })">
-                  <span class="px-1 py-0.5">Vai al progetto</span>
-                  <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-                </button>
-              </p>
+
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
+          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
+            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
+          </div>
+          <div class="px-2 rounded-lg sm:space-y-0 sm:inline-grid sm:gap-5 sm:justify-end lg:ml-5">
+            <p class="max-w-lg text-xl text-grey-500 sm:max-w-3xl text-left font-black">
+              IL PROGETTO DEGLI SPAZI
+            </p>
+            <p class="max-w-lg text-base text-black sm:max-w-3xl text-left font-black">
+              Progettiamo coniugando estetica ed esigenze del cliente.<br>
+              <button class="mt-10 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_centrale_operativa_telecontrol' })">
+                <span class="px-1 py-0.5">Vai al progetto</span>
+                <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+              </button>
+            </p>
           </div>
         </div>
       </div>
@@ -64,31 +68,35 @@
   </div>
 
 
-  <!-- RIFUNZIONALIZZAZIONE -->
 
+  <!-- RIFUNZIONALIZZAZIONE -->
 
   <div class="relative" id="cosa_facciamo">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
+
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/rasoparete/vista-03-1-scaled.jpg" alt="Progetto casa esterni" />
+          <img class="h-full w-full object-cover" src="img/rasoparete/vista-02-1-scaled.jpg" alt="la cura del dettaglio" />
           <div class="absolute inset-0" />
         </div>
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
-          <div class="mt-10 max-w-sm sm:max-w-none sm:flex sm:justify-center lg:mr-60">
-            <div class="space-y-4 sm:space-y-0 sm:mx-auto py-48 lg:py60 sm:grid-cols-2 sm:gap-5 mb-20">
-              <p class="max-w-lg text-xl text-grey-500 sm:max-w-3xl">
-                RIFUNZIONALIZZAZIONE
-              </p>
-              <p class="max-w-lg text-base text-black sm:max-w-3xl">
-                Progettiamo per dare nuova vita agli edifici.<br>
-                <button class="mt-32 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_concorso_rasoparete' })">
-                  <span class="px-1 py-0.5">Vai al progetto</span>
-                  <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-                </button>
-              </p>
+
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
+          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
+            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
+          </div>
+          <div class=" px-2 rounded-lg sm:space-y-0 sm:inline-grid sm:gap-5 sm:justify-end lg:ml-5">
+            <p class="mt-2 max-w-lg text-left text-xl text-white lg:text-gray-900 sm:max-w-3xl font-black">
+              RIFUNZIONALIZZAZIONE
+            </p>
+            <p class="mt-2 max-w-lg text-left text-base text-white lg:text-gray-900 sm:max-w-3xl font-black">
+              Progettiamo per dare nuova vita agli edifici.<br>
+              <button class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_concorso_rasoparete' })">
+                <span class="px-1 py-0.5">Vai al progetto</span>
+                <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+              </button>
+            </p>
           </div>
         </div>
       </div>
@@ -101,24 +109,28 @@
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
+
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7721-crop.jpg" alt="la cura del dettaglio" />
+          <img class="h-full w-full object-cover" src="img/loragiusta/foto-2-scaled.jpg" alt="la cura del dettaglio" />
           <div class="absolute inset-0" />
         </div>
+
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
-          <p class="mt-2 max-w-lg text-right text-xl text-grey-500 sm:max-w-3xl">
-            LA CURA DEL DETTAGLIO
-          </p>
-          <p class="mt-2 max-w-lg text-right text-base text-grey-500 sm:max-w-3xl">
-            Disegniamo arredi personalizzati studiando ogni particolare.<br>
-            <button class="mt-32 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
-              <span class="px-1 py-0.5">Vai al progetto</span>
-              <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-            </button>
-          </p>
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
+          <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
+            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
+          </div>
+          <div class=" shadow px-2 rounded-md sm:space-y-0 sm:inline-grid sm:gap-5 sm:justify-end lg:ml-5">
+            <p class="mt-2 max-w-lg text-left text-xl text-white sm:max-w-3xl">
+              LA CURA DEL DETTAGLIO
+            </p>
+            <p class="mt-2 max-w-lg text-left text-base text-white sm:max-w-3xl">
+              Disegniamo arredi personalizzati studiando ogni particolare.<br>
+              <button class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
+                <span class="px-1 py-0.5">Vai al progetto</span>
+                <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+              </button>
+            </p>
           </div>
         </div>
       </div>
@@ -128,33 +140,40 @@
 
   <!-- IL PROGETTO DEGLI SPAZI -->
 
+  <!-- LA CURA DEL DETTAGLIO -->
+
   <div class="relative" id="come_lavoriamo">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
+
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7701.jpg" alt="il progetto degli spazi" />
+          <img class="h-full w-full object-cover" src="img/PRO_7721-crop.jpg" alt="la cura del dettaglio" />
           <div class="absolute inset-0" />
         </div>
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:pl-60">
-          <p class="mt-2 max-w-lg text-xl text-grey-500 sm:max-w-3xl">
-            IL PROGETTO DEGLI SPAZI
-          </p>
-          <p class="mt-2 max-w-lg text-base text-grey-500 sm:max-w-3xl">
-            Progettiamo coniugando estetica ed esigenze del cliente.<br>
-            <button class="mt-32 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
-              <span class="px-1 py-0.5">Vai al progetto</span>
-              <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-            </button>
-          </p>
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
+
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
+          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
+            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
+          </div>
+          <div class="px-2 rounded-md sm:space-y-0 sm:inline-grid sm:gap-5 sm:justify-end lg:ml-5">
+            <p class="mt-2 max-w-lg text-left text-xl text-white sm:max-w-3xl font-black">
+              IL PROGETTO DEGLI SPAZI
+            </p>
+            <p class="mt-2 max-w-lg text-left text-base text-white sm:max-w-3xl font-black">
+              Progettiamo coniugando estetica ed esigenze del cliente.<br>
+              <button class="mt-10 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
+                <span class="px-1 py-0.5">Vai al progetto</span>
+                <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+              </button>
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 
 
   <!-- Team Section -->
