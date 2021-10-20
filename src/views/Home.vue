@@ -177,21 +177,23 @@
 
 
   <div class="bg-gray-900 bg-gradient-to-t from-white">
-    <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
+    <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-12">
       <div class="space-y-12">
         <div class="space-y-5 mx-auto text-center">
           <h2 class=" text-xl mx auto text-center text-white tracking-tight" id="profilo">CHI SIAMO</h2>
-          <p class="text-base  text-gray-300">Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet lectus sit pretium egestas vel mattis neque.</p>
         </div>
         <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-24">
           <li v-for="person in team" :key="person.name" class="py-10 px-6 bg-gray-800 text-center xl:px-10 xl:text-left">
             <div class="space-y-6 xl:space-y-10">
-              <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" :src="person.imageSrc" :alt="person.imageAlt" />
+              <img class="mx-auto h-56 w-56 xl:w-60 xl:h-60" :src="person.imageSrc" :alt="person.imageAlt" />
               <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                 <div class="font-medium text-lg leading-6 space-y-1">
                   <h2 class="max-w-lg text-xl text-white sm:max-w-3xl">{{ person.name }}</h2>
                   <p class="text-indigo-400 pb-10">{{ person.role }}</p>
-                  <p class=" max-w-lg text-base text-white sm:max-w-3xl pr-2  lg:border-r text-left">
+                  <p class="hidden lg:block max-w-lg text-base text-white sm:max-w-3xl pr-2  lg:border-r text-left">
+                    {{ person.description }}
+                  </p>
+                  <p class="lg:hidden max-w-lg text-base text-white sm:max-w-3xl pr-2 pt-2 pb-2 border-b text-left">
                     {{ person.description }}
                   </p>
                 </div>
