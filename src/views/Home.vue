@@ -56,10 +56,10 @@
             </p>
             <p class="max-w-lg text-base text-black sm:max-w-3xl text-left font-black">
               Progettiamo coniugando estetica ed esigenze del cliente.<br>
-              <button class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_centrale_operativa_telecontrol' })">
+              <a href="\Project_centrale_operativa_telecontrol" class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                 <span class="px-1 py-0.5">Vai al progetto</span>
                 <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-              </button>
+              </a>
             </p>
           </div>
         </div>
@@ -92,10 +92,10 @@
             </p>
             <p class="mt-2 max-w-lg text-left text-base text-white lg:text-gray-900 sm:max-w-3xl font-black">
               Progettiamo per dare nuova vita agli edifici.<br>
-              <button class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_concorso_rasoparete' })">
+              <a href="\Project_concorso_rasoparete" class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                 <span class="px-1 py-0.5">Vai al progetto</span>
                 <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-              </button>
+              </a>
             </p>
           </div>
         </div>
@@ -126,10 +126,10 @@
             </p>
             <p class="mt-2 max-w-lg text-left text-base text-white sm:max-w-3xl">
               Disegniamo arredi personalizzati studiando ogni particolare.<br>
-              <button class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
+              <a href="\Project_oragiusta_moncalieri" class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                 <span class="px-1 py-0.5">Vai al progetto</span>
                 <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-              </button>
+              </a>
             </p>
           </div>
         </div>
@@ -161,10 +161,10 @@
             </p>
             <p class="mt-2 max-w-lg text-left text-base text-white sm:max-w-3xl font-black">
               Progettiamo coniugando estetica ed esigenze del cliente.<br>
-              <button class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" @click="this.$router.push({ name: 'Project_casa_rivoli' })">
+              <a href="\Project_casa_rivoli" class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                 <span class="px-1 py-0.5">Vai al progetto</span>
                 <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-              </button>
+              </a>
             </p>
           </div>
         </div>
