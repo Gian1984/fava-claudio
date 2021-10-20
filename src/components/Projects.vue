@@ -1,12 +1,12 @@
 <template>
   <div class="bg-white pb-5 enter" id="progetti">
-    <div class="mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
+    <div class="mx-auto py-12 px-4 sm:py-10 sm:px-6 lg:px-12">
 
       <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
         <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto">PROGETTI</h2>
       </div>
 
-      <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-10 sm:gap-y-12 lg:gap-x-24">
+      <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-10 sm:gap-y-12 lg:gap-x-12">
         <div v-for="product in products" :key="product.id" class="group relative">
           <a :href="product.href">
             <div class="h-full h-96 overflow-hidden group-hover:opacity-75">
