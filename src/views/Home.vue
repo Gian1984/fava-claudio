@@ -50,18 +50,20 @@
             <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
           </div>
-          <div class="max-w-3xl lg:max-w-none md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto md:pl-36 lg:pl-96 lg:w-1/2 lg:pl-10">
-            <div class="bg-white bg-opacity-50 p-2 lg:ml-48 lg:p-4">
-            <p class="max-w-lg text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
-              IL PROGETTO DEGLI SPAZI
-            </p>
-            <p class="mt-2 text-sm md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm lg:text-base text-black sm:max-w-3xl text-left ">
-              Progettiamo coniugando estetica ed esigenze del cliente.<br>
-              <a href="\Project_centrale_operativa_telecontrol" class="mt-2 lg:mt-56 ml-48 md:ml-16 md:mt-24 lg:ml-32 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
-                <span class="px-1 py-0.5">Vai al progetto</span>
-                <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-              </a>
-            </p>
+          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
+            <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
+              <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+                IL PROGETTO DEGLI SPAZI
+              </p>
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+                Progettiamo coniugando estetica ed esigenze del cliente.<br>
+              </p>
+              <div class="text-right">
+                <a href="\Project_centrale_operativa_telecontrol" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                  <span class="px-1 py-0.5">Vai al progetto</span>
+                  <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -70,10 +72,12 @@
   </div>
 
 
-
   <!-- RIFUNZIONALIZZAZIONE -->
 
-  <div class="relative" id="progetto_degli_spazi">
+
+
+
+  <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
@@ -88,24 +92,27 @@
             <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
           </div>
-          <div class="max-w-3xl lg:max-w-none md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto md:pl-36 lg:pl-96 lg:w-1/2 lg:pl-10">
-            <div class="bg-white bg-opacity-50 p-2 lg:ml-48 lg:p-4">
-              <p class="max-w-lg text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left">
+          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
+            <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
+              <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
                 RIFUNZIONALIZZAZIONE
               </p>
-              <p class="mt-2 text-sm md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm lg:text-base text-black sm:max-w-3xl text-left">
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
                 Progettiamo per dare nuova vita agli edifici.<br>
-                <a href="\Project_concorso_rasoparete" class="mt-2 lg:mt-56 ml-48 md:ml-16 md:mt-24 lg:ml-32 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+              </p>
+              <div class="text-right">
+                <a href="\Project_concorso_rasoparete" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
-              </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 
 
   <!-- LA CURA DEL DETTAGLIO -->
