@@ -117,7 +117,7 @@
 
   <!-- LA CURA DEL DETTAGLIO -->
 
-  <div class="relative" id="come_progettiamo">
+  <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
@@ -128,21 +128,25 @@
         </div>
 
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
-          <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
+          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
             <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
           </div>
-          <div class=" shadow px-2 rounded-md sm:space-y-0 sm:inline-grid sm:gap-5 sm:justify-end lg:ml-5">
-            <p class="mt-2 max-w-lg text-left text-xl text-white sm:max-w-3xl">
-              LA CURA DEL DETTAGLIO
-            </p>
-            <p class="mt-2 max-w-lg text-left text-base text-white sm:max-w-3xl">
-              Disegniamo arredi personalizzati studiando ogni particolare.<br>
-              <a href="\Project_oragiusta_moncalieri" class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
-                <span class="px-1 py-0.5">Vai al progetto</span>
-                <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-              </a>
-            </p>
+          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
+            <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
+              <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+                IL PROGETTO DEGLI SPAZI
+              </p>
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+                Progettiamo coniugando estetica ed esigenze del cliente.<br>
+              </p>
+              <div class="text-right">
+                <a href="\Project_oragiusta_moncalieri" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                  <span class="px-1 py-0.5">Vai al progetto</span>
+                  <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -150,9 +154,11 @@
   </div>
 
 
+
   <!-- IL PROGETTO DEGLI SPAZI -->
 
-  <div class="relative" id="come_lavoriamo">
+
+  <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
@@ -167,22 +173,27 @@
             <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
           </div>
-          <div class="px-2 rounded-md sm:space-y-0 sm:inline-grid sm:gap-5 sm:justify-end lg:ml-5">
-            <p class="mt-2 max-w-lg text-left text-xl text-white sm:max-w-3xl font-black">
-              IL PROGETTO DEGLI SPAZI
-            </p>
-            <p class="mt-2 max-w-lg text-left text-base text-white sm:max-w-3xl font-black">
-              Progettiamo coniugando estetica ed esigenze del cliente.<br>
-              <a href="\Project_casa_rivoli" class="mt-6 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
-                <span class="px-1 py-0.5">Vai al progetto</span>
-                <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-              </a>
-            </p>
+          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
+            <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
+              <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+                LA CURA DEL DETTAGLIO
+              </p>
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+                Disegniamo arredi personalizzati studiando ogni particolare.<br>
+              </p>
+              <div class="text-right">
+                <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-blue-700 text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                  <span class="px-1 py-0.5">Vai al progetto</span>
+                  <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 
   <!-- Team test -->
 
