@@ -47,7 +47,7 @@
 
         <div class="-mr-2 flex items-center sm:hidden">
           <!-- Mobile menu button -->
-          <DisclosureButton v-if="this.$route.path == '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" id="close">
+          <DisclosureButton v-if="this.$route.path == '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black" id="close">
             <span class="sr-only">Open main menu</span>
             <MenuIcon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
             <XIcon v-else class="block h-6 w-6" aria-hidden="true" />
