@@ -38,18 +38,18 @@
             <div class="absolute inset-0" />
           </div>
 
-          <div class="relative px-4 py-6 sm:px-6 lg:py-16 lg:px-8">
-            <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
-              <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
+          <div class="relative px-4 py-6 sm:px-6 py:2 lg:py-32 lg:px-8">
+            <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+              <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:pb-12 lg:mb-16 py-12">
+                ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
+              </p>
+              <div class="space-y-4 sm:space-y-0 sm:inline-grid py-44 lg:py-60 sm:gap-5">
               </div>
             </div>
             <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
               <div class="bg-white bg-opacity-50 lg:ml-12 p-2 mb-4">
-                <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-center ">
-                  ARCHITETTURA<span class="text-gray-500">&</span>INTERIOR DESIGN
-                </p>
-                <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
-                  Progettiamo coniugando estetica ed esigenze del cliente.<br>
+                <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+                  CASA RIVOLI
                 </p>
                 <div class="text-right">
                   <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
