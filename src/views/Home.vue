@@ -7,28 +7,35 @@
       @enter="enter"
   >
 
-<!--  <div class="relative" id="home">-->
-<!--    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 parallax-elem-1" />-->
-<!--    <div class="mx-auto">-->
-<!--      <div class="relative shadow-xl  sm:overflow-hidden">-->
-<!--        <div class="absolute inset-0">-->
-<!--          <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="Salotto di design" />-->
-<!--          <div class="absolute inset-0" />-->
-<!--        </div>-->
-<!--        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">-->
-<!--          <p class="mt-6 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl">-->
-<!--            ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN-->
-<!--          </p>-->
-<!--          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">-->
-<!--            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
+  <div class="relative md:hidden lg:hidden" id="home">
+    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 parallax-elem-1" />
+    <div class="mx-auto">
+      <div class="relative shadow-xl  sm:overflow-hidden">
+        <div class="absolute inset-0">
+          <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="Salotto di design" />
+          <div class="absolute inset-0" />
+        </div>
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
+          <p class="mt-6 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl">
+            ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
+          </p>
+          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </transition>
 
-    <div class="relative">
+    <transition
+        appear
+        @before-enter="beforeEnter"
+        @enter="enter"
+    >
+
+    <div class="relative hidden lg:block md:block">
       <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
       <div class="mx-auto">
         <div class="relative shadow-xl sm:overflow-hidden">
@@ -49,10 +56,13 @@
             <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
               <div class="bg-white bg-opacity-50 lg:ml-12 p-2 mb-4">
                 <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
-                  CASA RIVOLI
+                  DESIGN DI INTERNI
+                </p>
+                <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+                  Dall’individuazione del concept, allo sviluppo del progetto, accompagnamo la definizione e la realizzazione di uno spazio<br>
                 </p>
                 <div class="text-right">
-                  <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                  <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                     <span class="px-1 py-0.5">Vai al progetto</span>
                     <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                   </a>
@@ -240,9 +250,9 @@
       <div class="space-y-12">
         <div class="space-y-5 mx-auto text-center">
           <h2 class=" text-xl mx auto text-center text-gray-900 tracking-tight" id="profilo">CHI SIAMO</h2>
-          <p class="text-xl text-gray-900 max-w-7xl mx-auto">
-            Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall'interior design al recupero dell'esistente, fino a edifici ex-novo.
-            Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente.
+          <p class="text-gray-900 max-w-3xl mx-auto">
+            Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall'interior design al recupero dell'esistente, fino a edifici ex-novo.<br>
+            Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente.<br>
             La nostra filosofia è di creare progetti cuciti su misura attraverso arredi personalizzati, curando ogni particolare.
           </p>
         </div>
@@ -279,71 +289,6 @@
       </div>
     </div>
   </div>
-
-
-
-<!--  &lt;!&ndash; Team Section &ndash;&gt;-->
-
-<!--  <div class="bg-white end">-->
-<!--    <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">-->
-<!--      <div class="space-y-4 sm:space-y-12">-->
-<!--        <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto" id="profilo">CHI SIAMO</h2>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-
-
-<!--  <div class=" relative bg-white overflow-hidden  ">-->
-
-<!--  &lt;!&ndash;    Claudio&ndash;&gt;-->
-
-<!--    <div class="relative lg:pb-16 pb-7 max-w-full">-->
-<!--      <div class="lg:absolute lg:left-0 lg:h-full lg:w-1/2 pb-10" >-->
-<!--        <img class="w-full h-full object-cover lg:hidden" src="img/2013-07-16-B-N-low.jpg" alt="Fava Claudio foto" />-->
-<!--      </div>-->
-<!--      <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">-->
-<!--        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:rounded-lg md:rounded-lg rounded-none">-->
-<!--          <div class="p-4">-->
-<!--            <div class="mt-6">-->
-<!--              <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mb-10">-->
-<!--                CLAUDIO FAVA-->
-<!--              </h2>-->
-<!--              <p class="max-w-lg text-base text-grey-500 sm:max-w-3xl">-->
-<!--                Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino. Dopo un’esperienza presso lo studio milanese Claudio Bellini Design+Design, collabora con numerosi studi di architettura torinesi. Fra i suoi lavori, la ristrutturazione della Centrale Operativa di Telecontrol, importante istituto di vigilanza e la ristrutturazione di una casa privata a Rivoli (To). Si occupa di architettura residenziale, uffici e spazi commerciali, dal progetto preliminare fino alla fase esecutiva e direzione lavori.-->
-<!--              </p>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="mt-12 sm:mt-16 lg:mt-0">-->
-<!--          <div class="md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full bg-none">-->
-<!--            <img class="hidden lg:block lg:full lg:h-full h-4/6 mx-auto object-cover" src="img/2013-07-16-B-N_low-2.jpg" alt="Claudio Fava Foto" />-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    &lt;!&ndash;     Giorgio&ndash;&gt;-->
-<!--    <div>-->
-<!--      <div class="relative">-->
-<!--        <div class="relative bg-white">-->
-<!--          <div class="lg:absolute lg:ml-28 lg:h-full lg:w-1/2 pb-10">-->
-<!--            <img class="h-full lg:w-3/5 lg:h-2/3 object-cover lg:h-full mx-auto" src="img/IMG-20170906-WA0003_cut2-1.jpeg" alt="Giorgio Fava foto" />-->
-<!--          </div>-->
-<!--          <div class="relative max-w-7xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-28">-->
-<!--            <div class="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">-->
-<!--              <div class="mt-6">-->
-<!--                <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mb-10">-->
-<!--                  GIORGIO FAVA-->
-<!--                </h2>-->
-<!--                <p class="max-w-lg text-base text-grey-500 sm:max-w-3xl">-->
-<!--                  Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.-->
-<!--                </p>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
 
   <!--  Carousel section-->
 
@@ -386,7 +331,8 @@ const team = [
     imageSrc:
         'img/2013-07-16-B-N-low.jpg',
     imageAlt:"Claudio Fava Foto",
-    description:"Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino. Dopo un’esperienza presso lo studio milanese Claudio Bellini Design+Design, collabora con numerosi studi di architettura torinesi. Fra i suoi lavori, la ristrutturazione della Centrale Operativa di Telecontrol, importante istituto di vigilanza e la ristrutturazione di una casa privata a Rivoli (To). Si occupa di architettura residenziale, uffici e spazi commerciali, dal progetto preliminare fino alla fase esecutiva e direzione lavori.",
+    description:"Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino nel 2010, dopo un tirocinio presso lo studio milanese Claudio Bellini Design+Design. Inizio il suo percorso, collaborando con lo Studio Neirotti di Vinovo e lo studio LSB architetti associati per cui lavora in pianta stabile per due anni e dove ha modo di accrescere le proprie conoscenze lavorando su progetti in diversi ambiti.\n" +
+        "Nel 2014 inizia la sua attività da libero professionista, iniziando importanti collaborazioni con arch. Giorgio Fava, arch. Paolo Neirotti e Sceg Architetti.",
     linkedinUrl: 'https://www.linkedin.com/in/claudio-fava-7ab95015/',
   },
   {
