@@ -319,11 +319,16 @@ const product = {
 
   ],
 
-  description: `
-    <p>Il progetto di ristrutturazione della Centrale Operativa di Telecontrol è caratterizzato da un totale restyling per un’azienda leader nel campo della sicurezza e della vigilanza.
-Il progetto consente ai visitatori di poter osservare “il cuore pulsante dell’azienda”, senza tuttavia disturbare l’attività lavorativa dei dipendenti. Differenti tonalità di colore per la pavimentazione separano il percorso distributivo dagli spazi lavorativi.
-Le pareti degli uffici sono tamponate con vetrate e lamiere forate a tutta altezza in modo da conferire luminosità e permeabilità agli ambienti interni.
-</p>`,
+  description:
+      `<p>
+           Il progetto di ristrutturazione della CENTRALE OPERATIVA TELECONTROL è pensato per creare uno spazio di lavoro di alta rappresentanza per
+           un'azienda leader nel campo della sicurezza e della vigilanza.<br><br>
+           Gli ambienti sono eleganti ed essenziali, all’insegna della funzionalità e dell’accoglienza.<br><br>
+           Lo spazio si sviluppa orizzontalmente ed è scandito da uffici e sale riunioni, disposti sulle fasce esterne per sfruttare l’abbondante illuminazione naturale.
+           Si configurano così uffici luminosi e permeabili, caratterizzati da vetrate e lamiere forate a tutta altezza.
+           Differenti colori per la pavimentazione indicano la separazione ideale tra il percorso distributivo e gli spazi lavorativi.<br><br>
+           Il progetto consente ai visitatori di poter osservare “il cuore pulsante" dell’azienda, senza tuttavia disturbare l’attività lavorativa dei dipendenti.
+       </p>`,
 
   info:[
     {name: 'Luogo', info:'Rivoli (TO)'},

@@ -7,26 +7,62 @@
       @enter="enter"
   >
 
-  <div class="relative" id="home">
-    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 parallax-elem-1" />
-    <div class="mx-auto">
-      <div class="relative shadow-xl  sm:overflow-hidden">
-        <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="Salotto di design" />
-          <div class="absolute inset-0" />
-        </div>
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
-          <p class="mt-6 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl">
-            ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
-          </p>
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
+<!--  <div class="relative" id="home">-->
+<!--    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 parallax-elem-1" />-->
+<!--    <div class="mx-auto">-->
+<!--      <div class="relative shadow-xl  sm:overflow-hidden">-->
+<!--        <div class="absolute inset-0">-->
+<!--          <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="Salotto di design" />-->
+<!--          <div class="absolute inset-0" />-->
+<!--        </div>-->
+<!--        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">-->
+<!--          <p class="mt-6 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl">-->
+<!--            ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN-->
+<!--          </p>-->
+<!--          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">-->
+<!--            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+    <div class="relative">
+      <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+      <div class="mx-auto">
+        <div class="relative shadow-xl sm:overflow-hidden">
+
+          <div class="absolute inset-0">
+            <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="il progetto degli spazi" />
+            <div class="absolute inset-0" />
+          </div>
+
+          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-16 lg:px-8">
+            <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
+              <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
+              </div>
+            </div>
+            <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
+              <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
+                <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-center ">
+                  ARCHITETTURA<span class="text-gray-500">&</span>INTERIOR DESIGN
+                </p>
+                <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+                  Progettiamo coniugando estetica ed esigenze del cliente.<br>
+                </p>
+                <div class="text-right">
+                  <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                    <span class="px-1 py-0.5">Vai al progetto</span>
+                    <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 
   </transition>
@@ -204,6 +240,11 @@
       <div class="space-y-12">
         <div class="space-y-5 mx-auto text-center">
           <h2 class=" text-xl mx auto text-center text-gray-900 tracking-tight" id="profilo">CHI SIAMO</h2>
+          <p class="text-xl text-gray-900 max-w-7xl mx-auto">
+            Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall'interior design al recupero dell'esistente, fino a edifici ex-novo.
+            Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente.
+            La nostra filosofia è di creare progetti cuciti su misura attraverso arredi personalizzati, curando ogni particolare.
+          </p>
         </div>
         <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-24">
           <li v-for="person in team" :key="person.name" class="py-10 px-6 bg-gray-200 text-center xl:px-10 xl:text-left">

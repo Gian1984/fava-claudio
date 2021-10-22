@@ -363,12 +363,16 @@ const product = {
   ],
 
   description: `
-    <p>Il progetto di ristrutturazione di questa casa a Rivoli, in provincia di Torino, è caratterizzato da un contrasto bianco e legno che diventa il segno di continuità degli ambienti. Il parquet in rovere sbiancato è presente in tutti gli ambienti, tranne nei bagni dove l’utilizzo di ceramiche e marmi connotano questi ambienti con freschezza e luminosità.
-Il disegno di mobili su misura dona un nuovo linguaggio alla casa, che viene arricchita da una seguenza di librerie incassate, boiserie in legno e una scala a sbalzo.
-Il camino diventa il fulcro del soggiorno e lo divide idealmente in due spazi comunicanti.
-Lo spazio verso l’ingresso principale è corredato da comode poltrone per favorire la conversazione e la lettura, mentre la zona verso il giardino è caratterizzata da divani e sedute lounge per favorire il relax.
-Una parete in rovere con porta a doppia anta scorrevole mette in comunicazione il soggiorno con la cucina, dove il contrasto tra bianco e legno è accentuato ulteriormente. L’isola centrale con piano di lavoro in marmo di carrara sostiene il piano in massello di abete grigio, orientato per poter ammirare il giardino esterno.
-La scala a sbalzo oltre a connettere il piano terreno con la zona notte posizionata al piano primo, diventa un oggetto di arredo con integrato il mobile tv in rovere.</p>`,
+    <p>
+    VILLA PERRAULT è una edificio di impianto seicentesco strutturata su due livelli di circa 170 mq ciascuno.<br><br>
+    Il progetto d'interni prevede ristrutturazione degli spazi interni rispettando e valorizzando la struttura a muri portanti e soffitti cassettonati.
+    In contrasto con il contesto, lo stile dell’intervento è decisamente contemporaneo ma in armonia con il linguaggio architettonico della villa.
+    Linee nette e pulite convivono con materiali caldi così come alcuni pezzi di design senza tempo sono accostati a mobili su misura.<br><br>
+    L’uso della pavimentazione continua in legno nella classica posa a spina di pesce ha consentito di ottenere una continuità spaziale tra i vari ambienti.<br><br>
+    Il soggiorno è un ampio open-space con comode sedute per il relax e la convivialità, magari ammirando il camino orginale dell'epoca.<br><br>
+    L’ambiente cucina è concepito come un spazio completamente trasparente, costituito da un’isola centrale utilizzata sia per la cottura che per il breakfast.
+    La separazione tra la cucina e la zona pranzo è assicurata da vetrate che all’occorrenza possono essere aperte per mettere in comunicazione i due ambienti.
+</p>`,
 
   info:[
     {name: 'Luogo', info:'Rivoli (TO)'},

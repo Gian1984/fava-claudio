@@ -345,10 +345,10 @@ const product = {
   description: `
     <p>
     Il progetto della casa-studio FLUSH HOUSE è stato pensato per rispondere alle esigenze del terzo
-millennio, un'epoca in cui estetica, funzionalità e ottimizzazione dello spazio sono imprescindibili.
+millennio, un'epoca in cui estetica, funzionalità e ottimizzazione dello spazio sono imprescindibili.<br>
 
 Il progetto si basa su 4 punti fondamentali:<br><br>
-1- SEPARAZIONE DEI FLUSSI
+1 - SEPARAZIONE DEI FLUSSI<br>
 Posizionando la scala all'ingresso, vengono separati i flussi tra fruitori dello studio e gli abitanti
 della casa. In questo modo le attività lavorative non interferiscono con gli spazi privati.
 La comunicazione tra i piani della casa è garantita da uno spazio a doppia altezza collocato al
@@ -356,7 +356,7 @@ centro della pianta.
 L'orientamento dell'edificio è ottimizzato posizionando verso sud il living e la cucina, verso sudovest
 lo studio, e verso sud-est le camere da letto.<br><br>
 
-2- ARREDI INTEGRATI
+2 - ARREDI INTEGRATI<br>
 Il progetto è caratterizzato da arredi concepiti come parte integrante dell'ambiente. Librerie, armadi e cassetti rasomuro sfruttano ogni singolo spazio.
 In cucina armadi filomuro nascondono al loro interno frigo, forno, microonde e
 dispensa, rendendoli invisibili dall'esterno.
@@ -364,7 +364,7 @@ I letti delle camere sono progettati per essere strutture in cartongesso diventa
 Il sottoscala ospita caldaia e unità esterna AC che grazie ai pannelli forati rimangono
 nascosti dall'esterno garantendo i ricambi d'aria.<br><br>
 
-3- SPAZIO FLESSIBILE
+3 - SPAZIO FLESSIBILE<br>
 Lo spazio è organizzato in modo flessibile per poter sfruttare gli ambienti a seconda del momento
 della giornata.
 Al piano terreno la parete vetrata con cristalli scorrevoli non fa disperdere la luce pur
@@ -374,12 +374,13 @@ Nel disimpegno del primo piano un armadio ospita al suo interno lavatrice e
 asciugatrice e diventa una lavanderia attrezzata accessibile da un corridoio comune, per sfruttare
 meglio l'ambiente.<br><br>
 
-4- SISTEMI FRANGISOLE
+4 - SISTEMI FRANGISOLE<br>
 Le facciate esterne presentano grandi aperture vetrate verso il lato sud, est e ovest per godere
 dell'apporto dei raggi solari durante il periodo invernale, mentre nel periodo estivo pannelli forati
 rasoparete fungono da filtro e proteggono dal surriscaldamento solare.
 La particolare foratura dei pannelli e il colore dell'intonaco caratterizzano la facciata in modo unico.
 All'interno della casa, la regolazione della luminosità è garantita da tende a rullo incassate a raso soffitto.
+
     </p>`,
 
   info:[

@@ -319,10 +319,11 @@ const product = {
   ],
 
   description: `
-    <p>Il progetto di ristrutturazione della Centrale Operativa di Telecontrol è caratterizzato da un totale restyling per un’azienda leader nel campo della sicurezza e della vigilanza.
-Il progetto consente ai visitatori di poter osservare “il cuore pulsante dell’azienda”, senza tuttavia disturbare l’attività lavorativa dei dipendenti. Differenti tonalità di colore per la pavimentazione separano il percorso distributivo dagli spazi lavorativi.
-Le pareti degli uffici sono tamponate con vetrate e lamiere forate a tutta altezza in modo da conferire luminosità e permeabilità agli ambienti interni.
-</p>`,
+    <p>
+        Collocato in piazza Caduti per la Liberta’  nel centro di Moncalieri, il locale cattura subito l'attenzione per il bancone in cui un gioco di volumi neri si contrappone al top in rovere.
+        Una pioggia di luci incassate nel controsoffitto scuro consente al visitatore di sentirsi immerso in un'atmosfera accogliente e calorosa.
+        Protagonista importante diventa la cella della birra in metallo e vetro che viene esposta e mostrata all'ingresso del locale.
+    </p>`,
 
   info:[
     {name: 'Luogo', info:'Moncalieri (TO)'},

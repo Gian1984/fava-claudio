@@ -173,7 +173,9 @@ const product = {
   ],
 
   description: `
-    <p>Progetto pensato per armonizzare lo spazio dove diventeranno grandi. È qui, nell’ambiente che progettiamo oggi la superficie in cui loro passeranno più ore, e deve esserci abbastanza area sia per le attività di gioco che per lo studio. Soluzione d’arredo originale e funzionale, che piacerà anche ai più piccoli. </p>`,
+    <p>Il progetto mira a disporre gli arredi lungo le pareti perimetrali, lasciando libero il centro della stanza.
+Sfruttare l’altezza della stanza è possibile con il letto a castello, l'armadio, e mobili a diverse profondità che alternano spazi aperti e chiusi.
+Così anche la scaletta del letto diventa un mobile con scaffali e cassetti integrati. </p>`,
 
   info:[
     {name: 'Luogo', info:'Rivalta di Torino'},

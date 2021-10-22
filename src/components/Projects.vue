@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white pb-5 enter" id="progetti">
-    <div class="mx-auto py-12 px-4 sm:py-10 sm:px-6 lg:px-12">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:py-10 sm:px-6 lg:px-12">
 
       <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
         <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto">PROGETTI</h2>
