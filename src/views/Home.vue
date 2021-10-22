@@ -38,13 +38,13 @@
             <div class="absolute inset-0" />
           </div>
 
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-16 lg:px-8">
-            <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
+          <div class="relative px-4 py-6 sm:px-6 lg:py-16 lg:px-8">
+            <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
               <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
               </div>
             </div>
             <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
-              <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
+              <div class="bg-white bg-opacity-50 lg:ml-12 p-2 mb-4">
                 <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-center ">
                   ARCHITETTURA<span class="text-gray-500">&</span>INTERIOR DESIGN
                 </p>
