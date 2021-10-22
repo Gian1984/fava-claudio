@@ -5,10 +5,10 @@
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
 
         <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
-          CENTRALE OPERATIVA TELECONTROL
+          VIVERE IN 20 MQ
         </h1>
         <h3 class="text-base text-gray-900 text-center lg:hidden">
-          Rivoli (TO) - 2014
+          Rivalta di Torino (TO) - 2020
         </h3>
 
         <!-- Image gallery -->
@@ -40,7 +40,7 @@
                       <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
                              checked="checked">
                       <div class="carousel-item absolute opacity-0 bg-center w-100 h-52 md:h-full lg:h-full">
-                        <img src="img/PRO_7906.jpg" alt="vista-interna-01">
+                        <img src="img/vivere20metri/01-scaled.jpg" alt="vista-soluzione-A">
                       </div>
                       <label for="carousel-9"
                              class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
@@ -52,7 +52,7 @@
                       <!--Slide 2-->
                       <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 bg-center h-52 md:h-full lg:h-full">
-                        <img src="img/PRO_7912.jpg" alt="vista-interna-02">
+                        <img src="img/vivere20metri/03-scaled.jpg" alt="vista-soluzione-B1">
                       </div>
                       <label for="carousel-1"
                              class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -64,7 +64,7 @@
                       <!--Slide 3-->
                       <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/PRO_7943.jpg" alt="vista-interna-03">
+                        <img src="img/vivere20metri/04-scaled.jpg" alt="vista-soluzione-B2">
                       </div>
                       <label for="carousel-2"
                              class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -76,7 +76,7 @@
                       <!--Slide 4-->
                       <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/PRO_7933.jpg" alt="vista-interna-04">
+                        <img src="img/vivere20metri/02-scaled.jpg" alt="spaccato-soluzione-A">
                       </div>
                       <label for="carousel-3"
                              class="control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -88,61 +88,13 @@
                       <!--Slide 5-->
                       <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/PRO_7942.jpg" alt="vista-interna-05">
+                        <img src="img/vivere20metri/05-scaled.jpg" alt="spaccato-soluzione-B">
                       </div>
                       <label for="carousel-4"
                              class="control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
                           class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-6"
-                             class="next control-5 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 6-->
-                      <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/PRO_7948.jpg" alt="vista-interna-06">
-                      </div>
-                      <label for="carousel-5"
-                             class="control-6 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-7"
-                             class="next control-6 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 7-->
-                      <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/spaccato-assonometrico.jpg" alt="spaccato assonometrico">
-                      </div>
-                      <label for="carousel-6"
-                             class="control-7 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-8"
-                             class="next control-7 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 8 -->
-                      <input class="carousel-open" type="radio" id="carousel-8" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/2017-01-09_Progetto-Centrale-operativa-Tav-A1.jpg" alt="progetto">
-                      </div>
-                      <label for="carousel-7"
-                             class="control-8 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-9"
-                             class="next control-8 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 9 -->
-                      <input class="carousel-open" type="radio" id="carousel-9" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/20170415_173308-BN-copy.jpg" alt="stato di fatto">
-                      </div>
-                      <label for="carousel-8"
-                             class="control-9 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
                       <label for="carousel-1"
-                             class="next control-9 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                             class="next control-5 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
                           class="fas fa-angle-right mt-3"></i></label>
 
 
@@ -152,38 +104,27 @@
                           <label for="carousel-1"
                                  class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
+
                         <li class="inline-block mr-3">
                           <label for="carousel-2"
                                  class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
+
                         <li class="inline-block mr-3">
                           <label for="carousel-3"
                                  class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
+
                         <li class="inline-block mr-3">
                           <label for="carousel-4"
                                  class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
+
                         <li class="inline-block mr-3">
                           <label for="carousel-5"
                                  class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
                         </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-6"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-7"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-8"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-9"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
+
 
                       </ol>
 
@@ -208,10 +149,10 @@
 
 
           <h1 class="text-xl font-medium text-gray-900 text-left hidden lg:block">
-            CENTRALE OPERATIVA TELECONTROL
+            VIVERE IN 20 MQ
           </h1>
           <h2 class="text-lg font-base text-gray-900 hidden lg:block">
-            Rivoli (TO) - 2014
+            Rivalta di Torino (TO) - 2020
           </h2>
 
           <div class="mt-10">
@@ -240,102 +181,66 @@
 import { XIcon } from '@heroicons/vue/outline'
 
 const product = {
-  name: 'CENTRALE OPERATIVA TELECONTROL',
+  name: 'VIVERE IN 20 MQ',
   href: '#',
   images: [
     {
       id: 1,
-      name: 'Centrale operativa vista interna 1',
-      imageSrc: 'img/PRO_7906.jpg',
-      imageAlt: "Centrale operativa vista interna 1",
-      description:"Centrale operativa vista interna 1",
+      name: 'Vivere in 20 mq vista soluzione A',
+      imageSrc: 'img/vivere20metri/01-scaled.jpg',
+      imageAlt: "Vivere in 20 mq vista soluzione A",
+      description:"Vivere in 20 mq vista soluzione A",
       primary: true,
     },
     {
       id: 2,
-      name: 'Centrale operativa vista interna 2',
-      imageSrc: 'img/PRO_7912.jpg',
-      imageAlt: "Centrale operativa vista interna 2",
-      description:"Centrale operativa vista interna 2",
+      name: 'Vivere in 20 mq vista soluzione B1',
+      imageSrc: 'img/vivere20metri/03-scaled.jpg',
+      imageAlt: "Vivere in 20 mq vista soluzione B1",
+      description:"Vivere in 20 mq vista soluzione B1",
       primary: true,
     },
 
     {
       id: 3,
-      name: 'Centrale operativa vista interna 3',
-      imageSrc: 'img/PRO_7943.jpg',
-      imageAlt: "Centrale operativa vista interna 3",
-      description:"Centrale operativa vista interna 3",
+      name: 'Vivere in 20 mq vista soluzione B2',
+      imageSrc: 'img/vivere20metri/04-scaled.jpg',
+      imageAlt: "Vivere in 20 mq vista soluzione B2",
+      description:"Vivere in 20 mq vista soluzione B2",
       primary: true,
     },
     {
       id: 4,
-      name: 'Centrale operativa vista interna 4',
-      imageSrc: 'img/PRO_7933.jpg',
-      imageAlt: "Centrale operativa vista interna 4",
-      description:"Centrale operativa vista interna 4",
+      name: 'Vivere in 20 mq vista spaccato soluzione A',
+      imageSrc: 'img/vivere20metri/02-scaled.jpg',
+      imageAlt: "Vivere in 20 mq vista spaccato soluzione A",
+      description:"Vivere in 20 mq vista spaccato soluzione A",
       primary: true,
     },
     {
       id: 5,
-      name: 'Centrale operativa vista interna 5',
-      imageSrc: 'img/PRO_7942.jpg',
-      imageAlt: "Centrale operativa vista interna 5",
-      description:"Centrale operativa vista interna 5",
+      name: 'Vivere in 20 mq vista spaccato soluzione B',
+      imageSrc: 'img/vivere20metri/05-scaled.jpg',
+      imageAlt: "Vivere in 20 mq vista spaccato soluzione B",
+      description:"Vivere in 20 mq vista spaccato soluzione B",
       primary: true,
     },
-    {
-      id: 6,
-      name: 'Centrale operativa vista interna 6',
-      imageSrc: 'img/PRO_7948.jpg',
-      imageAlt: "Centrale operativa vista interna 6",
-      description:"Centrale operativa vista interna 6",
-      primary: true,
-    },
-    {
-      id: 7,
-      name: 'Spaccato assonometrico',
-      imageSrc: 'img/spaccato-assonometrico.jpg',
-      imageAlt: "Spaccato assonometrico",
-      description:"Spaccato assonometrico",
-      primary: true,
-    },
-    {
-      id: 8,
-      name: 'Tavola progetto',
-      imageSrc: 'img/2017-01-09_Progetto-Centrale-operativa-Tav-A1.jpg',
-      imageAlt: "Tavola progetto",
-      description:"Tavola progetto",
-      primary: true,
-    },
-    {
-      id: 9,
-      name: 'Stato di fatto',
-      imageSrc: 'img/20170415_173308-BN-copy.jpg',
-      imageAlt: "Stato di fatto",
-      description:"Stato di fatto",
-      primary: true,
-    },
-
   ],
 
   description:
       `<p>
-           Il progetto di ristrutturazione della CENTRALE OPERATIVA TELECONTROL è pensato per creare uno spazio di lavoro di alta rappresentanza per
-           un'azienda leader nel campo della sicurezza e della vigilanza.<br><br>
-           Gli ambienti sono eleganti ed essenziali, all’insegna della funzionalità e dell’accoglienza.<br><br>
-           Lo spazio si sviluppa orizzontalmente ed è scandito da uffici e sale riunioni, disposti sulle fasce esterne per sfruttare l’abbondante illuminazione naturale.
-           Si configurano così uffici luminosi e permeabili, caratterizzati da vetrate e lamiere forate a tutta altezza.
-           Differenti colori per la pavimentazione indicano la separazione ideale tra il percorso distributivo e gli spazi lavorativi.<br><br>
-           Il progetto consente ai visitatori di poter osservare “il cuore pulsante" dell’azienda, senza tuttavia disturbare l’attività lavorativa dei dipendenti.
+           Questa è stata la sfida.<br>
+           Soddisfare l'esigenza di una famiglia di avere un mini-appartamento indipendente all'interno della loro abitazione.<br><br>
+           Così la parete attrezzata e il letto rialzato nascondono a loro interno frigo, armadio e cassetti (soluzione A).<br><br>
+           Mentre un letto a scomparsa con meccanismo a ribalta può essere la soluzione (B) per avere più libertà di utilizzo in ogni momento della giornata.<br><br>
+           Il tutto inseguendo il concetto del "PICCOLO MA BELLO".
        </p>`,
 
   info:[
-    {name: 'Luogo', info:'Rivoli (TO)'},
+    {name: 'Luogo', info:'Rivalta di Torino (TO)'},
     {name:'Stato', info:'Realizzato'},
-    {name:'Cliente', info:'Telecontrol Spa'},
-    {name:'Team di progettazione', info:'Claudio Fava, Giorgio Fava'},
-    {name:'Foto', info:'Paolo Properzi'}
+    {name:'Cliente', info:'Privato'},
+    {name:'Team di progettazione', info:'Claudio Fava'},
   ]
 
 }
@@ -383,11 +288,7 @@ export default {
 #carousel-2:checked~.control-2,
 #carousel-3:checked~.control-3,
 #carousel-4:checked~.control-4,
-#carousel-5:checked~.control-5,
-#carousel-6:checked~.control-6,
-#carousel-7:checked~.control-7,
-#carousel-8:checked~.control-8,
-#carousel-9:checked~.control-9{
+#carousel-5:checked~.control-5{
   display: block;
 }
 
@@ -407,11 +308,7 @@ export default {
 #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet,
 #carousel-4:checked~.control-4~.carousel-indicators li:nth-child(4) .carousel-bullet,
-#carousel-5:checked~.control-5~.carousel-indicators li:nth-child(5) .carousel-bullet,
-#carousel-6:checked~.control-6~.carousel-indicators li:nth-child(6) .carousel-bullet,
-#carousel-7:checked~.control-7~.carousel-indicators li:nth-child(7) .carousel-bullet,
-#carousel-8:checked~.control-8~.carousel-indicators li:nth-child(8) .carousel-bullet,
-#carousel-9:checked~.control-9~.carousel-indicators li:nth-child(9) .carousel-bullet{
+#carousel-5:checked~.control-5~.carousel-indicators li:nth-child(5) .carousel-bullet{
   color: #2b6cb0;
 }
 </style>
