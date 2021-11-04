@@ -95,7 +95,7 @@
         <div class="grid grid-cols-4 gap-y-10 lg:grid-cols-4">
           <div class="sm:flex lg:block mx-auto">
 
-            <button v-if="this.$route.path != '/' " class="hover:text-gray-300 "  @click="this.$router.push({ name: 'Home' })">
+            <button v-if="this.$route.path != '/' " class="hover:text-white "  @click="this.$router.push({ name: 'Home' })">
               <div class="md:mt-0">
                 <img src="img/logo-small.png" class="h-12 mx-auto" aria-hidden="true" />
               </div>
@@ -103,40 +103,40 @@
 
             <button v-else class="hover:text-gray-300"  v-on:click="scrolltohome()">
               <div class="md:mt-0">
-                <img src="img/logo-small.png" class="h-12 mx-auto" aria-hidden="true" />
+                <img src="img/cropped-logo-small.png" class="h-12 mx-auto" aria-hidden="true" />
               </div>
             </button>
 
           </div>
           <div class="sm:flex lg:block mx-auto">
-            <a href="https://goo.gl/maps/7KQYok6GATRFPZS68" class="hover:text-gray-300">
-              <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gray-400 border border-black mx-auto">
+            <a href="https://goo.gl/maps/7KQYok6GATRFPZS68" class="text-white hover:text-gray-500">
+              <span class="h-12 w-12 rounded-md flex items-center justify-center border border-white mx-auto">
                 <LocationMarkerIcon class="h-6 w-6 mx-auto font-light" aria-hidden="true" />
               </span>
-              <p  class="text-gray-400 mt-4 space-y-4 hidden md:block lg:block text-xs">
+              <p  class="mt-4 space-y-4 hidden md:block lg:block text-xs">
                 Corso Turati 19/b, Torino
               </p>
             </a>
           </div>
           <div class="sm:flex lg:block mx-auto">
-            <a href="mailto:info@favaclaudio.com?subject=Mail from ClaudioFava.com" class="hover:text-gray-300">
+            <a href="mailto:info@favaclaudio.com?subject=Mail from ClaudioFava.com" class="text-white hover:text-gray-500">
               <div class="md:mt-0">
-                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gray-400 border border-black mx-auto">
+                <span class="h-12 w-12 rounded-md flex items-center justify-center border border-white mx-auto">
                   <ChatAltIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
                 </span>
-                <p class="text-gray-400 mt-4 space-y-4 hidden md:block lg:block text-xs">
+                <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
                   info@favaclaudio.com
                 </p>
               </div>
             </a>
           </div>
           <div class="sm:flex lg:block mx-auto">
-            <a href="tel:0039328648607" class="hover:text-gray-300">
+            <a href="tel:0039328648607" class="text-white hover:text-gray-500">
               <div class="md:mt-0 mx-auto">
-                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gray-400 border border-black mx-auto">
+                <span class="h-12 w-12 rounded-md flex items-center justify-center border border-white mx-auto">
                   <PhoneIncomingIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
                 </span>
-                <p class="text-gray-400 mt-4 space-y-4 hidden md:block lg:block text-xs">
+                <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
                   +39 328 864 8607
                 </p>
               </div>
@@ -145,7 +145,7 @@
         </div>
 
         <div class="flex justify-center space-x-6 mt-5">
-          <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
+          <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-white hover:text-gray-500">
             <span class="sr-only">{{ item.name }}</span>
             <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
           </a>
@@ -155,7 +155,7 @@
 
     <div class="mx-auto max-w-md px-4 overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
       <a href="https://www.gianlucatiengo.com/">
-        <p class="text-center text-xs text-gray-400 hover:text-black underline">
+        <p class="text-center text-xs text-white hover:text-gray-500 underline">
           &copy; 2021 WebMaster Gianluca Tiengo. Design by Claudio Fava. All rights reserved.
         </p>
       </a>
