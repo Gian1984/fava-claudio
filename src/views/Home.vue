@@ -1,33 +1,33 @@
 <template>
   <!-- ARCHITETTURA & INTERIOR DESIGN -->
 
-  <transition
-      appear
-      @before-enter="beforeEnter"
-      @enter="enter"
-  >
+<!--  <transition-->
+<!--      appear-->
+<!--      @before-enter="beforeEnter"-->
+<!--      @enter="enter"-->
+<!--  >-->
 
-  <div class="relative md:hidden lg:hidden" id="home">
-    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 parallax-elem-1" />
-    <div class="mx-auto">
-      <div class="relative shadow-xl  sm:overflow-hidden">
-        <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="Salotto di design" />
-          <div class="absolute inset-0" />
-        </div>
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
-          <p class="mt-6 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl">
-            ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
-          </p>
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </transition>
+<!--  <div class="relative md:hidden lg:hidden" id="home">-->
+<!--    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 parallax-elem-1" />-->
+<!--    <div class="mx-auto">-->
+<!--      <div class="relative shadow-xl  sm:overflow-hidden">-->
+<!--        <div class="absolute inset-0">-->
+<!--          <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="Salotto di design" />-->
+<!--          <div class="absolute inset-0" />-->
+<!--        </div>-->
+<!--        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">-->
+<!--          <p class="mt-6 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl">-->
+<!--            ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN-->
+<!--          </p>-->
+<!--          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">-->
+<!--            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  </transition>-->
 
     <transition
         appear
@@ -35,7 +35,7 @@
         @enter="enter"
     >
 
-    <div class="relative hidden lg:block md:block">
+    <div class="relative">
       <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
       <div class="mx-auto">
         <div class="relative shadow-xl sm:overflow-hidden">
@@ -45,7 +45,7 @@
             <div class="absolute inset-0" />
           </div>
 
-          <div class="relative px-4 py-6 sm:px-6 py:2 lg:py-32 lg:px-8">
+          <div class="relative px-4 py-6 sm:px-6 py:2 lg:py-32 lg:px-8 lg:mr-7">
             <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
               <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:pb-12 lg:mb-16 py-12">
                 ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
@@ -91,7 +91,7 @@
           <div class="absolute inset-0" />
         </div>
 
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:mr-7">
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
             <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
@@ -133,7 +133,7 @@
           <div class="absolute inset-0" />
         </div>
 
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:mr-7">
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
             <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
@@ -174,7 +174,7 @@
           <div class="absolute inset-0" />
         </div>
 
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:mr-7">
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
             <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
@@ -215,7 +215,7 @@
           <div class="absolute inset-0" />
         </div>
 
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:mr-7">
           <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
             <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
             </div>
