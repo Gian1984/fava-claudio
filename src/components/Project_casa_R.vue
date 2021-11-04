@@ -177,7 +177,7 @@ const product = {
 
   info:[
     {name: 'Luogo', info:'Rivalta di Torino'},
-    {name:'Stato', info:'Completato'},
+    {name:'Stato', info:'Progetto preliminare, progetto definitivo'},
     {name:'Cliente', info:'Privato'},
     {name:'Team di progettazione', info:'Claudio Fava'},
   ]

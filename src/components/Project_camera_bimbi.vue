@@ -179,7 +179,7 @@ Così anche la scaletta del letto diventa un mobile con scaffali e cassetti inte
 
   info:[
     {name: 'Luogo', info:'Rivalta di Torino'},
-    {name:'Stato', info:'Completato'},
+    {name:'Stato', info:'Concept, studio di fattibilità'},
     {name:'Cliente', info:'Privato'},
     {name:'Team di progettazione', info:'Claudio Fava'},
   ]
