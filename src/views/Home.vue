@@ -35,7 +35,7 @@
         @enter="enter"
     >
 
-    <div class="relative">
+    <div class="relative" id="header">
       <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
       <div class="mx-auto">
         <div class="relative shadow-xl sm:overflow-hidden">

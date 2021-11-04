@@ -6,8 +6,13 @@
     <div class="mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
         <div class="flex">
-          <div class="flex-shrink-0 flex items-center">
-            <button @click="this.$router.push({name:'Home'})">
+          <div class="flex-shrink-0 flex items-center" v-if="this.$route.path != '/Projects' && this.$route.path != '/'">
+            <button   @click="this.$router.push({name:'Home'})">
+              <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
+            </Button>
+          </div>
+            <div class="flex-shrink-0 flex items-center" v-if="this.$route.path === '/'">
+            <button @click="scrolltotop()">
               <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
             </Button>
           </div>
@@ -356,16 +361,6 @@ export default {
 
     scrolltocosafacciamo() {
       const element = document.getElementById('cosa_facciamo');
-      element.scrollIntoView({ behavior: 'smooth' });
-    },
-
-    scrolltocomeprogettiamo() {
-      const element = document.getElementById('come_progettiamo');
-      element.scrollIntoView({ behavior: 'smooth' });
-    },
-
-    scrolltocomelavoriamo() {
-      const element = document.getElementById('come_lavoriamo');
       element.scrollIntoView({ behavior: 'smooth' });
     },
 
