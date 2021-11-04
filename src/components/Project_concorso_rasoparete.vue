@@ -384,7 +384,9 @@ All'interno della casa, la regolazione della luminosità è garantita da tende a
     </p>`,
 
   info:[
-    {name:'Team di progettazione', info:'Claudio Fava'}
+    {name:'Team di progettazione', info:'Claudio Fava'},
+    {name:'Cliente', info:'Rasoparete'}
+
   ]
 
 }

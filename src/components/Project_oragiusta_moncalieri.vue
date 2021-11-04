@@ -329,7 +329,7 @@ const product = {
     {name: 'Luogo', info:'Moncalieri (TO)'},
     {name:'Stato', info:'Realizzato'},
     {name:'Cliente', info:"L'Oragiusta"},
-    {name:'Team di progettazione', info:'Claudio Fava'},
+    {name:'Team di progettazione', info:'Claudio Fava, Paolo Neirotti'},
     {name:'Foto', info:'Paolo Properzi'}
   ]
 

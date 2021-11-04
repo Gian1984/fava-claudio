@@ -238,7 +238,7 @@ const product = {
 
   info:[
     {name: 'Luogo', info:'Rivalta di Torino (TO)'},
-    {name:'Stato', info:'Realizzato'},
+    {name:'Stato', info:'Concept, studio di fattibilità'},
     {name:'Cliente', info:'Privato'},
     {name:'Team di progettazione', info:'Claudio Fava'},
   ]
