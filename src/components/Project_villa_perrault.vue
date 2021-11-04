@@ -376,9 +376,9 @@ const product = {
 
   info:[
     {name: 'Luogo', info:'Rivoli (TO)'},
-    {name:'Stato', info:'Realizzato'},
+    {name:'Stato', info:'Progetto preliminare'},
     {name:'Cliente', info:'Privato'},
-    {name:'Team di progettazione', info:'Claudio Fava'},
+    {name:'Team di progettazione', info:'Claudio Fava, Giorgio Fava'},
   ]
 
 }
