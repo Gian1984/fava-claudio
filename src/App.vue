@@ -113,7 +113,7 @@
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gray-400 border border-black mx-auto">
                 <LocationMarkerIcon class="h-6 w-6 mx-auto font-light" aria-hidden="true" />
               </span>
-              <p  class="mt-4 space-y-4 hidden md:block lg:block text-xs">
+              <p  class="text-gray-400 mt-4 space-y-4 hidden md:block lg:block text-xs">
                 Corso Turati 19/b, Torino
               </p>
             </a>
@@ -124,7 +124,7 @@
                 <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gray-400 border border-black mx-auto">
                   <ChatAltIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
                 </span>
-                <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
+                <p class="text-gray-400 mt-4 space-y-4 hidden md:block lg:block text-xs">
                   info@favaclaudio.com
                 </p>
               </div>
@@ -136,7 +136,7 @@
                 <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gray-400 border border-black mx-auto">
                   <PhoneIncomingIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
                 </span>
-                <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
+                <p class="text-gray-400 mt-4 space-y-4 hidden md:block lg:block text-xs">
                   +39 328 864 8607
                 </p>
               </div>
