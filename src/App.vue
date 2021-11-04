@@ -110,7 +110,7 @@
           </div>
           <div class="sm:flex lg:block mx-auto">
             <a href="https://goo.gl/maps/7KQYok6GATRFPZS68" class="hover:text-gray-300">
-              <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
+              <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gray-400 border border-black mx-auto">
                 <LocationMarkerIcon class="h-6 w-6 mx-auto font-light" aria-hidden="true" />
               </span>
               <p  class="mt-4 space-y-4 hidden md:block lg:block text-xs">
@@ -121,7 +121,7 @@
           <div class="sm:flex lg:block mx-auto">
             <a href="mailto:info@favaclaudio.com?subject=Mail from ClaudioFava.com" class="hover:text-gray-300">
               <div class="md:mt-0">
-                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
+                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gray-400 border border-black mx-auto">
                   <ChatAltIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
                 </span>
                 <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
@@ -133,7 +133,7 @@
           <div class="sm:flex lg:block mx-auto">
             <a href="tel:0039328648607" class="hover:text-gray-300">
               <div class="md:mt-0 mx-auto">
-                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-white border border-black mx-auto">
+                <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gray-400 border border-black mx-auto">
                   <PhoneIncomingIcon class="h-6 w-6 mx-auto" aria-hidden="true" />
                 </span>
                 <p class="mt-4 space-y-4 hidden md:block lg:block text-xs">
