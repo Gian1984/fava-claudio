@@ -89,7 +89,7 @@
 
   <router-view/>
 
-  <footer class="bg-gray-200" aria-labelledby="footer-heading" id="contatti">
+  <footer class="bg-gray-700" aria-labelledby="footer-heading" id="contatti">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto py-5 px-4 sm:px-6 lg:py-10 lg:px-8">
         <div class="grid grid-cols-4 gap-y-10 lg:grid-cols-4">
