@@ -141,10 +141,11 @@
           <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
             <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
               <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
-                RIFUNZIONALIZZAZIONE
+                PROGETTAZZIONE<br>
+                ARCHITETTONICA
               </p>
               <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
-                Progettiamo per dare nuova vita agli edifici.<br>
+                Dall'interior design al recupero dell'esistente, fino a edifici ex-novo.<br>
               </p>
               <div class="text-right">
                 <a href="\Project_concorso_rasoparete" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
