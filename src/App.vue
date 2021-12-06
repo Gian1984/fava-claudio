@@ -6,23 +6,30 @@
     <div class="mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
         <div class="flex">
-          <div class="flex-shrink-0 flex items-center" v-if="this.$route.path != '/Projects' && this.$route.path != '/'">
+          <div class="flex-shrink-0 flex items-center lg:pr-24" v-if="this.$route.path != '/Projects' && this.$route.path != '/'">
             <button   @click="this.$router.push({name:'Home'})">
               <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
             </Button>
           </div>
-            <div class="flex-shrink-0 flex items-center" v-if="this.$route.path === '/'">
+            <div class="flex-shrink-0 flex items-center lg:pr-24 " v-if="this.$route.path === '/'">
             <button @click="scrolltotop()">
               <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
             </Button>
           </div>
         </div>
 
+        <div class="flex justify-center space-x-6 mt-5 mx-auto hidden lg:flex">
+          <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-white hover:text-gray-500">
+            <span class="sr-only">{{ item.name }}</span>
+            <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+          </a>
+        </div>
+
         <div  class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
           <div v-if="this.$route.path == '/'" class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
-            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
-              Home
-            </button>
+<!--            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">-->
+<!--              Home-->
+<!--            </button>-->
             <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprofilo()">
               Chi Siamo
             </button>
@@ -100,17 +107,33 @@
         <div class="grid grid-cols-4 gap-y-10 lg:grid-cols-4">
           <div class="sm:flex lg:block mx-auto">
 
-            <button v-if="this.$route.path != '/' " class="hover:text-white "  @click="this.$router.push({ name: 'Home' })">
-              <div class="md:mt-0">
-                <img src="img/cropped-logo-small.png" class="h-12 mx-auto" aria-hidden="true" />
-              </div>
-            </button>
 
-            <button v-else class="hover:text-gray-300"  v-on:click="scrolltohome()">
-              <div class="md:mt-0">
-                <img src="img/cropped-logo-small.png" class="h-12 mx-auto" aria-hidden="true" />
-              </div>
-            </button>
+              <button v-if="this.$route.path != '/Projects' && this.$route.path != '/'"   @click="this.$router.push({name:'Home', hash: '#header'})">
+                <div class="md:mt-0">
+                  <img src="img/cropped-logo-small.png" alt="Logo" class="h-12 mx-auto" />
+                </div>
+              </button>
+
+
+              <button v-if="this.$route.path === '/'" @click="scrolltotop()">
+                <div class="md:mt-0">
+                  <img src="img/cropped-logo-small.png" alt="Logo" class="h-12 mx-auto" />
+                </div>
+              </Button>
+
+
+
+<!--            <button v-if="this.$route.path != '/' " class="hover:text-white "  @click="this.$router.push({ name: 'Home' })">-->
+<!--              <div class="md:mt-0">-->
+<!--                <img src="img/cropped-logo-small.png" class="h-12 mx-auto" aria-hidden="true" />-->
+<!--              </div>-->
+<!--            </button>-->
+
+<!--            <button v-else class="hover:text-gray-300"  v-on:click="scrolltohome()">-->
+<!--              <div class="md:mt-0">-->
+<!--                <img src="img/cropped-logo-small.png" class="h-12 mx-auto" aria-hidden="true" />-->
+<!--              </div>-->
+<!--            </button>-->
 
           </div>
           <div class="sm:flex lg:block mx-auto">
@@ -297,10 +320,10 @@ const navigation = {
       href: '#',
       icon: defineComponent({
         render: () =>
-            h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
+            h('svg', { fill: 'currentColor', viewBox: '0 0 72 72' }, [
               h('path', {
                 d:
-                    'M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84',
+                    'M32-.006a32.017 32.017 0 0 0-12.7 61.4 26.36 26.36 0 0 1 .6-7.3c.6-2.6 4.1-17.5 4.1-17.5a12.937 12.937 0 0 1-1-5.1c0-4.8 2.8-8.3 6.2-8.3 2.9 0 4.3 2.2 4.3 4.8 0 2.9-1.9 7.3-2.8 11.4a4.989 4.989 0 0 0 5.1 6.2c6.1 0 10.2-7.8 10.2-17.1 0-7-4.7-12.3-13.4-12.3-9.7 0-15.8 7.3-15.8 15.4a9.176 9.176 0 0 0 2.1 6.3 1.605 1.605 0 0 1 .5 1.8c-.2.6-.5 2-.7 2.6a1.11 1.11 0 0 1-1.6.8c-4.5-1.8-6.6-6.7-6.6-12.3 0-9.1 7.7-20.1 23-20.1 12.3 0 20.3 8.9 20.3 18.4 0 12.6-7 22-17.3 22-3.5 0-6.7-1.9-7.8-4 0 0-1.9 7.4-2.3 8.8a28.406 28.406 0 0 1-3.2 6.8 28.4 28.4 0 0 0 8.8 1.3 32 32 0 1 0 0-64z',
               }),
             ]),
       }),
