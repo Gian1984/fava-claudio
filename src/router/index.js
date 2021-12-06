@@ -19,6 +19,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+    children:[{
+      path:'/Home/Progetti',
+      name:'Overview',
+      component:Projects
+    }],
     meta: {
       title: 'Home Fava Claudio Architetto',
       metaTags: [
@@ -244,8 +249,14 @@ const router = createRouter({
   routes,
   /*eslint-disable */
   scrollBehavior (to, from, savedPosition) {
-    return { x: 0, y: 0 }
+    if (to.hash) {
+      return {el: to.hash}
+    } else {
+      return { x: 0, y: 0 }
+    }
   }
 })
+
+
 
 export default router
