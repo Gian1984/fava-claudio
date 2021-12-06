@@ -194,6 +194,14 @@ const product = {
     },
     {
       id: 2,
+      name: 'Vivere in 20 mq vista spaccato soluzione A',
+      imageSrc: 'img/vivere20metri/02-scaled.jpg',
+      imageAlt: "Vivere in 20 mq vista spaccato soluzione A",
+      description:"Vivere in 20 mq vista spaccato soluzione A",
+      primary: true,
+    },
+    {
+      id: 3,
       name: 'Vivere in 20 mq vista soluzione B1',
       imageSrc: 'img/vivere20metri/03-scaled.jpg',
       imageAlt: "Vivere in 20 mq vista soluzione B1",
@@ -202,19 +210,11 @@ const product = {
     },
 
     {
-      id: 3,
+      id: 4,
       name: 'Vivere in 20 mq vista soluzione B2',
       imageSrc: 'img/vivere20metri/04-scaled.jpg',
       imageAlt: "Vivere in 20 mq vista soluzione B2",
       description:"Vivere in 20 mq vista soluzione B2",
-      primary: true,
-    },
-    {
-      id: 4,
-      name: 'Vivere in 20 mq vista spaccato soluzione A',
-      imageSrc: 'img/vivere20metri/02-scaled.jpg',
-      imageAlt: "Vivere in 20 mq vista spaccato soluzione A",
-      description:"Vivere in 20 mq vista spaccato soluzione A",
       primary: true,
     },
     {
