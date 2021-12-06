@@ -188,7 +188,7 @@
                 PROGETTI SARTORIALI
               </p>
               <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
-               Attraverso la ricerca delle forme, mariali e tecniche.<br>
+               Attraverso la ricerca delle forme, materiali e tecniche.<br>
               </p>
               <div class="text-right">
                 <a href="\Project_oragiusta_moncalieri" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
