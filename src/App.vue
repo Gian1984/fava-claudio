@@ -6,12 +6,12 @@
     <div class="mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
         <div class="flex">
-          <div class="flex-shrink-0 flex items-center lg:pr-24" v-if="this.$route.path != '/Projects' && this.$route.path != '/'">
+          <div class="flex-shrink-0 flex items-center lg:pr-44" v-if="this.$route.path != '/Projects' && this.$route.path != '/'">
             <button   @click="this.$router.push({name:'Home'})">
               <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
             </Button>
           </div>
-            <div class="flex-shrink-0 flex items-center lg:pr-24 " v-if="this.$route.path === '/'">
+            <div class="flex-shrink-0 flex items-center lg:pr-44 " v-if="this.$route.path === '/'">
             <button @click="scrolltotop()">
               <img src="img/logo_black.png" alt="Logo" class="block h-8 w-auto lg:h-12" />
             </Button>
