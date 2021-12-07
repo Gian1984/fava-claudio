@@ -27,9 +27,9 @@
 
         <div  class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
           <div v-if="this.$route.path == '/'" class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
-<!--            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">-->
-<!--              Home-->
-<!--            </button>-->
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
+              Home
+            </button>
             <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprofilo()">
               Chi Siamo
             </button>
