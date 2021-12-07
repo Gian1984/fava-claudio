@@ -64,14 +64,14 @@
             <MenuIcon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
             <XIcon v-else class="block h-6 w-6" aria-hidden="true" />
           </DisclosureButton>
-          <Button @click="this.$router.push({ name:'Home' })" v-else-if="this.$route.path === '/Projects' && this.$route.path != '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
+          <router-link :to="{ name: 'Home', hash: '#progetti' }" v-else-if="this.$route.path === '/Projects' && this.$route.path != '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
             <span class="sr-only">Open main menu</span>
             <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
-          </Button>
-          <Button @click="this.$router.push({ name:'Projects' })" v-else-if="this.$route.path != '/Projects' && this.$route.path != '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
+          </router-link>
+          <router-link :to="{ name: 'Home', hash: '#progetti' }" v-else-if="this.$route.path != '/Projects' && this.$route.path != '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
             <span class="sr-only">Open main menu</span>
             <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
-          </Button>
+          </router-link>
 
         </div>
       </div>
