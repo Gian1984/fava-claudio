@@ -237,15 +237,25 @@
           <!-- Product details -->
 
           <h1 class="text-xl font-medium text-gray-900 text-left hidden lg:block">
-            CASA RIVOLI
+            CASA GRAMSCI
           </h1>
           <h2 class="text-lg font-base text-gray-900 hidden lg:block">
-            Rivoli (TO) - 2016
+            Condove (TO) - 2022
           </h2>
 
           <div class="mt-10">
             <h2 class="text-lg font-medium text-gray-900 mt-10">Descrizione</h2>
             <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description" />
+            <h2 class="text-lg font-medium text-gray-900 mt-10">La boiserie a nastro</h2>
+            <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description1" />
+            <h2 class="text-lg font-medium text-gray-900 mt-10">Rovere "nordico"</h2>
+            <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description2" />
+            <h2 class="text-lg font-medium text-gray-900 mt-10">Pura versatilità</h2>
+            <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description3" />
+            <h2 class="text-lg font-medium text-gray-900 mt-10">Bagno con layout a zone</h2>
+            <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description4" />
+            <h2 class="text-lg font-medium text-gray-900 mt-10">Complice la luce</h2>
+            <div class="mt-4 prose prose-sm text-gray-500" v-html="product.description5" />
           </div>
 
           <div class="mt-8 border-t border-gray-200 pt-8">
@@ -269,30 +279,30 @@
 import { XIcon } from '@heroicons/vue/outline'
 
 const product = {
-  name: 'CASA RIVOLI',
+  name: 'CASA GRAMSCI',
   href: '#',
   images: [
     {
       id: 1,
-      name: 'Casa Rivoli vista interna 1',
-      imageSrc: 'img/PRO_7700.jpg',
-      imageAlt: "Casa Rivoli vista interna 1",
-      description:"Casa Rivoli vista interna 1",
+      name: 'Casa Gramsci vista interna 1',
+      imageSrc: 'img/casagramsci/01.webp',
+      imageAlt: "Casa Gramsci vista interna 1",
+      description:"Casa Gramsci vista interna 1",
       primary: true,
     },
     {
       id: 2,
-      name: 'Casa Rivoli vista interna 2',
-      imageSrc: 'img/PRO_7728.jpg',
-      imageAlt: "Casa Rivoli vista interna 2",
-      description:"Casa Rivoli vista interna 2",
+      name: 'Casa Gramsci vista interna 2',
+      imageSrc: 'img/casagramsci/02.webp',
+      imageAlt: "Casa Gramsci vista interna 2",
+      description:"Casa Gramsci vista interna 2",
       primary: true,
     },
 
     {
       id: 3,
       name: 'Casa Rivoli vista interna 3',
-      imageSrc: 'img/PRO_7764.jpg',
+      imageSrc: 'img/casagramsci/09.webp',
       imageAlt: "Casa Rivoli vista interna 3",
       description:"Casa Rivoli vista interna 3",
       primary: true,
@@ -300,7 +310,7 @@ const product = {
     {
       id: 4,
       name: 'Casa Rivoli vista interna 4',
-      imageSrc: 'img/PRO_7774.jpg',
+      imageSrc: 'img/casagramsci/10.webp',
       imageAlt: "Casa Rivoli vista interna 4",
       description:"Casa Rivoli vista interna 4",
       primary: true,
@@ -308,7 +318,7 @@ const product = {
     {
       id: 5,
       name: 'Casa Rivoli vista interna 5',
-      imageSrc: 'img/PRO_7701.jpg',
+      imageSrc: 'img/casagramsci/11.webp',
       imageAlt: "Casa Rivoli vista interna 5",
       description:"Casa Rivoli vista interna 5",
       primary: true,
@@ -316,7 +326,7 @@ const product = {
     {
       id: 6,
       name: 'Casa Rivoli vista interna 6',
-      imageSrc: 'img/PRO_7711.jpg',
+      imageSrc: 'img/casagramsci/12.webp',
       imageAlt: "Casa Rivoli vista interna 6",
       description:"Casa Rivoli vista interna 6",
       primary: true,
@@ -324,7 +334,7 @@ const product = {
     {
       id: 7,
       name: 'Casa Rivoli vista interna 7',
-      imageSrc: 'img/PRO_7721.jpg',
+      imageSrc: 'img/casagramsci/13.webp',
       imageAlt: "Casa Rivoli vista interna 7",
       description:"Casa Rivoli vista interna 7",
       primary: true,
@@ -332,7 +342,7 @@ const product = {
     {
       id: 8,
       name: 'Casa Rivoli vista interna 8',
-      imageSrc: 'img/PRO_7722.jpg',
+      imageSrc: 'img/casagramsci/14.webp',
       imageAlt: "Casa Rivoli vista interna 8",
       description:"Casa Rivoli vista interna 8",
       primary: true,
@@ -340,7 +350,7 @@ const product = {
     {
       id: 9,
       name: 'Casa Rivoli vista interna 9',
-      imageSrc: 'img/PRO_7805.jpg',
+      imageSrc: 'img/casagramsci/15.webp',
       imageAlt: "Casa Rivoli vista interna 9",
       description:"Casa Rivoli vista interna 9",
       primary: true,
@@ -348,7 +358,7 @@ const product = {
     {
       id: 10,
       name: 'Casa Rivoli vista interna 10',
-      imageSrc: 'img/PRO_7840.jpg',
+      imageSrc: 'img/casagramsci/16.webp',
       imageAlt: "Casa Rivoli vista interna 10",
       description:"Casa Rivoli vista interna 10",
       primary: true,
@@ -356,7 +366,79 @@ const product = {
     {
       id: 11,
       name: 'Casa Rivoli vista interna 11',
-      imageSrc: 'img/PRO_7860-.jpg',
+      imageSrc: 'img/casagramsci/17.webp',
+      imageAlt: "Casa Rivoli vista interna 11",
+      description:"Casa Rivoli vista interna 11",
+      primary: true,
+    },
+    {
+      id: 12,
+      name: 'Casa Rivoli vista interna 11',
+      imageSrc: 'img/casagramsci/18.webp',
+      imageAlt: "Casa Rivoli vista interna 11",
+      description:"Casa Rivoli vista interna 11",
+      primary: true,
+    },
+    {
+      id: 13,
+      name: 'Casa Rivoli vista interna 11',
+      imageSrc: 'img/casagramsci/19.webp',
+      imageAlt: "Casa Rivoli vista interna 11",
+      description:"Casa Rivoli vista interna 11",
+      primary: true,
+    },
+    {
+      id: 14,
+      name: 'Casa Rivoli vista interna 11',
+      imageSrc: 'img/casagramsci/20.webp',
+      imageAlt: "Casa Rivoli vista interna 11",
+      description:"Casa Rivoli vista interna 11",
+      primary: true,
+    },
+    {
+      id: 15,
+      name: 'Casa Rivoli vista interna 11',
+      imageSrc: 'img/casagramsci/21.webp',
+      imageAlt: "Casa Rivoli vista interna 11",
+      description:"Casa Rivoli vista interna 11",
+      primary: true,
+    },
+    {
+      id: 16,
+      name: 'Casa Rivoli vista interna 11',
+      imageSrc: 'img/casagramsci/22.webp',
+      imageAlt: "Casa Rivoli vista interna 11",
+      description:"Casa Rivoli vista interna 11",
+      primary: true,
+    },
+    {
+      id: 17,
+      name: 'Casa Rivoli vista interna 11',
+      imageSrc: 'img/casagramsci/23.webp',
+      imageAlt: "Casa Rivoli vista interna 11",
+      description:"Casa Rivoli vista interna 11",
+      primary: true,
+    },
+    {
+      id: 18,
+      name: 'Casa Rivoli vista interna 11',
+      imageSrc: 'img/casagramsci/24.webp',
+      imageAlt: "Casa Rivoli vista interna 11",
+      description:"Casa Rivoli vista interna 11",
+      primary: true,
+    },
+    {
+      id: 19,
+      name: 'Casa Rivoli vista interna 11',
+      imageSrc: 'img/casagramsci/25.webp',
+      imageAlt: "Casa Rivoli vista interna 11",
+      description:"Casa Rivoli vista interna 11",
+      primary: true,
+    },
+    {
+      id: 20,
+      name: 'Casa Rivoli vista interna 11',
+      imageSrc: 'img/casagramsci/26.webp',
       imageAlt: "Casa Rivoli vista interna 11",
       description:"Casa Rivoli vista interna 11",
       primary: true,
@@ -364,18 +446,42 @@ const product = {
   ],
 
   description: `
-    <p>Il progetto di ristrutturazione di questa casa a Rivoli, in provincia di Torino, è caratterizzato da un contrasto bianco e legno che diventa il segno di continuità degli ambienti. Il parquet in rovere sbiancato è presente in tutti gli ambienti, tranne nei bagni dove l’utilizzo di ceramiche e marmi connotano questi ambienti con freschezza e luminosità.
-Il disegno di mobili su misura dona un nuovo linguaggio alla casa, che viene arricchita da una seguenza di librerie incassate, boiserie in legno e una scala a sbalzo.
-Il camino diventa il fulcro del soggiorno e lo divide idealmente in due spazi comunicanti.
-Lo spazio verso l’ingresso principale è corredato da comode poltrone per favorire la conversazione e la lettura, mentre la zona verso il giardino è caratterizzata da divani e sedute lounge per favorire il relax.
-Una parete in rovere con porta a doppia anta scorrevole mette in comunicazione il soggiorno con la cucina, dove il contrasto tra bianco e legno è accentuato ulteriormente. L’isola centrale con piano di lavoro in marmo di carrara sostiene il piano in massello di abete grigio, orientato per poter ammirare il giardino esterno.
-La scala a sbalzo oltre a connettere il piano terreno con la zona notte posizionata al piano primo, diventa un oggetto di arredo con integrato il mobile tv in rovere.</p>`,
+    <p>Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata,
+sostenibilità e con un progetto d'interni che lascia in comunicazione gli ambienti. A una zona giorno open - ma con cucina, pranzo e salotto ben definiti dai materiali diversi - e alla camera doppia, si aggiungono un bagno extra confortevole, un invidiabile ripostiglio e una lavanderia con spazio dedicato. Doppio l'ingresso, di cui uno direttamente in cucina.
+L'intero volume è modellato con arredi nella maggior parte su misura e materiali naturali.
+
+La planimetria della casa è stata trasformata dalla nuova apertura ricavata nella parete portante tra soggiorno-pranzo e cucina. La doppia putrella in ferro a vista, aggiunta in compensazione, si inserisce
+con armonia nel volume dove predominano toni di verde.
+La ristrutturazione e il progetto affidano alla forza di materiali naturali come il rovere e il marmo verde Guatemala la caratterizzazione degli interni.
+Grande identità anche nella stanza da bagno, grazie alla parete della doccia in gres porcellanato, sempre in verde, ma lucente.
+Gran parte degli arredi è su misura. In cucina, un elemento a “elle” si collega visivamente al living grazie alla boiserie a mezza parete che fa da giunto di connessione. A pavimento, porzioni di graniglia e gres effetto parquet segnalano funzioni diverse all’interno dello stesso volume.
+</p>`,
+
+  description1: `
+    <p>La soluzione che connette la cucina all'adiacente zona pranzo (i due ambienti sono stati resi comunicanti in fase di ristrutturazione) gioca soprattutto sull'effetto visivo di continuità dato dall'impiego dello stesso materiale per l'arredamento di entrambi gli spazi, in questo caso il legno di rovere. Il dialogo tra le due aree del soggiorno open è rafforzato dalla boiserie a mezza parete, che protegge il muro e funge da schienale alle sedute su un lato del tavolo. Prosegue poi estendendosi direttamente alla base a penisola del lavello, fino a
+fondersi con i moduli della cucina. È composta da una serie di listelli allineati e fissati a parete.
+</p>`,
+
+  description2: `
+    <p>Il nuovo layout del soggiorno open è stato personalizzato con arredi su misura, per i quali si è privilegiato il legno di rovere naturale dalla tonalità miele, con contrappunti di nero dati dalle sedute e dalla base a doppia slitta del tavolo. Le ante di basi e pensili, la panca, il piano del tavolo e la pannellatura a parete a mezza altezza che abbraccia la zona pranzo e si innesta nella penisola con il lavello, creano un'insieme armonioso.</p>`,
+
+  description3: `
+    <p>Raccolta, ma comoda e godibile a 360°, la zona relax con il divano e, a lato, un tavolino e una lampada da terra di ispirazione nordica. Protetta dall’ingresso, è addossata alla parete dall'ampia finestra (che diffonde luce naturale nel soggiorno) e rivolta verso la zona pranzo, con vista sulla cucina e sullo schermo tv (a sinistra). Un angolo pensato per essere vissuto in modo conviviale o per leggere usufruendo della piena luce.</p>`,
+
+  description4: `
+    <p>Il bagno è diviso in tre spazi, e quello con i sanitari è chiuso da un'ulteriore porta, con anta in vetro per far passare la luce naturale. Entrando, si accede all’antibagno centrale, con il lavabo ovale sul mobile in legno completo di ante. A sinistra, l’ampia doccia nella nicchia in muratura.</p>`,
+
+  description5: `
+    <p>Elemento forte della stanza da bagno è la doccia in nicchia a filo pavimento, con il rivestimento
+a terra che prosegue nel vano in muratura. È stato necessario eseguire un adeguato lavoro di impermeabilizzazione e prevedere uno scarico idoneo (al quale converge l'acqua raccolta attraverso la piletta rettangolare in acciaio inox). Le pareti interne del box sono rivestite in tavelline di gres porcellanato blu mare, dall'effetto marezzato lucido, posate - tocco originale - in verticale.
+Per valorizzare al meglio l'intero vano doccia walk-in è stato ritagliato un “pozzo di luce” nel soffitto, che crea un effetto molto suggestivo per chi sta sotto il getto d’acqua e diffonde luminosità nella stanza.
+</p>`,
 
   info:[
-    {name: 'Luogo', info:'Rivoli (TO)'},
+    {name: 'Luogo', info:'Condove (TO)'},
     {name:'Stato', info:'Realizzato'},
     {name:'Cliente', info:'Privato'},
-    {name:'Team di progettazione', info:'Claudio Fava, Giorgio Fava'},
+    {name:'Team di progettazione', info:'Claudio Fava'},
     {name:'Foto', info:'Paolo Properzi'}
   ]
 

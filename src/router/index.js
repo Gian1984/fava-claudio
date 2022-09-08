@@ -10,6 +10,7 @@ import Project_concorso_rasoparete from '../components/Project_concorso_rasopare
 import Project_oragiusta_moncalieri from '../components/Project_oragiusta_moncalieri.vue'
 import Project_villa_perrault from '../components/Project_villa_perrault.vue'
 import Project_vivere_20 from '../components/Project_vivere_20.vue'
+import Project_casa_gramsci from '../components/Project_casa_gramsci.vue'
 import Projects from '../components/Projects.vue'
 import PageNotFound from '../views/PageNotFound.vue'
 
@@ -222,6 +223,24 @@ const routes = [
     path: '/Project_vivere_20',
     name: 'Project_vivere_20',
     component: Project_vivere_20,
+    meta: {
+      title: 'Progetti Fava Claudio Architetto',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Progetti dello Studio di Architettura Fava Claudio.'
+        },
+        {
+          property: 'og:description',
+          content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Project_casa_gramsci',
+    name: 'Project_casa_gramsci',
+    component: Project_casa_gramsci,
     meta: {
       title: 'Progetti Fava Claudio Architetto',
       metaTags: [
