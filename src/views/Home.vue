@@ -335,24 +335,28 @@
           </p>
         </div>
         <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-24">
-          <li v-for="person in team" :key="person.name" class="py-10 px-6 bg-gray-200 text-center xl:px-10 xl:text-left">
+          <li v-for="pub in press" :key="pub.name" class="py-10 px-6 bg-gray-200 text-center xl:px-10 xl:text-left">
             <div class="space-y-6 xl:space-y-10">
-              <img class="mx-auto h-56 w-56 xl:w-80 xl:h-80" :src="person.imageSrc" :alt="person.imageAlt" />
+              <div class="center">
+                <div class="page">
+                  <img :src="pub.imageSrc" :alt="pub.imageAlt" />
+                </div>
+              </div>
               <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                 <div class="font-medium text-lg leading-6 space-y-1">
-                  <h2 class="max-w-lg text-xl text-black sm:max-w-3xl">{{ person.name }}</h2>
-                  <p class="text-indigo-400 pb-10">{{ person.role }}</p>
+                  <h2 class="max-w-lg text-xl text-black sm:max-w-3xl">{{ pub.name }}</h2>
+                  <p class="text-indigo-400 pb-10">{{ pub.role }}</p>
                   <p class="hidden lg:block max-w-lg text-base text-gray-700 sm:max-w-3xl pr-2  lg:border-r lg:border-gray-700 text-left">
-                    {{ person.description }}
+                    {{ pub.description }}
                   </p>
                   <p class="lg:hidden max-w-lg text-base text-gray-700 sm:max-w-3xl pr-2 pt-2 pb-2 border-b border-gray-700 text-left">
-                    {{ person.description }}
+                    {{ pub.description }}
                   </p>
                 </div>
 
                 <ul role="list" class="flex justify-center space-x-5 pl-2 mt-4">
                   <li>
-                    <a :href="person.linkedinUrl" class="text-gray-400 hover:text-blue-700">
+                    <a :href="pub.linkedinUrl" class="text-gray-400 hover:text-blue-700">
                       <span class="sr-only">LinkedIn</span>
                       <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
                         <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
@@ -394,6 +398,28 @@ const team = [
     role: 'Architetto',
     imageSrc:
         'img/giocut.jpg',
+    imageAlt:"Giorgio Fava Foto",
+    description:"Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.",
+    linkedinUrl: 'https://www.linkedin.com/in/giorgio-fava-5730b234/',
+  },
+]
+
+const press = [
+  {
+    name: 'COSE DI CASA',
+    role: 'Architetto',
+    imageSrc:
+        'img/pubblicazioni/copertina_cose.webp',
+    imageAlt:"Claudio Fava Foto",
+    description:"Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino nel 2010, dopo un tirocinio presso lo studio milanese Claudio Bellini Design+Design. Inizio il suo percorso, collaborando con lo Studio Neirotti di Vinovo e lo studio LSB architetti associati per cui lavora in pianta stabile per due anni e dove ha modo di accrescere le proprie conoscenze lavorando su progetti in diversi ambiti.\n" +
+        "Nel 2014 inizia la sua attività da libero professionista, iniziando importanti collaborazioni con arch. Giorgio Fava, arch. Paolo Neirotti e Sceg Architetti.",
+    linkedinUrl: 'https://www.linkedin.com/in/claudio-fava-7ab95015/',
+  },
+  {
+    name: '100 IDEE PER RISTRUTTURARE',
+    role: 'Architetto',
+    imageSrc:
+        'img/pubblicazioni/copertina_idee.webp',
     imageAlt:"Giorgio Fava Foto",
     description:"Laureato presso la Facoltà di Architettura del Politecnico di Torino, sperimenta esperienze lavorative diverse in ambito teatrale ed artistico presso Teatro Regio di Torino, Steve McCurry Studio di New York, MOdenArte Gallery di Boca Raton, Florida. Dal 2007 lavora in pianta stabile presso Cantieri Navali Sanlorenzo prima come architetto di commessa e dal 2014 come Project Manager per il design di interni di motor yachts dai 30 ai 40 metri.",
     linkedinUrl: 'https://www.linkedin.com/in/giorgio-fava-5730b234/',
@@ -493,7 +519,8 @@ export default {
       beforeEnter,
       enter,
       products,
-      team
+      team,
+      press
     }
   },
 }
