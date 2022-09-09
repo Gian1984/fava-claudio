@@ -7,7 +7,9 @@
 
 .center{
     position: relative;
-    transform:translate(25%);
+    /*transform:translate(25%);*/
+    justify-content: center;
+    display: grid;
 }
 .page{
     width:351px;
