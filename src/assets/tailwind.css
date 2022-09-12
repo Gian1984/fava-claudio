@@ -5,37 +5,42 @@
 @tailwind utilities;
 
 
-.center{
-    position: relative;
-    /*transform:translate(25%);*/
-    justify-content: center;
-    display: grid;
-}
-.page{
-    width:351px;
-    height:416px;
-    background:#fff;
-    border-left:20px solid #ff2929;
-    transform: rotate(-27deg) skewX(12deg) scale(.8);
+/*.center{*/
+/*    position: relative;*/
+/*    !*transform:translate(25%);*!*/
+/*    justify-content: center;*/
+/*    display: grid;*/
+/*}*/
+/*.page{*/
+/*    width:351px;*/
+/*    height:416px;*/
+/*    background:#fff;*/
+/*    border-left:20px solid #ff2929;*/
+/*    transform: rotate(-27deg) skewX(12deg) scale(.8);*/
+/*    box-shadow: -50px 50px 50px rgba(0,0,0,.5);*/
+/*}*/
+
+.box-shadow{
     box-shadow: -50px 50px 50px rgba(0,0,0,.5);
 }
-.page:before{
-    content:'';
-    width:30px;
-    height:100%;
-    background:#8a0e0e;
-    position: absolute;
-    top:0;
-    left:0;
-    transform: skewy(-45deg) translate(-50px,-36px);
-}
-.page:after{
-    content:'';
-    width:107%;
-    height:30px;
-    background:#ccc;
-    position: absolute;
-    top:100%;
-    left:-12%;
-    transform: skew(-45deg)
-}
+
+/*.page:before{*/
+/*    content:'';*/
+/*    width:30px;*/
+/*    height:100%;*/
+/*    background:#8a0e0e;*/
+/*    position: absolute;*/
+/*    top:0;*/
+/*    left:0;*/
+/*    transform: skewy(-45deg) translate(-50px,-36px);*/
+/*}*/
+/*.page:after{*/
+/*    content:'';*/
+/*    width:107%;*/
+/*    height:30px;*/
+/*    background:#ccc;*/
+/*    position: absolute;*/
+/*    top:100%;*/
+/*    left:-12%;*/
+/*    transform: skew(-45deg)*/
+/*}*/

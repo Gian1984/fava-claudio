@@ -12,6 +12,7 @@ import Project_villa_perrault from '../components/Project_villa_perrault.vue'
 import Project_vivere_20 from '../components/Project_vivere_20.vue'
 import Project_casa_gramsci from '../components/Project_casa_gramsci.vue'
 import Projects from '../components/Projects.vue'
+import Press from '../components/Press.vue'
 import PageNotFound from '../views/PageNotFound.vue'
 
 
@@ -49,6 +50,24 @@ const routes = [
         {
           name: 'description',
           content: 'Progetti dello Studio di Architettura Fava Claudio.'
+        },
+        {
+          property: 'og:description',
+          content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Press',
+    name: 'Press',
+    component: Press,
+    meta: {
+      title: 'Pubblicazioni Fava Claudio Architetto',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Pubblicazioni  dello Studio di Architettura Fava Claudio.'
         },
         {
           property: 'og:description',
