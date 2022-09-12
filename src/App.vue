@@ -19,7 +19,7 @@
         </div>
 
         <div class="flex justify-center space-x-6 mt-5 mx-auto hidden lg:flex">
-          <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-white hover:text-gray-500">
+          <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-white hover:text-gray-500">
             <span class="sr-only">{{ item.name }}</span>
             <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
           </a>

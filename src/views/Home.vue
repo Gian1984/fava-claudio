@@ -18,7 +18,7 @@
 
           <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
             <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center pt-14">
-              <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-10">
+              <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-20">
                 ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
               </p>
               <div class="space-y-4 sm:space-y-0 sm:inline-grid py-40 lg:py-60 sm:gap-5">
@@ -332,7 +332,7 @@
       <div class="item" style="background-image: url('img/PRO_7701.jpg');"></div>
       <div class="item" style="background-image: url('img/PRO_7943.jpg');"></div>
       <div class="item" style="background-image: url('img/loragiusta/foto-2-scaled.jpg');"></div>
-      <div class="item" style="background-image: url('img/PRO_7906.jpg');"></div>
+      <div class="item" style="background-image: url('img/casagramsci/11.webp');"></div>
     </div>
   </div>
 
