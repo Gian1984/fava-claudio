@@ -1,33 +1,54 @@
 <template>
   <!-- ARCHITETTURA & INTERIOR DESIGN -->
 
-<!--  <transition-->
-<!--      appear-->
-<!--      @before-enter="beforeEnter"-->
-<!--      @enter="enter"-->
-<!--  >-->
+  <transition
+      appear
+      @before-enter="beforeEnter"
+      @enter="enter"
+  >
 
-<!--  <div class="relative md:hidden lg:hidden" id="home">-->
-<!--    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100 parallax-elem-1" />-->
-<!--    <div class="mx-auto">-->
-<!--      <div class="relative shadow-xl  sm:overflow-hidden">-->
-<!--        <div class="absolute inset-0">-->
-<!--          <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="Salotto di design" />-->
-<!--          <div class="absolute inset-0" />-->
-<!--        </div>-->
-<!--        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8">-->
-<!--          <p class="mt-6 max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl">-->
-<!--            ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN-->
-<!--          </p>-->
-<!--          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">-->
-<!--            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid py-60 sm:grid-cols-2 sm:gap-5">-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--  </transition>-->
+    <div class="relative" id="header">
+      <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+      <div class="mx-auto">
+        <div class="relative shadow-xl sm:overflow-hidden">
+
+          <div class="absolute inset-0">
+            <img class="h-full w-full object-cover" src="img/casagramsci/01.webp" alt="il progetto degli spazi" />
+          </div>
+
+          <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
+            <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center pt-14">
+              <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-10">
+                ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
+              </p>
+              <div class="space-y-4 sm:space-y-0 sm:inline-grid py-40 lg:py-60 sm:gap-5">
+              </div>
+            </div>
+            <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
+              <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
+                <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left font-black ">
+                  NEWS:<br>
+                </p>
+                <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+                  CASA GRAMSCI
+                </p>
+                <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+                  55 mq riconfigurati puntando su arredi su misura, materiali naturali e con un progetto che lascia in comunicazione gli ambienti.<br>
+                </p>
+                <div class="text-right">
+                  <a href="/Project_casa_gramsci" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                    <span class="px-1 py-0.5">Vai al progetto</span>
+                    <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </transition>
 
     <transition
         appear
@@ -334,7 +355,7 @@
           <p class="text-gray-900 max-w-3xl mx-auto">
           </p>
         </div>
-        <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-24">
+        <ul role="list" class="space-y-4 sm:grid sm:grid-cols-1 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-24">
           <li v-for="pub in press" :key="pub.name" class="py-10 px-6 bg-gray-200 text-center xl:px-10 xl:text-left">
             <div class="space-y-6 xl:space-y-10">
               <div class="center">
@@ -526,6 +547,21 @@ export default {
 }
 
 </script>
+
+<style>
+.home-img{
+  position: relative !important;
+  width: 100% !important;
+  height: 100vh !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.spacing{
+  padding-bottom: 20Px;
+}
+
+</style>
 
 
 
