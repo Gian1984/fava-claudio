@@ -456,7 +456,11 @@ export default {
   background-color: #f8f8f8;
 }
 
+body,
+html,
 h1,
+li,
+span,
 h3,
 button,
 a,
