@@ -1,119 +1,394 @@
+<script setup>
+
+
+        // const features = [
+        //   {
+        //     id:1,
+        //     name: 'Cose di Casa - 8 Agosto 2022',
+        //     description:
+        //         'Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d\'interni che lascia in comunicazione gli ambienti. ',
+        //     imageSrc: 'img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp',
+        //     imageAlt: 'Cose di Casa - 8 Agosto 2022',
+        //     gallery:'gallery1'
+        //   },
+        //
+        //   {
+        //     id:2,
+        //     name: '100 Idee per ristrutturare - Luglio 2022',
+        //     description:
+        //         'Un viaggio nel mondo del salus per aquam alla ricercq delle soluzioni più idonee all\'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.',
+        //     imageSrc: 'img/pubblicazioni/100idee_luglio2022/copertina_idee.webp',
+        //     imageAlt:
+        //         '100 Idee per ristrutturare - Luglio 2022',
+        //     gallery:'gallery2'
+        //   },
+        // ]
+
+
+</script>
 <template>
-  <div class="bg-white pb-5 enter" id="progetti">
-    <div class="max-w-7xl mx-auto py-12 px-4 sm:py-10 sm:px-6 lg:px-12">
-
-      <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
-        <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto">PROGETTI</h2>
+  <div class="bg-white">
+    <section aria-labelledby="features-heading" class="mx-auto max-w-7xl pt-32 sm:px-2 lg:px-8">
+      <div class="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
+        <div class="max-w-3xl">
+          <h2 id="features-heading" class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Pubblicazioni</h2>
+          <p class="mt-4 text-gray-500">The Organize modular system offers endless options for arranging your favorite and most used items. Keep everything at reach and in its place, while dressing up your workspace.</p>
+          <button id="play-button" @click="startFancy()"></button>
+        </div>
       </div>
+      </section>
+  </div>
 
-      <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-10 sm:gap-y-12 lg:gap-x-12">
-        <div v-for="product in products" :key="product.id" class="group relative">
-          <a :href="product.href">
-            <div class="h-full h-96 overflow-hidden group-hover:opacity-75">
-              <img :src="product.imageSrc" :alt="product.imageAlt" class="w-full h-full object-center object-cover" />
-            </div>
+  <div class="flex flex-wrap mx-auto max-w-7xl sm:px-2 lg:px-8">
+    <div class="w-full">
+
+      <!-- tab selector start  -->
+
+      <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
+
+        <!-- tab 1  -->
+
+        <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+          <a class="text-xs font-bold uppercase px-5 py-3 rounded block leading-normal" v-on:click="toggleTabs(1)" v-bind:class="{'text-pink-600 bg-white': openTab !== 1, 'text-white bg-pink-600': openTab === 1}">
+            Cose di Casa
           </a>
-          <p class="max-w-lg text-sm text-grey-500 sm:max-w-3xl">
-            <a :href="product.href" class=" mb-2 inline-flex items-center uppercase text-black rounded-full p-1 pr-2 sm:text-xs lg:text-sm xl:text-base hover:text-gray-500">
-              <span class="absolute inset-0" />
-              {{ product.name }}
-            </a>
-          </p>
+        </li>
+
+        <!-- tab 2  -->
+
+        <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+          <a class="text-xs font-bold uppercase px-5 py-3 rounded block leading-normal" v-on:click="toggleTabs(2)" v-bind:class="{'text-pink-600 bg-white': openTab !== 2, 'text-white bg-pink-600': openTab === 2}">
+            100  Idee per ristrutturare
+          </a>
+        </li>
+
+
+      </ul>
+
+      <!-- tab selector end  -->
+
+      <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 rounded">
+        <div class="px-4 py-5 flex-auto">
+          <div class="tab-content tab-space">
+            <div v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
+
+              <!--  description & cover start -->
+
+              <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
+                <div class="mt-6 lg:col-span-5 lg:mt-0">
+                  <h3 class="text-lg font-medium text-gray-900">8 Agosto 2022</h3>
+                  <p class="mt-2 text-sm text-gray-500">
+                    Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d'interni che lascia in comunicazione gli ambienti.
+                  </p>
+                </div>
+                <div class="lg:col-span-7">
+                  <div class="aspect-w-2 aspect-h-5 overflow-hidden rounded-lg  sm:aspect-w-2 sm:aspect-h-5">
+                    <a
+                        href="img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp"
+                        data-fancybox="gallery1"
+                        data-caption="Cose di Casa - 8 Agosto 2022"
+                    >
+                      <img  src="img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp"  alt="Cose di Casa - 8 Agosto 2022" class="object-cover object-center h-64 mx-auto w-auto"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!--  description & cover end -->
+
+
+              <!--  list of page start -->
+
+              <div class="bg-white">
+                <div class="mx-auto max-w-2xl pb-16 pt-2 px-4 sm:pb-24 sm:pt-6 sm:px-6 lg:max-w-7xl lg:px-8">
+                  <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+
+                    <!-- pagina -->
+
+                    <div  class="group relative">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 rounded-md bg-gray-200 group-hover:opacity-75 ">
+                        <a
+                            href="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_1.webp"
+                            data-fancybox="gallery1"
+                            data-caption="Pagina 1"
+                        >
+                          <img src="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_1.webp" alt="Cose di casa pagina 1 luglio 2022" class="aspect-w-5 aspect-h-2 object-cover object-center" />
+                        </a>
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                        <div>
+                          <h3 class="text-sm text-gray-700">
+                            <p >
+                              <span aria-hidden="true" class="absolute inset-0" />
+                              Pagina
+                            </p>
+                          </h3>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">1</p>
+                      </div>
+                    </div>
+
+                    <!-- pagina -->
+
+                    <div  class="group relative">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 ">
+                        <a
+                            href="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_2.webp"
+                            data-fancybox="gallery1"
+                            data-caption="Pagina 1"
+                        >
+                          <img src="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_2.webp" alt="Cose di casa pagina 1 luglio 2022" class="aspect-w-5 aspect-h-2 object-cover object-center" />
+                        </a>
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                        <div>
+                          <h3 class="text-sm text-gray-700">
+                            <p >
+                              <span aria-hidden="true" class="absolute inset-0" />
+                              Pagina
+                            </p>
+                          </h3>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">2</p>
+                      </div>
+
+                    </div>
+
+                    <!-- pagina -->
+
+                    <div  class="group relative">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 ">
+                        <a
+                            href="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_3.webp"
+                            data-fancybox="gallery1"
+                            data-caption="Pagina 1"
+                        >
+                          <img src="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_3.webp" alt="Cose di casa pagina 1 luglio 2022" class="aspect-w-5 aspect-h-2 object-cover object-center" />
+                        </a>
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                        <div>
+                          <h3 class="text-sm text-gray-700">
+                            <p >
+                              <span aria-hidden="true" class="absolute inset-0" />
+                              Pagina
+                            </p>
+                          </h3>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">4</p>
+                      </div>
+                    </div>
+
+                    <!-- pagina -->
+
+                    <div  class="group relative">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 ">
+                        <a
+                            href="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_4.webp"
+                            data-fancybox="gallery1"
+                            data-caption="Pagina 1"
+                        >
+                          <img src="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_4.webp" alt="Cose di casa pagina 1 luglio 2022" class="aspect-w-5 aspect-h-2 object-cover object-center" />
+                        </a>
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                        <div>
+                          <h3 class="text-sm text-gray-700">
+                            <p >
+                              <span aria-hidden="true" class="absolute inset-0" />
+                              Cose di casa - Luglio 2022
+                            </p>
+                          </h3>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">1</p>
+                      </div>
+                    </div>
+
+                    <!-- pagina -->
+
+                  </div>
+                </div>
+              </div>
+
+              <!--  list of page start -->
+
+            </div>
+
+            <!-- end tab -->
+
+            <!-- start tab -->
+
+            <div v-bind:class="{'hidden': openTab !== 2, 'block': openTab === 2}">
+
+              <!--  description & cover start -->
+
+              <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
+                <div class="mt-6 lg:col-span-5 lg:mt-0">
+                  <h3 class="text-lg font-medium text-gray-900">8 Agosto 2022</h3>
+                  <p class="mt-2 text-sm text-gray-500">
+                    Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d'interni che lascia in comunicazione gli ambienti.
+                  </p>
+                </div>
+                <div class="lg:col-span-7">
+                  <div class="aspect-w-2 aspect-h-5 overflow-hidden rounded-lg  sm:aspect-w-2 sm:aspect-h-5">
+                    <a
+                        href="img/pubblicazioni/100idee_luglio2022/copertina_idee.webp"
+                        data-fancybox="gallery2"
+                        data-caption="Cose di Casa - 8 Agosto 2022"
+                    >
+                      <img  src="img/pubblicazioni/100idee_luglio2022/copertina_idee.webp"  alt="Cose di Casa - 8 Agosto 2022" class="object-cover object-center h-64 mx-auto w-auto"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!--  description & cover start -->
+
+              <!--  list of page start  -->
+
+              <div class="bg-white">
+                <div class="mx-auto max-w-2xl pb-16 pt-2 px-4 sm:pb-24 sm:pt-6 sm:px-6 lg:max-w-7xl lg:px-8">
+                  <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+
+                    <!-- pagina -->
+
+                    <div  class="group relative">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 ">
+                        <a
+                            href="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_1.webp"
+                            data-fancybox="gallery2"
+                            data-caption="Pagina 1"
+                        >
+                          <img src="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_1.webp" alt="Cose di casa pagina 1 luglio 2022" class="aspect-w-5 aspect-h-2 object-cover object-center" />
+                        </a>
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                        <div>
+                          <h3 class="text-sm text-gray-700">
+                            <p >
+                              <span aria-hidden="true" class="absolute inset-0" />
+                              Pagina
+                            </p>
+                          </h3>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">1</p>
+                      </div>
+                    </div>
+
+                    <!-- pagina -->
+
+                    <div  class="group relative">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 ">
+                        <a
+                            href="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_2.webp"
+                            data-fancybox="gallery2"
+                            data-caption="Pagina 1"
+                        >
+                          <img src="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_2.webp" alt="Cose di casa pagina 1 luglio 2022" class="aspect-w-5 aspect-h-2 object-cover object-center" />
+                        </a>
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                        <div>
+                          <h3 class="text-sm text-gray-700">
+                            <p >
+                              <span aria-hidden="true" class="absolute inset-0" />
+                              Pagina
+                            </p>
+                          </h3>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">2</p>
+                      </div>
+                    </div>
+
+                    <!-- pagina -->
+
+                    <div  class="group relative">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 ">
+                        <a
+                            href="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_3.webp"
+                            data-fancybox="gallery2"
+                            data-caption="Pagina 1"
+                        >
+                          <img src="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_3.webp" alt="Cose di casa pagina 1 luglio 2022" class="aspect-w-5 aspect-h-2 object-cover object-center" />
+                        </a>
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                        <div>
+                          <h3 class="text-sm text-gray-700">
+                            <p >
+                              <span aria-hidden="true" class="absolute inset-0" />
+                              Pagina
+                            </p>
+                          </h3>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">3</p>
+                      </div>
+                    </div>
+
+                    <!-- pagina -->
+
+                    <div  class="group relative">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 ">
+                        <a
+                            href="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_4.webp"
+                            data-fancybox="gallery2"
+                            data-caption="Pagina 1"
+                        >
+                          <img src="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_4.webp" alt="Cose di casa pagina 1 luglio 2022" class="aspect-w-5 aspect-h-2 object-cover object-center" />
+                        </a>
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                        <div>
+                          <h3 class="text-sm text-gray-700">
+                            <p >
+                              <span aria-hidden="true" class="absolute inset-0" />
+                              Pagina
+                            </p>
+                          </h3>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">4</p>
+                      </div>
+                    </div>
+
+                    <!--  pagina -->
+
+                  </div>
+                </div>
+              </div>
+
+              <!--  list of page end  -->
+
+            </div>
+
+            <!-- end tab -->
+
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
 </template>
+
 
 <script>
 
-const products = [
-
-  {
-    id: 1,
-    name: 'Casa Gramsci',
-    href: '/Project_casa_gramsci',
-    imageSrc: 'img/casagramsci/01.webp',
-    imageAlt: "Casa Gramsci.",
-  },
-
-  {
-    id: 2,
-    name: 'Concorso Rasoparete',
-    href: '/Project_concorso_rasoparete',
-    imageSrc: 'img/rasoparete/vista-02-1-scaled.jpg',
-    imageAlt: "Concorso Rasoparete.",
-  },
-  {
-    id: 3,
-    name: "L'oragiusta Moncalieri",
-    href: '/Project_oragiusta_moncalieri',
-    imageSrc: 'img/loragiusta/foto-1-scaled.jpg',
-    imageAlt: "L'oragiusta Moncalieri.",
-  },
-  {
-    id: 4,
-    name: "Vivere in 20 mq",
-    href: '/Project_vivere_20',
-    imageSrc: 'img/vivere20metri/03-scaled.jpg',
-    imageAlt: "Vivere in 20 mq",
-  },
-  {
-    id: 5,
-    name: 'Sala Congressi Telecontrol',
-    href: '/Project_sala_congressi_telecontrol',
-    imageSrc: 'img/vista-01.jpg',
-    imageAlt: "Sala Congressi Telecontrol.",
-  },
-  {
-    id: 6,
-    name: 'Casa Nel Parco',
-    href: '/Project_casa_nel_parco',
-    imageSrc: 'img/vista-esterna-02_crop.jpg',
-    imageAlt: "Casa Nel Parco.",
-  },
-  {
-    id: 7,
-    name: 'Villa Perrault',
-    href: '/Project_villa_perrault',
-    imageSrc: 'img/villaperrault/vista-02-scaled.jpg',
-    imageAlt: "Villa Perrault.",
-  },
-  {
-    id: 8,
-    name: 'Casa Rivoli',
-    href: '/Project_casa_rivoli',
-    imageSrc: 'img/PRO_7711.jpg',
-    imageAlt: "Casa Rivoli.",
-  },
-  {
-    id: 9,
-    name: 'Centrale Operativa Telecontrol',
-    href: '/Project_centrale_operativa_telecontrol',
-    imageSrc: 'img/PRO_7906.jpg',
-    imageAlt: "Centrale Operativa Telecontrol.",
-  },
-  {
-    id: 10,
-    name: 'Casa R',
-    href: '/Project_casa_R',
-    imageSrc: 'img/vista-02-versione-A.jpg',
-    imageAlt: "Casa R.",
-  },
-  {
-    id: 11,
-    name: 'Camera Dei Bimbi',
-    href: '/Project_camera_bimbi',
-    imageSrc: 'img/vista-03_crop.jpg',
-    imageAlt: "Camera Dei Bimbi.",
-  },
-]
-
 export default {
-
-  setup(){
-    return{
-      products,
+  name: "pink-tabs",
+  data() {
+    return {
+      openTab: 1
+    }
+  },
+  methods: {
+    toggleTabs: function(tabNumber){
+      this.openTab = tabNumber
     }
   }
 }

@@ -68,9 +68,6 @@
 
           <div class="relative px-4 py-6 sm:px-6 py:2 lg:py-32 lg:px-8 lg:mr-7">
             <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:pb-12 lg:mb-16 py-12">
-                ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
-              </p>
               <div class="space-y-4 sm:space-y-0 sm:inline-grid py-44 lg:py-60 sm:gap-5">
               </div>
             </div>
@@ -428,7 +425,7 @@ const press = [
     name: 'COSE DI CASA',
     role: '55 MQ Luminosi e su misura',
     imageSrc:
-        'img/pubblicazioni/copertina_cose.webp',
+        'img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp',
     imageAlt:"Cose di Casa copertina",
     description:"Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d'interni che lascia in comunicazione gli ambienti. ",
     HrefUrl: '/Press',
@@ -437,7 +434,7 @@ const press = [
     name: '100 IDEE PER RISTRUTTURARE',
     role: 'Il wellness a casa',
     imageSrc:
-        'img/pubblicazioni/copertina_idee.webp',
+        'img/pubblicazioni/100idee_luglio2022/copertina_idee.webp',
     imageAlt:"Giorgio Fava Foto",
     description:"\n" +
         "Un viaggio nel mondo del salus per aquam alla ricercq delle soluzioni più idonee all'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.",
