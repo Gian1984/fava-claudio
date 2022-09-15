@@ -45,16 +45,16 @@
           </div>
 
           <div v-else-if="this.$route.path === '/Projects' && this.$route.path != '/'">
-            <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled">
               <span class="sr-only">Open main menu</span>
-              <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
+              <ArrowLeftIcon class="block h-6 w-6 styled" aria-hidden="true" />
             </router-link>
           </div>
 
           <div v-else-if="this.$route.path != '/Projects' && this.$route.path != '/'">
-            <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled">
               <span class="sr-only">Open main menu</span>
-              <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
+              <ArrowLeftIcon class="block h-6 w-6 styled" aria-hidden="true" />
             </router-link>
           </div>
 
@@ -64,8 +64,18 @@
           <!-- Mobile menu button -->
           <DisclosureButton v-if="this.$route.path == '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black" id="close">
             <span class="sr-only">Open main menu</span>
-            <MenuIcon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
-            <XIcon v-else class="block h-6 w-6" aria-hidden="true" />
+            <span v-if="!open" class="block h-8 w-8 focus:outline-none active:bg-transparent"  aria-hidden="true">
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 64 64">
+                  <g id="Layer_47" data-name="Layer 47">
+                    <path d="M12,20.84H32a1.5,1.5,0,0,0,0-3H12A1.5,1.5,0,0,0,12,20.84Z"/>
+                    <path d="M53.5,32A1.5,1.5,0,0,0,52,30.5H12a1.5,1.5,0,0,0,0,3H52A1.5,1.5,0,0,0,53.5,32Z"/>
+                    <path d="M52,43.16H32a1.5,1.5,0,0,0,0,3H52A1.5,1.5,0,0,0,52,43.16Z"/>
+                  </g>
+              </svg>
+            </span>
+            <XIcon v-else class="block h-6 w-6 styled" aria-hidden="true" />
           </DisclosureButton>
           <router-link :to="{ name: 'Home', hash: '#progetti' }" v-else-if="this.$route.path === '/Projects' && this.$route.path != '/'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
             <span class="sr-only">Open main menu</span>
@@ -93,6 +103,10 @@
         <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base" v-on:click="scrolltoprogetti()">
           <FolderOpenIcon class="h-6 w-6" aria-hidden="true" />
           <span class="ml-2">Progetti</span>
+        </button>
+        <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex border-b border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 text-base" v-on:click="scrolltopubblicazioni()">
+          <FolderOpenIcon class="h-6 w-6" aria-hidden="true" />
+          <span class="ml-2">Press</span>
         </button>
         <button @click="drawer()" class="w-full text-gray-900 hover:bg-gray-50 group flex hover:text-gray-700 block pl-3 pr-4 py-2 text-base" v-on:click="scrolltocontatti()">
           <ChatAltIcon class="h-6 w-6" aria-hidden="true" />
@@ -493,6 +507,50 @@ p{
 
   .item:hover {
     flex: 7;
+  }
+
+ #close:hover{
+    border:none!important;
+    background-color: transparent !important;
+    outline: none !important;
+    text-decoration: none!important;
+    box-shadow: none;
+  }
+  #close:active{
+    border: transparent!important;
+    background-color: transparent !important;
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+  }
+  #close:focus{
+    border: transparent!important;
+    background-color: transparent !important;
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+  }
+
+  .styled:hover{
+    border: transparent!important;
+    background-color: transparent !important;
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+  }
+  .styled:active{
+    border: transparent!important;
+    background-color: transparent !important;
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+  }
+  .styled:focus{
+    border: transparent!important;
+    background-color: transparent !important;
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
   }
 }
 </style>

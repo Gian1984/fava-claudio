@@ -7,7 +7,7 @@
       @enter="enter"
   >
 
-    <div class="relative" id="header">
+    <div class="relative" id="home">
       <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
       <div class="mx-auto">
         <div class="relative shadow-xl sm:overflow-hidden">
@@ -357,7 +357,9 @@
             <div class="space-y-6 xl:space-y-10">
               <div class="center">
                 <div class="page">
-                  <img class="mx-auto h-auto w-56 xl:w-80 xl:h-auto box-shadow" :src="pub.imageSrc" :alt="pub.imageAlt" />
+                  <a :href="pub.HrefUrl">
+                    <img class="mx-auto h-auto w-56 xl:w-80 xl:h-auto box-shadow" :src="pub.imageSrc" :alt="pub.imageAlt" />
+                  </a>
                 </div>
               </div>
               <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
@@ -374,7 +376,7 @@
 
                 <ul role="list" class="flex justify-center space-x-5 pl-2 mt-4">
                   <li>
-                    <a :href="pub.HrefUrl" class="text-gray-400 hover:text-blue-700">
+                    <a :href="pub.HrefUrl" class="text-gray-400 hover:text-indigo-400">
                       <span class="sr-only">LinkedIn</span>
                       <arrow-circle-right-icon class="h-6 w-6"></arrow-circle-right-icon>
                     </a>
@@ -437,7 +439,7 @@ const press = [
         'img/pubblicazioni/100idee_luglio2022/copertina_idee.webp',
     imageAlt:"Giorgio Fava Foto",
     description:"\n" +
-        "Un viaggio nel mondo del salus per aquam alla ricercq delle soluzioni più idonee all'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.",
+        "Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.",
     HrefUrl: '/Press',
   },
 ]
