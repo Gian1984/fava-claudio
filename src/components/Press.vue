@@ -20,7 +20,7 @@
         <!-- tab 1  -->
 
         <li class="-mb-px ml-2 last:mr-0 flex-auto text-center hovercursor">
-          <a class="text-xs font-bold uppercase px-5 py-3 rounded block leading-normal" v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-400 bg-white': openTab !== 1, 'text-white bg-gray-300': openTab === 1}">
+          <a class="text-xs px-5 py-3 rounded block leading-normal" v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-400 bg-white': openTab !== 1, 'text-white bg-gray-300': openTab === 1}">
             Cose di Casa
           </a>
         </li>
@@ -28,7 +28,7 @@
         <!-- tab 2  -->
 
         <li class="-mb-px mr-2 last:mr-0 flex-auto text-center hovercursor">
-          <a class="text-xs font-bold uppercase px-5 py-3 rounded block leading-normal" v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-400 bg-white': openTab !== 2, 'text-white bg-gray-300': openTab === 2}">
+          <a class="text-xs px-5 py-3 rounded block leading-normal" v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-400 bg-white': openTab !== 2, 'text-white bg-gray-300': openTab === 2}">
             100  Idee per ristrutturare
           </a>
         </li>
