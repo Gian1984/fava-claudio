@@ -45,7 +45,7 @@
 
               <!--  description & cover start -->
 
-              <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
+              <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 pb-12">
                 <div class="mt-14 lg:col-span-5 lg:mt-0">
                   <h3 class="text-lg font-medium text-gray-900">55 m² luminosi e su misura</h3>
                   <p class="text-xs text-gray-400">Agosto 2022</p>
@@ -65,13 +65,7 @@
                 </div>
                 <div class="lg:col-span-7">
                   <div class="aspect-w-2 aspect-h-5 overflow-hidden sm:aspect-w-2 sm:aspect-h-5">
-                    <a
-                        href="img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp"
-                        data-fancybox="gallery"
-                        data-caption="Cose di Casa - 8 Agosto 2022"
-                    >
-                      <img  src="img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp"  alt="Cose di Casa - 8 Agosto 2022" class="object-cover object-center h-96 mx-auto w-auto"/>
-                    </a>
+                    <img  src="img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp"  alt="Cose di Casa - 8 Agosto 2022" class="object-cover object-center h-96 mx-auto w-auto"/>
                   </div>
                 </div>
               </div>
@@ -88,7 +82,7 @@
                     <!-- pagina -->
 
                     <div  class="group relative">
-                      <div class="min-h-80 aspect-w-5 aspect-h-2 bg-gray-200 group-hover:opacity-75 ">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 bg-gray-200 ">
                         <a
                             href="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_1.webp"
                             data-fancybox="gallery"
@@ -113,7 +107,7 @@
                     <!-- pagina -->
 
                     <div  class="group relative">
-                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden bg-gray-200 group-hover:opacity-75 ">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden bg-gray-200">
                         <a
                             href="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_2.webp"
                             data-fancybox="gallery"
@@ -139,7 +133,7 @@
                     <!-- pagina -->
 
                     <div  class="group relative">
-                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden bg-gray-200 group-hover:opacity-75 ">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden bg-gray-200">
                         <a
                             href="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_3.webp"
                             data-fancybox="gallery"
@@ -164,7 +158,7 @@
                     <!-- pagina -->
 
                     <div  class="group relative">
-                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden bg-gray-200 group-hover:opacity-75 ">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden bg-gray-200">
                         <a
                             href="img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_4.webp"
                             data-fancybox="gallery"
@@ -204,7 +198,7 @@
 
               <!--  description & cover start -->
 
-              <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
+              <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 pb-12">
                 <div class="mt-14 lg:col-span-5 lg:mt-0">
                   <h3 class="text-lg font-medium text-gray-900">Il wellness a casa</h3>
                   <p class="text-xs text-gray-400">Agosto 2022</p>
@@ -224,13 +218,7 @@
                 </div>
                 <div class="lg:col-span-7">
                   <div class="aspect-w-2 aspect-h-5 overflow-hidden sm:aspect-w-2 sm:aspect-h-5">
-                    <a
-                        href="img/pubblicazioni/100idee_luglio2022/copertina_idee.webp"
-                        data-fancybox="gallery2"
-                        data-caption="100 Idee per ristrutturare - 8 Agosto 2022"
-                    >
-                      <img  src="img/pubblicazioni/100idee_luglio2022/copertina_idee.webp"  alt="100 Idee per ristrutturare - 8 Agosto 2022" class="object-cover object-center h-96 mx-auto w-auto"/>
-                    </a>
+                    <img  src="img/pubblicazioni/100idee_luglio2022/copertina_idee.webp"  alt="100 Idee per ristrutturare - 8 Agosto 2022" class="object-cover object-center h-96 mx-auto w-auto"/>
                   </div>
                 </div>
               </div>
@@ -246,7 +234,7 @@
                     <!-- pagina -->
 
                     <div  class="group relative">
-                      <div class="min-h-64 aspect-w-3 aspect-h-2 overflow-hidden bg-gray-200 group-hover:opacity-75 ">
+                      <div class="min-h-64 aspect-w-3 aspect-h-2 overflow-hidden bg-gray-200">
                         <a
                             href="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_1.webp"
                             data-fancybox="gallery2"
@@ -271,7 +259,7 @@
                     <!-- pagina -->
 
                     <div  class="group relative">
-                      <div class="min-h-80 aspect-w-3 aspect-h-2 overflow-hidden bg-gray-200 group-hover:opacity-75 ">
+                      <div class="min-h-80 aspect-w-3 aspect-h-2 overflow-hidden bg-gray-200">
                         <a
                             href="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_2.webp"
                             data-fancybox="gallery2"
@@ -296,7 +284,7 @@
                     <!-- pagina -->
 
                     <div  class="group relative">
-                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden bg-gray-200 group-hover:opacity-75 ">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden bg-gray-200">
                         <a
                             href="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_3.webp"
                             data-fancybox="gallery2"
@@ -321,7 +309,7 @@
                     <!-- pagina -->
 
                     <div  class="group relative">
-                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden bg-gray-200 group-hover:opacity-75 ">
+                      <div class="min-h-80 aspect-w-5 aspect-h-2 overflow-hidden bg-gray-200">
                         <a
                             href="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_4.webp"
                             data-fancybox="gallery2"
