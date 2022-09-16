@@ -45,21 +45,21 @@
           </div>
 
           <div v-else-if="this.$route.path === '/Projects' && this.$route.path != '/' && this.$route.path != '/Press'">
-            <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled">
+            <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled" id="style4">
               <span class="sr-only">Open main menu</span>
               <ArrowLeftIcon class="block h-6 w-6 styled" aria-hidden="true" />
             </router-link>
           </div>
 
           <div v-else-if="this.$route.path != '/Projects' && this.$route.path != '/' && this.$route.path != '/Press'">
-            <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled">
+            <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled" id="style5">
               <span class="sr-only">Open main menu</span>
               <ArrowLeftIcon class="block h-6 w-6 styled" aria-hidden="true" />
             </router-link>
           </div>
 
           <div v-else-if="this.$route.path === '/Press' && this.$route.path != '/' && this.$route.path != '/Projects'">
-            <router-link :to="{ name: 'Home', hash: '#pubblicazioni' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled">
+            <router-link :to="{ name: 'Home', hash: '#pubblicazioni' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled" id="style6">
               <span class="sr-only">Open main menu</span>
               <ArrowLeftIcon class="block h-6 w-6 styled" aria-hidden="true" />
             </router-link>
@@ -84,15 +84,15 @@
             </span>
             <XIcon v-else class="block h-6 w-6 styled" aria-hidden="true" />
           </DisclosureButton>
-          <router-link :to="{ name: 'Home', hash: '#progetti' }" v-else-if="this.$route.path === '/Projects' && this.$route.path != '/' && this.$route.path != '/Press'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
+          <router-link :to="{ name: 'Home', hash: '#progetti' }" v-else-if="this.$route.path === '/Projects' && this.$route.path != '/' && this.$route.path != '/Press'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black" id="style1">
             <span class="sr-only">Open main menu</span>
             <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
           </router-link>
-          <router-link :to="{ name: 'Home', hash: '#progetti' }" v-else-if="this.$route.path != '/Projects' && this.$route.path != '/' && this.$route.path != '/Press'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
+          <router-link :to="{ name: 'Home', hash: '#progetti' }" v-else-if="this.$route.path != '/Projects' && this.$route.path != '/' && this.$route.path != '/Press'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black" id="style2">
             <span class="sr-only">Open main menu</span>
             <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
           </router-link>
-          <router-link :to="{ name: 'Home', hash: '#pubblicazioni' }" v-else-if="this.$route.path === '/Press' && this.$route.path != '/' && this.$route.path != '/Projects'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
+          <router-link :to="{ path: '/', hash: '#pubblicazioni' }" v-else-if="this.$route.path === '/Press' && this.$route.path != '/' && this.$route.path != '/Projects'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black" id="style3">
             <span class="sr-only">Open main menu</span>
             <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
           </router-link>
@@ -561,6 +561,19 @@ p{
     box-shadow: none !important;
   }
   .styled:focus{
+    border: transparent!important;
+    background-color: transparent !important;
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+  }
+
+  #style1:focus, #style1:active, #style1:focus,
+  #style2:focus, #style2:active, #style2:focus,
+  #style3:focus, #style3:active, #style4:focus,
+  #style5:focus, #style5:active, #style5:focus,
+  #style6:focus, #style6:active, #style6:focus,
+  #style4:focus, #style4:active, #style4:focus{
     border: transparent!important;
     background-color: transparent !important;
     outline: none !important;
