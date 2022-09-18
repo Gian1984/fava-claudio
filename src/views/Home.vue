@@ -371,7 +371,7 @@
                 <ul role="list" class="flex justify-center space-x-5 pl-2 mt-4">
                   <li>
                     <a :href="pub.HrefUrl" class="text-gray-400 hover:text-indigo-400">
-                      <span class="sr-only">LinkedIn</span>
+                      <span class="sr-only">Press</span>
                       <arrow-circle-right-icon class="h-6 w-6"></arrow-circle-right-icon>
                     </a>
                   </li>
