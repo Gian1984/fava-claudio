@@ -417,7 +417,7 @@ export default {
     },
 
     scrolltotop() {
-      const element = document.getElementById('header');
+      const element = document.getElementById('home');
       element.scrollIntoView({ behavior: 'smooth' });
     },
 
