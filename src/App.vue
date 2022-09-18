@@ -407,7 +407,7 @@ export default {
     },
 
     scrolltopubblicazioni() {
-      const element = document.getElementById('pubblicazioni');
+      const element = document.getElementById('press');
       element.scrollIntoView({ behavior: 'smooth' });
     },
 

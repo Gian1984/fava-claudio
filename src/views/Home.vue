@@ -348,7 +348,7 @@
     <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-12">
       <div class="space-y-12">
         <div class="space-y-5 mx-auto text-center">
-          <h2 class=" text-xl mx auto text-center text-gray-900 tracking-tight" id="pubblicazioni">PRESS</h2>
+          <h2 class=" text-xl mx auto text-center text-gray-900 tracking-tight" id="press">PRESS</h2>
           <p class="text-gray-900 max-w-3xl mx-auto">
           </p>
         </div>
@@ -366,15 +366,9 @@
                 <div class="font-medium text-lg leading-6 space-y-1">
                   <h2 class="max-w-lg text-xl text-black sm:max-w-3xl mx-auto pt-10">{{ pub.name }}</h2>
                   <p class="text-indigo-400 pb-10">{{ pub.role }}</p>
-<!--                  <p class="hidden lg:block max-w-lg text-base text-gray-700 sm:max-w-3xl pr-2  lg:border-r lg:border-gray-700 text-left">-->
-<!--                    {{ pub.description }}-->
-<!--                  </p>-->
-<!--                  <p class="lg:hidden max-w-lg text-base text-gray-700 sm:max-w-3xl pr-2 pt-2 pb-2 border-b border-gray-700 text-left">-->
-<!--                    {{ pub.description }}-->
-<!--                  </p>-->
                 </div>
 
-                <ul role="list" class="flex justify-center space-x-5 pl-2 mt-4" id="press">
+                <ul role="list" class="flex justify-center space-x-5 pl-2 mt-4">
                   <li>
                     <a :href="pub.HrefUrl" class="text-gray-400 hover:text-indigo-400">
                       <span class="sr-only">LinkedIn</span>
