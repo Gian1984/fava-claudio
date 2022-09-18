@@ -1,7 +1,5 @@
 <template>
 
-
-
   <Disclosure as="nav" class="bg-white bg-opacity-50 shadow fixed z-50 w-full" v-slot="{ open }">
     <div class="mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
@@ -59,7 +57,7 @@
           </div>
 
           <div v-else-if="this.$route.path === '/Press' && this.$route.path != '/' && this.$route.path != '/Projects'">
-            <router-link :to="{ name: 'Home', hash: '#pubblicazioni' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled" id="style6">
+            <router-link :to="{ name: 'Home', hash: '#press' }"  class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled" id="style6">
               <span class="sr-only">Open main menu</span>
               <ArrowLeftIcon class="block h-6 w-6 styled" aria-hidden="true" />
             </router-link>
@@ -92,7 +90,7 @@
             <span class="sr-only">Open main menu</span>
             <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
           </router-link>
-          <router-link :to="{ path: '/', hash: '#pubblicazioni' }" v-else-if="this.$route.path === '/Press' && this.$route.path != '/' && this.$route.path != '/Projects'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black" id="style3">
+          <router-link :to="{ name: 'Home', hash: '#pubblicazioni' }" v-else-if="this.$route.path === '/Press' && this.$route.path != '/' && this.$route.path != '/Projects'" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black" id="style3">
             <span class="sr-only">Open main menu</span>
             <ArrowLeftIcon class="block h-6 w-6" aria-hidden="true" />
           </router-link>
@@ -135,33 +133,17 @@
         <div class="grid grid-cols-4 gap-y-10 lg:grid-cols-4">
           <div class="sm:flex lg:block mx-auto">
 
-
-              <button v-if="this.$route.path != '/Projects' && this.$route.path != '/' && this.$route.path != '/Press'"   @click="this.$router.push({name:'Home', hash: '#header'})">
+              <button v-if="this.$route.path != '/Projects' && this.$route.path != '/'"   @click="this.$router.push({name:'Home', hash: '#header'})">
                 <div class="md:mt-0">
                   <img src="img/cropped-logo-small.png" alt="Logo" class="h-12 mx-auto" />
                 </div>
               </button>
-
 
               <button v-if="this.$route.path === '/'" @click="scrolltotop()">
                 <div class="md:mt-0">
                   <img src="img/cropped-logo-small.png" alt="Logo" class="h-12 mx-auto" />
                 </div>
               </Button>
-
-
-
-<!--            <button v-if="this.$route.path != '/' " class="hover:text-white "  @click="this.$router.push({ name: 'Home' })">-->
-<!--              <div class="md:mt-0">-->
-<!--                <img src="img/cropped-logo-small.png" class="h-12 mx-auto" aria-hidden="true" />-->
-<!--              </div>-->
-<!--            </button>-->
-
-<!--            <button v-else class="hover:text-gray-300"  v-on:click="scrolltohome()">-->
-<!--              <div class="md:mt-0">-->
-<!--                <img src="img/cropped-logo-small.png" class="h-12 mx-auto" aria-hidden="true" />-->
-<!--              </div>-->
-<!--            </button>-->
 
           </div>
           <div class="sm:flex lg:block mx-auto">
@@ -369,7 +351,6 @@ export default {
       ThumbUpIcon,
       UserIcon,
       timeline,
-
     }
   },
 

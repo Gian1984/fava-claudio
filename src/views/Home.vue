@@ -344,11 +344,11 @@
 
 
 
-  <div class="bg-white ">
+  <div class="bg-white">
     <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-12">
       <div class="space-y-12">
         <div class="space-y-5 mx-auto text-center">
-          <h2 class=" text-xl mx auto text-center text-gray-900 tracking-tight" id="pubblicazioni">PUBBLICAZIONI</h2>
+          <h2 class=" text-xl mx auto text-center text-gray-900 tracking-tight" id="pubblicazioni">PRESS</h2>
           <p class="text-gray-900 max-w-3xl mx-auto">
           </p>
         </div>
@@ -366,15 +366,15 @@
                 <div class="font-medium text-lg leading-6 space-y-1">
                   <h2 class="max-w-lg text-xl text-black sm:max-w-3xl mx-auto pt-10">{{ pub.name }}</h2>
                   <p class="text-indigo-400 pb-10">{{ pub.role }}</p>
-                  <p class="hidden lg:block max-w-lg text-base text-gray-700 sm:max-w-3xl pr-2  lg:border-r lg:border-gray-700 text-left">
-                    {{ pub.description }}
-                  </p>
-                  <p class="lg:hidden max-w-lg text-base text-gray-700 sm:max-w-3xl pr-2 pt-2 pb-2 border-b border-gray-700 text-left">
-                    {{ pub.description }}
-                  </p>
+<!--                  <p class="hidden lg:block max-w-lg text-base text-gray-700 sm:max-w-3xl pr-2  lg:border-r lg:border-gray-700 text-left">-->
+<!--                    {{ pub.description }}-->
+<!--                  </p>-->
+<!--                  <p class="lg:hidden max-w-lg text-base text-gray-700 sm:max-w-3xl pr-2 pt-2 pb-2 border-b border-gray-700 text-left">-->
+<!--                    {{ pub.description }}-->
+<!--                  </p>-->
                 </div>
 
-                <ul role="list" class="flex justify-center space-x-5 pl-2 mt-4">
+                <ul role="list" class="flex justify-center space-x-5 pl-2 mt-4" id="press">
                   <li>
                     <a :href="pub.HrefUrl" class="text-gray-400 hover:text-indigo-400">
                       <span class="sr-only">LinkedIn</span>
@@ -424,20 +424,20 @@ const team = [
 
 const press = [
   {
-    name: 'COSE DI CASA',
-    role: '55 MQ Luminosi e su misura',
+    name: 'CASA GRAMSCI',
+    role: 'Cose Di Casa, Agosto 2022',
     imageSrc:
         'img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp',
-    imageAlt:"Cose di Casa copertina",
+    imageAlt:"Cose Di Casa, Agosto 2022",
     description:"Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d'interni che lascia in comunicazione gli ambienti. ",
     HrefUrl: '/Press',
   },
   {
-    name: '100 IDEE PER RISTRUTTURARE',
-    role: 'Il wellness a casa',
+    name: 'CASA RIVOLI',
+    role: '100 Idee Per Ristrutturare, Luglio 2022',
     imageSrc:
         'img/pubblicazioni/100idee_luglio2022/copertina_idee.webp',
-    imageAlt:"Giorgio Fava Foto",
+    imageAlt:"100 Idee Per Ristrutturare, Luglio 2022",
     description:"\n" +
         "Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.",
     HrefUrl: '/Press',
