@@ -344,16 +344,16 @@
       </div>
 
       <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-10 sm:gap-y-12 lg:gap-x-12">
-        <div v-for="product in products" :key="product.id" class="group relative">
-          <a :href="product.href">
+        <div v-for="project in projects" :key="project.id" class="group relative">
+          <a :href="project.href">
             <div class="h-full h-96 overflow-hidden group-hover:opacity-75">
-              <img :src="product.imageSrc" :alt="product.imageAlt" class="w-full h-full object-center object-cover" />
+              <img :src="project.imageSrc" :alt="project.imageAlt" class="w-full h-full object-center object-cover" />
             </div>
           </a>
           <p class="max-w-lg text-sm text-grey-500 sm:max-w-3xl">
-            <a :href="product.href" class=" mb-2 inline-flex items-center uppercase text-black rounded-full p-1 pr-2 sm:text-xs lg:text-sm xl:text-base hover:text-gray-500">
+            <a :href="project.href" class=" mb-2 inline-flex items-center uppercase text-black rounded-full p-1 pr-2 sm:text-xs lg:text-sm xl:text-base hover:text-gray-500">
               <span class="absolute inset-0" />
-              {{ product.name }}
+              {{ project.name }}
             </a>
           </p>
         </div>
