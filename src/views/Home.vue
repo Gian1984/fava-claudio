@@ -406,7 +406,7 @@
 
 <script>
 
-import { ChevronRightIcon, ArrowCircleRightIcon } from '@heroicons/vue/solid'
+import { ChevronRightIcon, } from '@heroicons/vue/solid'
 import { gsap } from 'gsap';
 
 const team = [
@@ -611,7 +611,6 @@ export default {
 
   components: {
     ChevronRightIcon,
-    ArrowCircleRightIcon,
   },
 
   setup() {
