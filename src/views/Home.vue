@@ -375,8 +375,8 @@
           <p class="text-gray-900 max-w-3xl mx-auto">
           </p>
         </div>
-        <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-24">
-          <li v-for="pub in press" :key="pub.name" class="py-10 px-6 bg-gray-200 text-center xl:px-10 xl:text-left">
+        <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-12 max-w-3xl mx-auto">
+          <li v-for="pub in press" :key="pub.name" class="py-10 px-6 text-center xl:px-10 xl:text-left">
             <div class="space-y-6 xl:space-y-10">
               <div class="center">
                 <div class="page">
@@ -385,20 +385,13 @@
                   </a>
                 </div>
               </div>
-              <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-                <div class="font-medium text-lg leading-6 space-y-1">
-                  <h2 class="max-w-lg text-xl text-black sm:max-w-3xl mx-auto pt-10">{{ pub.name }}</h2>
-                  <p class="text-indigo-400 pb-10">{{ pub.role }}</p>
+              <div class="space-y-2">
+                <div class="font-medium text-lg leading-6 space-y-1 text-center">
+                  <a :href="pub.HrefUrl" class="text-gray-400 hover:text-gray-500">
+                    <h2 class="max-w-lg text-xl text-black sm:max-w-3xl mx-auto">{{ pub.name }}</h2>
+                    <p class="text-black pb-5">{{ pub.role }}</p>
+                  </a>
                 </div>
-
-                <ul role="list" class="flex justify-center space-x-5 pl-2 mt-4">
-                  <li>
-                    <a :href="pub.HrefUrl" class="text-gray-400 hover:text-indigo-400">
-                      <span class="sr-only">Press</span>
-                      <arrow-circle-right-icon class="h-6 w-6"></arrow-circle-right-icon>
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </li>
@@ -441,16 +434,16 @@ const team = [
 const press = [
   {
     name: 'CASA GRAMSCI',
-    role: 'Cose Di Casa, Agosto 2022',
+    role: 'è su Cose Di Casa, Agosto 2022',
     imageSrc:
         'img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp',
-    imageAlt:"Cose Di Casa, Agosto 2022",
+    imageAlt:"è su Cose Di Casa, Agosto 2022",
     description:"Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d'interni che lascia in comunicazione gli ambienti. ",
     HrefUrl: '/Press',
   },
   {
     name: 'CASA RIVOLI',
-    role: '100 Idee Per Ristrutturare, Luglio 2022',
+    role: 'è su 100 Idee Per Ristrutturare, Luglio 2022',
     imageSrc:
         'img/pubblicazioni/100idee_luglio2022/copertina_idee.webp',
     imageAlt:"100 Idee Per Ristrutturare, Luglio 2022",
