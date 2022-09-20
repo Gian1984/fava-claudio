@@ -389,7 +389,7 @@
                 <div class="font-medium text-lg leading-6 space-y-1 text-center">
                   <a :href="pub.HrefUrl" class="text-gray-400 hover:text-gray-500">
                     <h2 class="max-w-lg text-xl text-black sm:max-w-3xl mx-auto">{{ pub.name }}</h2>
-                    <p class="text-black pb-5">{{ pub.role }}</p>
+                    <p class="text-black text-sm pb-5">{{ pub.role }}</p>
                   </a>
                 </div>
               </div>
