@@ -369,7 +369,7 @@
 
   <div class="bg-white">
     <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-12" id="press">
-      <div class="space-y-12">
+      <div>
         <div class="space-y-5 mx-auto text-center">
           <h2 class=" text-xl mx auto text-center text-gray-900 tracking-tight">PRESS</h2>
           <p class="text-gray-900 max-w-3xl mx-auto">
