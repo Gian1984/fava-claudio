@@ -384,7 +384,7 @@
               <div class="center">
                 <div class="page">
                   <a :href="pub.HrefUrl">
-                    <img class="mx-auto h-auto w-56 xl:w-80 xl:h-auto box-shadow" :src="pub.imageSrc" :alt="pub.imageAlt" />
+                    <img class="mx-auto h-auto w-52 xl:w-52 xl:h-auto box-shadow" :src="pub.imageSrc" :alt="pub.imageAlt" />
                   </a>
                 </div>
               </div>
