@@ -271,7 +271,7 @@
     <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-12">
       <div class="space-y-12">
         <div class="space-y-5 mx-auto text-center">
-          <h2 class=" text-xl mx auto text-center text-gray-900 tracking-tight" id="profilo">CHI SIAMO</h2>
+          <h2 class=" text-xl mx-auto max-w-5xl text-center text-gray-900 tracking-tight border-b border-black leading-10" id="profilo">CHI SIAMO</h2>
           <p class="text-gray-900 max-w-3xl mx-auto">
             Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall'interior design al recupero dell'esistente, fino a edifici ex-novo.<br>
             Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente.<br>
@@ -312,27 +312,6 @@
     </div>
   </div>
 
-  <!--  Carousel section-->
-
-  <div class="bg-white">
-    <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
-      <div class="space-y-4 sm:space-y-12">
-        <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto" id="gallery">GALLERY</h2>
-      </div>
-    </div>
-  </div>
-
-  <div class="bg-white relative overflow-hidden">
-    <div class="gallery-wrap" style="background-image: url('img/carousel/4-200x100.jpg');">
-      <div class="item" style="background-image: url('img/PRO_7711.jpg');"></div>
-      <div class="item" style="background-image: url('img/loragiusta/foto-3-scaled.jpg');"></div>
-      <div class="item" style="background-image: url('img/PRO_7701.jpg');"></div>
-      <div class="item" style="background-image: url('img/PRO_7943.jpg');"></div>
-      <div class="item" style="background-image: url('img/loragiusta/foto-2-scaled.jpg');"></div>
-      <div class="item" style="background-image: url('img/casagramsci/11.webp');"></div>
-    </div>
-  </div>
-
 
   <!-- Projects Section -->
 
@@ -340,7 +319,7 @@
     <div class="max-w-7xl mx-auto py-12 px-4 sm:py-10 sm:px-6 lg:px-12">
 
       <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
-        <h2 class="max-w-lg text-xl text-grey-500 sm:max-w-3xl mx-auto">PROGETTI</h2>
+        <h2 class="max-w-5xl border-b border-black text-xl text-grey-500 sm:max-w-3xl mx-auto leading-10">PROGETTI</h2>
       </div>
 
       <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-10 sm:gap-y-12 lg:gap-x-12">
@@ -363,6 +342,30 @@
 
 
 
+
+  <!--  Carousel section-->
+
+  <div class="bg-white">
+    <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
+      <div class="space-y-4 sm:space-y-12">
+        <h2 class="max-w-5xl border-b border-black text-xl text-grey-500 sm:max-w-3xl mx-auto leading-10" id="gallery">GALLERY</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white relative overflow-hidden">
+    <div class="gallery-wrap" style="background-image: url('img/carousel/4-200x100.jpg');">
+      <div class="item" style="background-image: url('img/PRO_7711.jpg');"></div>
+      <div class="item" style="background-image: url('img/loragiusta/foto-3-scaled.jpg');"></div>
+      <div class="item" style="background-image: url('img/PRO_7701.jpg');"></div>
+      <div class="item" style="background-image: url('img/PRO_7943.jpg');"></div>
+      <div class="item" style="background-image: url('img/loragiusta/foto-2-scaled.jpg');"></div>
+      <div class="item" style="background-image: url('img/casagramsci/11.webp');"></div>
+    </div>
+  </div>
+
+
+
   <!-- PUBBLICAZIONI -->
 
 
@@ -371,7 +374,7 @@
     <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-12" id="press">
       <div>
         <div class="space-y-5 mx-auto text-center">
-          <h2 class=" text-xl mx auto text-center text-gray-900 tracking-tight">PRESS</h2>
+          <h2 class=" text-xl mx-auto text-center max-w-5xl border-b border-black text-gray-900 tracking-tight leading-10">PRESS</h2>
           <p class="text-gray-900 max-w-3xl mx-auto">
           </p>
         </div>
@@ -652,6 +655,10 @@ export default {
 
 .spacing{
   padding-bottom: 20Px;
+}
+
+.item{
+  -webkit-transition: flex 0.8s ease;
 }
 
 </style>

@@ -23,21 +23,21 @@
           </a>
         </div>
 
-        <div  class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
+        <div  class="hidden sm:ml-12 sm:flex sm:items-center sm:space-x-8">
           <div v-if="this.$route.path == '/'" class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
-            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltohome()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center pt-1 border-b-2 text-xs font-medium" v-on:click="scrolltohome()">
               Home
             </button>
-            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprofilo()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center pt-1 border-b-2 text-xs font-medium" v-on:click="scrolltoprofilo()">
               Chi Siamo
             </button>
-            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltoprogetti()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center pt-1 border-b-2 text-xs font-medium" v-on:click="scrolltoprogetti()">
               Progetti
             </button>
-            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltopubblicazioni()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center pt-1 border-b-2 text-xs font-medium" v-on:click="scrolltopubblicazioni()">
               Press
             </button>
-            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center pt-1 border-b-2 text-sm font-medium" v-on:click="scrolltocontatti()">
+            <button class="border-transparent text-gray-700 hover:border-gray-300 hover:text-black inline-flex items-center pt-1 border-b-2 text-xs font-medium" v-on:click="scrolltocontatti()">
               Contatti
             </button>
           </div>
