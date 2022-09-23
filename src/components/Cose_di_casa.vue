@@ -2,13 +2,13 @@
 <template>
   <div class="bg-white">
     <section aria-labelledby="features-heading" class="mx-auto max-w-7xl pt-32 pb-12 sm:px-2 lg:px-8">
-      <div class="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
-        <div class="max-w-3xl mx-auto border-b border-black">
-          <h2 id="features-heading" class="text-xl text-center leading-10 mx-auto max-w-5xl pb-2 font-bold tracking-tight text-gray-900 sm:text-xl uppercase">Pubblicazioni</h2>
+      <div class="mx-auto max-w-7xl px-4 lg:max-w-none lg:px-0">
+        <div class="max-w-7xl mx-auto border-b border-black">
+          <h2 id="features-heading" class="text-xl text-center leading-10 mx-auto max-w-7xl pb-2 font-bold tracking-tight text-gray-900 sm:text-xl uppercase">Pubblicazioni</h2>
         </div>
+        <p class="text-sm font-medium text-center mx-auto mt-2">Cose di casa</p>
         <nav class="flex items-center justify-center mt-2" aria-label="Progress">
-          <p class="text-sm font-medium">Cose di casa</p>
-          <ol role="list" class="ml-8 flex items-center space-x-5">
+          <ol role="list" class="flex items-center space-x-5">
             <li v-for="step in steps" :key="step.name">
               <a v-if="step.status === 'complete'" :href="step.href" class="block h-2.5 w-2.5 rounded-full bg-indigo-600 hover:bg-indigo-900">
                 <span class="sr-only">{{ step.name }}</span>
@@ -30,8 +30,8 @@
     </section>
   </div>
 
-  <div class="flex flex-wrap mx-auto max-w-7xl sm:px-2 lg:px-8">
-    <div class="w-full">
+  <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 rounded pt-12 max-w-7xl mx-auto">
+    <div class="px-4 py-5 mx-auto">
 
 
               <!--  description & cover start -->
