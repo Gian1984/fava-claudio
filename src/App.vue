@@ -42,21 +42,21 @@
             </button>
           </div>
 
-          <div v-else-if="this.$route.path === '/Projects' && this.$route.path !== '/' && this.$route.path !== '/Press'">
-            <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled" id="style4">
-              <span class="sr-only">Open main menu</span>
-              <ArrowLeftIcon class="block h-6 w-6 styled" aria-hidden="true" />
-            </router-link>
-          </div>
-
-          <div v-else-if="this.$route.path === '/Press' && this.$route.path !== '/' && this.$route.path !== '/Projects'">
+          <div v-else-if="this.$route.path === '/Cose_di_casa' || this.$route.path === '/Cento_idee' ">
             <router-link :to="{ name: 'Home', hash: '#press' }"  class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled" id="style6">
               <span class="sr-only">Open main menu</span>
               <ArrowLeftIcon class="block h-6 w-6 styled" aria-hidden="true" />
             </router-link>
           </div>
 
-          <div v-else-if="this.$route.path !== '/Projects' && this.$route.path !== '/' && this.$route.path !== '/Press'">
+          <div v-else-if="this.$route.path === '/Projects'">
+            <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled" id="style4">
+              <span class="sr-only">Open main menu</span>
+              <ArrowLeftIcon class="block h-6 w-6 styled" aria-hidden="true" />
+            </router-link>
+          </div>
+
+          <div v-else-if="this.$route.path !== '/Projects' && this.$route.path !== '/' && this.$route.path !== '/Cose_di_casa' && this.$route.path !== '/Cento_idee'">
             <router-link :to="{ name: 'Home', hash: '#progetti' }" class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-500 hover:bg-transparent focus:outline-none styled" id="style5">
               <span class="sr-only">Open main menu</span>
               <ArrowLeftIcon class="block h-6 w-6 styled" aria-hidden="true" />
