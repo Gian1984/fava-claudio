@@ -270,8 +270,8 @@
   <div class="bg-white ">
     <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-12">
       <div class="space-y-12">
-        <div class="space-y-5 mx-auto text-center">
-          <h2 class=" text-xl mx-auto max-w-5xl text-center text-gray-900 tracking-tight border-b border-black leading-10" id="profilo">CHI SIAMO</h2>
+        <div class="space-y-5 mx-auto text-center max-w-7xl sm:px-6 lg:px-12  px-">
+          <h2 class=" text-xl mx-auto max-w-full text-center text-gray-900 tracking-tight border-b border-black leading-10" id="profilo">CHI SIAMO</h2>
           <p class="text-gray-900 max-w-3xl mx-auto">
             Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall'interior design al recupero dell'esistente, fino a edifici ex-novo.<br>
             Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente.<br>
@@ -318,8 +318,8 @@
   <div class="bg-white pb-5 enter" id="progetti">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:py-10 sm:px-6 lg:px-12">
 
-      <div class="mx-auto py-3 px-4 text-center sm:px-6 lg:px-8 lg:py-3">
-        <h2 class="max-w-5xl border-b border-black text-xl text-grey-500 sm:max-w-5xl mx-auto leading-10">PROGETTI</h2>
+      <div class="mx-auto py-3  text-center  lg:py-3">
+        <h2 class="max-w-full border-b border-black text-xl text-grey-500 sm:max-w-7xl mx-auto leading-10">PROGETTI</h2>
       </div>
 
       <div class="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-0 sm:gap-x-10 sm:gap-y-12 lg:gap-x-12">
@@ -346,9 +346,9 @@
   <!--  Carousel section-->
 
   <div class="bg-white">
-    <div class=" mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
+    <div class="max-w-7xl mx-auto py-12 text-center px-4 lg:py-12 sm:px-6 lg:px-12">
       <div class="space-y-4 sm:space-y-12">
-        <h2 class="max-w-5xl border-b border-black text-xl text-grey-500 sm:max-w-5xl mx-auto leading-10" id="gallery">GALLERY</h2>
+        <h2 class="max-w-full border-b border-black text-xl text-grey-500 sm:max-w-7xl mx-auto leading-10" id="gallery">GALLERY</h2>
       </div>
     </div>
   </div>
@@ -373,10 +373,9 @@
   <div class="bg-white">
     <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-12" id="press">
       <div>
-        <div class="space-y-5 mx-auto text-center">
-          <h2 class=" text-xl mx-auto text-center max-w-5xl border-b border-black text-gray-900 tracking-tight leading-10">PRESS</h2>
-          <p class="text-gray-900 max-w-3xl mx-auto">
-          </p>
+        <div class="space-y-5 mx-auto text-center max-w-7xl sm:px-6 lg:px-12  px-4">
+          <h2 class=" text-xl mx-auto text-center max-w-full border-b border-black text-gray-900 tracking-tight leading-10">PRESS</h2>
+          <p class="text-gray-900 max-w-3xl mx-auto"></p>
         </div>
         <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-12 max-w-3xl mx-auto">
           <li v-for="pub in press" :key="pub.name" class="py-10 px-6 text-center xl:px-10 xl:text-left">

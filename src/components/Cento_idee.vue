@@ -6,26 +6,26 @@
         <div class="max-w-7xl mx-auto border-b border-black">
           <h2 id="features-heading" class="text-xl text-left leading-10 mx-auto max-w-7xl pb-2 font-bold tracking-tight text-gray-400 sm:text-xl">' CASA RIVOLI '  è su 100 IDEE PER RISTRUTTURARE, Luglio 2022,</h2>
         </div>
-        <p class="text-sm font-medium mx-auto text-left mt-2">100 Idee per Ristrutturare</p>
-        <nav class="flex items-center justify-left mt-2" aria-label="Progress">
-          <ol role="list" class="flex items-center space-x-5">
-            <li v-for="step in steps" :key="step.name">
-              <a v-if="step.status === 'complete'" :href="step.href" class="block h-2.5 w-2.5 rounded-full bg-gray-600 hover:bg-gray-900">
-                <span class="sr-only">{{ step.name }}</span>
-              </a>
-              <a v-else-if="step.status === 'current'" :href="step.href" class="relative flex items-center justify-center" aria-current="step">
-          <span class="absolute flex h-5 w-5 p-px" aria-hidden="true">
-            <span class="h-full w-full rounded-full bg-gray-200" />
-          </span>
-                <span class="relative block h-2.5 w-2.5 rounded-full bg-gray-600" aria-hidden="true" />
-                <span class="sr-only">{{ step.name }}</span>
-              </a>
-              <a v-else :href="step.href" class="block h-2.5 w-2.5 rounded-full bg-gray-200 hover:bg-gray-400">
-                <span class="sr-only">{{ step.name }}</span>
-              </a>
-            </li>
-          </ol>
-        </nav>
+<!--        <p class="text-sm font-medium mx-auto text-left mt-2">100 Idee per Ristrutturare</p>-->
+<!--        <nav class="flex items-center justify-left mt-2" aria-label="Progress">-->
+<!--          <ol role="list" class="flex items-center space-x-5">-->
+<!--            <li v-for="step in steps" :key="step.name">-->
+<!--              <a v-if="step.status === 'complete'" :href="step.href" class="block h-2.5 w-2.5 rounded-full bg-gray-600 hover:bg-gray-900">-->
+<!--                <span class="sr-only">{{ step.name }}</span>-->
+<!--              </a>-->
+<!--              <a v-else-if="step.status === 'current'" :href="step.href" class="relative flex items-center justify-center" aria-current="step">-->
+<!--          <span class="absolute flex h-5 w-5 p-px" aria-hidden="true">-->
+<!--            <span class="h-full w-full rounded-full bg-gray-200" />-->
+<!--          </span>-->
+<!--                <span class="relative block h-2.5 w-2.5 rounded-full bg-gray-600" aria-hidden="true" />-->
+<!--                <span class="sr-only">{{ step.name }}</span>-->
+<!--              </a>-->
+<!--              <a v-else :href="step.href" class="block h-2.5 w-2.5 rounded-full bg-gray-200 hover:bg-gray-400">-->
+<!--                <span class="sr-only">{{ step.name }}</span>-->
+<!--              </a>-->
+<!--            </li>-->
+<!--          </ol>-->
+<!--        </nav>-->
       </div>
     </section>
   </div>
