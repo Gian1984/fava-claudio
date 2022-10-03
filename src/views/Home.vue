@@ -268,9 +268,9 @@
 
 
   <div class="bg-white ">
-    <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-12">
+    <div class="mx-auto py-12 px-4 sm:px-6 lg:px-12 lg:py-12">
       <div class="space-y-12">
-        <div class="space-y-5 mx-auto text-center max-w-7xl sm:px-6 lg:px-12  px-">
+        <div class="space-y-5 mx-auto text-center max-w-7xl sm:px-6 lg:px-12 px-4">
           <h2 class=" text-xl mx-auto max-w-full text-center text-gray-900 tracking-tight border-b border-black leading-10" id="profilo">CHI SIAMO</h2>
           <p class="text-gray-900 max-w-3xl mx-auto">
             Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall'interior design al recupero dell'esistente, fino a edifici ex-novo.<br>

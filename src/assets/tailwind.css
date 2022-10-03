@@ -12,3 +12,7 @@
     border: transparent!important;
     background-color: transparent !important;
 }
+
+.object-center-view{
+    float: right!important;
+}

@@ -4,7 +4,7 @@
     <section aria-labelledby="features-heading" class="mx-auto max-w-7xl pt-32 pb-12 sm:px-2 lg:px-8">
       <div class="mx-auto max-w-7xl px-4 lg:max-w-none lg:px-0">
         <div class="max-w-7xl mx-auto border-b border-black">
-          <h2 id="features-heading" class="text-xl text-left leading-10 mx-auto max-w-7xl pb-2 font-bold tracking-tight text-gray-400 sm:text-xl">' CASA RIVOLI '  è su 100 IDEE PER RISTRUTTURARE, Luglio 2022,</h2>
+          <h2 id="features-heading" class="text-xl text-left leading-10 mx-auto max-w-7xl pb-2 font-bold tracking-tight text-gray-400 sm:text-xl">' CASA GRAMSCI ' è su COSE DI CASA, Agosto 2022</h2>
         </div>
 <!--        <p class="text-sm font-medium mx-auto text-left mt-2">100 Idee per Ristrutturare</p>-->
 <!--        <nav class="flex items-center justify-left mt-2" aria-label="Progress">-->
@@ -57,7 +57,7 @@
                 </div>
                 <div class="lg:col-span-7">
                   <div class="aspect-w-2 aspect-h-5 overflow-hidden sm:aspect-w-2 sm:aspect-h-5">
-                    <img  src="img/pubblicazioni/100idee_luglio2022/copertina_idee.webp"  alt="100 Idee per ristrutturare 8 Agosto 2022" class="object-cover object-center h-96 mx-auto w-auto"/>
+                    <img  src="img/pubblicazioni/100idee_luglio2022/copertina_idee.webp"  alt="100 Idee per ristrutturare 8 Agosto 2022" class="object-cover h-96 mx-auto w-auto float-right float-right sm:pr-2 lg:pr-8"/>
                   </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@
                             data-fancybox="gallery2"
                             data-caption="Il wellness a casa"
                         >
-                          <img src="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_1.webp" alt="Il wellness a casa" class="aspect-w-3 aspect-h-2 object-cover object-center" />
+                          <img src="img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_1.webp" alt="Il wellness a casa" class="aspect-w-3 aspect-h-2 object-cover  sm:pr-2 lg:pr-12 float-end" />
                         </a>
                       </div>
                       <div class="mt-4 flex justify-between">

@@ -47,7 +47,7 @@
                       href="img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp"
                       data-fancybox="gallery"
                       data-caption="Cose di Casa - 8 Agosto 2022"
-                      class="hover:text-indigo-400 flex my-10"
+                      class="hover:text-indigo-400 flex my-10 float-right"
                   >
                     Sfoglia
                     <DocumentSearchIcon class="h-6 w-6 ml-1"/>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="lg:col-span-7">
                   <div class="aspect-w-2 aspect-h-5 overflow-hidden sm:aspect-w-2 sm:aspect-h-5">
-                    <img  src="img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp"  alt="Cose di Casa - 8 Agosto 2022" class="object-cover object-center h-96 mx-auto w-auto"/>
+                    <img  src="img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp"  alt="Cose di Casa - 8 Agosto 2022" class="object-cover h-96 mx-auto w-auto float-right float-right sm:pr-2 lg:pr-8"/>
                   </div>
                 </div>
               </div>
