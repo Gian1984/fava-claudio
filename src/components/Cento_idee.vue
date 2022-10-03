@@ -57,7 +57,7 @@
                 </div>
                 <div class="lg:col-span-7">
                   <div class="aspect-w-2 aspect-h-5 overflow-hidden sm:aspect-w-2 sm:aspect-h-5">
-                    <img  src="img/pubblicazioni/100idee_luglio2022/copertina_idee.webp"  alt="100 Idee per ristrutturare - 8 Agosto 2022" class="object-cover object-center h-96 mx-auto w-auto"/>
+                    <img  src="img/pubblicazioni/100idee_luglio2022/copertina_idee.webp"  alt="100 Idee per ristrutturare 8 Agosto 2022" class="object-cover object-center h-96 mx-auto w-auto"/>
                   </div>
                 </div>
               </div>
