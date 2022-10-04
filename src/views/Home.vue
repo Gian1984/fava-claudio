@@ -12,7 +12,7 @@
       <div class="mx-auto">
         <div class="relative shadow-xl sm:overflow-hidden">
 
-          <div class="absolute inset-0">
+          <div class="absolute inset-0 min-h-screen">
             <img class="h-full w-full object-cover" src="img/casagramsci/01.webp" alt="il progetto degli spazi" />
           </div>
 
@@ -50,53 +50,48 @@
 
   </transition>
 
-    <transition
-        appear
-        @before-enter="beforeEnter"
-        @enter="enter"
-    >
+  <!-- FOCUS ON CASA RIVOLI -->
 
-    <div class="relative" id="header">
-      <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
-      <div class="mx-auto">
-        <div class="relative shadow-xl sm:overflow-hidden">
+  <div class="relative">
+    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+    <div class="mx-auto">
+      <div class="relative shadow-xl sm:overflow-hidden">
 
-          <div class="absolute inset-0">
-            <img class="h-full w-full object-cover" src="img/PRO_7700.jpg" alt="il progetto degli spazi" />
-            <div class="absolute inset-0" />
-          </div>
+        <div class="absolute inset-0">
+          <img class="h-full w-full object-cover" src="img/PRO_7691.webp" alt="il progetto degli spazi" />
+        </div>
 
-          <div class="relative px-4 py-6 sm:px-6 py:2 lg:py-32 lg:px-8 lg:mr-7">
-            <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div class="space-y-4 sm:space-y-0 sm:inline-grid py-44 lg:py-60 sm:gap-5">
-              </div>
+        <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
+          <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center pt-14">
+            <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-20"></p>
+            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-40 lg:py-60 sm:gap-5">
             </div>
-            <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
-              <div class="bg-white bg-opacity-50 lg:ml-12 p-2 mb-4">
-                <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
-                  FOCUS ON:<br>
-                </p>
-                <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
-                  CASA RIVOLI
-                </p>
-                <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
-                  Il contrasto bianco e legno diventa il segno di continuità degli ambienti.<br>
-                </p>
-                <div class="text-right">
-                  <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
-                    <span class="px-1 py-0.5">Vai al progetto</span>
-                    <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-                  </a>
-                </div>
+          </div>
+          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
+            <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
+                FOCUS ON:<br>
+              </p>
+              <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+                CASA RIVOLI
+              </p>
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+                Il contrasto bianco e legno diventa il segno di continuità degli ambienti.<br>
+              </p>
+              <div class="text-right">
+                <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                  <span class="px-1 py-0.5">Vai al progetto</span>
+                  <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
 
-  </transition>
 
 
   <!-- IL PROGETTO DEGLI SPAZI -->
@@ -109,24 +104,27 @@
 
         <div class="absolute inset-0">
           <img class="h-full w-full object-cover" src="img/PRO_7942.jpg" alt="il progetto degli spazi" />
-          <div class="absolute inset-0" />
         </div>
 
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:mr-7">
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
-            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
+        <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
+          <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center pt-14">
+            <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-20"></p>
+            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-40 lg:py-60 sm:gap-5">
             </div>
           </div>
-          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
-            <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
-              <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
+            <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
+                FOCUS ON:<br>
+              </p>
+              <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
                 IL PROGETTO DEGLI SPAZI
               </p>
-              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
                 Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente.<br>
               </p>
               <div class="text-right">
-                <a href="\Project_centrale_operativa_telecontrol" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                <a href="\Project_centrale_operativa_telecontrol" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
@@ -142,34 +140,35 @@
   <!-- RIFUNZIONALIZZAZIONE -->
 
 
-
-
   <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
 
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/rasoparete/vista-01-1-scaled.jpg" alt="rifunzionalizzazione spazi" />
-          <div class="absolute inset-0" />
+          <img class="h-full w-full object-cover" src="img/rasoparete/vista-01-1-scaled.jpg" alt="il progetto degli spazi" />
         </div>
 
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:mr-7">
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
-            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
+        <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
+          <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center pt-14">
+            <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-20"></p>
+            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-40 lg:py-60 sm:gap-5">
             </div>
           </div>
-          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
-            <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
-              <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
+            <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
+                FOCUS ON:<br>
+              </p>
+              <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
                 PROGETTAZIONE<br>
                 ARCHITETTONICA
               </p>
-              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
                 Dall'interior design al recupero dell'esistente, fino a edifici ex-novo.<br>
               </p>
               <div class="text-right">
-                <a href="\Project_concorso_rasoparete" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                <a href="\Project_concorso_rasoparete" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
@@ -180,36 +179,38 @@
       </div>
     </div>
   </div>
-
-
 
   <!-- LA CURA DEL DETTAGLIO -->
 
-  <div class="relative">
+
+  <div class="relative" id="home">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
 
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/loragiusta/foto-2-scaled.jpg" alt="la cura del dettaglio" />
-          <div class="absolute inset-0" />
+          <img class="h-full w-full object-cover" src="img/foto-LORA.webp" alt="il progetto degli spazi" />
         </div>
 
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:mr-7">
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
-            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
+        <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
+          <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center pt-14">
+            <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-20"></p>
+            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-40 lg:py-60 sm:gap-5">
             </div>
           </div>
-          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
-            <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
-              <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
-                PROGETTI SARTORIALI
+          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
+            <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
+                FOCUS ON:<br>
               </p>
-              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
-               Attraverso la ricerca delle forme, materiali e tecniche.<br>
+              <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+                PROGETTI<br> SARTORIALI
+              </p>
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+                Attraverso la ricerca delle forme, materiali e tecniche.<br>
               </p>
               <div class="text-right">
-                <a href="\Project_oragiusta_moncalieri" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                <a href="\Project_oragiusta_moncalieri" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
@@ -220,37 +221,37 @@
       </div>
     </div>
   </div>
-
-
 
   <!-- IL PROGETTO DEGLI SPAZI -->
 
-
-  <div class="relative">
+  <div class="relative" id="home">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
 
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7721-crop.jpg" alt="la cura del dettaglio" />
-          <div class="absolute inset-0" />
+          <img class="h-full w-full object-cover" src="img/PRO_7721-1.webp" alt="il progetto degli spazi" />
         </div>
 
-        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-60 lg:px-8 lg:mr-7">
-          <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-end">
-            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-60 sm:gap-5">
+        <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
+          <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center pt-14">
+            <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-20"></p>
+            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-40 lg:py-60 sm:gap-5">
             </div>
           </div>
-          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto  lg:w-1/2 ">
-            <div class="bg-white bg-opacity-50 lg:ml-12 p-2 ">
-              <p class="pt-2 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
-                LA CURA DEL DETTAGLIO
+          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
+            <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
+                FOCUS ON:<br>
               </p>
-              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-10 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+              <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+                LA CURA DEL <br> DETTAGLIO
+              </p>
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
                 Disegniamo arredi personalizzati studiando ogni particolare.<br>
               </p>
               <div class="text-right">
-                <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-48 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
@@ -262,15 +263,12 @@
     </div>
   </div>
 
-
   <!-- TEAM -->
 
-
-
   <div class="bg-white ">
-    <div class="mx-auto py-12 px-4 sm:px-6 lg:px-12 lg:py-12">
+    <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-12 lg:py-12">
       <div class="space-y-12">
-        <div class="space-y-5 mx-auto text-center max-w-7xl sm:px-6 lg:px-12 px-4">
+        <div class="space-y-5 mx-auto text-center max-w-7xl ">
           <h2 class=" text-xl mx-auto max-w-full text-center text-gray-900 tracking-tight border-b border-black leading-10" id="profilo">CHI SIAMO</h2>
           <p class="text-gray-900 max-w-3xl mx-auto">
             Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall'interior design al recupero dell'esistente, fino a edifici ex-novo.<br>
