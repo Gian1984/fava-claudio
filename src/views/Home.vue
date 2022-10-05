@@ -7,13 +7,13 @@
       @enter="enter"
   >
 
-    <div class="relative" id="home">
+    <div class="relative min-h-screen" id="home">
       <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
       <div class="mx-auto">
-        <div class="relative shadow-xl sm:overflow-hidden">
+        <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
-          <div class="absolute inset-0 min-h-screen">
-            <img class="h-full w-full object-cover" src="img/casagramsci/01.webp" alt="il progetto degli spazi" />
+          <div class="absolute inset-0">
+            <img class="min-h-full w-full object-cover" src="img/casagramsci/01.webp" alt="il progetto degli spazi" />
           </div>
 
           <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
@@ -55,7 +55,7 @@
   <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
-      <div class="relative shadow-xl sm:overflow-hidden">
+      <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
         <div class="absolute inset-0">
           <img class="h-full w-full object-cover" src="img/PRO_7691.webp" alt="il progetto degli spazi" />
@@ -100,7 +100,7 @@
   <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
-      <div class="relative shadow-xl sm:overflow-hidden">
+      <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
         <div class="absolute inset-0">
           <img class="h-full w-full object-cover" src="img/PRO_7942.jpg" alt="il progetto degli spazi" />
@@ -143,7 +143,7 @@
   <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
-      <div class="relative shadow-xl sm:overflow-hidden">
+      <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
         <div class="absolute inset-0">
           <img class="h-full w-full object-cover" src="img/rasoparete/vista-01-1-scaled.jpg" alt="il progetto degli spazi" />
@@ -186,7 +186,7 @@
   <div class="relative" id="home">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
-      <div class="relative shadow-xl sm:overflow-hidden">
+      <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
         <div class="absolute inset-0">
           <img class="h-full w-full object-cover" src="img/foto-LORA.webp" alt="il progetto degli spazi" />
@@ -227,7 +227,7 @@
   <div class="relative" id="home">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
-      <div class="relative shadow-xl sm:overflow-hidden">
+      <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
         <div class="absolute inset-0">
           <img class="h-full w-full object-cover" src="img/PRO_7721-1.webp" alt="il progetto degli spazi" />
