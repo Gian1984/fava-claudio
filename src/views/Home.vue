@@ -114,9 +114,6 @@
           </div>
           <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
             <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
-              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
-                FOCUS ON:<br>
-              </p>
               <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
                 IL PROGETTO DEGLI SPAZI
               </p>
@@ -157,9 +154,6 @@
           </div>
           <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
             <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
-              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
-                FOCUS ON:<br>
-              </p>
               <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
                 PROGETTAZIONE<br>
                 ARCHITETTONICA
@@ -200,9 +194,6 @@
           </div>
           <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
             <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
-              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
-                FOCUS ON:<br>
-              </p>
               <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
                 PROGETTI<br> SARTORIALI
               </p>
@@ -241,9 +232,6 @@
           </div>
           <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
             <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
-              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
-                FOCUS ON:<br>
-              </p>
               <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
                 LA CURA DEL <br> DETTAGLIO
               </p>

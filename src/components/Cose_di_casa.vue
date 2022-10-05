@@ -8,7 +8,7 @@
         </div>
 
         <div>
-          <div class="mx-auto max-w-full py-24 sm:py-24">
+          <div class="mx-auto max-w-full py-12 sm:py-12">
             <div class="mx-auto max-w-2xl lg:max-w-none">
               <div class="max-w-3xl">
                 <p class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl">55 m² luminosi e su misura</p>
