@@ -8,11 +8,10 @@
         </div>
 
         <div>
-          <div class="mx-auto max-w-full py-24 sm:py-32">
+          <div class="mx-auto max-w-full py-24 sm:py-24">
             <div class="mx-auto max-w-2xl lg:max-w-none">
               <div class="max-w-3xl">
-                <h2 class="font-semibold text-gray-500">Agosto 2022</h2>
-                <p class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl">55 m² luminosi e su misura</p>
+                <p class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl">55 m² luminosi e su misura</p>
                 <p class="mt-4 text-gray-500">Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d'interni che lascia in comunicazione gli ambienti.</p>
                 <a
                     href="img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp"
