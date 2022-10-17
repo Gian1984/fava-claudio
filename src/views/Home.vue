@@ -103,7 +103,7 @@
       <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7942.jpg" alt="il progetto degli spazi" />
+          <img class="h-full w-full object-cover" src="img/PRO_7942.webp" alt="il progetto degli spazi" />
         </div>
 
         <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
@@ -404,7 +404,7 @@ const team = [
     imageSrc:
         'img/2013-07-16-B-N-low.jpg',
     imageAlt:"Claudio Fava Foto",
-    description:"Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino nel 2010, dopo un tirocinio presso lo studio milanese Claudio Bellini Design+Design. Inizio il suo percorso, collaborando con lo Studio Neirotti di Vinovo e lo studio LSB architetti associati per cui lavora in pianta stabile per due anni e dove ha modo di accrescere le proprie conoscenze lavorando su progetti in diversi ambiti.\n" +
+    description:"Nasce a Torino nel 1984. Si laurea presso la Facoltà di Architettura del Politecnico di Torino nel 2010, dopo un tirocinio presso lo studio milanese Claudio Bellini Design+Design. Inizia il suo percorso, collaborando con lo Studio Neirotti di Vinovo e lo studio LSB architetti associati per cui lavora in pianta stabile per due anni e dove ha modo di accrescere le proprie conoscenze lavorando su progetti in diversi ambiti.\n" +
         "Nel 2014 inizia la sua attività da libero professionista, iniziando importanti collaborazioni con arch. Giorgio Fava, arch. Paolo Neirotti e Sceg Architetti.",
     linkedinUrl: 'https://www.linkedin.com/in/claudio-fava-7ab95015/',
   },
