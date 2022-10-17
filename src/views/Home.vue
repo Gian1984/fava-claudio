@@ -13,7 +13,7 @@
         <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
           <div class="absolute inset-0">
-            <img class="min-h-full w-full object-cover" src="img/PRO_7700.webp" alt="il progetto degli spazi" />
+            <img class="min-h-full w-full object-cover" src="img/casagramsci/01.webp" alt="il progetto degli spazi" />
           </div>
 
           <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
@@ -58,7 +58,7 @@
       <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7691.webp" alt="il progetto degli spazi" />
+          <img class="h-full w-full object-cover" src="img/PRO_7700.webp" alt="il progetto degli spazi" />
         </div>
 
         <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
