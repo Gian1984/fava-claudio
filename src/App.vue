@@ -198,7 +198,7 @@
           &copy; 2021 Claudio Fava Architetto. All rights reserved. WebMaster Gianluca Tiengo.
         </p>
       </a>
-      <a class="top-link hide" href="" id="feed" v-on:click="scrolltotop()">
+      <a class="top-link hide" href="#" id="feed" v-on:click="scrolltotop()">
         <ArrowUpIcon class="h-6 w-6"  id="top"/>
       </a>
     </div>
