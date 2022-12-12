@@ -8,7 +8,7 @@
           CASA NEL PARCO
         </h1>
         <h3 class="text-base text-gray-900 text-center lg:hidden">
-          Rivalta di Torino (TO) - 2012
+          Rivalta di Torino (TO) - 2016
         </h3>
 
         <!-- Image gallery -->

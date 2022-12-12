@@ -5,10 +5,10 @@
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
 
         <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
-          CASA RIVOLI
+          CASA GRAMSCI
         </h1>
         <h3 class="text-base text-gray-900 text-center lg:hidden">
-          Rivoli (TO) - 2016
+          Condove (TO) - 2022
         </h3>
 
         <!-- Image gallery -->
