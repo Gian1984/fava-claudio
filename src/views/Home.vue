@@ -511,18 +511,12 @@ const projects = [
   },
   {
     id: 10,
-    name: 'Casa R',
-    href: '/Project_casa_R',
-    imageSrc: 'img/vista-02-versione-A.jpg',
-    imageAlt: "Casa R.",
+    name: 'Progetto Dante',
+    href: '/Project_dante',
+    imageSrc: 'img/dante/PR_R0609-HDR-mini-home.jpg',
+    imageAlt: "Progetto Dante.",
   },
-  {
-    id: 11,
-    name: 'Camera Dei Bimbi',
-    href: '/Project_camera_bimbi',
-    imageSrc: 'img/vista-03_crop.jpg',
-    imageAlt: "Camera Dei Bimbi.",
-  },
+
 ]
 
 
