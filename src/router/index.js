@@ -9,6 +9,7 @@ import Project_sala_congressi_telecontrol from '../components/Project_sala_congr
 import Project_concorso_rasoparete from '../components/Project_concorso_rasoparete.vue'
 import Project_oragiusta_moncalieri from '../components/Project_oragiusta_moncalieri.vue'
 import Project_dante from '../components/Project_dante.vue'
+import Project_torrerinalda from "../components/Project_torrerinalda.vue";
 import Project_villa_perrault from '../components/Project_villa_perrault.vue'
 import Project_vivere_20 from '../components/Project_vivere_20.vue'
 import Project_casa_gramsci from '../components/Project_casa_gramsci.vue'
@@ -227,6 +228,24 @@ const routes = [
     path: '/Project_dante',
     name: 'Project_dante',
     component: Project_dante,
+    meta: {
+      title: 'Progetti Fava Claudio Architetto',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Progetti dello Studio di Architettura Fava Claudio.'
+        },
+        {
+          property: 'og:description',
+          content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Project_torrerinalda',
+    name: 'Project_torrerinalda',
+    component: Project_torrerinalda,
     meta: {
       title: 'Progetti Fava Claudio Architetto',
       metaTags: [
