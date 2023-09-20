@@ -221,7 +221,7 @@
       <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="img/PRO_7721-1.webp" alt="il progetto degli spazi" />
+          <img class="h-full w-full object-cover" src="img/dante/PR_R0550 copy-min.webp" alt="il progetto degli spazi" />
         </div>
 
         <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
@@ -239,7 +239,7 @@
                 Disegniamo arredi personalizzati studiando ogni particolare.<br>
               </p>
               <div class="text-right">
-                <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                <a href="\Project_dante" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
@@ -444,9 +444,23 @@ const press = [
 
 
 const projects = [
-
   {
     id: 1,
+    name: 'Dante',
+    href: '/Project_dante',
+    imageSrc: 'img/dante/PR_R0609-HDR-mini-home.jpg',
+    imageAlt: "Progetto Dante.",
+  },
+  {
+    id: 2,
+    name: 'Torre Rinalda',
+    href: '/Project_torrerinalda',
+    imageSrc: 'img/torre/anteprima.webp',
+    imageAlt: "Progetto Torre Rinalda.",
+  },
+
+  {
+    id: 3,
     name: 'Casa Gramsci',
     href: '/Project_casa_gramsci',
     imageSrc: 'img/casagramsci/01.webp',
@@ -454,74 +468,60 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 4,
     name: 'Concorso Rasoparete',
     href: '/Project_concorso_rasoparete',
     imageSrc: 'img/rasoparete/vista-02-1-scaled.jpg',
     imageAlt: "Concorso Rasoparete.",
   },
   {
-    id: 3,
+    id: 5,
     name: "L'oragiusta Moncalieri",
     href: '/Project_oragiusta_moncalieri',
     imageSrc: 'img/loragiusta/foto-1-scaled.jpg',
     imageAlt: "L'oragiusta Moncalieri.",
   },
   {
-    id: 4,
+    id: 6,
     name: "Vivere in 20 mq",
     href: '/Project_vivere_20',
     imageSrc: 'img/vivere20metri/03-scaled.jpg',
     imageAlt: "Vivere in 20 mq",
   },
   {
-    id: 5,
+    id: 7,
     name: 'Sala Congressi Telecontrol',
     href: '/Project_sala_congressi_telecontrol',
     imageSrc: 'img/vista-01.jpg',
     imageAlt: "Sala Congressi Telecontrol.",
   },
   {
-    id: 6,
+    id: 8,
     name: 'Casa Nel Parco',
     href: '/Project_casa_nel_parco',
     imageSrc: 'img/vista-esterna-02_crop.jpg',
     imageAlt: "Casa Nel Parco.",
   },
   {
-    id: 7,
+    id: 9,
     name: 'Villa Perrault',
     href: '/Project_villa_perrault',
     imageSrc: 'img/villaperrault/vista-02-scaled.jpg',
     imageAlt: "Villa Perrault.",
   },
   {
-    id: 8,
+    id: 10,
     name: 'Casa Rivoli',
     href: '/Project_casa_rivoli',
     imageSrc: 'img/PRO_7711.jpg',
     imageAlt: "Casa Rivoli.",
   },
   {
-    id: 9,
+    id: 11,
     name: 'Centrale Operativa Telecontrol',
     href: '/Project_centrale_operativa_telecontrol',
     imageSrc: 'img/PRO_7906.jpg',
     imageAlt: "Centrale Operativa Telecontrol.",
-  },
-  {
-    id: 10,
-    name: 'Progetto Dante',
-    href: '/Project_dante',
-    imageSrc: 'img/dante/PR_R0609-HDR-mini-home.jpg',
-    imageAlt: "Progetto Dante.",
-  },
-  {
-    id: 11,
-    name: 'Progetto Torre Rinalda',
-    href: '/Project_torrerinalda',
-    imageSrc: 'img/torre/anteprima.webp',
-    imageAlt: "Progetto Torre Rinalda.",
   },
 
 ]
@@ -532,6 +532,21 @@ const projects = [
 const products = [
   {
     id: 1,
+    name: 'Dante',
+    href: '/Project_dante',
+    imageSrc: 'img/dante/PR_R0609-HDR-mini-home.jpg',
+    imageAlt: "Progetto Dante.",
+  },
+  {
+    id: 2,
+    name: 'Torre Rinalda',
+    href: '/Project_torrerinalda',
+    imageSrc: 'img/torre/anteprima.webp',
+    imageAlt: "Progetto Torre Rinalda.",
+  },
+
+  {
+    id: 3,
     name: 'Casa Gramsci',
     href: '/Project_casa_gramsci',
     imageSrc: 'img/casagramsci/01.webp',
@@ -539,74 +554,60 @@ const products = [
   },
 
   {
-    id: 2,
+    id: 4,
     name: 'Concorso Rasoparete',
     href: '/Project_concorso_rasoparete',
     imageSrc: 'img/rasoparete/vista-02-1-scaled.jpg',
     imageAlt: "Concorso Rasoparete.",
   },
   {
-    id: 3,
+    id: 5,
     name: "L'oragiusta Moncalieri",
     href: '/Project_oragiusta_moncalieri',
     imageSrc: 'img/loragiusta/foto-1-scaled.jpg',
     imageAlt: "L'oragiusta Moncalieri.",
   },
   {
-    id: 4,
+    id: 6,
     name: "Vivere in 20 mq",
     href: '/Project_vivere_20',
     imageSrc: 'img/vivere20metri/03-scaled.jpg',
     imageAlt: "Vivere in 20 mq",
   },
   {
-    id: 5,
+    id: 7,
     name: 'Sala Congressi Telecontrol',
     href: '/Project_sala_congressi_telecontrol',
     imageSrc: 'img/vista-01.jpg',
     imageAlt: "Sala Congressi Telecontrol.",
   },
   {
-    id: 6,
+    id: 8,
     name: 'Casa Nel Parco',
     href: '/Project_casa_nel_parco',
     imageSrc: 'img/vista-esterna-02_crop.jpg',
     imageAlt: "Casa Nel Parco.",
   },
   {
-    id: 7,
+    id: 9,
     name: 'Villa Perrault',
     href: '/Project_villa_perrault',
     imageSrc: 'img/villaperrault/vista-02-scaled.jpg',
     imageAlt: "Villa Perrault.",
   },
   {
-    id: 8,
+    id: 10,
     name: 'Casa Rivoli',
     href: '/Project_casa_rivoli',
     imageSrc: 'img/PRO_7711.jpg',
     imageAlt: "Casa Rivoli.",
   },
   {
-    id: 9,
+    id: 11,
     name: 'Centrale Operativa Telecontrol',
     href: '/Project_centrale_operativa_telecontrol',
     imageSrc: 'img/PRO_7906.jpg',
     imageAlt: "Centrale Operativa Telecontrol.",
-  },
-  {
-    id: 10,
-    name: 'Progetto Dante',
-    href: '/Project_dante',
-    imageSrc: 'img/dante/PR_R0609-HDR-mini-home.jpg',
-    imageAlt: "Progetto Dante.",
-  },
-  {
-    id: 11,
-    name: 'Progetto Torre Rinalda',
-    href: '/Project_torrerinalda',
-    imageSrc: 'img/torre/anteprima.webp',
-    imageAlt: "Progetto Torre Rinalda.",
   },
 ]
 

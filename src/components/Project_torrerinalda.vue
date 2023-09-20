@@ -8,7 +8,10 @@
           TORRE RINALDA
         </h1>
         <h3 class="text-base text-gray-900 text-center lg:hidden">
-          “International architecture competition ” - 2023
+          Lecce (LE) - 2023
+        </h3>
+        <h3 class="text-base text-gray-900 text-center lg:hidden mt-2">
+          International architecture competition
         </h3>
 
         <!-- Image gallery -->
@@ -136,7 +139,7 @@
                       <!--Slide 9 -->
                       <input class="carousel-open" type="radio" id="carousel-9" name="carousel" aria-hidden="true" hidden="">
                       <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/torre/A1_IG8101-min.webp" alt="torre_rinalda progejct">
+                        <img src="img/torre/due.webp" alt="torre_rinalda progejct">
                       </div>
                       <label for="carousel-8"
                              class="control-9 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
@@ -227,8 +230,11 @@
             TORRE RINALDA
           </h1>
           <h2 class="text-lg font-base text-gray-900 hidden lg:block">
-            “International architecture competition ” - 2023
+            Lecce (LE) - 2023
           </h2>
+          <h3 class="text-lg font-base text-gray-900 hidden lg:block mt-2">
+            International architecture competition
+          </h3>
 
           <div class="mt-10">
             <h2 class="text-lg font-medium text-gray-900 mt-10">Descrizione</h2>
@@ -311,7 +317,7 @@ const product = {
     {
       id: 7,
       name: 'International architecture competition Torre Rinalda progetto',
-      imageSrc: 'img/torre/A1_IG8101-min.webp',
+      imageSrc: 'img/torre/due.webp',
       imageAlt: "International architecture competition Torre Rinalda progetto",
       description:"International architecture competition Torre Rinalda progetto",
       primary: true,

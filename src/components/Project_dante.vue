@@ -8,7 +8,7 @@
           PROGETTO DANTE
         </h1>
         <h3 class="text-base text-gray-900 text-center lg:hidden">
-          “Un unico contenitore con TV, stereo e cucina, senza soluzione di continuità.” - 2023
+          Torino (TO) - 2023
         </h3>
 
         <!-- Image gallery -->
@@ -227,7 +227,7 @@
             PROGETTO DANTE
           </h1>
           <h2 class="text-lg font-base text-gray-900 hidden lg:block">
-            “Un unico contenitore con TV, stereo e cucina, senza soluzione di continuità.” - 2023
+            Torino (TO) - 2023
           </h2>
 
           <div class="mt-10">
@@ -336,6 +336,8 @@ const product = {
 
   description: `
     <p>
+    <strong>Un unico contenitore con TV, stereo e cucina, senza soluzione di continuità.</strong><br><br>
+
     La richiesta del cliente era di progettare un mobile che potesse contenere TV e collezione di vinili, valutando la possibilità di eliminare il tramezzo che divideva la cucina dal soggiorno.<br>
 
 
