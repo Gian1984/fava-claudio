@@ -5,7 +5,7 @@
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
 
         <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
-          PROGETTO DANTE
+          DANTE
         </h1>
         <h3 class="text-base text-gray-900 text-center lg:hidden">
           Torino (TO) - 2023
@@ -224,7 +224,7 @@
           <!-- Product details -->
 
           <h1 class="text-xl font-medium text-gray-900 text-left hidden lg:block">
-            PROGETTO DANTE
+            DANTE
           </h1>
           <h2 class="text-lg font-base text-gray-900 hidden lg:block">
             Torino (TO) - 2023
@@ -352,13 +352,6 @@ Si è giocato sull’effetto visivo di continuità grazie alle linee continue e 
 gli spazi, in questo caso il laminato Fenix grigio bromo.<br><br>
 
 La parte in sfondato in legno ALPIWOOD Sienna Cherry dona un’atmosfera calda e accogliente. <br><br>
-
-4 - SISTEMI FRANGISOLE<br>
-Le facciate esterne presentano grandi aperture vetrate verso il lato sud, est e ovest per godere
-dell'apporto dei raggi solari durante il periodo invernale, mentre nel periodo estivo pannelli forati
-rasoparete fungono da filtro e proteggono dal surriscaldamento solare.
-La particolare foratura dei pannelli e il colore dell'intonaco caratterizzano la facciata in modo unico.
-All'interno della casa, la regolazione della luminosità è garantita da tende a rullo incassate a raso soffitto.
 
     </p>`,
 
