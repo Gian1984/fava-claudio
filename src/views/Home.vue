@@ -80,7 +80,7 @@
                 55 mq riconfigurati puntando su arredi su misura, materiali naturali e con un progetto che lascia in comunicazione gli ambienti.<br><br>
               </p>
               <div class="text-right">
-                <a href="/Project_casa_gramsci" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                <a href="/project_casa_gramsci" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
@@ -122,7 +122,7 @@
                 Il contrasto bianco e legno diventa il segno di continuità degli ambienti.<br>
               </p>
               <div class="text-right">
-                <a href="\Project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                <a href="\project_casa_rivoli" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
@@ -160,7 +160,7 @@
                 Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente.<br>
               </p>
               <div class="text-right">
-                <a href="\Project_centrale_operativa_telecontrol" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                <a href="\project_centrale_operativa_telecontrol" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
@@ -240,7 +240,7 @@
                 Attraverso la ricerca delle forme, materiali e tecniche.<br>
               </p>
               <div class="text-right">
-                <a href="\Project_oragiusta_moncalieri" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                <a href="\project_oragiusta_moncalieri" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
@@ -278,7 +278,7 @@
                 Disegniamo arredi personalizzati studiando ogni particolare.<br>
               </p>
               <div class="text-right">
-                <a href="\Project_dante" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                <a href="\project_dante" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                   <span class="px-1 py-0.5">Vai al progetto</span>
                   <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                 </a>
