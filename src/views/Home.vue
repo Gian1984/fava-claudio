@@ -13,7 +13,7 @@
         <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
 
           <div class="absolute inset-0">
-            <img class="min-h-full w-full object-cover" src="img/casagramsci/01.webp" alt="il progetto degli spazi" />
+            <img class="min-h-full w-full object-cover" src="img/PaintIt/SantAmbrogio_21bis.webp" alt="il progetto degli spazi" />
           </div>
 
           <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
@@ -30,13 +30,13 @@
                   NEWS:<br>
                 </p>
                 <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
-                  CASA GRAMSCI
+                  PAINT IT BLACK
                 </p>
                 <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
-                  55 mq riconfigurati puntando su arredi su misura, materiali naturali e con un progetto che lascia in comunicazione gli ambienti.<br>
+                  In ogni stanza qualcosa di nero. E’ il colore preferito del padrone di casa e si trova dappertutto: cucina, boiserie del soggiorno, pareti del bagno e complementi d’arredo.<br>
                 </p>
                 <div class="text-right">
-                  <a href="/Project_casa_gramsci" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                  <a href="/project_casa_gramsci" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
                     <span class="px-1 py-0.5">Vai al progetto</span>
                     <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                   </a>
@@ -49,6 +49,49 @@
     </div>
 
   </transition>
+
+
+
+  <!-- CASA GRAMSCI -->
+
+  <div class="relative">
+    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+    <div class="mx-auto">
+      <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
+
+        <div class="absolute inset-0">
+          <img class="h-full w-full object-cover" src="img/casagramsci/01.webp" alt="il progetto degli spazi" />
+        </div>
+
+        <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">
+          <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center pt-14">
+            <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-20"></p>
+            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-40 lg:py-60 sm:gap-5">
+            </div>
+          </div>
+          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
+            <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
+              </p>
+              <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
+                CASA GRAMSCI
+              </p>
+              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
+                55 mq riconfigurati puntando su arredi su misura, materiali naturali e con un progetto che lascia in comunicazione gli ambienti.<br><br>
+              </p>
+              <div class="text-right">
+                <a href="/Project_casa_gramsci" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                  <span class="px-1 py-0.5">Vai al progetto</span>
+                  <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- FOCUS ON CASA RIVOLI -->
 
@@ -91,11 +134,7 @@
     </div>
   </div>
 
-
-
-
   <!-- IL PROGETTO DEGLI SPAZI -->
-
 
   <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />

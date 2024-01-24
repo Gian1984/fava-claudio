@@ -13,6 +13,7 @@ import Project_torrerinalda from "../components/Project_torrerinalda.vue";
 import Project_villa_perrault from '../components/Project_villa_perrault.vue'
 import Project_vivere_20 from '../components/Project_vivere_20.vue'
 import Project_casa_gramsci from '../components/Project_casa_gramsci.vue'
+import Project_paint_it_black from '../components/Project_paint_it_black.vue'
 import Projects from '../components/Projects.vue'
 import Cose_di_casa from '../components/Cose_di_casa.vue'
 import Cento_idee from '../components/Cento_idee.vue'
@@ -153,19 +154,69 @@ const routes = [
     }
   },
   {
-    path: '/Project_centrale_operativa_telecontrol',
-    name: 'Project_centrale_operativa_telecontrol',
-    component: Project_centrale_operativa_telecontrol,
+    path: '/project_paint_it_black',
+    name: 'Project_paint_it_black',
+    component: Project_paint_it_black,
     meta: {
-      title: 'Progetti Fava Claudio Architetto',
+      title: 'Progetto Paint it Black - Fava Claudio Architetto',
       metaTags: [
         {
           name: 'description',
-          content: 'Progetti dello Studio di Architettura Fava Claudio.'
+          content: 'In ogni stanza qualcosa di nero. E’ il colore preferito del padrone di casa e si trova dappertutto: cucina, boiserie del soggiorno, pareti del bagno e complementi d’arredo.'
+        },
+        {
+          name: 'og:title',
+          content: "Progetto Paint it Black - Fava Claudio Architetto"
+        },
+        {
+          name: 'og:url',
+          content: "https://www.favaclaudio.com/project_paint_it_black"
+        },
+        {
+          name: 'og:image',
+          content: "https://www.favaclaudio.com/img/PaintIt/SantAmbrogio_21bis.webp"
+        },
+        {
+          name: 'og:type',
+          content: "website/project page"
         },
         {
           property: 'og:description',
-          content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+          content: 'In ogni stanza qualcosa di nero. E’ il colore preferito del padrone di casa e si trova dappertutto: cucina, boiserie del soggiorno, pareti del bagno e complementi d’arredo.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/project_centrale_operativa_telecontrol',
+    name: 'Centrale Operativa telecontrol',
+    component: Project_centrale_operativa_telecontrol,
+    meta: {
+      title: 'Progetto Centrale Operativa telecontrol - Fava Claudio Architetto',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Il progetto di ristrutturazione della CENTRALE OPERATIVA TELECONTROL è pensato per creare uno spazio di lavoro di alta rappresentanza per un\'azienda leader nel campo della sicurezza e della vigilanza.'
+        },
+        {
+          name: 'og:title',
+          content: "Progetto Centrale Operativa telecontrol - Fava Claudio Architett"
+        },
+        {
+          name: 'og:url',
+          content: "https://www.favaclaudio.com/project_centrale_operativa_telecontrol"
+        },
+        {
+          name: 'og:image',
+          content: "https://www.favaclaudio.com/img/PRO_7942.webp"
+        },
+        {
+          name: 'og:type',
+          content: "website/project page"
+        },
+        {
+          property: 'og:description',
+          content: 'Il progetto di ristrutturazione della CENTRALE OPERATIVA TELECONTROL è pensato per creare uno spazio di lavoro di alta rappresentanza per un\'azienda leader nel campo della sicurezza e della vigilanza.'
         }
       ]
     }
