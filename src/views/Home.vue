@@ -177,7 +177,7 @@
   <!-- LA CURA DEL DETTAGLIO -->
 
 
-  <div class="relative" id="home">
+  <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
@@ -215,7 +215,7 @@
 
   <!-- IL PROGETTO DEGLI SPAZI -->
 
-  <div class="relative" id="home">
+  <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
     <div class="mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden min-h-screen">
