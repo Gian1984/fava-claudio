@@ -15,222 +15,18 @@
 
         <div class=" lg:mt-0 lg:col-start-1 lg:col-span-8 lg:mr-32 lg:row-start-1 lg:row-span-3">
 
-          <button v-on:click="toggleModal()">
             <div class="w-100 grid grid-cols-1 lg:grid-cols-1 lg:gap-8 mt-3">
               <div v-for="image in product.images" :key="image.id">
+                <a
+                    :href="image.imageSrc"
+                    data-fancybox="gallery-project"
+                    :data-caption="image.imageAlt"
+                >
                 <img :src="image.imageSrc" :alt="image.imageAlt" :class="[image.primary ? 'lg:col-span-2 lg:row-span-2' : 'hidden lg:block', 'w-full mt-3 hover:opacity-75']" />
+                </a>
               </div>
             </div>
-          </button>
 
-          <!-- modal gallery-->
-
-          <div v-if="showModal" class="bg-white bg-opacity-75 overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
-            <div class="relative w-auto my-6 mx-auto lg:max-w-6xl py-60">
-              <!--content-->
-              <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none bg-gray-200">
-                <!--header-->
-                <div class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t"></div>
-                <!--body-->
-                <div class="relative p-6 flex-auto">
-                  <div class="carousel relative rounded relative overflow-hidden shadow-xl">
-                    <div class="carousel-inner relative overflow-hidden w-full">
-                      <!--Slide 1-->
-
-                      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
-                             checked="checked">
-                      <div class="carousel-item absolute opacity-0 bg-center w-100 h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/01.webp" alt="vista-interna-01">
-                      </div>
-                      <label for="carousel-11"
-                             class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-2"
-                             class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 2-->
-                      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 bg-center h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/02.webp" alt="vista-interna-02">
-                      </div>
-                      <label for="carousel-1"
-                             class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-3"
-                             class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 3-->
-                      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/09.webp" alt="vista-interna-03">
-                      </div>
-                      <label for="carousel-2"
-                             class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-4"
-                             class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 4-->
-                      <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/10.webp" alt="vista-interna-04">
-                      </div>
-                      <label for="carousel-3"
-                             class="control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-5"
-                             class="next control-4 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 5-->
-                      <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/11.webp" alt="vista-interna-05">
-                      </div>
-                      <label for="carousel-4"
-                             class="control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-6"
-                             class="next control-5 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 6-->
-                      <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/12.webp" alt="vista-interna-06">
-                      </div>
-                      <label for="carousel-5"
-                             class="control-6 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-7"
-                             class="next control-6 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 7-->
-                      <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/13.webp" alt="vista-interna-07">
-                      </div>
-                      <label for="carousel-6"
-                             class="control-7 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-8"
-                             class="next control-7 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 8 -->
-                      <input class="carousel-open" type="radio" id="carousel-8" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/14.webp" alt="vista-interna-08">
-                      </div>
-                      <label for="carousel-7"
-                             class="control-8 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-9"
-                             class="next control-8 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 9 -->
-                      <input class="carousel-open" type="radio" id="carousel-9" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/15.webp" alt="vista-interna-09">
-                      </div>
-                      <label for="carousel-8"
-                             class="control-9 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-10"
-                             class="next control-9 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 10 -->
-                      <input class="carousel-open" type="radio" id="carousel-10" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/16.webp" alt="Casa Rivoli vista interna 10">
-                      </div>
-                      <label for="carousel-9"
-                             class="control-10 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-11"
-                             class="next control-10 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!--Slide 11 -->
-                      <input class="carousel-open" type="radio" id="carousel-11" name="carousel" aria-hidden="true" hidden="">
-                      <div class="carousel-item absolute opacity-0 h-52 md:h-full lg:h-full">
-                        <img src="img/casagramsci/17.webp" alt="Casa Rivoli vista interna 11">
-                      </div>
-                      <label for="carousel-10"
-                             class="control-11 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
-                          class="fas fa-angle-left mt-3"></i></label>
-                      <label for="carousel-1"
-                             class="next control-11 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
-                          class="fas fa-angle-right mt-3"></i></label>
-
-                      <!-- Add additional indicators for each slide-->
-                      <ol class="carousel-indicators">
-                        <li class="inline-block mr-3">
-                          <label for="carousel-1"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-2"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-3"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-4"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-5"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-6"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-7"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-8"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-9"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-10"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                        <li class="inline-block mr-3">
-                          <label for="carousel-11"
-                                 class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-                        </li>
-                      </ol>
-
-                    </div>
-                  </div>
-                </div>
-                <!--footer-->
-                <div class="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
-                  <button class=" bg-transparent uppercase text-sm rounded  mr-1 mb-1 " type="button" v-on:click="toggleModal()">
-                    <XIcon class="w-8 h-8 text-gray-500 hover:text-black" aria-hidden="true" />
-                  </button>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
         </div>
 
         <div class="mt-8 lg:col-span-3">
@@ -276,7 +72,6 @@
 </template>
 
 <script>
-import { XIcon } from '@heroicons/vue/outline'
 
 const product = {
   name: 'CASA GRAMSCI',
@@ -489,24 +284,6 @@ Per valorizzare al meglio l'intero vano doccia walk-in è stato ritagliato un �
 
 export default {
 
-  name: "large-modal",
-
-  data() {
-    return {
-      showModal: false
-    }
-  },
-
-  components:{
-    XIcon
-  },
-
-  methods:{
-    toggleModal: function(){
-      this.showModal = !this.showModal;
-    }
-  },
-
   setup() {
     return {
       product,
@@ -514,55 +291,3 @@ export default {
   },
 }
 </script>
-
-<style>
-.carousel-open:checked+.carousel-item {
-  position: static;
-  opacity: 100;
-}
-
-.carousel-item {
-  -webkit-transition: opacity 0.6s ease-out;
-  transition: opacity 0.6s ease-out;
-}
-
-#carousel-1:checked~.control-1,
-#carousel-2:checked~.control-2,
-#carousel-3:checked~.control-3,
-#carousel-4:checked~.control-4,
-#carousel-5:checked~.control-5,
-#carousel-6:checked~.control-6,
-#carousel-7:checked~.control-7,
-#carousel-8:checked~.control-8,
-#carousel-9:checked~.control-9,
-#carousel-10:checked~.control-10,
-#carousel-11:checked~.control-11{
-  display: block;
-}
-
-.carousel-indicators {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom: 2%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 10;
-}
-
-#carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet,
-#carousel-4:checked~.control-4~.carousel-indicators li:nth-child(4) .carousel-bullet,
-#carousel-5:checked~.control-5~.carousel-indicators li:nth-child(5) .carousel-bullet,
-#carousel-6:checked~.control-6~.carousel-indicators li:nth-child(6) .carousel-bullet,
-#carousel-7:checked~.control-7~.carousel-indicators li:nth-child(7) .carousel-bullet,
-#carousel-8:checked~.control-8~.carousel-indicators li:nth-child(8) .carousel-bullet,
-#carousel-9:checked~.control-9~.carousel-indicators li:nth-child(9) .carousel-bullet,
-#carousel-10:checked~.control-10~.carousel-indicators li:nth-child(10) .carousel-bullet,
-#carousel-11:checked~.control-11~.carousel-indicators li:nth-child(11) .carousel-bullet{
-  color: #2b6cb0;
-}
-</style>

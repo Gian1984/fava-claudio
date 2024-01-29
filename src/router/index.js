@@ -33,123 +33,235 @@ const router = createRouter({
                 component:Projects
               }],
               meta: {
-                title: 'Home Fava Claudio Architetto',
+                title: 'Home - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Home page dello Studio di Architettura Fava Claudio.'
+                    content: 'Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall\'interior design al recupero dell\'esistente, fino a edifici ex-novo. Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente. La nostra filosofia è di creare progetti cuciti su misura attraverso arredi personalizzati, curando ogni particolare.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Home - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/PRO_7700.webp"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/home page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall\'interior design al recupero dell\'esistente, fino a edifici ex-novo. Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente. La nostra filosofia è di creare progetti cuciti su misura attraverso arredi personalizzati, curando ogni particolare.'
                   }
                 ]
               }
             },
             {
-              path: '/Projects',
-              name: 'Projects',
+              path: '/projects',
+              name: 'projects',
               component: Projects,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetti - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall\'interior design al recupero dell\'esistente, fino a edifici ex-novo. Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente. La nostra filosofia è di creare progetti cuciti su misura attraverso arredi personalizzati, curando ogni particolare.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetti - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_dante"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/dante/PR_R0550%20copy-min.webp"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall\'interior design al recupero dell\'esistente, fino a edifici ex-novo. Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente. La nostra filosofia è di creare progetti cuciti su misura attraverso arredi personalizzati, curando ogni particolare.'
                   }
                 ]
               }
             },
             {
-              path: '/Press',
-              name: 'Press',
+              path: '/press',
+              name: 'press',
               component: Press,
               meta: {
-                title: 'Pubblicazioni Fava Claudio Architetto',
+                title: 'Pubblicazioni - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Pubblicazioni  dello Studio di Architettura Fava Claudio.'
+                    content: 'Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall\'interior design al recupero dell\'esistente, fino a edifici ex-novo. Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente. La nostra filosofia è di creare progetti cuciti su misura attraverso arredi personalizzati, curando ogni particolare.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Pubblicazioni - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/press"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_1.webp"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/press page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Un team di architetti con sede a Torino che si occupa di progettazione architettonica a diversi livelli, dall\'interior design al recupero dell\'esistente, fino a edifici ex-novo. Progettiamo spazi dalla forte identità coniugando estetica ed esigenze del cliente. La nostra filosofia è di creare progetti cuciti su misura attraverso arredi personalizzati, curando ogni particolare.'
                   }
                 ]
               }
             },
             {
-              path: '/Project_camera_bimbi',
-              name: 'Project_camera_bimbi',
+              path: '/project_camera_bimbi',
+              name: 'project_camera_bimbi',
               component: Project_camera_bimbi,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto Camera Bimbi- Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'Il progetto mira a disporre gli arredi lungo le pareti perimetrali, lasciando libero il centro della stanza. Sfruttare l’altezza della stanza è possibile con il letto a castello, l\'armadio, e mobili a diverse profondità che alternano spazi aperti e chiusi.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto Camera Bimbi- Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_camera_bimbi"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/vista-03_crop.jpg"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Il progetto mira a disporre gli arredi lungo le pareti perimetrali, lasciando libero il centro della stanza. Sfruttare l’altezza della stanza è possibile con il letto a castello, l\'armadio, e mobili a diverse profondità che alternano spazi aperti e chiusi.'
                   }
                 ]
               }
             },
             {
-              path: '/Project_casa_nel_parco',
-              name: 'Project_casa_nel_parco',
+              path: '/project_casa_nel_parco',
+              name: 'project_casa_nel_parco',
               component: Project_casa_nel_parco,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto casa nel parco - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'Dalla ristrutturazione di un fienile di un piccolo paese in Provicia di Torino, nasce questo progetto dal carattere sospeso tra tradizione e contemporaneità.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto casa nel parco - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_casa_nel_parco"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/vista-esterna-01.jpg"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Dalla ristrutturazione di un fienile di un piccolo paese in Provicia di Torino, nasce questo progetto dal carattere sospeso tra tradizione e contemporaneità.'
                   }
                 ]
               }
             },
             {
-              path: '/Project_casa_R',
-              name: 'Project_casa_R',
+              path: '/project_casa_r',
+              name: 'project_casa_R',
               component: Project_casa_R,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto Casa R - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'Il progetto di ristrutturazione di questa casa sita in Rivalta di Torino prevede di ampliare il soggiorno per soddisfare le esigenze del cliente che richiedeva un open space collegato direttamente con la cucina.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto Casa R - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_casa_R"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/vista-01-versione-A.jpg"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Il progetto di ristrutturazione di questa casa sita in Rivalta di Torino prevede di ampliare il soggiorno per soddisfare le esigenze del cliente che richiedeva un open space collegato direttamente con la cucina.'
                   }
                 ]
               }
             },
             {
-              path: '/Project_casa_rivoli',
-              name: 'Project_casa_rivoli',
+              path: '/project_casa_rivoli',
+              name: 'project_casa_rivoli',
               component: Project_casa_rivoli,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto Casa Rivoli - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'Il progetto di ristrutturazione di questa casa a Rivoli, in provincia di Torino, è caratterizzato da un contrasto bianco e legno che diventa il segno di continuità degli ambienti. Il parquet in rovere sbiancato è presente in tutti gli ambienti, tranne nei bagni dove l’utilizzo di ceramiche e marmi connotano questi ambienti con freschezza e luminosità.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto Casa Rivoli - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_casa_rivoli"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/PRO_7700.jpg"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Il progetto di ristrutturazione di questa casa a Rivoli, in provincia di Torino, è caratterizzato da un contrasto bianco e legno che diventa il segno di continuità degli ambienti. Il parquet in rovere sbiancato è presente in tutti gli ambienti, tranne nei bagni dove l’utilizzo di ceramiche e marmi connotano questi ambienti con freschezza e luminosità.'
                   }
                 ]
               }
@@ -257,164 +369,274 @@ const router = createRouter({
               }
             },
             {
-              path: '/Project_concorso_rasoparete',
-              name: 'Project_concorso_rasoparete',
+              path: '/project_concorso_rasoparete',
+              name: 'project_concorso_rasoparete',
               component: Project_concorso_rasoparete,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto Concorso Rasoparete - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'Il progetto della casa-studio FLUSH HOUSE è stato pensato per rispondere alle esigenze del terzo millennio, un\'epoca in cui estetica, funzionalità e ottimizzazione dello spazio sono imprescindibili.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto Concorso Rasoparete - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_concorso_rasoparete"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/rasoparete/vista-03-1-scaled.jpg"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Il progetto della casa-studio FLUSH HOUSE è stato pensato per rispondere alle esigenze del terzo millennio, un\'epoca in cui estetica, funzionalità e ottimizzazione dello spazio sono imprescindibili.'
                   }
                 ]
               }
             },
             {
-              path: '/Project_oragiusta_moncalieri',
-              name: 'Project_oragiusta_moncalieri',
+              path: '/project_oragiusta_moncalieri',
+              name: 'project_oragiusta_moncalieri',
               component: Project_oragiusta_moncalieri,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto L\'Ora Giusta Moncalieri - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'Collocato in piazza Caduti per la Liberta’ nel centro di Moncalieri, il locale cattura subito l\'attenzione per il bancone in cui un gioco di volumi neri si contrappone al top in rovere.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto L'Ora Giusta Moncalieri - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_oragiusta_moncalieri"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/loragiusta/foto-1-scaled.jpg"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Collocato in piazza Caduti per la Liberta’ nel centro di Moncalieri, il locale cattura subito l\'attenzione per il bancone in cui un gioco di volumi neri si contrappone al top in rovere.'
                   }
                 ]
               }
             },
             {
-              path: '/Project_dante',
-              name: 'Project_dante',
+              path: '/project_dante',
+              name: 'project_dante',
               component: Project_dante,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto Dante - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'La richiesta del cliente era di progettare un mobile che potesse contenere TV e collezione di vinili, valutando la possibilità di eliminare il tramezzo che divideva la cucina dal soggiorno.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto L'Ora Giusta Moncalieri - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_dante"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/dante/PR_R0550%20copy-min.webp"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'La richiesta del cliente era di progettare un mobile che potesse contenere TV e collezione di vinili, valutando la possibilità di eliminare il tramezzo che divideva la cucina dal soggiorno.'
                   }
                 ]
               }
             },
             {
-              path: '/Project_torrerinalda',
-              name: 'Project_torrerinalda',
+              path: '/project_torrerinalda',
+              name: 'project_torrerinalda',
               component: Project_torrerinalda,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto Torrerinalda - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'La torre del belvedere è stata costruita all\'interno di Torre Rinalda cercando di minimizzare i danni al monumento storico, che è rimasto inalterato.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto Torrerinalda - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_torrerinalda"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/torre/01-min.webp"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'La torre del belvedere è stata costruita all\'interno di Torre Rinalda cercando di minimizzare i danni al monumento storico, che è rimasto inalterato.'
                   }
                 ]
               }
             },
             {
-              path: '/Project_villa_perrault',
-              name: 'Project_villa_perrault',
+              path: '/project_villa_perrault',
+              name: 'project_villa_perrault',
               component: Project_villa_perrault,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto Villa Perrault - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'Il progetto d\'interni prevede ristrutturazione degli spazi interni rispettando e valorizzando la struttura a muri portanti e soffitti cassettonati. In contrasto con il contesto, lo stile dell’intervento è decisamente contemporaneo ma in armonia con il linguaggio architettonico della villa. '
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto Villa Perrault - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_villa_perrault"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/villaperrault/vista-01-scaled.jpg"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Il progetto d\'interni prevede ristrutturazione degli spazi interni rispettando e valorizzando la struttura a muri portanti e soffitti cassettonati. In contrasto con il contesto, lo stile dell’intervento è decisamente contemporaneo ma in armonia con il linguaggio architettonico della villa. '
                   }
                 ]
               }
             },
             {
-              path: '/Project_vivere_20',
-              name: 'Project_vivere_20',
+              path: '/project_vivere_20',
+              name: 'project_vivere_20',
               component: Project_vivere_20,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto Vivere in 20 mq - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'Questa è stata la sfida. Soddisfare l\'esigenza di una famiglia di avere un mini-appartamento indipendente all\'interno della loro abitazione.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto Vivere in 20 mq - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_vivere_20"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/vivere20metri/01-scaled.jpg"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Questa è stata la sfida. Soddisfare l\'esigenza di una famiglia di avere un mini-appartamento indipendente all\'interno della loro abitazione.'
                   }
                 ]
               }
             },
             {
-              path: '/Project_casa_gramsci',
-              name: 'Project_casa_gramsci',
+              path: '/project_casa_gramsci',
+              name: 'project_casa_gramsci',
               component: Project_casa_gramsci,
               meta: {
-                title: 'Progetti Fava Claudio Architetto',
+                title: 'Progetto Casa Gramsci - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
+                    content: 'Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d\'interni che lascia in comunicazione gli ambienti. '
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Progetto Casa Gramsci - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/project_casa_gramsci"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/casagramsci/01.webp"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d\'interni che lascia in comunicazione gli ambienti. '
                   }
                 ]
               }
             },
 
             {
-              path: '/Project_casa_gramsci',
-              name: 'Project_casa_gramsci',
-              component: Project_casa_gramsci,
-              meta: {
-                title: 'Progetti Fava Claudio Architetto',
-                metaTags: [
-                  {
-                    name: 'description',
-                    content: 'Progetti dello Studio di Architettura Fava Claudio.'
-                  },
-                  {
-                    property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
-                  }
-                ]
-              }
-            },
-            {
-              path: '/Cose_di_casa',
+              path: '/cose_di_casa',
               name: 'Cose_di_casa',
               component: Cose_di_casa,
               meta: {
-                title: 'Pubblicazioni Fava Claudio Architetto',
+                title: 'Pubblicazione Cose di Casa Agosto 2022 - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Pubblicazioni dello Studio di Architettura Fava Claudio.'
+                    content: 'Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d\'interni che lascia in comunicazione gli ambienti.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Pubblicazione Cose di Casa Agosto 2022 - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/cose_di_casa"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/pubblicazioni/cosedicasa_luglio2022/cosedicasa_luglio2022_1.webp"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d\'interni che lascia in comunicazione gli ambienti.'
                   }
                 ]
               }
@@ -425,15 +647,31 @@ const router = createRouter({
               name: 'Cento_idee',
               component: Cento_idee,
               meta: {
-                title: 'Pubblicazioni Fava Claudio Architetto',
+                title: 'Pubblicazione 100 Idee per Ristrutturare Luglio 2022 - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Pubblicazioni dello Studio di Architettura Fava Claudio.'
+                    content: 'Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all\'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Pubblicazione 100 Idee per Ristrutturare Luglio 2022 - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/cento_idee"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_2.webp"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website/project page"
                   },
                   {
                     property: 'og:description',
-                    content: 'Fava Claudio Architetto è uno studio di Architettura specializzato in recupero di edifici esistenti e design d\'interni. Lo studio professionale accompagna il cliente lungo tutto il processo edilizio: dalla scelta dell\'immobile e l\'analisi delle potenzialità trasformative, passando per un accurata attenzione al progetto, fino alle ultime finiture d\'arredo e le pratiche catastali.'
+                    content: 'Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all\'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.'
                   }
                 ]
               }
