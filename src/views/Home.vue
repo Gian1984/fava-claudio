@@ -466,7 +466,7 @@ const press = [
         'img/pubblicazioni/cosedicasa_luglio2022/copertina_cose.webp',
     imageAlt:"è su Cose Di Casa, Agosto 2022",
     description:"Situato in un edificio anni ’60 multifamiliare, su due piani, con uso comune di giardino e posti auto, l’appartamento è stato completamente riconfigurato puntando su praticità, durata, sostenibilità e con un progetto d'interni che lascia in comunicazione gli ambienti. ",
-    HrefUrl: '/Cose_di_casa',
+    HrefUrl: '/cose_di_casa',
   },
   {
     name: 'CASA RIVOLI',
@@ -476,7 +476,7 @@ const press = [
     imageAlt:"100 Idee Per Ristrutturare, Luglio 2022",
     description:"\n" +
         "Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.",
-    HrefUrl: '/Cento_idee',
+    HrefUrl: '/cento_idee',
   },
 ]
 
