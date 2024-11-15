@@ -5,8 +5,11 @@
       <div class="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
 
         <h1 class="mt-3 text-l font-medium text-gray-900 text-center lg:hidden">
-          CONCORSO RASOPARETE
+          FLUSH HOUSE
         </h1>
+        <h2 class="text-base text-gray-900 text-center lg:hidden">
+          Concorso Rasoparete
+        </h2>
         <h3 class="text-base text-gray-900 text-center lg:hidden">
           “Lo spazio abitativo del terzo millennio” - 2020
         </h3>
@@ -34,8 +37,11 @@
           <!-- Product details -->
 
           <h1 class="text-xl font-medium text-gray-900 text-left hidden lg:block">
-            CONCORSO RASOPARETE
+            FLUSH HOUSE
           </h1>
+          <h2 class="text-lg font-base text-gray-900 hidden lg:block">
+            Concorso Rasoparete
+          </h2>
           <h2 class="text-lg font-base text-gray-900 hidden lg:block">
             “Lo spazio abitativo del terzo millennio” - 2020
           </h2>

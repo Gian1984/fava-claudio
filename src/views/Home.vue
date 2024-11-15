@@ -234,10 +234,10 @@
           <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
             <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
               <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
-                PROGETTI<br> SARTORIALI
+                PROGETTI <br>SU MISURA
               </p>
               <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
-                Attraverso la ricerca delle forme, materiali e tecniche.<br>
+                Attraverso la ricerca di nuove forme, materiali e tecniche.<br>
               </p>
               <div class="text-right">
                 <a href="\project_dante" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
@@ -478,6 +478,16 @@ const press = [
         "Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.",
     HrefUrl: '/cento_idee',
   },
+  {
+    name: 'PAINT IT BLACK',
+    role: 'è su CRC, Marzo - Aprile 2024',
+    imageSrc:
+        'img/pubblicazioni/CRC_marzo_aprile_2024/crc_marzo_2024_copertina.webp',
+    imageAlt:"Come Ristrutturare La Casa, Marzo - Aprile 2024",
+    description:"\n" +
+        "Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.",
+    HrefUrl: '/come_ristrutturare_la_casa',
+  },
 ]
 
 
@@ -515,7 +525,7 @@ const projects = [
 
   {
     id: 5,
-    name: 'Concorso Rasoparete',
+    name: 'FLUSH HOUSE',
     href: '/project_concorso_rasoparete',
     imageSrc: 'img/rasoparete/vista-02-1-scaled.jpg',
     imageAlt: "Concorso Rasoparete.",

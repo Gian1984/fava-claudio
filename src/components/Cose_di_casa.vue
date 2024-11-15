@@ -1,10 +1,9 @@
-
 <template>
   <div class="bg-white">
     <section aria-labelledby="features-heading" class="mx-auto max-w-7xl pt-32 pb-12 sm:px-2 lg:px-8">
       <div class="mx-auto max-w-7xl px-4 lg:max-w-none lg:px-0">
         <div class="max-w-7xl mx-auto border-b border-black">
-          <h2 id="features-heading" class="text-xl text-left leading-10 mx-auto max-w-7xl pb-2 font-bold tracking-tight text-gray-400 sm:text-xl">' CASA GRAMSCI ' è su COSE DI CASA, Agosto 2022</h2>
+          <h2 id="features-heading" class="text-xl text-left leading-10 mx-auto max-w-7xl pb-2 font-bold tracking-tight text-gray-400 sm:text-xl">' CASA RIVOLI '  è su 100 IDEE PER RISTRUTTURARE, Luglio 2022,</h2>
         </div>
 
         <div>

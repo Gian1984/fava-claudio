@@ -17,6 +17,7 @@ import Project_paint_it_black from '../components/Project_paint_it_black.vue'
 import Projects from '../components/Projects.vue'
 import Cose_di_casa from '../components/Cose_di_casa.vue'
 import Cento_idee from '../components/Cento_idee.vue'
+import C_r_c from "../components/C_r_c.vue";
 import Press from '../components/Press.vue'
 import PageNotFound from '../views/PageNotFound.vue'
 
@@ -643,27 +644,27 @@ const router = createRouter({
             },
 
             {
-              path: '/Cento_idee',
-              name: 'Cento_idee',
-              component: Cento_idee,
+              path: '/come_ristrutturare_la_casa',
+              name: 'C_r_c',
+              component: C_r_c,
               meta: {
-                title: 'Pubblicazione 100 Idee per Ristrutturare Luglio 2022 - Fava Claudio Architetto',
+                title: 'Pubblicazione Come Ristrutturare La Casa Marzo Aprile 2024 - Fava Claudio Architetto',
                 metaTags: [
                   {
                     name: 'description',
-                    content: 'Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all\'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.'
+                    content: 'La trasformazione di un bilocale a Viareggio in un open space dominato dal nero, con dettagli in legno di rovere, un opera di design su misura che ottimizza spazio e funzionalità.'
                   },
                   {
                     property: 'og:title',
-                    content: "Pubblicazione 100 Idee per Ristrutturare Luglio 2022 - Fava Claudio Architetto"
+                    content: "Pubblicazione Come Ristrutturare La Casa Marzo Aprile 2024 - Fava Claudio Architetto - Fava Claudio Architetto"
                   },
                   {
                     property: 'og:url',
-                    content: "https://www.favaclaudio.com/cento_idee"
+                    content: "https://www.favaclaudio.com/come_ristrutturare_la_casa"
                   },
                   {
                     property: 'og:image',
-                    content: "https://www.favaclaudio.com/img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_2.webp"
+                    content: "https://www.favaclaudio.com/img/pubblicazioni/CRC_marzo_aprile_2024/crc_marzo_2024_copertina.webp"
                   },
                   {
                     property: 'og:type',
@@ -671,11 +672,47 @@ const router = createRouter({
                   },
                   {
                     property: 'og:description',
-                    content: 'Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all\'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.'
+                    content: 'La trasformazione di un bilocale a Viareggio in un open space dominato dal nero, con dettagli in legno di rovere, un opera di design su misura che ottimizza spazio e funzionalità.'
                   }
                 ]
               }
             },
+
+
+    {
+      path: '/Cento_idee',
+      name: 'Cento_idee',
+      component: Cento_idee,
+      meta: {
+        title: 'Pubblicazione 100 Idee per Ristrutturare Luglio 2022 - Fava Claudio Architetto',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all\'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.'
+          },
+          {
+            property: 'og:title',
+            content: "Pubblicazione 100 Idee per Ristrutturare Luglio 2022 - Fava Claudio Architetto"
+          },
+          {
+            property: 'og:url',
+            content: "https://www.favaclaudio.com/cento_idee"
+          },
+          {
+            property: 'og:image',
+            content: "https://www.favaclaudio.com/img/pubblicazioni/100idee_luglio2022/100idee_luglio2022_2.webp"
+          },
+          {
+            property: 'og:type',
+            content: "website/project page"
+          },
+          {
+            property: 'og:description',
+            content: 'Un viaggio nel mondo del salus per aquam alla ricerca delle soluzioni più idonee all\'area wellness connessa direttamente alla zona notte, per una rigenerazione totale. La spa è stata realizzata ricercando il giusto linguaggio di integrazione tra arredo e tecnologie contemporanee.'
+          }
+        ]
+      }
+    },
 
             {
               path: "/:catchAll(.*)",

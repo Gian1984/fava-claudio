@@ -60,7 +60,7 @@ const products = [
 
     {
         id: 5,
-        name: 'Concorso Rasoparete',
+        name: 'Flush House',
         href: '/project_concorso_rasoparete',
         imageSrc: 'img/rasoparete/vista-02-1-scaled.jpg',
         imageAlt: "Concorso Rasoparete.",
