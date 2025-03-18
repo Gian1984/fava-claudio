@@ -30,10 +30,10 @@
                   PROGETTIAMO SPAZI SU MISURA DALLA FORTE IDENTITÀ, CONIUGANDO ESTETICA ED ESIGENZA DEL CLIENTE
                 </p>
                 <div class="text-right">
-                  <a href="/project_paint_it_black" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
+                  <button class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" v-on:click="scrolltocontatti()">
                     <span class="px-1 py-0.5">Prenota la tua consulenza gratuita</span>
                     <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -383,8 +383,8 @@
 
 
 
-  <div class="bg-white">
-    <div class="mx-auto pb-12 px-4 sm:px-6 lg:px-8 lg:pb-12 max-w-7xl" id="formCont">
+  <div class="bg-white" id="formCont">
+    <div class="mx-auto pb-12 px-4 sm:px-6 lg:px-8 lg:pb-12 max-w-7xl">
       <div class="space-y-5 mx-auto text-center sm:px-6 lg:px-12 px-4">
         <h2 class="text-xl mx-auto text-center max-w-full border-b border-black text-gray-900 tracking-tight leading-10">
           CONTATTI
@@ -848,6 +848,16 @@ export default {
       sendEmail,
     }
   },
+
+  methods: {
+
+    scrolltocontatti() {
+      const element = document.getElementById('formCont');
+      element.scrollIntoView({ behavior: 'smooth' });
+    },
+
+  },
+
 }
 
 </script>
