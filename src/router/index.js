@@ -20,6 +20,7 @@ import Cento_idee from '../components/Cento_idee.vue'
 import C_r_c from "../components/C_r_c.vue";
 import Press from '../components/Press.vue'
 import PageNotFound from '../views/PageNotFound.vue'
+import Privacy from '../views/Privacy.vue'
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
@@ -98,6 +99,40 @@ const router = createRouter({
               }
             },
             {
+              path: '/privacy-policy',
+              name: 'Privacy',
+              component: Privacy,
+              meta: {
+                title: 'Privacy Policy - Fava Claudio Architetto',
+                metaTags: [
+                  {
+                    name: 'description',
+                    content: 'Leggi la nostra informativa sulla privacy per scoprire come proteggiamo i tuoi dati e la tua sicurezza online. Fava Claudio Architetto si impegna a garantire trasparenza e sicurezza nella gestione delle informazioni personali.'
+                  },
+                  {
+                    property: 'og:title',
+                    content: "Privacy Policy - Fava Claudio Architetto"
+                  },
+                  {
+                    property: 'og:url',
+                    content: "https://www.favaclaudio.com/privacy-policy"
+                  },
+                  {
+                    property: 'og:image',
+                    content: "https://www.favaclaudio.com/img/PRO_7700.webp"
+                  },
+                  {
+                    property: 'og:type',
+                    content: "website"
+                  },
+                  {
+                    property: 'og:description',
+                    content: 'Leggi la nostra informativa sulla privacy per scoprire come proteggiamo i tuoi dati e la tua sicurezza online. Fava Claudio Architetto si impegna a garantire trasparenza e sicurezza nella gestione delle informazioni personali.'
+                  }
+                ]
+              }
+            },
+    {
               path: '/press',
               name: 'press',
               component: Press,

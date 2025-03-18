@@ -26,18 +26,12 @@
             </div>
             <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
               <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
-                <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left">
-                  NEWS:<br>
-                </p>
                 <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
-                  PAINT IT BLACK
-                </p>
-                <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">
-                  In ogni stanza qualcosa di nero. E’ il colore preferito del padrone di casa e si trova dappertutto: cucina, boiserie del soggiorno, pareti del bagno e complementi d’arredo.<br>
+                  PROGETTIAMO SPAZI SU MISURA DALLA FORTE IDENTITÀ, CONIUGANDO ESTETICA ED ESIGENZA DEL CLIENTE
                 </p>
                 <div class="text-right">
                   <a href="/project_paint_it_black" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">
-                    <span class="px-1 py-0.5">Vai al progetto</span>
+                    <span class="px-1 py-0.5">Prenota la tua consulenza gratuita</span>
                     <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
                   </a>
                 </div>
@@ -171,49 +165,6 @@
       </div>
     </div>
   </div>
-
-
-  <!-- RIFUNZIONALIZZAZIONE -->
-
-
-<!--  <div class="relative">-->
-<!--    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />-->
-<!--    <div class="mx-auto">-->
-<!--      <div class="relative shadow-xl sm:overflow-hidden min-h-screen">-->
-
-<!--        <div class="absolute inset-0">-->
-<!--          <img class="h-full w-full object-cover" src="img/rasoparete/vista-01-1-scaled.jpg" alt="il progetto degli spazi" loading="lazy"/>-->
-<!--        </div>-->
-
-<!--        <div class="relative px-4 sm:px-6 lg:px-8 lg:mr-7">-->
-<!--          <div class="max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center pt-14">-->
-<!--            <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-20"></p>-->
-<!--            <div class="space-y-4 sm:space-y-0 sm:inline-grid py-40 lg:py-60 sm:gap-5">-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">-->
-<!--            <div class="bg-white bg-opacity-50 lg:ml-12 p-2">-->
-<!--              <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">-->
-<!--                PROGETTAZIONE<br>-->
-<!--                ARCHITETTONICA-->
-<!--              </p>-->
-<!--              <p class="mt-2 text-sm md:text-sm lg:text-base md:mt-10 lg:mt-6 max-w-lg text-sm md:text-sm text-black sm:max-w-3xl text-left ">-->
-<!--                Dall'interior design al recupero dell'esistente, fino a edifici ex-novo.<br>-->
-<!--              </p>-->
-<!--              <div class="text-right">-->
-<!--                <a href="\Project_concorso_rasoparete" class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex">-->
-<!--                  <span class="px-1 py-0.5">Vai al progetto</span>-->
-<!--                  <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />-->
-<!--                </a>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-
-  <!-- LA CURA DEL DETTAGLIO -->
 
 
   <div class="relative">
@@ -402,7 +353,7 @@
           <h2 class=" text-xl mx-auto text-center max-w-full border-b border-black text-gray-900 tracking-tight leading-10">PRESS</h2>
           <p class="text-gray-900 max-w-3xl mx-auto"></p>
         </div>
-        <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-12 max-w-3xl mx-auto">
+        <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-12 max-w-7xl mx-auto">
           <li v-for="pub in press" :key="pub.name" class="py-10 px-6 text-center xl:px-10 xl:text-left">
             <div class="space-y-6 xl:space-y-10">
               <div class="center">
@@ -428,12 +379,137 @@
   </div>
 
 
+  <!-- CONTATTI -->
+
+
+
+  <div class="bg-white">
+    <div class="mx-auto pb-12 px-4 sm:px-6 lg:px-8 lg:pb-12 max-w-7xl" id="formCont">
+      <div class="space-y-5 mx-auto text-center sm:px-6 lg:px-12 px-4">
+        <h2 class="text-xl mx-auto text-center max-w-full border-b border-black text-gray-900 tracking-tight leading-10">
+          CONTATTI
+        </h2>
+        <p class="text-gray-900 max-w-3xl mx-auto"></p>
+      </div>
+
+      <div class="sm:px-6 lg:px-12 px-4 mx-auto">
+        <div class="bg-gray-200 py-12 lg:py-24 px-4">
+          <div class="mx-auto max-w-2xl text-center">
+            <p class="text-gray-900 max-w-3xl mx-auto">RICEVI LA TUA CONSULENZA GRATUITA</p>
+          </div>
+
+          <!-- Form -->
+          <form ref="form" @submit.prevent="sendEmail" class="mx-auto mt-16 max-w-xl sm:mt-20">
+            <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+              <div>
+                <label for="first-name" class="block text-sm font-semibold text-gray-900">Nome</label>
+                <div class="mt-2.5">
+                  <input v-model="firstName" type="text" name="first-name" id="first-name" autocomplete="given-name" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-gray-300 focus:outline-indigo-400" />
+                </div>
+              </div>
+
+              <div>
+                <label for="last-name" class="block text-sm font-semibold text-gray-900">Cognome</label>
+                <div class="mt-2.5">
+                  <input v-model="lastName" type="text" name="last-name" id="last-name" autocomplete="family-name" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-gray-300 focus:outline-indigo-400" />
+                </div>
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="company" class="block text-sm font-semibold text-gray-900">Società</label>
+                <div class="mt-2.5">
+                  <input v-model="company" type="text" name="company" id="company" autocomplete="organization" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-gray-300 focus:outline-indigo-400" />
+                </div>
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="location" class="block text-sm font-semibold text-gray-900">Area di interesse</label>
+                <div class="mt-2.5">
+                  <div class="mt-2 grid grid-cols-1">
+                    <select v-model="interestArea" id="location" name="location" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline-gray-300 focus:outline-indigo-400 sm:text-sm">
+                      <option>Scenografie e allestimenti</option>
+                      <option selected>Restrutturazioni</option>
+                      <option>Product design</option>
+                      <option>Accoglienza</option>
+                      <option>Nuove costruzioni</option>
+                    </select>
+                    <ChevronDownIcon class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4 h-5 w-5" aria-hidden="true" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="email" class="block text-sm font-semibold text-gray-900">Email</label>
+                <div class="mt-2.5">
+                  <input v-model="email" type="email" name="email" id="email" autocomplete="email" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-gray-300 focus:outline-indigo-400" />
+                </div>
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="phone-number" class="block text-sm font-semibold text-gray-900">Telefono</label>
+                <div class="mt-2.5">
+                  <input v-model="phoneNumber" type="text" name="phone-number" id="phone-number" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-gray-300 focus:outline-indigo-400" />
+                </div>
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="message" class="block text-sm font-semibold text-gray-900">Messaggio</label>
+                <div class="mt-2.5">
+                  <textarea v-model="message" name="message" id="message" rows="4" required class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-gray-300 focus:outline-indigo-400"></textarea>
+                </div>
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="captcha" class="block text-sm font-semibold text-gray-900">CAPTCHA verification: 6 + 6 = ?</label>
+                <div class="mt-2.5">
+                  <input v-model="captchaAnswer" type="number" name="captcha" id="captcha" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 border focus:outline-indigo-400" />
+                </div>
+              </div>
+
+
+              <div class="sm:col-span-2">
+                <div class="flex gap-3">
+                  <input v-model="consent" type="checkbox" id="consent" class="rounded border-gray-300 focus:outline-indigo-600">
+                  <label for="consent" class="font-medium text-gray-900">
+                    Ho letto e accetto <a class="hover:text-indigo-500" href="/privacy-policy">i termini e le condizioni.</a>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-10">
+              <button :disabled="captchaAnswer != 12" type="submit" class="block w-full rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline-indigo-400"
+                      :class="captchaAnswer == 12 ? 'bg-indigo-400' : 'bg-gray-400 cursor-not-allowed'">
+                Invia
+              </button>
+            </div>
+
+            <!-- Error Alert (Red) -->
+            <div v-if="errorMessage" class="mt-3 rounded-md bg-red-500 p-4 text-center text-white">
+              <p class="text-sm font-medium">{{ errorMessage }}</p>
+            </div>
+
+            <!-- Success Alert (Green) -->
+            <div v-if="confirmation" class="mt-3 rounded-md bg-green-50 p-4 text-center">
+              <p class="text-sm font-medium text-green-800">{{ confirmation }}</p>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 
 </template>
 
 <script>
 
-import { ChevronRightIcon, } from '@heroicons/vue/solid'
+import { ref } from 'vue';
+import emailjs from 'emailjs-com';
+import { ChevronRightIcon, ChevronDownIcon} from '@heroicons/vue/solid'
 import { gsap } from 'gsap';
 
 const team = [
@@ -679,9 +755,63 @@ export default {
 
   components: {
     ChevronRightIcon,
+    ChevronDownIcon
   },
 
   setup() {
+
+    const form = ref(null);
+    const firstName = ref('');
+    const lastName = ref('');
+    const company = ref('');
+    const interestArea = ref('');
+    const email = ref('');
+    const phoneNumber = ref('');
+    const message = ref('');
+    const consent = ref(false);
+    const confirmation = ref('');
+    const errorMessage = ref('');
+    const captchaAnswer = ref(null);
+
+
+    const sendEmail = async () => {
+      if (!consent.value) {
+        errorMessage.value = 'You must accept the terms and conditions.';
+        return;
+      }
+
+      if (captchaAnswer.value !== 12) {
+        errorMessage.value = 'Incorrect CAPTCHA answer. Please try again.';
+        return;
+      }
+
+      try {
+        await emailjs.sendForm(
+            'service_fjzqiao',
+            'template_0zhyqfe',
+            form.value,
+            'Bj74svpWrorN6eSUy'
+        );
+
+        confirmation.value = 'Il tuo messaggio è stato correttamente inviato !';
+        errorMessage.value = ''; // Clear any previous errors
+
+        // Reset form fields
+        firstName.value = '';
+        lastName.value = '';
+        company.value = '';
+        interestArea.value = '';
+        email.value = '';
+        phoneNumber.value = '';
+        message.value = '';
+        captchaAnswer.value = null;
+        consent.value = false;
+      } catch (error) {
+        errorMessage.value = 'Un errore si è prodotto durante. Ti preghiamo di riprovare più tardi.';
+        console.error('Error sending email:', error);
+      }
+    };
+
     const beforeEnter = (el) => {
       el.style.opacity = 0
     }
@@ -702,7 +832,20 @@ export default {
       products,
       team,
       press,
-      projects
+      projects,
+      form,
+      firstName,
+      lastName,
+      company,
+      interestArea,
+      email,
+      phoneNumber,
+      message,
+      consent,
+      confirmation,
+      errorMessage,
+      captchaAnswer,
+      sendEmail,
     }
   },
 }

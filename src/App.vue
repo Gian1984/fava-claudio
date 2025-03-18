@@ -195,7 +195,7 @@
     <div class="mx-auto max-w-md px-4 overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
       <a href="https://gianlucatiengo.com/">
         <p class="text-center text-xs text-white hover:text-gray-500 underline">
-          &copy; 2021 Claudio Fava Architetto. All rights reserved. WebMaster Gianluca Tiengo.
+          &copy; {{ currentYear }} Arch. Claudio Fava - P.IVA 10620700012. All rights reserved. WebMaster Gianluca Tiengo.
         </p>
       </a>
       <a class="top-link hide" href="#" id="feed" v-on:click="scrolltotop()">
@@ -210,6 +210,7 @@
 </template>
 
 <script>
+import { ref } from 'vue';
 import { MenuIcon, HomeIcon, FolderOpenIcon, UsersIcon, TemplateIcon, PresentationChartBarIcon, ColorSwatchIcon, ChatAltIcon, ArrowLeftIcon, ArrowUpIcon, LocationMarkerIcon, PhoneIncomingIcon, BriefcaseIcon, BellIcon, XIcon } from '@heroicons/vue/outline'
 import { CheckIcon, ThumbUpIcon, UserIcon } from '@heroicons/vue/solid'
 import { defineComponent, h } from 'vue'
@@ -346,7 +347,11 @@ export default {
 
 
   setup() {
+
+    const currentYear = ref(new Date().getFullYear());
+
     return {
+      currentYear,
       navigation,
       CheckIcon,
       ThumbUpIcon,
@@ -413,7 +418,7 @@ export default {
     },
 
     scrolltocontatti() {
-      const element = document.getElementById('contatti');
+      const element = document.getElementById('formCont');
       element.scrollIntoView({ behavior: 'smooth' });
     },
 
