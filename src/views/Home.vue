@@ -21,18 +21,18 @@
               <p class=" max-w-lg mx-auto text-center text-xl text-grey-500 sm:max-w-3xl lg:mb-10 py-20">
                 ARCHITETTURA<span class="text-white">&</span>INTERIOR DESIGN
               </p>
-              <div class="space-y-4 sm:space-y-0 sm:inline-grid py-40 lg:py-60 sm:gap-5">
+              <div class="space-y-4 sm:space-y-0 sm:inline-grid py-36 lg:py-60 sm:gap-5">
               </div>
             </div>
-            <div class="max-w-sm md:max-w-xs lg:max-w-xs xl:max-w-xs md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
+            <div class="max-w-sm md:max-w-xs lg:max-w-2xl xl:max-w-2xl md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
               <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
-                <p class="pt-1 text-base md:text-l lg:text-xl text-grey-500 sm:max-w-3xl text-left ">
-                  PROGETTIAMO SPAZI SU MISURA DALLA FORTE IDENTITÀ, CONIUGANDO ESTETICA ED ESIGENZA DEL CLIENTE
+                <p class="pt-1 md:text-l lg:text-4xl text-grey-500 sm:max-w-3xl text-left font-bold">
+                  Progettiamo spazi su misura dalla forte identità, coniugando estetica ed esigenze del cliente
                 </p>
                 <div class="text-right">
-                  <button class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 hover:bg-gray-700 hover:text-white text-xs text-black font-bold py-1 px-2 rounded-full inline-flex" v-on:click="scrolltocontatti()">
-                    <span class="px-1 py-0.5">Prenota la tua consulenza gratuita</span>
-                    <ChevronRightIcon class="w-5 h-5 text-gray-500" aria-hidden="true" />
+                  <button class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 ml-auto hover:bg-gray-700 hover:text-white text-sm sm:text-2xl text-black font-bold py-1 px-2 rounded-full flex items-center" v-on:click="scrolltocontatti()">
+                    <span class="px-1 py-0.5">PRENOTA LA TUA CONSULENZA GRATUITA</span>
+                    <ChevronRightIcon class="w-6 h-6 text-gray-500" aria-hidden="true" />
                   </button>
                 </div>
               </div>
@@ -395,7 +395,7 @@
       <div class="sm:px-6 lg:px-12 px-4 mx-auto">
         <div class="bg-gray-200 py-12 lg:py-24 px-4">
           <div class="mx-auto max-w-2xl text-center">
-            <p class="text-gray-900 max-w-3xl mx-auto">RICEVI LA TUA CONSULENZA GRATUITA</p>
+            <p class="text-gray-900 max-w-3xl mx-auto text-xl">RICEVI LA TUA CONSULENZA GRATUITA</p>
           </div>
 
           <!-- Form -->
@@ -416,21 +416,14 @@
               </div>
 
               <div class="sm:col-span-2">
-                <label for="company" class="block text-sm font-semibold text-gray-900">Società</label>
-                <div class="mt-2.5">
-                  <input v-model="company" type="text" name="company" id="company" autocomplete="organization" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-gray-300 focus:outline-indigo-400" />
-                </div>
-              </div>
-
-              <div class="sm:col-span-2">
                 <label for="location" class="block text-sm font-semibold text-gray-900">Area di interesse</label>
                 <div class="mt-2.5">
                   <div class="mt-2 grid grid-cols-1">
                     <select v-model="interestArea" id="location" name="location" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline-gray-300 focus:outline-indigo-400 sm:text-sm">
                       <option>Scenografie e allestimenti</option>
-                      <option selected>Restrutturazioni</option>
+                      <option selected>Ristrutturazioni</option>
                       <option>Product design</option>
-                      <option>Accoglienza</option>
+                      <option>Retail</option>
                       <option>Nuove costruzioni</option>
                     </select>
                     <ChevronDownIcon class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4 h-5 w-5" aria-hidden="true" />
@@ -763,7 +756,6 @@ export default {
     const form = ref(null);
     const firstName = ref('');
     const lastName = ref('');
-    const company = ref('');
     const interestArea = ref('');
     const email = ref('');
     const phoneNumber = ref('');
@@ -799,7 +791,6 @@ export default {
         // Reset form fields
         firstName.value = '';
         lastName.value = '';
-        company.value = '';
         interestArea.value = '';
         email.value = '';
         phoneNumber.value = '';
@@ -836,7 +827,6 @@ export default {
       form,
       firstName,
       lastName,
-      company,
       interestArea,
       email,
       phoneNumber,
