@@ -26,11 +26,11 @@
             </div>
             <div class="max-w-sm md:max-w-xs lg:max-w-2xl xl:max-w-2xl md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
               <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
-                <p class="pt-1 md:text-l lg:text-4xl text-grey-500 sm:max-w-3xl text-left font-bold">
+                <p class="pt-1 md:text-l lg:text-3xl text-grey-500 sm:max-w-3xl text-left font-bold">
                   Progettiamo spazi su misura dalla forte identità, coniugando estetica ed esigenze del cliente
                 </p>
                 <div class="text-right">
-                  <button class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 ml-auto hover:bg-gray-700 hover:text-white text-sm sm:text-2xl text-black font-bold py-1 px-2 rounded-full flex items-center" v-on:click="scrolltocontatti()">
+                  <button class="mt-2 md:mt-24 lg:mt-44 mb-2 bg-white opacity-50 ml-auto hover:bg-gray-700 hover:text-white text-sm sm:text-lg text-black font-bold py-1 px-2 rounded-full flex items-center" v-on:click="scrolltocontatti()">
                     <span class="px-1 py-0.5">PRENOTA LA TUA CONSULENZA GRATUITA</span>
                     <ChevronRightIcon class="w-6 h-6 text-gray-500" aria-hidden="true" />
                   </button>
@@ -464,7 +464,7 @@
                 <div class="flex gap-3">
                   <input v-model="consent" type="checkbox" id="consent" class="rounded border-gray-300 focus:outline-indigo-600">
                   <label for="consent" class="font-medium text-gray-900">
-                    Ho letto e accetto <a class="hover:text-indigo-500" href="/privacy-policy">i termini e le condizioni.</a>
+                    Ho letto e accetto <a class="text-indigo-400 hover:text-indigo-500" href="/privacy-policy">i termini e le condizioni.</a>
                   </label>
                 </div>
               </div>
