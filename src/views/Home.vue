@@ -24,7 +24,7 @@
               <div class="space-y-4 sm:space-y-0 sm:inline-grid py-36 lg:py-60 sm:gap-5">
               </div>
             </div>
-            <div class="max-w-sm md:max-w-xs lg:max-w-2xl xl:max-w-2xl md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
+            <div class="max-w-sm md:max-w-xs lg:max-w-screen-sm xl:max-w-screen-sm md:mr-0 md:w-1/2 lg:mr-0 md:ml-auto lg:ml-auto sm:mx-auto lg:w-1/2 spacing">
               <div class="bg-white bg-opacity-50 lg:ml-12 p-2">
                 <p class="pt-1 md:text-l lg:text-3xl text-grey-500 sm:max-w-3xl text-left font-bold">
                   Progettiamo spazi su misura dalla forte identità, coniugando estetica ed esigenze del cliente
